@@ -1,0 +1,22 @@
+[
+  {
+    "agent": "crunchbase",
+    "action": "fallback",
+    "target": "dump",
+    "detail": "Crunchbase HTTP 403: <!DOCTYPE html> <!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]--> <!--[if IE 7]> <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endi",
+    "evidence_ids": [],
+    "id": "tr_8b7e22bfdfcb6d5d",
+    "opportunity_id": "system",
+    "ts": "2026-07-19T12:55:12.998Z"
+  },
+  {
+    "agent": "crunchbase",
+    "action": "fallback",
+    "target": "dump",
+    "detail": "Crunchbase HTTP 403: <!doctype html> <html lang=\"en\"> <head> <meta charset=\"utf-8\" /> <title>One moment, please…</title> <style> :root { --bg-color: #f9f",
+    "evidence_ids": [],
+    "id": "tr_b2245137ee0f9071",
+    "opportunity_id": "system",
+    "ts": "2026-07-19T12:56:46.842Z"
+  }
+]

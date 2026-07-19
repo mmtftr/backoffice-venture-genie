@@ -1,6 +1,7 @@
 import { promises as fs } from "fs";
 import path from "path";
 import { appendTrace } from "./trace";
+import { LiveCrunchbase } from "./crunchbase-live";
 
 export interface CBCompany {
   name: string;
@@ -209,16 +210,8 @@ class DumpCB implements CB {
   }
 }
 
-class LiveCB implements CB {
-  private unavailable(): never { throw new Error("live mode not configured"); }
-  async searchCompanies(): Promise<CBCompany[]> { return this.unavailable(); }
-  async getCompany(): Promise<CBCompany | null> { return this.unavailable(); }
-  async getRounds(): Promise<CBRound[]> { return this.unavailable(); }
-  async getCompetitorCandidates(): Promise<CBCompany[]> { return this.unavailable(); }
-}
-
 const dump = new DumpCB();
-const live = new LiveCB();
+const live = new LiveCrunchbase();
 let fallbackTraced = false;
 
 function liveWithFallback(): CB {
@@ -227,6 +220,7 @@ function liveWithFallback(): CB {
       const fn = live[method] as (...values: unknown[]) => Promise<T>;
       return await fn.apply(live, args);
     } catch (error) {
+      console.warn(`[crunchbase] live ${method} failed; using dump for this call:`, error instanceof Error ? error.message : String(error));
       if (!fallbackTraced) {
         fallbackTraced = true;
         void appendTrace("system", {

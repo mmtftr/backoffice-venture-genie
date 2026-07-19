@@ -305,5 +305,274 @@
     "id": "tr_758cb1aee5e071d0",
     "opportunity_id": "opp_8df9c995c88e5cdb",
     "ts": "2026-07-19T12:35:11.070Z"
+  },
+  {
+    "agent": "teamMember",
+    "action": "extract_team",
+    "target": "Cadence Labs",
+    "evidence_ids": [],
+    "id": "tr_1fdcae04c9de0bae",
+    "opportunity_id": "opp_8df9c995c88e5cdb",
+    "ts": "2026-07-19T12:53:11.259Z"
+  },
+  {
+    "agent": "teamMember",
+    "action": "extract_team:done",
+    "target": "Cadence Labs",
+    "detail": "{\"members\":[\"Jonah Whitfield\"]}",
+    "evidence_ids": [],
+    "id": "tr_f120669352edcaee",
+    "opportunity_id": "opp_8df9c995c88e5cdb",
+    "ts": "2026-07-19T12:53:11.983Z"
+  },
+  {
+    "agent": "teamMember",
+    "action": "evaluate",
+    "target": "Jonah Whitfield",
+    "evidence_ids": [],
+    "id": "tr_b01880eeaad54231",
+    "opportunity_id": "opp_8df9c995c88e5cdb",
+    "ts": "2026-07-19T12:53:11.993Z"
+  },
+  {
+    "agent": "competitorDiscovery",
+    "action": "queried crunchbase",
+    "target": "Cadence Labs",
+    "detail": "0 candidates",
+    "evidence_ids": [],
+    "id": "tr_132ca23cdc0c885f",
+    "opportunity_id": "opp_8df9c995c88e5cdb",
+    "ts": "2026-07-19T12:53:14.345Z"
+  },
+  {
+    "agent": "contradiction",
+    "action": "queried crunchbase",
+    "target": "Cadence Labs",
+    "detail": "company not found",
+    "evidence_ids": [],
+    "id": "tr_3513c19024fb0e3f",
+    "opportunity_id": "opp_8df9c995c88e5cdb",
+    "ts": "2026-07-19T12:53:14.346Z"
+  },
+  {
+    "agent": "communitySignal",
+    "action": "query:hn-live",
+    "target": "Cadence Labs",
+    "detail": "0 hits",
+    "evidence_ids": [],
+    "id": "tr_55dbe3c853ada336",
+    "opportunity_id": "opp_8df9c995c88e5cdb",
+    "ts": "2026-07-19T12:53:14.347Z"
+  },
+  {
+    "agent": "competitorDiscovery",
+    "action": "merge_candidates",
+    "target": "Cadence Labs",
+    "evidence_ids": [],
+    "id": "tr_70e3dd7df2b63230",
+    "opportunity_id": "opp_8df9c995c88e5cdb",
+    "ts": "2026-07-19T12:53:14.348Z"
+  },
+  {
+    "agent": "contradiction",
+    "action": "cross_check",
+    "target": "Cadence Labs",
+    "evidence_ids": [],
+    "id": "tr_a0cd2f86bffb7578",
+    "opportunity_id": "opp_8df9c995c88e5cdb",
+    "ts": "2026-07-19T12:53:14.349Z"
+  },
+  {
+    "agent": "communitySignal",
+    "action": "no community evidence available",
+    "target": "Cadence Labs",
+    "evidence_ids": [],
+    "id": "tr_51744fdfd73c1bf8",
+    "opportunity_id": "opp_8df9c995c88e5cdb",
+    "ts": "2026-07-19T12:53:14.351Z"
+  },
+  {
+    "agent": "teamMember",
+    "action": "evaluate:done",
+    "target": "Jonah Whitfield",
+    "detail": "{\"member\":\"Jonah Whitfield\",\"strengths\":[\"Six years of runtime-team experience at a large cloud provider, including three years building tracing infrastructure for causal ordering across services\",\"Shipped a hobbyist record-replay debugger ",
+    "evidence_ids": [],
+    "id": "tr_b6ecf611c23f9c98",
+    "opportunity_id": "opp_8df9c995c88e5cdb",
+    "ts": "2026-07-19T12:53:14.699Z"
+  },
+  {
+    "agent": "contradiction",
+    "action": "cross_check:done",
+    "target": "Cadence Labs",
+    "detail": "{\"contradictions\":[]}",
+    "evidence_ids": [],
+    "id": "tr_9cbaa7d50e48eb6b",
+    "opportunity_id": "opp_8df9c995c88e5cdb",
+    "ts": "2026-07-19T12:53:16.553Z"
+  },
+  {
+    "agent": "competitorDiscovery",
+    "action": "merge_candidates:done",
+    "target": "Cadence Labs",
+    "detail": "{\"competitors\":[{\"name\":\"Undo / LiveRecorder\",\"why\":\"Commercial record-and-replay debugging technology that captures program execution for postmortem analysis, overlapping directly with Cadence Labs' runtime-level replay vision.\",\"source\":\"",
+    "evidence_ids": [],
+    "id": "tr_e9ac6b648038f40d",
+    "opportunity_id": "opp_8df9c995c88e5cdb",
+    "ts": "2026-07-19T12:53:20.405Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "queried crunchbase",
+    "target": "Undo / LiveRecorder",
+    "detail": "0 funding rounds",
+    "evidence_ids": [],
+    "id": "tr_65cd5a865902c51d",
+    "opportunity_id": "opp_8df9c995c88e5cdb",
+    "ts": "2026-07-19T12:53:20.444Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "queried crunchbase",
+    "target": "rr",
+    "detail": "1 funding rounds",
+    "evidence_ids": [],
+    "id": "tr_a9465a543b0fd114",
+    "opportunity_id": "opp_8df9c995c88e5cdb",
+    "ts": "2026-07-19T12:53:20.445Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "queried crunchbase",
+    "target": "Replay.io",
+    "detail": "0 funding rounds",
+    "evidence_ids": [],
+    "id": "tr_264e99d4432b7e79",
+    "opportunity_id": "opp_8df9c995c88e5cdb",
+    "ts": "2026-07-19T12:53:20.446Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "queried crunchbase",
+    "target": "Pernosco",
+    "detail": "0 funding rounds",
+    "evidence_ids": [],
+    "id": "tr_101ca230e694bea8",
+    "opportunity_id": "opp_8df9c995c88e5cdb",
+    "ts": "2026-07-19T12:53:20.447Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate",
+    "target": "Undo / LiveRecorder",
+    "evidence_ids": [],
+    "id": "tr_f5b1259d6a5e9d87",
+    "opportunity_id": "opp_8df9c995c88e5cdb",
+    "ts": "2026-07-19T12:53:20.448Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate",
+    "target": "rr",
+    "evidence_ids": [],
+    "id": "tr_a8d478b73ac57d8a",
+    "opportunity_id": "opp_8df9c995c88e5cdb",
+    "ts": "2026-07-19T12:53:20.450Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate",
+    "target": "Replay.io",
+    "evidence_ids": [],
+    "id": "tr_e67b6ce6edab72e1",
+    "opportunity_id": "opp_8df9c995c88e5cdb",
+    "ts": "2026-07-19T12:53:20.451Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate",
+    "target": "Pernosco",
+    "evidence_ids": [],
+    "id": "tr_c6a127b66323e891",
+    "opportunity_id": "opp_8df9c995c88e5cdb",
+    "ts": "2026-07-19T12:53:20.453Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate:done",
+    "target": "Undo / LiveRecorder",
+    "detail": "{\"competitor\":\"Undo / LiveRecorder\",\"investorSignal\":\"unknown\",\"trajectory\":\"No funding rounds, dates, sizes, or investors provided.\",\"threat\":\"low\"}",
+    "evidence_ids": [],
+    "id": "tr_efd4be5ffb76f0b8",
+    "opportunity_id": "opp_8df9c995c88e5cdb",
+    "ts": "2026-07-19T12:53:21.799Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate:done",
+    "target": "rr",
+    "detail": "{\"competitor\":\"rr\",\"investorSignal\":\"low\",\"trajectory\":\"Single $118,000 seed round announced May 17, 2012, with no subsequent rounds provided.\",\"threat\":\"low\"}",
+    "evidence_ids": [],
+    "id": "tr_bab1296070148d6b",
+    "opportunity_id": "opp_8df9c995c88e5cdb",
+    "ts": "2026-07-19T12:53:22.026Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate:done",
+    "target": "Pernosco",
+    "detail": "{\"competitor\":\"Pernosco\",\"investorSignal\":\"unknown\",\"trajectory\":\"No funding rounds or investors disclosed.\",\"threat\":\"low\"}",
+    "evidence_ids": [],
+    "id": "tr_1c3993cd58482869",
+    "opportunity_id": "opp_8df9c995c88e5cdb",
+    "ts": "2026-07-19T12:53:22.097Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate:done",
+    "target": "Replay.io",
+    "detail": "{\"competitor\":\"Replay.io\",\"investorSignal\":\"unknown\",\"trajectory\":\"No disclosed rounds or investors provided; funding trajectory cannot be assessed.\",\"threat\":\"low\"}",
+    "evidence_ids": [],
+    "id": "tr_61460755810a4b05",
+    "opportunity_id": "opp_8df9c995c88e5cdb",
+    "ts": "2026-07-19T12:53:22.150Z"
+  },
+  {
+    "agent": "screening",
+    "action": "score",
+    "target": "Cadence Labs",
+    "evidence_ids": [],
+    "id": "tr_4da775314656316d",
+    "opportunity_id": "opp_8df9c995c88e5cdb",
+    "ts": "2026-07-19T12:53:24.800Z"
+  },
+  {
+    "agent": "screening",
+    "action": "score:done",
+    "target": "Cadence Labs",
+    "detail": "{\"founder_id\":\"cadence-labs\",\"company\":\"Cadence Labs\",\"axes\":[{\"axis\":\"Founder\",\"score_0_100\":64,\"trend\":\"improving\",\"evidence_ids\":[\"ev_63029d2cc58e9dc0\",\"ev_5e3c1490d2ab448e\",\"ev_349ebe7b008a7236\"],\"rationale\":\"Jonah has strong problem-fo",
+    "evidence_ids": [],
+    "id": "tr_651c19145552d994",
+    "opportunity_id": "opp_8df9c995c88e5cdb",
+    "ts": "2026-07-19T12:53:42.362Z"
+  },
+  {
+    "agent": "memo",
+    "action": "write",
+    "target": "Cadence Labs",
+    "evidence_ids": [],
+    "id": "tr_c16ed2e83bb65ca9",
+    "opportunity_id": "opp_8df9c995c88e5cdb",
+    "ts": "2026-07-19T12:53:42.375Z"
+  },
+  {
+    "agent": "memo",
+    "action": "write:done",
+    "target": "Cadence Labs",
+    "detail": "{\"company\":\"Cadence Labs\",\"founder_id\":\"cadence-labs\",\"sections\":[{\"title\":\"Company snapshot\",\"claims\":[{\"text\":\"Cadence Labs is a pre-product, pre-revenue developer-tools company building deterministic record-and-replay infrastructure for ",
+    "evidence_ids": [],
+    "id": "tr_a0373ac56a655188",
+    "opportunity_id": "opp_8df9c995c88e5cdb",
+    "ts": "2026-07-19T12:54:11.335Z"
   }
 ]
