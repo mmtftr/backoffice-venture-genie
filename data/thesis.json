@@ -12,7 +12,7 @@
     "pre-seed",
     "seed"
   ],
-  "checkSizeUsd": 100000,
+  "checkSizeUsd": 500000,
   "ownershipTargetPct": 7,
   "riskAppetite": "high",
   "highSignalInvestors": [

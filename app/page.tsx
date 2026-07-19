@@ -6,6 +6,7 @@ import type { FounderMemory, Opportunity } from "@/lib/schemas";
 import { QueryBar } from "./components/QueryBar";
 import { Sparkline } from "./components/Sparkline";
 import { AxisChip, DecisionChip, EmptyState, ErrorState, FitBar, PageHeader, Skeleton, StatusBadge, buttonClass, cardClass, secondaryButtonClass } from "./components/ui";
+import { InfoTip } from "./components/InfoTip";
 
 type OpportunityDetail = { opportunity: Opportunity; memory: FounderMemory };
 type FounderInfo = { history: FounderMemory["founderScoreHistory"]; name: string };
@@ -51,7 +52,13 @@ export default function PipelinePage() {
 
   return (
     <>
-      <PageHeader eyebrow="Deal flow" title="Investment pipeline" description="Independent founder, market, and idea-versus-market assessments. No blended score." action={<Link href="/inbound" className={buttonClass}>+ New inbound</Link>} />
+      <PageHeader
+        eyebrow="Deal flow"
+        title="Investment pipeline"
+        titleInfo={<InfoTip label="Investment pipeline">Every opportunity — inbound applications and outbound-sourced companies alike — lands here after the agent swarm screens it. Scores on the three axes are kept separate on purpose: no blended score ever ranks this table. Click a row to open the full diligence view with the evidence-backed memo.</InfoTip>}
+        description="Independent founder, market, and idea-versus-market assessments. No blended score."
+        action={<Link href="/inbound" className={buttonClass}>+ New inbound</Link>}
+      />
       <QueryBar />
       {opportunities.length > 0 && (
         <div className="mb-5 grid grid-cols-2 gap-3 lg:grid-cols-4">
@@ -72,7 +79,16 @@ export default function PipelinePage() {
           <div className="overflow-x-auto">
             <table className="w-full min-w-[1100px] border-collapse text-left">
               <thead><tr className="border-b border-slate-800 bg-slate-900 text-[10px] font-semibold uppercase tracking-[.14em] text-slate-500">
-                <th className="px-5 py-3">Rank</th><th className="px-3 py-3">Company / founder</th><th className="px-3 py-3">Founder</th><th className="px-3 py-3">Market</th><th className="px-3 py-3">Idea vs market</th><th className="px-3 py-3">FounderScore</th><th className="px-3 py-3">Thesis fit</th><th className="px-3 py-3">Status</th><th className="px-3 py-3">Track</th><th className="px-4 py-3" />
+                <th className="px-5 py-3">Rank</th>
+                <th className="px-3 py-3">Company / founder</th>
+                <th className="px-3 py-3"><span className="inline-flex items-center gap-1.5">Founder<InfoTip label="Founder axis">Execution ability and track record, scored 0–100 from evidence in founder memory. Independent of the other two axes — never averaged with them.</InfoTip></span></th>
+                <th className="px-3 py-3"><span className="inline-flex items-center gap-1.5">Market<InfoTip label="Market axis">Size, growth, timing, and competitive dynamics of the target market, scored 0–100 independently of the founder.</InfoTip></span></th>
+                <th className="px-3 py-3"><span className="inline-flex items-center gap-1.5">Idea vs market<InfoTip label="Idea vs market axis">Whether this specific idea fits this specific market — a great founder in a great market can still have the wrong wedge. Kept separate so an average can never hide it.</InfoTip></span></th>
+                <th className="px-3 py-3"><span className="inline-flex items-center gap-1.5">FounderScore<InfoTip label="Founder Score">A persistent score attached to the founder — not the deal — built on append-only memory. It survives across applications and rescreens; the sparkline shows its history, with each change recorded alongside its reason.</InfoTip></span></th>
+                <th className="px-3 py-3"><span className="inline-flex items-center gap-1.5">Thesis fit<InfoTip label="Thesis fit">How well the opportunity matches your configured thesis — sectors, geographies, stages, check size, risk appetite. Edit it on the Thesis page; rescreening recomputes fit.</InfoTip></span></th>
+                <th className="px-3 py-3">Status</th>
+                <th className="px-3 py-3"><span className="inline-flex items-center gap-1.5">Track<InfoTip label="Track" align="right">How the deal entered: inbound (a submitted application) or outbound (proactively sourced against the thesis).</InfoTip></span></th>
+                <th className="px-4 py-3" />
               </tr></thead>
               <tbody className="divide-y divide-slate-800/80">
                 {opportunities.map((opportunity, index) => {

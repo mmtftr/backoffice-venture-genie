@@ -5,8 +5,8 @@ export const buttonClass = "inline-flex items-center justify-center rounded-lg b
 export const secondaryButtonClass = "inline-flex items-center justify-center rounded-lg border border-slate-700 bg-slate-900 px-4 py-2.5 text-sm font-semibold text-slate-200 transition hover:border-slate-600 hover:bg-slate-800 focus-visible:ring-2 focus-visible:ring-indigo-400/40 disabled:cursor-not-allowed disabled:opacity-50";
 export const cardClass = "rounded-xl border border-slate-800 bg-slate-900/70 shadow-sm shadow-black/20";
 
-export function PageHeader({ eyebrow, title, description, action }: { eyebrow?: string; title: string; description?: string; action?: React.ReactNode }) {
-  return <div className="mb-7 flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between"><div>{eyebrow && <p className="mb-1 text-[11px] font-semibold uppercase tracking-[.2em] text-indigo-400">{eyebrow}</p>}<h1 className="text-2xl font-semibold tracking-tight text-white sm:text-3xl">{title}</h1>{description && <p className="mt-2 max-w-2xl text-sm leading-6 text-slate-400">{description}</p>}</div>{action}</div>;
+export function PageHeader({ eyebrow, title, titleInfo, description, action }: { eyebrow?: string; title: string; titleInfo?: React.ReactNode; description?: string; action?: React.ReactNode }) {
+  return <div className="mb-7 flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between"><div>{eyebrow && <p className="mb-1 text-[11px] font-semibold uppercase tracking-[.2em] text-indigo-400">{eyebrow}</p>}<h1 className="flex items-center gap-2.5 text-2xl font-semibold tracking-tight text-white sm:text-3xl">{title}{titleInfo}</h1>{description && <p className="mt-2 max-w-2xl text-sm leading-6 text-slate-400">{description}</p>}</div>{action}</div>;
 }
 
 export function trendArrow(trend: Trend) { return trend === "improving" ? "↑" : trend === "declining" ? "↓" : "→"; }

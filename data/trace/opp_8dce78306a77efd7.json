@@ -1,0 +1,332 @@
+[
+  {
+    "agent": "teamMember",
+    "action": "extract_team",
+    "target": "Latchline",
+    "evidence_ids": [],
+    "id": "tr_b316cae6cdc023ab",
+    "opportunity_id": "opp_8dce78306a77efd7",
+    "ts": "2026-07-19T13:01:48.823Z"
+  },
+  {
+    "agent": "teamMember",
+    "action": "extract_team:done",
+    "target": "Latchline",
+    "detail": "{\"members\":[]}",
+    "evidence_ids": [],
+    "id": "tr_3838a7df764ab921",
+    "opportunity_id": "opp_8dce78306a77efd7",
+    "ts": "2026-07-19T13:01:49.871Z"
+  },
+  {
+    "agent": "teamMember",
+    "action": "evaluate",
+    "target": "Founder",
+    "evidence_ids": [],
+    "id": "tr_5f26a8b4b7680ba7",
+    "opportunity_id": "opp_8dce78306a77efd7",
+    "ts": "2026-07-19T13:01:49.914Z"
+  },
+  {
+    "agent": "competitorDiscovery",
+    "action": "queried crunchbase",
+    "target": "Latchline",
+    "detail": "0 candidates",
+    "evidence_ids": [],
+    "id": "tr_d11e032b105cc544",
+    "opportunity_id": "opp_8dce78306a77efd7",
+    "ts": "2026-07-19T13:01:49.916Z"
+  },
+  {
+    "agent": "contradiction",
+    "action": "queried crunchbase",
+    "target": "Latchline",
+    "detail": "company not found",
+    "evidence_ids": [],
+    "id": "tr_9268527d9e2f577f",
+    "opportunity_id": "opp_8dce78306a77efd7",
+    "ts": "2026-07-19T13:01:49.916Z"
+  },
+  {
+    "agent": "competitorDiscovery",
+    "action": "merge_candidates",
+    "target": "Latchline",
+    "evidence_ids": [],
+    "id": "tr_46b0e5e0b2854e6d",
+    "opportunity_id": "opp_8dce78306a77efd7",
+    "ts": "2026-07-19T13:01:49.916Z"
+  },
+  {
+    "agent": "contradiction",
+    "action": "cross_check",
+    "target": "Latchline",
+    "evidence_ids": [],
+    "id": "tr_6a6e060e28962241",
+    "opportunity_id": "opp_8dce78306a77efd7",
+    "ts": "2026-07-19T13:01:49.918Z"
+  },
+  {
+    "agent": "communitySignal",
+    "action": "query:hn-live",
+    "target": "Latchline",
+    "detail": "5 hits",
+    "evidence_ids": [
+      "ev_472e84f8637732ca",
+      "ev_feb5a684debf5da3",
+      "ev_77dcfca3c989e551",
+      "ev_02df3ee6545acfbf",
+      "ev_e9e2458c373a3a21"
+    ],
+    "id": "tr_ec90c15a945b9b2b",
+    "opportunity_id": "opp_8dce78306a77efd7",
+    "ts": "2026-07-19T13:01:50.230Z"
+  },
+  {
+    "agent": "communitySignal",
+    "action": "reviewed existing evidence",
+    "target": "Latchline",
+    "detail": "5 community signals",
+    "evidence_ids": [
+      "ev_472e84f8637732ca",
+      "ev_feb5a684debf5da3",
+      "ev_77dcfca3c989e551",
+      "ev_02df3ee6545acfbf",
+      "ev_e9e2458c373a3a21"
+    ],
+    "id": "tr_04ec0b9b93abba88",
+    "opportunity_id": "opp_8dce78306a77efd7",
+    "ts": "2026-07-19T13:01:50.236Z"
+  },
+  {
+    "agent": "contradiction",
+    "action": "cross_check:done",
+    "target": "Latchline",
+    "detail": "{\"contradictions\":[]}",
+    "evidence_ids": [],
+    "id": "tr_841baf174aa7292b",
+    "opportunity_id": "opp_8dce78306a77efd7",
+    "ts": "2026-07-19T13:01:52.219Z"
+  },
+  {
+    "agent": "teamMember",
+    "action": "evaluate:done",
+    "target": "Founder",
+    "detail": "{\"member\":\"Founder\",\"strengths\":[\"Ex-infrastructure engineering experience at Datadog and Hetzner\",\"Built and open-sourced an eBPF observability tool that reached 2.1k GitHub stars\",\"Has early customer validation with 14 design partners and",
+    "evidence_ids": [],
+    "id": "tr_11cd2cf67474dfc9",
+    "opportunity_id": "opp_8dce78306a77efd7",
+    "ts": "2026-07-19T13:01:52.761Z"
+  },
+  {
+    "agent": "competitorDiscovery",
+    "action": "merge_candidates:done",
+    "target": "Latchline",
+    "detail": "{\"competitors\":[{\"name\":\"Invariant Labs\",\"why\":\"Provides runtime monitoring and policy enforcement for AI agents, including controls over tool calls and agent behavior.\",\"source\":\"llm\"},{\"name\":\"Lakera Guard\",\"why\":\"Runtime AI security laye",
+    "evidence_ids": [],
+    "id": "tr_c92817aaa8213c38",
+    "opportunity_id": "opp_8dce78306a77efd7",
+    "ts": "2026-07-19T13:01:54.747Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "queried crunchbase",
+    "target": "Invariant Labs",
+    "detail": "0 funding rounds",
+    "evidence_ids": [],
+    "id": "tr_5d73b0f68ad52698",
+    "opportunity_id": "opp_8dce78306a77efd7",
+    "ts": "2026-07-19T13:01:54.800Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "queried crunchbase",
+    "target": "Lakera Guard",
+    "detail": "0 funding rounds",
+    "evidence_ids": [],
+    "id": "tr_4c151fc33996b011",
+    "opportunity_id": "opp_8dce78306a77efd7",
+    "ts": "2026-07-19T13:01:54.801Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "queried crunchbase",
+    "target": "Prompt Security",
+    "detail": "0 funding rounds",
+    "evidence_ids": [],
+    "id": "tr_8ba00047eb3ba64b",
+    "opportunity_id": "opp_8dce78306a77efd7",
+    "ts": "2026-07-19T13:01:54.801Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "queried crunchbase",
+    "target": "Guardrails AI",
+    "detail": "0 funding rounds",
+    "evidence_ids": [],
+    "id": "tr_be8c5a2161b116ae",
+    "opportunity_id": "opp_8dce78306a77efd7",
+    "ts": "2026-07-19T13:01:54.802Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "queried crunchbase",
+    "target": "NVIDIA NeMo Guardrails",
+    "detail": "0 funding rounds",
+    "evidence_ids": [],
+    "id": "tr_0ea11da2b44d4a11",
+    "opportunity_id": "opp_8dce78306a77efd7",
+    "ts": "2026-07-19T13:01:54.802Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate",
+    "target": "Invariant Labs",
+    "evidence_ids": [],
+    "id": "tr_09b9436ba1e65991",
+    "opportunity_id": "opp_8dce78306a77efd7",
+    "ts": "2026-07-19T13:01:54.803Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate",
+    "target": "Lakera Guard",
+    "evidence_ids": [],
+    "id": "tr_51aeb6a063efc641",
+    "opportunity_id": "opp_8dce78306a77efd7",
+    "ts": "2026-07-19T13:01:54.804Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate",
+    "target": "Prompt Security",
+    "evidence_ids": [],
+    "id": "tr_7eaba364ca83a625",
+    "opportunity_id": "opp_8dce78306a77efd7",
+    "ts": "2026-07-19T13:01:54.805Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate",
+    "target": "Guardrails AI",
+    "evidence_ids": [],
+    "id": "tr_f99182d900b25c2f",
+    "opportunity_id": "opp_8dce78306a77efd7",
+    "ts": "2026-07-19T13:01:54.806Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate",
+    "target": "NVIDIA NeMo Guardrails",
+    "evidence_ids": [],
+    "id": "tr_87a3b89970e2cb5e",
+    "opportunity_id": "opp_8dce78306a77efd7",
+    "ts": "2026-07-19T13:01:54.808Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate:done",
+    "target": "Prompt Security",
+    "detail": "{\"competitor\":\"Prompt Security\",\"investorSignal\":\"unknown\",\"trajectory\":\"No funding rounds, dates, sizes, or investors provided.\",\"threat\":\"low\"}",
+    "evidence_ids": [],
+    "id": "tr_a9857fbc0bbf8c5f",
+    "opportunity_id": "opp_8dce78306a77efd7",
+    "ts": "2026-07-19T13:01:56.298Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate:done",
+    "target": "Invariant Labs",
+    "detail": "{\"competitor\":\"Invariant Labs\",\"investorSignal\":\"unknown\",\"trajectory\":\"No funding rounds or investors disclosed.\",\"threat\":\"low\"}",
+    "evidence_ids": [],
+    "id": "tr_62e42b849d1e273a",
+    "opportunity_id": "opp_8dce78306a77efd7",
+    "ts": "2026-07-19T13:01:56.385Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate:done",
+    "target": "Guardrails AI",
+    "detail": "{\"competitor\":\"Guardrails AI\",\"investorSignal\":\"unknown\",\"trajectory\":\"No funding rounds, dates, sizes, or investors provided.\",\"threat\":\"low\"}",
+    "evidence_ids": [],
+    "id": "tr_68d42f3c4f680eb0",
+    "opportunity_id": "opp_8dce78306a77efd7",
+    "ts": "2026-07-19T13:01:56.413Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate:done",
+    "target": "Lakera Guard",
+    "detail": "{\"competitor\":\"Lakera Guard\",\"investorSignal\":\"unknown\",\"trajectory\":\"No funding rounds, dates, sizes, or investors provided.\",\"threat\":\"low\"}",
+    "evidence_ids": [],
+    "id": "tr_95878069df62e993",
+    "opportunity_id": "opp_8dce78306a77efd7",
+    "ts": "2026-07-19T13:01:56.708Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate:done",
+    "target": "NVIDIA NeMo Guardrails",
+    "detail": "{\"competitor\":\"NVIDIA NeMo Guardrails\",\"investorSignal\":\"unknown\",\"trajectory\":\"No funding rounds, dates, sizes, or investor information provided.\",\"threat\":\"low\"}",
+    "evidence_ids": [],
+    "id": "tr_c4a1a9d32b3c4c05",
+    "opportunity_id": "opp_8dce78306a77efd7",
+    "ts": "2026-07-19T13:01:56.790Z"
+  },
+  {
+    "agent": "screening",
+    "action": "score",
+    "target": "Latchline",
+    "evidence_ids": [],
+    "id": "tr_595c7649022c0c03",
+    "opportunity_id": "opp_8dce78306a77efd7",
+    "ts": "2026-07-19T13:01:58.581Z"
+  },
+  {
+    "agent": "screening",
+    "action": "score:done",
+    "target": "Latchline",
+    "detail": "{\"founder_id\":\"founder\",\"company\":\"Latchline\",\"axes\":[{\"axis\":\"Founder\",\"score_0_100\":62,\"trend\":\"stable\",\"evidence_ids\":[\"ev_e714dbc1e4498ba1\",\"ev_8cfe8927e9423897\",\"ev_be494c600c483494\"],\"rationale\":\"The two first-time founders have relev",
+    "evidence_ids": [],
+    "id": "tr_529eebf8835c7fe6",
+    "opportunity_id": "opp_8dce78306a77efd7",
+    "ts": "2026-07-19T13:02:20.218Z"
+  },
+  {
+    "agent": "memo",
+    "action": "write",
+    "target": "Latchline",
+    "evidence_ids": [],
+    "id": "tr_4cc67ee3d4f17958",
+    "opportunity_id": "opp_8dce78306a77efd7",
+    "ts": "2026-07-19T13:02:20.221Z"
+  },
+  {
+    "agent": "memo",
+    "action": "write:done",
+    "target": "Latchline",
+    "detail": "{\"company\":\"Latchline\",\"founder_id\":\"founder\",\"sections\":[{\"title\":\"Company snapshot\",\"claims\":[{\"text\":\"Latchline presents itself as a runtime-guardrails company for AI agents, offering a policy engine between agents and their tools.\",\"evi",
+    "evidence_ids": [],
+    "id": "tr_4861b29a47256efe",
+    "opportunity_id": "opp_8dce78306a77efd7",
+    "ts": "2026-07-19T13:03:00.934Z"
+  },
+  {
+    "agent": "decision",
+    "action": "recommend",
+    "target": "Latchline",
+    "evidence_ids": [],
+    "id": "tr_6bfe24f3eee7d76a",
+    "opportunity_id": "opp_8dce78306a77efd7",
+    "ts": "2026-07-19T13:03:00.938Z"
+  },
+  {
+    "agent": "decision",
+    "action": "recommend:done",
+    "target": "Latchline",
+    "detail": "{\"founder_id\":\"founder\",\"company\":\"Latchline\",\"recommendation\":\"watch\",\"thesisRationale\":\"Latchline is strongly aligned with the AI Infrastructure and Developer Tools thesis, and its $500k pre-seed raise exactly matches the target check siz",
+    "evidence_ids": [],
+    "id": "tr_1068093c95cce80b",
+    "opportunity_id": "opp_8dce78306a77efd7",
+    "ts": "2026-07-19T13:03:09.066Z"
+  }
+]

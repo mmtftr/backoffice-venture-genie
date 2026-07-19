@@ -1,0 +1,200 @@
+{
+  "founder_id": "founder",
+  "name": "Founder",
+  "company": "Latchline",
+  "evidence": [
+    {
+      "source": "deck",
+      "content": "Latchline — Runtime guardrails for AI agents\n\nProblem: Companies deploying LLM agents have no way to enforce what those agents can actually do in production. One bad tool call can wipe a database or leak customer data.\n\nProduct: A lightweight policy engine that sits between an agent and its tools. Declarative rules (YAML), sub-10ms overhead, full audit log of every allowed and blocked action. Drop-in SDK for OpenAI, Anthropic, and LangChain stacks.\n\nTeam: Two founders, ex-infra engineers (Datadog, Hetzner). Built and open-sourced an eBPF observability tool with 2.1k GitHub stars. First-time founders.\n\nTraction: Open beta 6 weeks. 14 design partners, 3 paying ($1.2k MRR). SOC 2 in progress.\n\nMarket: Every company shipping agentic AI needs an enforcement layer — the API security playbook, replayed for agents.\n\nAsk: Raising $500k pre-seed to ship the hosted control plane and hire one founding engineer.\n",
+      "tags": [
+        "deck",
+        "inbound"
+      ],
+      "id": "ev_e714dbc1e4498ba1",
+      "founder_id": "founder",
+      "ts": "2026-07-19T13:01:48.822Z",
+      "hash": "de1346d687d537a8"
+    },
+    {
+      "source": "hn",
+      "content": "HN: The mechanical latching memory of an adhesive tape (33 points, 15 comments, 2026-05-05T19:17:29Z) https://iopscience.iop.org/article/10.1088/1367-2630/ae4acc",
+      "tags": [
+        "community",
+        "live"
+      ],
+      "id": "ev_472e84f8637732ca",
+      "founder_id": "founder",
+      "ts": "2026-07-19T13:01:50.228Z",
+      "hash": "a6cef341d917f9a1"
+    },
+    {
+      "source": "hn",
+      "content": "HN: Optimizing VR Graphics with Late Latching (11 points, 0 comments, 2015-03-03T07:58:25Z) https://www.oculus.com/blog/optimizing-vr-graphics-with-late-latching/",
+      "tags": [
+        "community",
+        "live"
+      ],
+      "id": "ev_feb5a684debf5da3",
+      "founder_id": "founder",
+      "ts": "2026-07-19T13:01:50.228Z",
+      "hash": "f8457c0226676db7"
+    },
+    {
+      "source": "hn",
+      "content": "HN: Yosemite bear-proof food locker latching systems (3 points, 0 comments, 2025-12-19T04:02:12Z) https://marydonahue.org/yosemite-bear-proof-food-locker-latching-systems",
+      "tags": [
+        "community",
+        "live"
+      ],
+      "id": "ev_77dcfca3c989e551",
+      "founder_id": "founder",
+      "ts": "2026-07-19T13:01:50.228Z",
+      "hash": "8a404a687e6b50f0"
+    },
+    {
+      "source": "hn",
+      "content": "HN: Practical Hurdles in Crab Latching Concurrency (2 points, 0 comments, 2025-10-14T15:16:54Z) https://jacobsherin.com/posts/2025-10-13-bplustree-concurrency-challenges/",
+      "tags": [
+        "community",
+        "live"
+      ],
+      "id": "ev_02df3ee6545acfbf",
+      "founder_id": "founder",
+      "ts": "2026-07-19T13:01:50.228Z",
+      "hash": "29d286a3b6472a56"
+    },
+    {
+      "source": "hn",
+      "content": "HN: Practical Hurdles in Crab Latching Concurrency (1 points, 0 comments, 2025-10-16T00:38:15Z) https://jacobsherin.com/posts/2025-10-13-bplustree-concurrency-challenges/",
+      "tags": [
+        "community",
+        "live"
+      ],
+      "id": "ev_e9e2458c373a3a21",
+      "founder_id": "founder",
+      "ts": "2026-07-19T13:01:50.228Z",
+      "hash": "af2e738edadab46c"
+    },
+    {
+      "source": "agent:communitySignal",
+      "content": "Community evidence available: hn: HN: The mechanical latching memory of an adhesive tape (33 points, 15 comments, 2026-05-05T19:17:29Z) https://iopscience.iop.org/article/10.1088/1367-2630/ae4acc; hn: HN: Optimizing VR Graphics with Late Latching (11 points, 0 comments, 2015-03-03T07:58:25Z) https://www.oculus.com/blog/optimizing-vr-graphics-with-late-latching/; hn: HN: Yosemite bear-proof food locker latching systems (3 points, 0 comments, 2025-12-19T04:02:12Z) https://marydonahue.org/yosemite-bear-proof-food-locker-latching-systems; hn: HN: Practical Hurdles in Crab Latching Concurrency (2 points, 0 comments, 2025-10-14T15:16:54Z) https://jacobsherin.com/posts/2025-10-13-bplustree-concurrency-challenges/; hn: HN: Practical Hurdles in Crab Latching Concurrency (1 points, 0 comments, 2025-10-16T00:38:15Z) https://jacobsherin.com/posts/2025-10-13-bplustree-concurrency-challenges/",
+      "tags": [
+        "community",
+        "agent"
+      ],
+      "id": "ev_be494c600c483494",
+      "founder_id": "founder",
+      "ts": "2026-07-19T13:01:50.232Z",
+      "hash": "fdfe5080b1059117"
+    },
+    {
+      "source": "agent:contradiction",
+      "content": "No direct contradictions were established from available evidence.",
+      "tags": [
+        "contradiction",
+        "agent"
+      ],
+      "id": "ev_70157b8e2fc55c7f",
+      "founder_id": "founder",
+      "ts": "2026-07-19T13:01:52.221Z",
+      "hash": "a717cccd98e6748d"
+    },
+    {
+      "source": "agent:teamMember",
+      "content": "Founder: strengths=Ex-infrastructure engineering experience at Datadog and Hetzner; Built and open-sourced an eBPF observability tool that reached 2.1k GitHub stars; Has early customer validation with 14 design partners and 3 paying customers generating $1.2k MRR; Product aligns with a technically credible infrastructure and security problem; concerns=First-time founder with no demonstrated company-building or fundraising track record in the supplied material; Traction is very early: the open beta has run for only six weeks and has three paying customers; The broad market claim that every company shipping agentic AI needs this enforcement layer is not substantiated by the supplied evidence; No information is provided about founder roles, complementary skills, customer acquisition capability, or execution beyond the open-source project; school tier=unknown; prior outputs=none found.",
+      "tags": [
+        "team",
+        "agent"
+      ],
+      "id": "ev_8cfe8927e9423897",
+      "founder_id": "founder",
+      "ts": "2026-07-19T13:01:52.762Z",
+      "hash": "017d7314b6ac9855"
+    },
+    {
+      "source": "agent:competitorDiscovery",
+      "content": "Competitors: Invariant Labs (Provides runtime monitoring and policy enforcement for AI agents, including controls over tool calls and agent behavior.); Lakera Guard (Runtime AI security layer that detects prompt injection, sensitive-data leakage, and unsafe agent interactions before actions execute.); Prompt Security (Offers runtime protection for enterprise generative-AI and agent workflows, including data-loss prevention and policy controls.); Guardrails AI (Open-source framework for declaring and enforcing validation rules around LLM outputs and tool-related actions.); NVIDIA NeMo Guardrails (Programmable guardrail framework for controlling LLM conversations, tool use, and agent workflows through declarative policies.)",
+      "tags": [
+        "competition",
+        "agent"
+      ],
+      "id": "ev_5e78d78646bea4de",
+      "founder_id": "founder",
+      "ts": "2026-07-19T13:01:54.749Z",
+      "hash": "8dee9131178d6a8d"
+    },
+    {
+      "source": "agent:competitorEval",
+      "content": "Prompt Security: investor signal=unknown; trajectory=No funding rounds, dates, sizes, or investors provided.; threat=low.",
+      "tags": [
+        "competition",
+        "funding",
+        "agent"
+      ],
+      "id": "ev_b33bbe8ce88509b2",
+      "founder_id": "founder",
+      "ts": "2026-07-19T13:01:56.300Z",
+      "hash": "21fab4a5bca8e087"
+    },
+    {
+      "source": "agent:competitorEval",
+      "content": "Invariant Labs: investor signal=unknown; trajectory=No funding rounds or investors disclosed.; threat=low.",
+      "tags": [
+        "competition",
+        "funding",
+        "agent"
+      ],
+      "id": "ev_7dab751d446b25c7",
+      "founder_id": "founder",
+      "ts": "2026-07-19T13:01:56.386Z",
+      "hash": "5421ec3bb168af4c"
+    },
+    {
+      "source": "agent:competitorEval",
+      "content": "Guardrails AI: investor signal=unknown; trajectory=No funding rounds, dates, sizes, or investors provided.; threat=low.",
+      "tags": [
+        "competition",
+        "funding",
+        "agent"
+      ],
+      "id": "ev_4c84f6884f185c39",
+      "founder_id": "founder",
+      "ts": "2026-07-19T13:01:56.413Z",
+      "hash": "d41b7c950680131c"
+    },
+    {
+      "source": "agent:competitorEval",
+      "content": "Lakera Guard: investor signal=unknown; trajectory=No funding rounds, dates, sizes, or investors provided.; threat=low.",
+      "tags": [
+        "competition",
+        "funding",
+        "agent"
+      ],
+      "id": "ev_8ceddbf7f68098bf",
+      "founder_id": "founder",
+      "ts": "2026-07-19T13:01:56.710Z",
+      "hash": "84e3b850d9fc3653"
+    },
+    {
+      "source": "agent:competitorEval",
+      "content": "NVIDIA NeMo Guardrails: investor signal=unknown; trajectory=No funding rounds, dates, sizes, or investor information provided.; threat=low.",
+      "tags": [
+        "competition",
+        "funding",
+        "agent"
+      ],
+      "id": "ev_bc4d54e6e4cb0421",
+      "founder_id": "founder",
+      "ts": "2026-07-19T13:01:56.791Z",
+      "hash": "11e26759263e40be"
+    }
+  ],
+  "founderScoreHistory": [
+    {
+      "ts": "2026-07-19T13:02:20.219Z",
+      "score_0_100": 57,
+      "delta": 7,
+      "reason": "Technical domain fit and the claimed open-source output justify an increase from the cold-start baseline, but first-time-founder risk, absent funding history, unknown team-role complementarity, and uncorroborated traction cap the adjustment. With no verifiable funding track record, GitHub code cadence, public writing or papers, or relevant community footprint, the mandatory substitution ladder reaches application_quality."
+    }
+  ]
+}

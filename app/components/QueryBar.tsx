@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { type FormEvent, useRef, useState } from "react";
 import type { QueryResult } from "@/lib/query";
+import { InfoTip } from "./InfoTip";
 
 export function QueryBar() {
   const [q, setQ] = useState("");
@@ -75,6 +76,9 @@ export function QueryBar() {
           placeholder="Ask: technical founder, Berlin, AI infra, no prior VC backing…"
           className="min-w-0 flex-1 bg-transparent px-3 py-3 text-sm text-slate-100 outline-none placeholder:text-slate-600"
         />
+        <InfoTip label="Pipeline query" align="right" className="mr-3">
+          Ask for what you&apos;re looking for in plain language — e.g. &ldquo;technical founder, Berlin, AI infra&rdquo;. Every opportunity is ranked by how well <strong className="text-slate-100">evidence in founder memory</strong> matches your terms; each highlighted chip in the results is one matched term, and hovering it shows the evidence snippet it matched.
+        </InfoTip>
         <span className="hidden pr-3 font-mono text-[10px] uppercase tracking-wider text-slate-600 sm:inline">Enter</span>
         {(q || active) && (
           <button type="button" onClick={clear} aria-label="Clear query results" className="mr-2 grid h-7 w-7 place-items-center rounded-md text-slate-500 transition hover:bg-slate-800 hover:text-slate-200">×</button>

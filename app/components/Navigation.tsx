@@ -4,6 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import type { Thesis } from "@/lib/schemas";
+import { showOnboarding } from "./Onboarding";
 
 const links = [
   { href: "/", label: "Pipeline", icon: "▦" },
@@ -29,11 +30,12 @@ export function Navigation() {
         <Link href="/" className="flex items-center gap-3 font-semibold text-white">
           <Logo /> Venture Genie
         </Link>
-        <nav className="ml-auto flex gap-1">
+        <nav className="ml-auto flex items-center gap-1">
           {links.map((link) => {
             const active = link.href === "/" ? pathname === "/" : pathname.startsWith(link.href);
             return <Link key={link.href} href={link.href} title={link.label} className={`rounded-lg px-2.5 py-2 text-sm ${active ? "bg-indigo-500/15 text-indigo-300" : "text-slate-400"}`}>{link.icon}</Link>;
           })}
+          <button type="button" onClick={showOnboarding} title="How it works" aria-label="How it works" className="rounded-lg px-2.5 py-2 text-sm text-slate-400">?</button>
         </nav>
       </header>
       <aside className="fixed inset-y-0 left-0 z-40 hidden w-64 border-r border-slate-800 bg-slate-950/90 p-5 backdrop-blur lg:block">
@@ -51,6 +53,14 @@ export function Navigation() {
             );
           })}
         </nav>
+        <button
+          type="button"
+          onClick={showOnboarding}
+          className="mt-6 flex w-full items-center gap-3 rounded-lg px-3 py-2.5 text-sm font-medium text-slate-500 transition hover:bg-slate-900 hover:text-slate-200"
+        >
+          <span className="grid h-5 w-5 place-items-center rounded-full border border-slate-700 text-[10px]">?</span>
+          How it works
+        </button>
         <div className="absolute bottom-6 left-5 right-5 rounded-xl border border-slate-800 bg-slate-900/50 p-3">
           <div className="flex items-center gap-2 text-xs text-slate-400"><span className="h-2 w-2 rounded-full bg-emerald-400" /> Active thesis</div>
           {thesis ? (

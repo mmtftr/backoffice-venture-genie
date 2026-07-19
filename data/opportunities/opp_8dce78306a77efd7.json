@@ -1,0 +1,367 @@
+{
+  "id": "opp_8dce78306a77efd7",
+  "founder_id": "founder",
+  "company": "Latchline",
+  "track": "inbound",
+  "createdAt": "2026-07-19T13:01:48.821Z",
+  "status": "screened",
+  "deckText": "Latchline — Runtime guardrails for AI agents\n\nProblem: Companies deploying LLM agents have no way to enforce what those agents can actually do in production. One bad tool call can wipe a database or leak customer data.\n\nProduct: A lightweight policy engine that sits between an agent and its tools. Declarative rules (YAML), sub-10ms overhead, full audit log of every allowed and blocked action. Drop-in SDK for OpenAI, Anthropic, and LangChain stacks.\n\nTeam: Two founders, ex-infra engineers (Datadog, Hetzner). Built and open-sourced an eBPF observability tool with 2.1k GitHub stars. First-time founders.\n\nTraction: Open beta 6 weeks. 14 design partners, 3 paying ($1.2k MRR). SOC 2 in progress.\n\nMarket: Every company shipping agentic AI needs an enforcement layer — the API security playbook, replayed for agents.\n\nAsk: Raising $500k pre-seed to ship the hosted control plane and hire one founding engineer.\n",
+  "traceSummary": "- teamMember extracted Latchline’s team, found no members, and evaluated the Founder’s infrastructure background, open-source eBPF tool, and 14 design partners.\n- competitorDiscovery searched Crunchbase, found no Latchline candidates, and assembled competitors including Invariant Labs, Lakera Guard, Prompt Security, Guardrails AI, and NVIDIA NeMo Guardrails.\n- contradiction searched Crunchbase, found Latchline absent, and completed a cross-check with no contradictions.\n- communitySignal queried Hacker News Live, found five hits, and reviewed five existing community signals for Latchline.\n- competitorEval evaluated all five competitors after Crunchbase showed no funding rounds, rating each as a low threat with unknown investor signals.\n- screening scored Latchline, memo wrote the investment memo, and decision recommended a watch outcome based on AI-infrastructure fit and its $500k pre-seed raise.",
+  "screening": {
+    "founder_id": "founder",
+    "company": "Latchline",
+    "axes": [
+      {
+        "axis": "Founder",
+        "score_0_100": 62,
+        "trend": "stable",
+        "evidence_ids": [
+          "ev_e714dbc1e4498ba1",
+          "ev_8cfe8927e9423897",
+          "ev_be494c600c483494"
+        ],
+        "rationale": "The two first-time founders have relevant infrastructure experience at Datadog and Hetzner and report building an open-source eBPF tool with 2.1k GitHub stars, suggesting technical execution ability. However, no repository or cadence data verifies that output, school tier and demonstrated academic excellence are unknown, founder roles are unspecified, and there is no evidence of sales ownership, prior collaboration, or balanced build-and-sell coverage. No prior funding or allowlisted investor signal exists, so funding recency decay is inapplicable. The persistent FounderScore of 50 has no history indicating momentum. Supplied HN results are unrelated name matches and do not corroborate founder or product adoption."
+      },
+      {
+        "axis": "Market",
+        "score_0_100": 70,
+        "trend": "improving",
+        "evidence_ids": [
+          "ev_e714dbc1e4498ba1",
+          "ev_5e78d78646bea4de",
+          "ev_b33bbe8ce88509b2",
+          "ev_7dab751d446b25c7",
+          "ev_4c84f6884f185c39",
+          "ev_8ceddbf7f68098bf",
+          "ev_bc4d54e6e4cb0421"
+        ],
+        "rationale": "Runtime control of AI-agent tool calls addresses a credible and potentially expanding security need, and the presence of Invariant Labs, Lakera Guard, Prompt Security, Guardrails AI, and NVIDIA NeMo Guardrails validates the category while also showing meaningful competition. The claim that every company shipping agents needs a separate enforcement layer is unsubstantiated, and platform vendors could absorb the functionality. Competitor investor identities and funding trajectories are unknown, so competitorEval supplies no revealed-quality advantage or disadvantage for Latchline. The reported 14 design partners, three paying customers, and $1.2k MRR after six weeks are low-trust deck claims without Crunchbase or relevant community corroboration."
+      },
+      {
+        "axis": "IdeaVsMarket",
+        "score_0_100": 74,
+        "trend": "improving",
+        "evidence_ids": [
+          "ev_e714dbc1e4498ba1",
+          "ev_5e78d78646bea4de",
+          "ev_70157b8e2fc55c7f"
+        ],
+        "rationale": "A lightweight, declarative policy layer with audit logs and integrations across OpenAI, Anthropic, and LangChain is well matched to the stated agent-security problem and offers a clear initial developer workflow. Sub-10ms overhead, customer counts, and revenue remain unverified deck assertions. Differentiation is not yet durable because several identified competitors address runtime monitoring, policy enforcement, prompt injection, data leakage, or programmable guardrails. The $500k pre-seed ask exactly matches the thesis check size and fits the AI Infrastructure and Developer Tools thesis, although geography and the valuation needed to reach 7% ownership are not supplied."
+      }
+    ],
+    "founderScoreDelta": 7,
+    "founderScoreReason": "Technical domain fit and the claimed open-source output justify an increase from the cold-start baseline, but first-time-founder risk, absent funding history, unknown team-role complementarity, and uncorroborated traction cap the adjustment. With no verifiable funding track record, GitHub code cadence, public writing or papers, or relevant community footprint, the mandatory substitution ladder reaches application_quality.",
+    "coldStart": true,
+    "substitutionRung": "application_quality",
+    "thesisFit_0_1": 0.92
+  },
+  "memo": {
+    "company": "Latchline",
+    "founder_id": "founder",
+    "sections": [
+      {
+        "title": "Company snapshot",
+        "claims": [
+          {
+            "text": "Latchline presents itself as a runtime-guardrails company for AI agents, offering a policy engine between agents and their tools.",
+            "evidence_ids": [
+              "ev_e714dbc1e4498ba1"
+            ],
+            "confidence_0_1": 0.78,
+            "verification": "internal",
+            "contradictions": []
+          },
+          {
+            "text": "The company reports two first-time founders with infrastructure-engineering experience at Datadog and Hetzner.",
+            "evidence_ids": [
+              "ev_e714dbc1e4498ba1"
+            ],
+            "confidence_0_1": 0.64,
+            "verification": "internal",
+            "contradictions": []
+          },
+          {
+            "text": "The founders claim to have built an open-source eBPF observability tool with 2.1k GitHub stars, but no repository or contribution history was supplied for verification.",
+            "evidence_ids": [
+              "ev_e714dbc1e4498ba1",
+              "ev_8cfe8927e9423897"
+            ],
+            "confidence_0_1": 0.56,
+            "verification": "internal",
+            "contradictions": []
+          },
+          {
+            "text": "Latchline is seeking a $500k pre-seed round to build a hosted control plane and hire a founding engineer.",
+            "evidence_ids": [
+              "ev_e714dbc1e4498ba1"
+            ],
+            "confidence_0_1": 0.86,
+            "verification": "internal",
+            "contradictions": []
+          }
+        ],
+        "prose": "The opportunity has strong technical and thesis alignment, but investment readiness depends on validating the team history, product performance, customer usage, and financing terms."
+      },
+      {
+        "title": "Investment hypotheses",
+        "claims": [
+          {
+            "text": "A dedicated enforcement layer could become valuable infrastructure if enterprises increasingly allow AI agents to invoke consequential production tools.",
+            "evidence_ids": [
+              "ev_e714dbc1e4498ba1"
+            ],
+            "confidence_0_1": 0.61,
+            "verification": "internal",
+            "contradictions": []
+          },
+          {
+            "text": "Declarative policies, auditability, and integrations with OpenAI, Anthropic, and LangChain create a clear initial developer workflow and may reduce adoption friction.",
+            "evidence_ids": [
+              "ev_e714dbc1e4498ba1"
+            ],
+            "confidence_0_1": 0.7,
+            "verification": "internal",
+            "contradictions": []
+          },
+          {
+            "text": "The founders' reported infrastructure backgrounds and prior observability project suggest relevant technical execution ability, subject to employment and repository verification.",
+            "evidence_ids": [
+              "ev_e714dbc1e4498ba1",
+              "ev_8cfe8927e9423897"
+            ],
+            "confidence_0_1": 0.58,
+            "verification": "internal",
+            "contradictions": []
+          },
+          {
+            "text": "The category already includes Invariant Labs, Lakera Guard, Prompt Security, Guardrails AI, and NVIDIA NeMo Guardrails, supporting category relevance while limiting confidence in durable differentiation.",
+            "evidence_ids": [
+              "ev_5e78d78646bea4de"
+            ],
+            "confidence_0_1": 0.62,
+            "verification": "unverified",
+            "contradictions": []
+          },
+          {
+            "text": "The assertion that every company shipping agentic AI requires a separate enforcement layer is not substantiated by the supplied evidence.",
+            "evidence_ids": [
+              "ev_e714dbc1e4498ba1",
+              "ev_8cfe8927e9423897"
+            ],
+            "confidence_0_1": 0.82,
+            "verification": "internal",
+            "contradictions": []
+          }
+        ],
+        "prose": "The core underwriting questions are whether runtime enforcement becomes a standalone control point, whether Latchline can own that point rather than being absorbed by platforms, and whether early users convert into repeatable enterprise revenue."
+      },
+      {
+        "title": "SWOT",
+        "claims": [
+          {
+            "text": "Strength: The product is narrowly focused on controlling agent tool calls and combines declarative rules with an audit log and major framework integrations.",
+            "evidence_ids": [
+              "ev_e714dbc1e4498ba1"
+            ],
+            "confidence_0_1": 0.75,
+            "verification": "internal",
+            "contradictions": []
+          },
+          {
+            "text": "Weakness: The founders are first-time founders, and the supplied material does not establish role complementarity, sales ownership, fundraising history, or prior company-building experience.",
+            "evidence_ids": [
+              "ev_e714dbc1e4498ba1",
+              "ev_8cfe8927e9423897"
+            ],
+            "confidence_0_1": 0.78,
+            "verification": "internal",
+            "contradictions": []
+          },
+          {
+            "text": "Opportunity: The product targets production risks such as destructive tool calls and customer-data leakage as organizations deploy LLM agents.",
+            "evidence_ids": [
+              "ev_e714dbc1e4498ba1"
+            ],
+            "confidence_0_1": 0.65,
+            "verification": "internal",
+            "contradictions": []
+          },
+          {
+            "text": "Threat: Multiple identified vendors and frameworks address overlapping runtime monitoring, policy enforcement, prompt-injection, data-leakage, or guardrail use cases.",
+            "evidence_ids": [
+              "ev_5e78d78646bea4de"
+            ],
+            "confidence_0_1": 0.64,
+            "verification": "unverified",
+            "contradictions": []
+          },
+          {
+            "text": "External community review did not provide relevant corroboration because the surfaced Hacker News results concern unrelated uses of latching terminology.",
+            "evidence_ids": [
+              "ev_472e84f8637732ca",
+              "ev_feb5a684debf5da3",
+              "ev_77dcfca3c989e551",
+              "ev_02df3ee6545acfbf",
+              "ev_e9e2458c373a3a21"
+            ],
+            "confidence_0_1": 0.94,
+            "verification": "external",
+            "contradictions": []
+          }
+        ],
+        "prose": "The main strength is a legible infrastructure wedge; the principal risks are early execution maturity, weak external validation, competitive overlap, and potential bundling by model or agent-platform vendors."
+      },
+      {
+        "title": "Problem & product",
+        "claims": [
+          {
+            "text": "Latchline states that companies deploying LLM agents lack sufficient control over permitted production actions and face risks from destructive or data-leaking tool calls.",
+            "evidence_ids": [
+              "ev_e714dbc1e4498ba1"
+            ],
+            "confidence_0_1": 0.67,
+            "verification": "internal",
+            "contradictions": []
+          },
+          {
+            "text": "The proposed product is a lightweight policy engine positioned between an agent and its tools, with rules expressed in YAML.",
+            "evidence_ids": [
+              "ev_e714dbc1e4498ba1"
+            ],
+            "confidence_0_1": 0.8,
+            "verification": "internal",
+            "contradictions": []
+          },
+          {
+            "text": "The company claims full audit logging for allowed and blocked actions and drop-in SDK support for OpenAI, Anthropic, and LangChain stacks.",
+            "evidence_ids": [
+              "ev_e714dbc1e4498ba1"
+            ],
+            "confidence_0_1": 0.72,
+            "verification": "internal",
+            "contradictions": []
+          },
+          {
+            "text": "The claimed sub-10ms overhead has not been supported by an independent benchmark or disclosed test methodology.",
+            "evidence_ids": [
+              "ev_e714dbc1e4498ba1"
+            ],
+            "confidence_0_1": 0.49,
+            "verification": "internal",
+            "contradictions": []
+          },
+          {
+            "text": "The presence of overlapping guardrail products means differentiation based only on runtime policies and integrations is not yet demonstrated as durable.",
+            "evidence_ids": [
+              "ev_e714dbc1e4498ba1",
+              "ev_5e78d78646bea4de"
+            ],
+            "confidence_0_1": 0.6,
+            "verification": "unverified",
+            "contradictions": []
+          }
+        ],
+        "prose": "Technical diligence should test enforcement completeness, bypass resistance, latency under realistic workloads, policy ergonomics, deployment architecture, and the boundary between Latchline and native platform controls."
+      },
+      {
+        "title": "Traction & KPIs",
+        "claims": [
+          {
+            "text": "Latchline reports that its open beta has operated for six weeks with 14 design partners and three paying customers.",
+            "evidence_ids": [
+              "ev_e714dbc1e4498ba1"
+            ],
+            "confidence_0_1": 0.57,
+            "verification": "internal",
+            "contradictions": []
+          },
+          {
+            "text": "The company reports $1.2k in monthly recurring revenue, implying approximately $400 in average monthly recurring revenue per reported paying customer.",
+            "evidence_ids": [
+              "ev_e714dbc1e4498ba1"
+            ],
+            "confidence_0_1": 0.56,
+            "verification": "internal",
+            "contradictions": []
+          },
+          {
+            "text": "The reported customer and revenue figures have not been corroborated by contracts, invoices, bank records, or independent sources in the supplied evidence.",
+            "evidence_ids": [
+              "ev_e714dbc1e4498ba1",
+              "ev_8cfe8927e9423897"
+            ],
+            "confidence_0_1": 0.81,
+            "verification": "internal",
+            "contradictions": []
+          },
+          {
+            "text": "SOC 2 is reported as in progress, but no audit scope, auditor, target completion date, or current milestone was disclosed.",
+            "evidence_ids": [
+              "ev_e714dbc1e4498ba1"
+            ],
+            "confidence_0_1": 0.68,
+            "verification": "internal",
+            "contradictions": []
+          },
+          {
+            "text": "The six-week beta period is too early in the supplied record to establish retention, expansion, churn, or a repeatable sales motion.",
+            "evidence_ids": [
+              "ev_e714dbc1e4498ba1",
+              "ev_8cfe8927e9423897"
+            ],
+            "confidence_0_1": 0.78,
+            "verification": "internal",
+            "contradictions": []
+          }
+        ],
+        "prose": "Before underwriting growth, verify customer identities, production usage, paid contracts, revenue receipts, design-partner conversion, pipeline quality, retention cohorts, and security-review progress."
+      }
+    ],
+    "redFlags": [
+      "Traction and revenue are deck-only assertions without customer, contract, invoice, or bank-record corroboration.",
+      "The sub-10ms performance claim lacks an independent benchmark and disclosed methodology.",
+      "Founder roles, commercial ownership, complementary skills, and prior collaboration are not disclosed.",
+      "The broad claim that every company deploying agentic AI needs a separate enforcement layer is unsupported.",
+      "Several products and frameworks appear to address overlapping guardrail and runtime-security functions, while durable differentiation is not yet established.",
+      "Relevant external community adoption was not found; the supplied Hacker News results are unrelated name matches.",
+      "SOC 2 is only described as in progress, without scope, auditor, milestones, or completion timing."
+    ],
+    "gaps": [
+      "Cap table: not disclosed",
+      "Valuation: not disclosed",
+      "Round terms: not disclosed",
+      "Target ownership: not disclosed",
+      "Company geography: not disclosed",
+      "Founder names: not disclosed",
+      "Founder roles: not disclosed",
+      "Founder equity split: not disclosed",
+      "Prior founder collaboration: not disclosed",
+      "Repository URL: not disclosed",
+      "Open-source contribution history: not disclosed",
+      "Customer identities: not disclosed",
+      "Customer contracts: not disclosed",
+      "Revenue verification: not disclosed",
+      "Customer concentration: not disclosed",
+      "Gross retention: not disclosed",
+      "Net revenue retention: not disclosed",
+      "Churn: not disclosed",
+      "Pipeline: not disclosed",
+      "Sales cycle: not disclosed",
+      "Gross margin: not disclosed",
+      "Burn and runway: not disclosed",
+      "Product usage metrics: not disclosed",
+      "Latency benchmark methodology: not disclosed",
+      "Security architecture: not disclosed",
+      "SOC 2 auditor and completion date: not disclosed",
+      "Intellectual property ownership: not disclosed"
+    ],
+    "trustScore_0_1": 0.8880192655027092
+  },
+  "decision": {
+    "founder_id": "founder",
+    "company": "Latchline",
+    "recommendation": "watch",
+    "thesisRationale": "Latchline is strongly aligned with the AI Infrastructure and Developer Tools thesis, and its $500k pre-seed raise exactly matches the target check size. Runtime control for AI-agent tool calls is a credible emerging need, while the founders’ reported infrastructure backgrounds, open-source work, early design partners, and initial revenue provide enough signal to justify diligence. However, geography is unknown, valuation and round terms do not establish whether 7% ownership is attainable, and the founder history, repository, customer usage, revenue, performance, and security claims remain unverified. Move toward investment only if customer and technical references confirm production-critical usage, the team demonstrates clear commercial ownership, and acceptable terms deliver the ownership target.",
+    "whyThisCouldFail": "Latchline may be an undifferentiated feature rather than a durable company: OpenAI, Anthropic, cloud providers, agent frameworks, or better-funded security vendors could bundle policy enforcement and audit logging into existing platforms, eliminating demand for a separate control layer. The current integrations and YAML policy engine do not demonstrate defensibility, while six weeks of deck-reported traction cannot establish retention, willingness to pay, or repeatable enterprise sales. First-time founders with no disclosed sales lead may struggle through long security reviews, and any enforcement bypass, material latency, or incomplete coverage could make the product unsuitable for consequential production workloads. If the reported customers, open-source adoption, or performance do not withstand verification, there is little remaining evidence of distribution advantage or product-market pull."
+  }
+}

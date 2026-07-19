@@ -1,0 +1,282 @@
+{
+  "id": "opp_f7cea7cf248ada81",
+  "founder_id": "connectifier-team",
+  "company": "Connectifier",
+  "track": "outbound",
+  "createdAt": "2026-07-19T13:00:14.164Z",
+  "status": "screened",
+  "deckText": "[SYNTHESIZED FROM CRUNCHBASE DUMP — NOT A COMPANY-SUPPLIED DECK] Connectifier is a Artificial Intelligence|Career Management|Enterprise Software|Machine Learning|Recruiting|SaaS|Search|Social Search company based in Costa Mesa, USA. Crunchbase records total funding of 11699999 USD across 3 retrieved rounds; the latest retrieved round was 2015-10-27.",
+  "traceSummary": "- teamMember extracted and evaluated the Connectifier team, finding no listed members but noting its AI/recruiting focus and roughly $11.7 million raised across three rounds.\n- competitorDiscovery queried Crunchbase, identified 12 candidates, and merged competitors including LinkedIn Recruiter, Entelo, HiringSolved, TalentBin, and Gild.\n- contradiction cross-checked Connectifier’s funding information and found no contradictions, while communitySignal reviewed five Hacker News community signals.\n- competitorEval evaluated the five competitors’ funding trajectories and assessed threat levels, including medium for TalentBin and low for LinkedIn Recruiter, Entelo, HiringSolved, and Gild.\n- screening scored Connectifier, memo wrote an investment memo, and decision recommended passing because Connectifier did not fit the fund’s mandate.\n- outreach drafted a message to the Connectifier team acknowledging its AI recruiting-search work while citing the fund’s focus on early-stage AI infrastructure and developer tools.",
+  "screening": {
+    "founder_id": "connectifier-team",
+    "company": "Connectifier",
+    "axes": [
+      {
+        "axis": "Founder",
+        "score_0_100": 68,
+        "trend": "stable",
+        "evidence_ids": [
+          "ev_3453743988da22b8",
+          "ev_5cae3d930bc13732",
+          "ev_047b59f57aeb515f"
+        ],
+        "rationale": "The team demonstrated meaningful execution by raising $11.7M across three rounds and reaching a reported LinkedIn acquisition. However, no named-member roles, school performance, individual outputs, prior collaboration, or explicit build-and-sell coverage are supplied. None of the disclosed investors matches the high-signal allowlist. The $1.6M seed was above the thesis check size but plausible for seed, while the later $4.1M and $6M rounds indicate progression beyond the target stage. The last round was more than 18 months ago with no follow-on, which is an explicit negative signal despite the subsequent acquisition explaining the absence of further financing. Relative to competitors, the acquisition outcome and funding exceed several teams, though TalentBin carries a higher revealed investor-quality signal."
+      },
+      {
+        "axis": "Market",
+        "score_0_100": 48,
+        "trend": "stable",
+        "evidence_ids": [
+          "ev_9e10c289f9ffebe0",
+          "ev_4e54276eef8399a0",
+          "ev_1e17f153d6127ec2",
+          "ev_aaafa91a3942d82f"
+        ],
+        "rationale": "AI-assisted recruiting and social search address a real enterprise workflow, but the market was already crowded by LinkedIn Recruiter, Entelo, HiringSolved, TalentBin, and Gild. Competitor funding trajectories show sustained capital and medium competitive threats, especially Gild's $25.9M progression and Entelo's increasing rounds. Recruiting SaaS is outside the thesis sectors of AI infrastructure, developer tools, and fintech, although the US geography fits."
+      },
+      {
+        "axis": "IdeaVsMarket",
+        "score_0_100": 42,
+        "trend": "declining",
+        "evidence_ids": [
+          "ev_5cae3d930bc13732",
+          "ev_047b59f57aeb515f",
+          "ev_13386e4d97a492bb",
+          "ev_fd946018239198cc"
+        ],
+        "rationale": "The reported LinkedIn acquisition corroborates strategic demand for AI-based recruiting search and provides stronger validation than unverified website metrics. Funding is confirmed by Crunchbase rather than a company deck, and no unsupported traction figures are credited. Nevertheless, Connectifier is a historical, reportedly acquired company rather than a current pre-seed or seed opportunity, so there is no standalone investable idea-market position today and the thesis-stage fit is poor."
+      }
+    ],
+    "founderScoreDelta": 10,
+    "founderScoreReason": "Increase from the persistent score because externally corroborated fundraising progression and a reported strategic acquisition demonstrate execution, capped by absent individual founder evidence, no allowlisted investors, and extreme signal staleness.",
+    "coldStart": false,
+    "substitutionRung": "funding_track_record",
+    "thesisFit_0_1": 0.18
+  },
+  "memo": {
+    "company": "Connectifier",
+    "founder_id": "connectifier-team",
+    "sections": [
+      {
+        "title": "Company snapshot",
+        "claims": [
+          {
+            "text": "Connectifier was founded in 2012 and recorded as an operating company based in Costa Mesa, California, USA.",
+            "evidence_ids": [
+              "ev_9e10c289f9ffebe0"
+            ],
+            "confidence_0_1": 0.95,
+            "verification": "external",
+            "contradictions": []
+          },
+          {
+            "text": "The company was categorized across artificial intelligence, machine learning, recruiting, enterprise software, SaaS, search, social search, and career management.",
+            "evidence_ids": [
+              "ev_9e10c289f9ffebe0"
+            ],
+            "confidence_0_1": 0.95,
+            "verification": "external",
+            "contradictions": []
+          },
+          {
+            "text": "Crunchbase records $11,699,999 of total funding across three rounds.",
+            "evidence_ids": [
+              "ev_9e10c289f9ffebe0",
+              "ev_5cae3d930bc13732"
+            ],
+            "confidence_0_1": 0.98,
+            "verification": "external",
+            "contradictions": []
+          }
+        ],
+        "prose": "The available company profile is historical and comes from external database and community records rather than current company-supplied materials."
+      },
+      {
+        "title": "Investment hypotheses",
+        "claims": [
+          {
+            "text": "Reports that LinkedIn acquired Connectifier in February 2016 provide evidence of strategic interest in its recruiting-search technology.",
+            "evidence_ids": [
+              "ev_047b59f57aeb515f",
+              "ev_13386e4d97a492bb",
+              "ev_175ae0ab46c5f463"
+            ],
+            "confidence_0_1": 0.9,
+            "verification": "external",
+            "contradictions": []
+          },
+          {
+            "text": "Progression from a $1.6 million seed round to two venture rounds demonstrates an ability to attract follow-on financing.",
+            "evidence_ids": [
+              "ev_5cae3d930bc13732"
+            ],
+            "confidence_0_1": 0.94,
+            "verification": "external",
+            "contradictions": []
+          },
+          {
+            "text": "The reported acquisition makes Connectifier a poor fit for evaluation as a new standalone seed-stage investment unless a current independent opportunity can be established.",
+            "evidence_ids": [
+              "ev_047b59f57aeb515f",
+              "ev_13386e4d97a492bb",
+              "ev_1cbd9dd34348d8ae"
+            ],
+            "confidence_0_1": 0.85,
+            "verification": "external",
+            "contradictions": []
+          }
+        ],
+        "prose": "The positive hypothesis is execution and strategic validation; the decisive diligence issue is whether any presently investable standalone entity or transaction exists."
+      },
+      {
+        "title": "SWOT",
+        "claims": [
+          {
+            "text": "Strength: Connectifier raised capital from recurring investors, including Okapi Venture Capital and True Ventures across all three recorded rounds.",
+            "evidence_ids": [
+              "ev_5cae3d930bc13732"
+            ],
+            "confidence_0_1": 0.97,
+            "verification": "external",
+            "contradictions": []
+          },
+          {
+            "text": "Weakness: No individual team-member roles, education, prior outputs, or demonstrated achievements were identified in the supplied review.",
+            "evidence_ids": [
+              "ev_3453743988da22b8"
+            ],
+            "confidence_0_1": 0.91,
+            "verification": "external",
+            "contradictions": []
+          },
+          {
+            "text": "Opportunity: LinkedIn acquisition reports indicate that recruiting search had strategic value to a major professional-network platform.",
+            "evidence_ids": [
+              "ev_047b59f57aeb515f",
+              "ev_13386e4d97a492bb"
+            ],
+            "confidence_0_1": 0.86,
+            "verification": "external",
+            "contradictions": []
+          },
+          {
+            "text": "Threat: Connectifier faced alternatives including LinkedIn Recruiter, Entelo, HiringSolved, TalentBin, and Gild; Entelo, TalentBin, and Gild were assessed as medium competitive threats.",
+            "evidence_ids": [
+              "ev_4e54276eef8399a0",
+              "ev_1e17f153d6127ec2",
+              "ev_3c1fd204bd775c38",
+              "ev_aaafa91a3942d82f"
+            ],
+            "confidence_0_1": 0.82,
+            "verification": "external",
+            "contradictions": []
+          }
+        ],
+        "prose": "The historical strengths are fundraising progression and strategic interest, while current investability, team attribution, and competition remain material concerns."
+      },
+      {
+        "title": "Problem & product",
+        "claims": [
+          {
+            "text": "Connectifier was positioned as an AI-based approach to recruitment search.",
+            "evidence_ids": [
+              "ev_7a741f1168e01845"
+            ],
+            "confidence_0_1": 0.88,
+            "verification": "external",
+            "contradictions": []
+          },
+          {
+            "text": "Its recorded categories place the product in recruiting, search, social search, machine learning, SaaS, and enterprise software.",
+            "evidence_ids": [
+              "ev_9e10c289f9ffebe0"
+            ],
+            "confidence_0_1": 0.96,
+            "verification": "external",
+            "contradictions": []
+          },
+          {
+            "text": "The competitive set indicates a product aimed at helping recruiters discover and source candidates using aggregated professional and online data.",
+            "evidence_ids": [
+              "ev_4e54276eef8399a0"
+            ],
+            "confidence_0_1": 0.78,
+            "verification": "external",
+            "contradictions": []
+          }
+        ],
+        "prose": "The evidence supports a broad product category and strategic use case but does not disclose product architecture, differentiation, pricing, or customer workflow details."
+      },
+      {
+        "title": "Traction & KPIs",
+        "claims": [
+          {
+            "text": "Connectifier raised $1.6 million in seed funding on August 20, 2012, $4,099,999 in venture funding on June 16, 2015, and $6 million in venture funding on October 27, 2015.",
+            "evidence_ids": [
+              "ev_5cae3d930bc13732"
+            ],
+            "confidence_0_1": 0.99,
+            "verification": "external",
+            "contradictions": []
+          },
+          {
+            "text": "The latest retrieved financing round was the $6 million venture round announced on October 27, 2015.",
+            "evidence_ids": [
+              "ev_5cae3d930bc13732"
+            ],
+            "confidence_0_1": 0.99,
+            "verification": "external",
+            "contradictions": []
+          },
+          {
+            "text": "Multiple community-linked reports published in February 2016 said LinkedIn acquired Connectifier.",
+            "evidence_ids": [
+              "ev_047b59f57aeb515f",
+              "ev_13386e4d97a492bb",
+              "ev_175ae0ab46c5f463",
+              "ev_1cbd9dd34348d8ae"
+            ],
+            "confidence_0_1": 0.93,
+            "verification": "external",
+            "contradictions": []
+          }
+        ],
+        "prose": "Financing and acquisition reports are the only meaningful traction signals supplied; operating KPIs are absent."
+      }
+    ],
+    "redFlags": [
+      "The opportunity appears historical: multiple February 2016 reports state that LinkedIn acquired Connectifier (ev_047b59f57aeb515f, ev_13386e4d97a492bb).",
+      "No individual founder or team-member roles, education, prior outputs, or demonstrated achievements were supplied (ev_3453743988da22b8).",
+      "The supplied company narrative is explicitly synthesized from a Crunchbase dump rather than a company-supplied deck (ev_fd946018239198cc).",
+      "The latest retrieved funding event dates to October 27, 2015, making the available financing evidence materially stale for a current investment decision (ev_5cae3d930bc13732).",
+      "No revenue, customer, retention, usage, margin, or growth KPIs were disclosed."
+    ],
+    "gaps": [
+      "Cap table: not disclosed",
+      "Current ownership and legal status: not disclosed",
+      "Current fundraising round: not disclosed",
+      "Investment terms and valuation: not disclosed",
+      "Named founders and executive roles: not disclosed",
+      "Founder education and employment history: not disclosed",
+      "Team size: not disclosed",
+      "Revenue and ARR: not disclosed",
+      "Customer count and customer identities: not disclosed",
+      "Growth rate: not disclosed",
+      "Retention and churn: not disclosed",
+      "Gross margin: not disclosed",
+      "Product usage metrics: not disclosed",
+      "Pricing and business model: not disclosed",
+      "Product architecture and proprietary technology: not disclosed",
+      "Acquisition consideration and transaction terms: not disclosed"
+    ],
+    "trustScore_0_1": 1
+  },
+  "decision": {
+    "founder_id": "connectifier-team",
+    "company": "Connectifier",
+    "recommendation": "pass",
+    "thesisRationale": "Connectifier does not fit the fund's current mandate. Although it operated in the US and used AI within enterprise recruiting, it was an application-layer recruiting SaaS company rather than AI infrastructure, developer tools, or fintech. More decisively, reports indicate LinkedIn acquired it in 2016, so no current standalone pre-seed or seed investment appears available. The team's fundraising progression and strategic exit demonstrate execution, but the evidence is historical, the later rounds exceeded the target stage, and there is no current round, valuation, cap table, or path to the fund's 7% ownership target.",
+    "whyThisCouldFail": "Even if a new or revived transaction exists, the opportunity could fail because recruiting search is crowded and structurally exposed to dominant platforms such as LinkedIn, which control proprietary professional data and customer distribution. The materials provide no current product differentiation, defensible architecture, revenue, growth, retention, customer, or margin data, and they do not identify the founders or establish who owns the relevant technology after the acquisition. Stale financing records and an unclear legal and ownership status create a substantial risk that there is no investable entity, no transferable moat, and no credible basis for underwriting a $500,000 check."
+  },
+  "outreachDraft": "Hi Connectifier team,\n\nI came across Connectifier’s work applying AI to recruiting search and was impressed by the execution reflected in the company’s history. Our current focus is early-stage AI infrastructure, developer tools, and fintech, so we may not be the right fit for Connectifier’s original recruiting-SaaS model.\n\nThat said, if there is a new standalone initiative or technology spinout with a current seed-stage financing need—particularly around developer-facing AI infrastructure—we’d be glad to learn more.\n\nBest,\n[Name]"
+}

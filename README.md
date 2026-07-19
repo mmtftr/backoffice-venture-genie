@@ -16,7 +16,7 @@ Built for the [Hack-Nation](https://hack-nation.ai) 6th Global AI Hackathon · C
 - 📊 **Multi-axis screening** — Founder / Market / Idea-vs-Market scored independently with trends. **Never averaged.**
 - 🔎 **Natural-language queries** — "technical founder, Berlin, AI infra, no prior VC backing" → LLM-compiled, Zod-validated filter spec over the evidence store, with matched-evidence chips.
 - 📡 **Live community signals** — a Hacker News (Algolia) connector streams real signals into Memory as traced, source-tagged evidence.
-- 📝 **Evidence-backed memos with Trust Scores** — every claim carries evidence IDs, confidence, and verification status. Missing data is flagged ("Cap table: not disclosed"), never invented. Contradictions become red flags *before* the recommendation.
+- 📝 **Evidence-backed memos with Trust Scores** — every claim carries evidence IDs, confidence, and verification status. Missing data is flagged ("Cap table: not disclosed"), never invented. Contradictions become red flags *before* the recommendation. Every citation is clickable — trust chips, axis evidence counts, trace events, and even `ev_…` ids inside red flags open a markdown-rendered evidence viewer (source, timestamp, tags).
 - 🪜 **Signal Substitution Ladder** — the cold-start answer: no funding history → public code cadence → public writing → community footprint → application quality. Output states which rung was used.
 - 📥📤 **Inbound + outbound → one funnel** — founders apply with a deck; the system also sources proactively against the thesis, activates the strongest matches, and drafts (never sends) outreach — both tracks feed the same screening step.
 
@@ -35,7 +35,8 @@ npm run dev                  # → http://localhost:3000
 |---|---|
 | `OPENAI_API_KEY` | LLM calls (all traced through one wrapper) — required |
 | `MODEL_MAIN` / `MODEL_AGENT` / `MODEL_CHEAP` | optional three-tier routing overrides (defaults in `config/models.ts`) |
-| `CB_MODE` | `dump` (bundled 2015 Crunchbase data, default) or `live` |
+| `CB_MODE` | `dump` (bundled 2015 Crunchbase data, default) or `live` (bring-your-own Crunchbase session) |
+| `CB_COOKIE_FILE` | live mode only — path to a Crunchbase session cookie file (any live-call failure falls back to the dump per call) |
 | `DATA_DIR` | optional data-dir override (used for serverless deploys) |
 
 Model names/temperatures live in `config/models.ts` — single source of truth.
@@ -44,6 +45,7 @@ Model names/temperatures live in `config/models.ts` — single source of truth.
 
 ```
 Experience   pipeline table · founder detail (memo + trust badges + trace) · thesis config · inbound/outbound
+             first-visit onboarding tour (reopen via "How it works") · ⓘ info tips on every mechanism · shared evidence dialog (markdown-rendered)
 Intelligence Thesis Engine → agent swarm (fan-out/fan-in, capped, traced) → 3-axis screening → memo + trust scores → decision
 Memory       append-only JSON evidence store · Founder Score history · trace log · Crunchbase (live | 2015 dump)
 ```

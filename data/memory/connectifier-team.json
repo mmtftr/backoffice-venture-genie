@@ -1,0 +1,225 @@
+{
+  "founder_id": "connectifier-team",
+  "name": "Connectifier team",
+  "company": "Connectifier",
+  "evidence": [
+    {
+      "source": "crunchbase",
+      "content": "Company record: {\"name\":\"Connectifier\",\"permalink\":\"/organization/connectifier\",\"category\":\"Artificial Intelligence|Career Management|Enterprise Software|Machine Learning|Recruiting|SaaS|Search|Social Search\",\"country\":\"USA\",\"city\":\"Costa Mesa\",\"funding_total_usd\":11699999,\"status\":\"operating\",\"founded_at\":\"2012-06-01\"}",
+      "tags": [
+        "crunchbase",
+        "external"
+      ],
+      "id": "ev_9e10c289f9ffebe0",
+      "founder_id": "connectifier-team",
+      "ts": "2026-07-19T13:00:14.164Z",
+      "hash": "08ca16b350c9f22f"
+    },
+    {
+      "source": "crunchbase",
+      "content": "Funding rounds: [{\"company\":\"Connectifier\",\"round_type\":\"seed\",\"raised_usd\":1600000,\"announced_on\":\"2012-08-20\",\"investors\":[\"Bridges Ventures\",\"Launchpad LA\",\"Okapi Venture Capital\",\"True Ventures\"]},{\"company\":\"Connectifier\",\"round_type\":\"venture\",\"raised_usd\":4099999,\"announced_on\":\"2015-06-16\",\"investors\":[\"Galeo-Ventures\",\"K5 Ventures\",\"Okapi Venture Capital\",\"True Ventures\",\"Andrew Chen\",\"James Hong\",\"Jonathan Downey\",\"Sean Ellis\"]},{\"company\":\"Connectifier\",\"round_type\":\"venture\",\"raised_usd\":6000000,\"announced_on\":\"2015-10-27\",\"investors\":[\"Goldcrest Investments\",\"Okapi Venture Capital\",\"True Ventures\"]}]",
+      "tags": [
+        "crunchbase",
+        "funding",
+        "external"
+      ],
+      "id": "ev_5cae3d930bc13732",
+      "founder_id": "connectifier-team",
+      "ts": "2026-07-19T13:00:14.164Z",
+      "hash": "390dcdba13716bfd"
+    },
+    {
+      "source": "deck",
+      "content": "[SYNTHESIZED FROM CRUNCHBASE DUMP — NOT A COMPANY-SUPPLIED DECK] Connectifier is a Artificial Intelligence|Career Management|Enterprise Software|Machine Learning|Recruiting|SaaS|Search|Social Search company based in Costa Mesa, USA. Crunchbase records total funding of 11699999 USD across 3 retrieved rounds; the latest retrieved round was 2015-10-27.",
+      "tags": [
+        "deck",
+        "outbound"
+      ],
+      "id": "ev_fd946018239198cc",
+      "founder_id": "connectifier-team",
+      "ts": "2026-07-19T13:00:14.165Z",
+      "hash": "d42ac50de861cff4"
+    },
+    {
+      "source": "hn",
+      "content": "HN: LinkedIn acquires recruiting startup Connectifier (4 points, 0 comments, 2016-02-04T22:17:11Z) http://venturebeat.com/2016/02/04/linkedin-acquires-recruiting-startup-connectifier/",
+      "tags": [
+        "community",
+        "live"
+      ],
+      "id": "ev_047b59f57aeb515f",
+      "founder_id": "connectifier-team",
+      "ts": "2026-07-19T13:00:16.067Z",
+      "hash": "a8120cf931d608bd"
+    },
+    {
+      "source": "hn",
+      "content": "HN: LinkedIn just bought the recruiting startup Connectifier (3 points, 0 comments, 2016-02-04T22:53:17Z) http://www.businessinsider.com/linkedin-buys-recruiting-startup-connectifier-2016-2",
+      "tags": [
+        "community",
+        "live"
+      ],
+      "id": "ev_13386e4d97a492bb",
+      "founder_id": "connectifier-team",
+      "ts": "2026-07-19T13:00:16.067Z",
+      "hash": "9c0f4efe3a0d4103"
+    },
+    {
+      "source": "hn",
+      "content": "HN: LinkedIn acquires recruiting startup Connectifier (2 points, 0 comments, 2016-02-05T21:53:26Z) http://venturebeat.com/2016/02/04/linkedin-acquires-recruiting-startup-connectifier/",
+      "tags": [
+        "community",
+        "live"
+      ],
+      "id": "ev_175ae0ab46c5f463",
+      "founder_id": "connectifier-team",
+      "ts": "2026-07-19T13:00:16.067Z",
+      "hash": "12da8c41e17e258a"
+    },
+    {
+      "source": "hn",
+      "content": "HN: LinkedIn Acquires Connectifier – SoCal Startup (2 points, 0 comments, 2016-02-04T21:57:01Z) https://blog.connectifier.com/connectifier-to-join-linkedin/",
+      "tags": [
+        "community",
+        "live"
+      ],
+      "id": "ev_1cbd9dd34348d8ae",
+      "founder_id": "connectifier-team",
+      "ts": "2026-07-19T13:00:16.067Z",
+      "hash": "d64d2d4e5eb6fac4"
+    },
+    {
+      "source": "hn",
+      "content": "HN: Ex-Googlers Raise $6M for Connectifier, an AI Approach to Recruitment Search (1 points, 1 comments, 2015-06-17T19:19:58Z) http://techcrunch.com/2015/06/16/ex-googlers-raise-6m-for-connectifier-an-ai-approach-to-recruitment-search/",
+      "tags": [
+        "community",
+        "live"
+      ],
+      "id": "ev_7a741f1168e01845",
+      "founder_id": "connectifier-team",
+      "ts": "2026-07-19T13:00:16.067Z",
+      "hash": "50f2a155cb4452e6"
+    },
+    {
+      "source": "agent:communitySignal",
+      "content": "Community evidence available: hn: HN: LinkedIn acquires recruiting startup Connectifier (4 points, 0 comments, 2016-02-04T22:17:11Z) http://venturebeat.com/2016/02/04/linkedin-acquires-recruiting-startup-connectifier/; hn: HN: LinkedIn just bought the recruiting startup Connectifier (3 points, 0 comments, 2016-02-04T22:53:17Z) http://www.businessinsider.com/linkedin-buys-recruiting-startup-connectifier-2016-2; hn: HN: LinkedIn acquires recruiting startup Connectifier (2 points, 0 comments, 2016-02-05T21:53:26Z) http://venturebeat.com/2016/02/04/linkedin-acquires-recruiting-startup-connectifier/; hn: HN: LinkedIn Acquires Connectifier – SoCal Startup (2 points, 0 comments, 2016-02-04T21:57:01Z) https://blog.connectifier.com/connectifier-to-join-linkedin/; hn: HN: Ex-Googlers Raise $6M for Connectifier, an AI Approach to Recruitment Search (1 points, 1 comments, 2015-06-17T19:19:58Z) http://techcrunch.com/2015/06/16/ex-googlers-raise-6m-for-connectifier-an-ai-approach-to-recruitment-search/",
+      "tags": [
+        "community",
+        "agent"
+      ],
+      "id": "ev_fffa81876c7eb8d7",
+      "founder_id": "connectifier-team",
+      "ts": "2026-07-19T13:00:16.069Z",
+      "hash": "a9f0d705f1086302"
+    },
+    {
+      "source": "agent:contradiction",
+      "content": "No direct contradictions were established from available evidence.",
+      "tags": [
+        "contradiction",
+        "agent"
+      ],
+      "id": "ev_649b57c83f527e43",
+      "founder_id": "connectifier-team",
+      "ts": "2026-07-19T13:00:16.863Z",
+      "hash": "a717cccd98e6748d"
+    },
+    {
+      "source": "agent:teamMember",
+      "content": "Connectifier team: strengths=Associated with a company operating in AI, machine learning, recruiting, and enterprise software.; Company records indicate approximately $11.7 million raised across three funding rounds.; concerns=No individual team-member backgrounds, roles, education, or demonstrated achievements are supplied.; The company information is synthesized from Crunchbase and explicitly not company-supplied.; Investor and named-person connections are hints of association, not evidence of individual excellence.; school tier=unknown; prior outputs=none found.",
+      "tags": [
+        "team",
+        "agent"
+      ],
+      "id": "ev_3453743988da22b8",
+      "founder_id": "connectifier-team",
+      "ts": "2026-07-19T13:00:17.509Z",
+      "hash": "9db838cd66f7b5ae"
+    },
+    {
+      "source": "agent:competitorDiscovery",
+      "content": "Competitors: LinkedIn Recruiter (Professional-network search and recruiting platform competing directly with Connectifier’s social search and talent discovery capabilities.); Entelo (Recruiting software that uses data aggregation and machine learning to help employers discover and source candidates.); HiringSolved (Candidate-sourcing platform focused on aggregating and searching recruiting data across online sources.); TalentBin (Social recruiting platform that helps recruiters identify and engage passive candidates from online networks.); Gild (Talent intelligence and recruiting platform using data-driven candidate search and assessment for technical hiring.)",
+      "tags": [
+        "competition",
+        "agent"
+      ],
+      "id": "ev_4e54276eef8399a0",
+      "founder_id": "connectifier-team",
+      "ts": "2026-07-19T13:00:19.135Z",
+      "hash": "26649d7e28a5be8b"
+    },
+    {
+      "source": "agent:competitorEval",
+      "content": "HiringSolved: investor signal=unknown; trajectory=Single disclosed $1M venture round on 2013-11-21; no subsequent rounds or funding progression provided.; threat=low.",
+      "tags": [
+        "competition",
+        "funding",
+        "agent"
+      ],
+      "id": "ev_d9ffa959438ab5dc",
+      "founder_id": "connectifier-team",
+      "ts": "2026-07-19T13:00:20.900Z",
+      "hash": "739fa2077cde5a05"
+    },
+    {
+      "source": "agent:competitorEval",
+      "content": "LinkedIn Recruiter: investor signal=unknown; trajectory=No funding rounds, dates, sizes, or investor information provided.; threat=low.",
+      "tags": [
+        "competition",
+        "funding",
+        "agent"
+      ],
+      "id": "ev_d1a7a9fa9422c346",
+      "founder_id": "connectifier-team",
+      "ts": "2026-07-19T13:00:21.213Z",
+      "hash": "315e51e90865bba0"
+    },
+    {
+      "source": "agent:competitorEval",
+      "content": "Entelo: investor signal=low; trajectory=Raised $248K in July 2012, followed by an undisclosed round in October 2012, $3.5M in June 2013, and $4.93M in September 2014; $8.68M in disclosed funding overall, with increasing round sizes.; threat=medium.",
+      "tags": [
+        "competition",
+        "funding",
+        "agent"
+      ],
+      "id": "ev_1e17f153d6127ec2",
+      "founder_id": "connectifier-team",
+      "ts": "2026-07-19T13:00:21.538Z",
+      "hash": "5f8b18d5220e873e"
+    },
+    {
+      "source": "agent:competitorEval",
+      "content": "TalentBin: investor signal=high; trajectory=Raised $1.2M seed and $2M venture on the same date, totaling $3.2M, with no later rounds shown.; threat=medium.",
+      "tags": [
+        "competition",
+        "funding",
+        "agent"
+      ],
+      "id": "ev_3c1fd204bd775c38",
+      "founder_id": "connectifier-team",
+      "ts": "2026-07-19T13:00:22.564Z",
+      "hash": "fad0a09635e7bf5e"
+    },
+    {
+      "source": "agent:competitorEval",
+      "content": "Gild: investor signal=low; trajectory=Raised $25.9M across four rounds from August 2011 to June 2014, progressing from two seed rounds ($2.4M and $2M) to $8M and $13.5M venture rounds; the increasing round sizes indicate strong funding momentum.; threat=medium.",
+      "tags": [
+        "competition",
+        "funding",
+        "agent"
+      ],
+      "id": "ev_aaafa91a3942d82f",
+      "founder_id": "connectifier-team",
+      "ts": "2026-07-19T13:00:23.156Z",
+      "hash": "1fc8d68c498a1835"
+    }
+  ],
+  "founderScoreHistory": [
+    {
+      "ts": "2026-07-19T13:00:42.993Z",
+      "score_0_100": 60,
+      "delta": 10,
+      "reason": "Increase from the persistent score because externally corroborated fundraising progression and a reported strategic acquisition demonstrate execution, capped by absent individual founder evidence, no allowlisted investors, and extreme signal staleness."
+    }
+  ]
+}

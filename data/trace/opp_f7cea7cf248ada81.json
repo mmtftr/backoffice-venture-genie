@@ -1,0 +1,351 @@
+[
+  {
+    "agent": "teamMember",
+    "action": "extract_team",
+    "target": "Connectifier",
+    "evidence_ids": [],
+    "id": "tr_fefb5ca64a73d2f3",
+    "opportunity_id": "opp_f7cea7cf248ada81",
+    "ts": "2026-07-19T13:00:14.165Z"
+  },
+  {
+    "agent": "teamMember",
+    "action": "extract_team:done",
+    "target": "Connectifier",
+    "detail": "{\"members\":[]}",
+    "evidence_ids": [],
+    "id": "tr_b5decd99b52c0186",
+    "opportunity_id": "opp_f7cea7cf248ada81",
+    "ts": "2026-07-19T13:00:15.581Z"
+  },
+  {
+    "agent": "teamMember",
+    "action": "evaluate",
+    "target": "Connectifier team",
+    "evidence_ids": [],
+    "id": "tr_a9c9df5f999b3222",
+    "opportunity_id": "opp_f7cea7cf248ada81",
+    "ts": "2026-07-19T13:00:15.588Z"
+  },
+  {
+    "agent": "competitorDiscovery",
+    "action": "queried crunchbase",
+    "target": "Artificial Intelligence|Career Management|Enterprise Software|Machine Learning|Recruiting|SaaS|Search|Social Search",
+    "detail": "12 candidates",
+    "evidence_ids": [],
+    "id": "tr_ea9ffaafadf32171",
+    "opportunity_id": "opp_f7cea7cf248ada81",
+    "ts": "2026-07-19T13:00:15.589Z"
+  },
+  {
+    "agent": "contradiction",
+    "action": "queried crunchbase",
+    "target": "Connectifier",
+    "detail": "3 rounds found",
+    "evidence_ids": [],
+    "id": "tr_7bd8e5091ffbd1df",
+    "opportunity_id": "opp_f7cea7cf248ada81",
+    "ts": "2026-07-19T13:00:15.589Z"
+  },
+  {
+    "agent": "competitorDiscovery",
+    "action": "merge_candidates",
+    "target": "Connectifier",
+    "evidence_ids": [],
+    "id": "tr_243c4c198de2a7c7",
+    "opportunity_id": "opp_f7cea7cf248ada81",
+    "ts": "2026-07-19T13:00:15.590Z"
+  },
+  {
+    "agent": "contradiction",
+    "action": "cross_check",
+    "target": "Connectifier",
+    "evidence_ids": [],
+    "id": "tr_ace724e0dcf00c4f",
+    "opportunity_id": "opp_f7cea7cf248ada81",
+    "ts": "2026-07-19T13:00:15.591Z"
+  },
+  {
+    "agent": "communitySignal",
+    "action": "query:hn-live",
+    "target": "Connectifier",
+    "detail": "5 hits",
+    "evidence_ids": [
+      "ev_047b59f57aeb515f",
+      "ev_13386e4d97a492bb",
+      "ev_175ae0ab46c5f463",
+      "ev_1cbd9dd34348d8ae",
+      "ev_7a741f1168e01845"
+    ],
+    "id": "tr_3ea64edefe5fd2d0",
+    "opportunity_id": "opp_f7cea7cf248ada81",
+    "ts": "2026-07-19T13:00:16.068Z"
+  },
+  {
+    "agent": "communitySignal",
+    "action": "reviewed existing evidence",
+    "target": "Connectifier",
+    "detail": "5 community signals",
+    "evidence_ids": [
+      "ev_047b59f57aeb515f",
+      "ev_13386e4d97a492bb",
+      "ev_175ae0ab46c5f463",
+      "ev_1cbd9dd34348d8ae",
+      "ev_7a741f1168e01845"
+    ],
+    "id": "tr_cd3a67c8615dc016",
+    "opportunity_id": "opp_f7cea7cf248ada81",
+    "ts": "2026-07-19T13:00:16.070Z"
+  },
+  {
+    "agent": "contradiction",
+    "action": "cross_check:done",
+    "target": "Connectifier",
+    "detail": "{\"contradictions\":[]}",
+    "evidence_ids": [],
+    "id": "tr_17d7e5d0577fb6d6",
+    "opportunity_id": "opp_f7cea7cf248ada81",
+    "ts": "2026-07-19T13:00:16.861Z"
+  },
+  {
+    "agent": "teamMember",
+    "action": "evaluate:done",
+    "target": "Connectifier team",
+    "detail": "{\"member\":\"Connectifier team\",\"strengths\":[\"Associated with a company operating in AI, machine learning, recruiting, and enterprise software.\",\"Company records indicate approximately $11.7 million raised across three funding rounds.\"],\"conc",
+    "evidence_ids": [],
+    "id": "tr_b10da9d4061b6af9",
+    "opportunity_id": "opp_f7cea7cf248ada81",
+    "ts": "2026-07-19T13:00:17.508Z"
+  },
+  {
+    "agent": "competitorDiscovery",
+    "action": "merge_candidates:done",
+    "target": "Connectifier",
+    "detail": "{\"competitors\":[{\"name\":\"LinkedIn Recruiter\",\"why\":\"Professional-network search and recruiting platform competing directly with Connectifier’s social search and talent discovery capabilities.\",\"source\":\"llm\"},{\"name\":\"Entelo\",\"why\":\"Recruit",
+    "evidence_ids": [],
+    "id": "tr_6e485d37d84c81ed",
+    "opportunity_id": "opp_f7cea7cf248ada81",
+    "ts": "2026-07-19T13:00:19.134Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "queried crunchbase",
+    "target": "LinkedIn Recruiter",
+    "detail": "0 funding rounds",
+    "evidence_ids": [],
+    "id": "tr_811b6f36cf423a89",
+    "opportunity_id": "opp_f7cea7cf248ada81",
+    "ts": "2026-07-19T13:00:19.145Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "queried crunchbase",
+    "target": "Entelo",
+    "detail": "4 funding rounds",
+    "evidence_ids": [],
+    "id": "tr_b9f84b524c39a61e",
+    "opportunity_id": "opp_f7cea7cf248ada81",
+    "ts": "2026-07-19T13:00:19.145Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "queried crunchbase",
+    "target": "HiringSolved",
+    "detail": "1 funding rounds",
+    "evidence_ids": [],
+    "id": "tr_30ca1de5c11748e0",
+    "opportunity_id": "opp_f7cea7cf248ada81",
+    "ts": "2026-07-19T13:00:19.146Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "queried crunchbase",
+    "target": "TalentBin",
+    "detail": "2 funding rounds",
+    "evidence_ids": [],
+    "id": "tr_1bd41d5bcb012af9",
+    "opportunity_id": "opp_f7cea7cf248ada81",
+    "ts": "2026-07-19T13:00:19.147Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "queried crunchbase",
+    "target": "Gild",
+    "detail": "4 funding rounds",
+    "evidence_ids": [],
+    "id": "tr_926175e159963a20",
+    "opportunity_id": "opp_f7cea7cf248ada81",
+    "ts": "2026-07-19T13:00:19.147Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate",
+    "target": "LinkedIn Recruiter",
+    "evidence_ids": [],
+    "id": "tr_6fb976b884ca183c",
+    "opportunity_id": "opp_f7cea7cf248ada81",
+    "ts": "2026-07-19T13:00:19.148Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate",
+    "target": "Entelo",
+    "evidence_ids": [],
+    "id": "tr_186ca36a090c1127",
+    "opportunity_id": "opp_f7cea7cf248ada81",
+    "ts": "2026-07-19T13:00:19.149Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate",
+    "target": "HiringSolved",
+    "evidence_ids": [],
+    "id": "tr_ce9d6e7ee9bb8775",
+    "opportunity_id": "opp_f7cea7cf248ada81",
+    "ts": "2026-07-19T13:00:19.151Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate",
+    "target": "TalentBin",
+    "evidence_ids": [],
+    "id": "tr_9b443403eea7df4f",
+    "opportunity_id": "opp_f7cea7cf248ada81",
+    "ts": "2026-07-19T13:00:19.153Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate",
+    "target": "Gild",
+    "evidence_ids": [],
+    "id": "tr_68d077e769386c38",
+    "opportunity_id": "opp_f7cea7cf248ada81",
+    "ts": "2026-07-19T13:00:19.154Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate:done",
+    "target": "HiringSolved",
+    "detail": "{\"competitor\":\"HiringSolved\",\"investorSignal\":\"unknown\",\"trajectory\":\"Single disclosed $1M venture round on 2013-11-21; no subsequent rounds or funding progression provided.\",\"threat\":\"low\"}",
+    "evidence_ids": [],
+    "id": "tr_a3be399a71e24777",
+    "opportunity_id": "opp_f7cea7cf248ada81",
+    "ts": "2026-07-19T13:00:20.899Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate:done",
+    "target": "LinkedIn Recruiter",
+    "detail": "{\"competitor\":\"LinkedIn Recruiter\",\"investorSignal\":\"unknown\",\"trajectory\":\"No funding rounds, dates, sizes, or investor information provided.\",\"threat\":\"low\"}",
+    "evidence_ids": [],
+    "id": "tr_3760db8987ea4623",
+    "opportunity_id": "opp_f7cea7cf248ada81",
+    "ts": "2026-07-19T13:00:21.211Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate:done",
+    "target": "Entelo",
+    "detail": "{\"competitor\":\"Entelo\",\"investorSignal\":\"low\",\"trajectory\":\"Raised $248K in July 2012, followed by an undisclosed round in October 2012, $3.5M in June 2013, and $4.93M in September 2014; $8.68M in disclosed funding overall, with increasing ",
+    "evidence_ids": [],
+    "id": "tr_79d72336871966c8",
+    "opportunity_id": "opp_f7cea7cf248ada81",
+    "ts": "2026-07-19T13:00:21.536Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate:done",
+    "target": "TalentBin",
+    "detail": "{\"competitor\":\"TalentBin\",\"investorSignal\":\"high\",\"trajectory\":\"Raised $1.2M seed and $2M venture on the same date, totaling $3.2M, with no later rounds shown.\",\"threat\":\"medium\"}",
+    "evidence_ids": [],
+    "id": "tr_fb7a0741594188b2",
+    "opportunity_id": "opp_f7cea7cf248ada81",
+    "ts": "2026-07-19T13:00:22.562Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate:done",
+    "target": "Gild",
+    "detail": "{\"competitor\":\"Gild\",\"investorSignal\":\"low\",\"trajectory\":\"Raised $25.9M across four rounds from August 2011 to June 2014, progressing from two seed rounds ($2.4M and $2M) to $8M and $13.5M venture rounds; the increasing round sizes indicate",
+    "evidence_ids": [],
+    "id": "tr_f6017f6ae2e04e8c",
+    "opportunity_id": "opp_f7cea7cf248ada81",
+    "ts": "2026-07-19T13:00:23.154Z"
+  },
+  {
+    "agent": "screening",
+    "action": "score",
+    "target": "Connectifier",
+    "evidence_ids": [],
+    "id": "tr_93bb0cfca65f4d87",
+    "opportunity_id": "opp_f7cea7cf248ada81",
+    "ts": "2026-07-19T13:00:25.417Z"
+  },
+  {
+    "agent": "screening",
+    "action": "score:done",
+    "target": "Connectifier",
+    "detail": "{\"founder_id\":\"connectifier-team\",\"company\":\"Connectifier\",\"axes\":[{\"axis\":\"Founder\",\"score_0_100\":68,\"trend\":\"stable\",\"evidence_ids\":[\"ev_3453743988da22b8\",\"ev_5cae3d930bc13732\",\"ev_047b59f57aeb515f\"],\"rationale\":\"The team demonstrated mea",
+    "evidence_ids": [],
+    "id": "tr_2fe5d46fd66ca4e9",
+    "opportunity_id": "opp_f7cea7cf248ada81",
+    "ts": "2026-07-19T13:00:42.992Z"
+  },
+  {
+    "agent": "memo",
+    "action": "write",
+    "target": "Connectifier",
+    "evidence_ids": [],
+    "id": "tr_dea988a7b46db37b",
+    "opportunity_id": "opp_f7cea7cf248ada81",
+    "ts": "2026-07-19T13:00:42.994Z"
+  },
+  {
+    "agent": "memo",
+    "action": "write:done",
+    "target": "Connectifier",
+    "detail": "{\"company\":\"Connectifier\",\"founder_id\":\"connectifier-team\",\"sections\":[{\"title\":\"Company snapshot\",\"claims\":[{\"text\":\"Connectifier was founded in 2012 and recorded as an operating company based in Costa Mesa, California, USA.\",\"evidence_ids",
+    "evidence_ids": [],
+    "id": "tr_5f97161fa0113800",
+    "opportunity_id": "opp_f7cea7cf248ada81",
+    "ts": "2026-07-19T13:01:14.376Z"
+  },
+  {
+    "agent": "decision",
+    "action": "recommend",
+    "target": "Connectifier",
+    "evidence_ids": [],
+    "id": "tr_bfd294256745b472",
+    "opportunity_id": "opp_f7cea7cf248ada81",
+    "ts": "2026-07-19T13:01:14.381Z"
+  },
+  {
+    "agent": "decision",
+    "action": "recommend:done",
+    "target": "Connectifier",
+    "detail": "{\"founder_id\":\"connectifier-team\",\"company\":\"Connectifier\",\"recommendation\":\"pass\",\"thesisRationale\":\"Connectifier does not fit the fund's current mandate. Although it operated in the US and used AI within enterprise recruiting, it was an a",
+    "evidence_ids": [],
+    "id": "tr_373bbd2cb51ab055",
+    "opportunity_id": "opp_f7cea7cf248ada81",
+    "ts": "2026-07-19T13:01:22.032Z"
+  },
+  {
+    "agent": "outreach",
+    "action": "draft",
+    "target": "Connectifier",
+    "evidence_ids": [],
+    "id": "tr_b080dd05c8ea9d8c",
+    "opportunity_id": "opp_f7cea7cf248ada81",
+    "ts": "2026-07-19T13:01:24.635Z"
+  },
+  {
+    "agent": "outreach",
+    "action": "draft:done",
+    "target": "Connectifier",
+    "detail": "{\"draft\":\"Hi Connectifier team,\\n\\nI came across Connectifier’s work applying AI to recruiting search and was impressed by the execution reflected in the company’s history. Our current focus is early-stage AI infrastructure, developer tools",
+    "evidence_ids": [],
+    "id": "tr_b407cd34c9665532",
+    "opportunity_id": "opp_f7cea7cf248ada81",
+    "ts": "2026-07-19T13:01:26.959Z"
+  }
+]
