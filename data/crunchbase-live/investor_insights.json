@@ -1,0 +1,114 @@
+[
+  {
+    "properties": {
+      "associated_investments_since": "2020-06-16",
+      "entity_def_id": "investor_insight",
+      "exit_success_rate": 0.04,
+      "generated_on": "2024-09-09",
+      "image_id": "664ecc02ca1e4562a94dc00fed99b8e7",
+      "investment_funding_stage": [
+        "seed"
+      ],
+      "investment_types": [
+        "seed",
+        "series_b",
+        "series_c"
+      ],
+      "lead_investor_rate": 40,
+      "name": "Investor Insight 2024-09-09",
+      "primary_investment_description": null,
+      "stages": [],
+      "updated_at": "2024-09-14T01:28:32Z",
+      "uuid": "3b5922ca-12b5-4cd7-b44c-afb13d9a0962",
+      "categories": [
+        {
+          "entity_def_id": "category",
+          "image_id": "c06f7439a26b42f2b1b190944f73b027",
+          "permalink": "financial-services",
+          "uuid": "90b4194f-1d4f-ff5c-d7a6-6b6f32ae4892",
+          "value": "Financial Services"
+        },
+        {
+          "entity_def_id": "category",
+          "image_id": "965ded32ecc54a209f6ec2f500b3b4de",
+          "permalink": "fintech-e067",
+          "uuid": "e06799a9-f789-76e7-49a7-71ee980a70ec",
+          "value": "FinTech"
+        },
+        {
+          "entity_def_id": "category",
+          "image_id": "f137af6adb1a4170908597d523483c13",
+          "permalink": "software",
+          "uuid": "c08b5441-a05b-9777-b7a6-012728caddd9",
+          "value": "Software"
+        }
+      ],
+      "diversity_investments": [
+        {
+          "entity_def_id": "diversity_spotlight",
+          "image_id": null,
+          "permalink": "east-asian-founded",
+          "uuid": "1534e6ed-ea35-4f42-be8e-373abdc422c0",
+          "value": "East Asian Founded"
+        },
+        {
+          "entity_def_id": "diversity_spotlight",
+          "image_id": null,
+          "permalink": "women-founded",
+          "uuid": "212d952e-261d-40db-8311-a6b4c3c94c6a",
+          "value": "Women Founded"
+        },
+        {
+          "entity_def_id": "diversity_spotlight",
+          "image_id": null,
+          "permalink": "women-led",
+          "uuid": "5b651b5d-f338-4204-90b3-0c18aff46b9f",
+          "value": "Women Led"
+        }
+      ],
+      "identifier": {
+        "entity_def_id": "investor_insight",
+        "image_id": "664ecc02ca1e4562a94dc00fed99b8e7",
+        "permalink": null,
+        "uuid": "3b5922ca-12b5-4cd7-b44c-afb13d9a0962",
+        "value": "Investor Insight 2024-09-09"
+      },
+      "locations": [
+        {
+          "entity_def_id": "location",
+          "image_id": null,
+          "permalink": "london-england",
+          "uuid": "aad17950-576b-8c44-8fd4-f44dbeb59220",
+          "value": "London"
+        },
+        {
+          "entity_def_id": "location",
+          "image_id": null,
+          "permalink": "new-york-new-york",
+          "uuid": "d64b7615-985c-fbf4-4aff-aa89d70c4050",
+          "value": "New York"
+        },
+        {
+          "entity_def_id": "location",
+          "image_id": null,
+          "permalink": "san-francisco-california",
+          "uuid": "528f5e3c-90d1-1111-5d1c-2e4ff979d58e",
+          "value": "San Francisco"
+        }
+      ],
+      "median_investment_size": {
+        "value": 25000000,
+        "value_usd": 25000000,
+        "currency": "USD"
+      },
+      "organization": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      },
+      "primary_investment_funded_organization": null
+    }
+  }
+]

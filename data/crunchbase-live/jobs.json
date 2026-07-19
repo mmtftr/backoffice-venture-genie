@@ -1,0 +1,546 @@
+[
+  {
+    "properties": {
+      "entity_def_id": "job",
+      "title": "Senior Software Engineer",
+      "uuid": "006083fa-bcea-473d-b48d-4b49daa00f37",
+      "ended_on": null,
+      "identifier": {
+        "control_tags": null,
+        "entity_def_id": "job",
+        "image_id": null,
+        "permalink": "joshua-alawode-employee-stripe--006083fa",
+        "uuid": "006083fa-bcea-473d-b48d-4b49daa00f37",
+        "value": "Joshua Alawode Senior Software Engineer @ Stripe"
+      },
+      "organization_identifier": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      },
+      "person_identifier": {
+        "control_tags": null,
+        "entity_def_id": "person",
+        "image_id": "ewnfsngbyv0utavld3x0",
+        "permalink": "joshua-alawode",
+        "uuid": "f699bcf0-3a11-4611-968d-1909c6d71be6",
+        "value": "Joshua Alawode"
+      },
+      "started_on": {
+        "value": "2021-04-01",
+        "precision": "month"
+      }
+    }
+  },
+  {
+    "properties": {
+      "entity_def_id": "job",
+      "title": "Chief Financial Officer",
+      "uuid": "0146efb7-6bd3-4c21-876f-423b3d9542ab",
+      "ended_on": {
+        "value": "2023-04-01",
+        "precision": "month"
+      },
+      "identifier": {
+        "control_tags": null,
+        "entity_def_id": "job",
+        "image_id": null,
+        "permalink": "dhivya-suryadevara-executive-stripe--0146efb7",
+        "uuid": "0146efb7-6bd3-4c21-876f-423b3d9542ab",
+        "value": "Dhivya Suryadevara Chief Financial Officer @ Stripe"
+      },
+      "organization_identifier": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      },
+      "person_identifier": {
+        "control_tags": null,
+        "entity_def_id": "person",
+        "image_id": "qb8eu0dlo4cvsuq0s0an",
+        "permalink": "dhivya-suryadevara",
+        "uuid": "ed768520-c3ab-4216-bd74-fd87f229ba16",
+        "value": "Dhivya Suryadevara"
+      },
+      "started_on": {
+        "value": "2020-10-01",
+        "precision": "month"
+      }
+    }
+  },
+  {
+    "properties": {
+      "entity_def_id": "job",
+      "title": "Fraud and Payments Performance",
+      "uuid": "01a9921c-0f88-4f14-9ad5-e0d2c88bd08c",
+      "ended_on": null,
+      "identifier": {
+        "control_tags": null,
+        "entity_def_id": "job",
+        "image_id": null,
+        "permalink": "sam-king-1fe2-employee-stripe--01a9921c",
+        "uuid": "01a9921c-0f88-4f14-9ad5-e0d2c88bd08c",
+        "value": "Sam King Fraud and Payments Performance @ Stripe"
+      },
+      "organization_identifier": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      },
+      "person_identifier": {
+        "control_tags": null,
+        "entity_def_id": "person",
+        "image_id": "nrblpdquzqsu2cmk1hlt",
+        "permalink": "sam-king-1fe2",
+        "uuid": "b1cd7265-c00a-4ac6-a22c-306981ce1fe2",
+        "value": "Sam King"
+      },
+      "started_on": {
+        "value": "2021-05-01",
+        "precision": "month"
+      }
+    }
+  },
+  {
+    "properties": {
+      "entity_def_id": "job",
+      "title": "MENA Financial Partnerships",
+      "uuid": "01de50ba-6c08-4181-a007-c08041d1f228",
+      "ended_on": null,
+      "identifier": {
+        "control_tags": null,
+        "entity_def_id": "job",
+        "image_id": null,
+        "permalink": "edouard-de-la-jonquiere-employee-stripe--01de50ba",
+        "uuid": "01de50ba-6c08-4181-a007-c08041d1f228",
+        "value": "Edouard de la Jonquiere MENA Financial Partnerships @ Stripe"
+      },
+      "organization_identifier": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      },
+      "person_identifier": {
+        "control_tags": null,
+        "entity_def_id": "person",
+        "image_id": "drmgknwxicokw3khcooh",
+        "permalink": "edouard-de-la-jonquiere",
+        "uuid": "e3a11437-be95-5e13-29cc-3bbd80c46acb",
+        "value": "Edouard de la Jonquiere"
+      },
+      "started_on": {
+        "value": "2021-01-01",
+        "precision": "year"
+      }
+    }
+  },
+  {
+    "properties": {
+      "entity_def_id": "job",
+      "title": "Global Head of Financial Crime and Supportability",
+      "uuid": "01f640ab-96c8-4059-873e-3579faa6c88d",
+      "ended_on": {
+        "value": "2025-05-01",
+        "precision": "month"
+      },
+      "identifier": {
+        "control_tags": null,
+        "entity_def_id": "job",
+        "image_id": null,
+        "permalink": "marc-fungard-executive-stripe--01f640ab",
+        "uuid": "01f640ab-96c8-4059-873e-3579faa6c88d",
+        "value": "Marc Fungard Global Head of Financial Crime and Supportability @ Stripe"
+      },
+      "organization_identifier": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      },
+      "person_identifier": {
+        "control_tags": null,
+        "entity_def_id": "person",
+        "image_id": "gcow8btijnf5evrxpkhw",
+        "permalink": "marc-fungard",
+        "uuid": "52a9d550-8b85-44e2-9297-1353232f84e9",
+        "value": "Marc Fungard"
+      },
+      "started_on": {
+        "value": "2023-01-01",
+        "precision": "month"
+      }
+    }
+  },
+  {
+    "properties": {
+      "entity_def_id": "job",
+      "title": "Chief Product Officer, Head of Payments",
+      "uuid": "02143752-7791-4571-af81-263f8c4eaa4a",
+      "ended_on": {
+        "value": "2021-07-01",
+        "precision": "month"
+      },
+      "identifier": {
+        "control_tags": [
+          "regulatory_render_exclusion"
+        ],
+        "entity_def_id": "job",
+        "image_id": null,
+        "permalink": "will-gaybrick-executive-stripe--02143752",
+        "uuid": "02143752-7791-4571-af81-263f8c4eaa4a",
+        "value": "William Gaybrick Chief Product Officer, Head of Payments @ Stripe"
+      },
+      "organization_identifier": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      },
+      "person_identifier": {
+        "control_tags": [
+          "regulatory_render_exclusion"
+        ],
+        "entity_def_id": "person",
+        "image_id": "v1493022983/kfce0lnnlvlszxbrld7s.png",
+        "permalink": "will-gaybrick",
+        "uuid": "c5b996fb-1c4c-585c-1a77-0f7fb37c07e1",
+        "value": "William Gaybrick"
+      },
+      "started_on": {
+        "value": "2020-05-01",
+        "precision": "month"
+      }
+    }
+  },
+  {
+    "properties": {
+      "entity_def_id": "job",
+      "title": "Product Lead",
+      "uuid": "02557dc6-19ef-46a5-b8d6-9f663e240966",
+      "ended_on": {
+        "value": "2022-04-01",
+        "precision": "month"
+      },
+      "identifier": {
+        "control_tags": null,
+        "entity_def_id": "job",
+        "image_id": null,
+        "permalink": "sam-gerstenzang-employee-stripe--02557dc6",
+        "uuid": "02557dc6-19ef-46a5-b8d6-9f663e240966",
+        "value": "Sam Gerstenzang Product Lead @ Stripe"
+      },
+      "organization_identifier": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      },
+      "person_identifier": {
+        "control_tags": null,
+        "entity_def_id": "person",
+        "image_id": "v1475567948/fqslwhc4xuymawzbkozx.png",
+        "permalink": "sam-gerstenzang",
+        "uuid": "5a44b2b0-16b3-39eb-4ee2-90316fd12b33",
+        "value": "Sam Gerstenzang"
+      },
+      "started_on": {
+        "value": "2019-11-01",
+        "precision": "month"
+      }
+    }
+  },
+  {
+    "properties": {
+      "entity_def_id": "job",
+      "title": "Lifecycle Security Manager",
+      "uuid": "02c5f0e6-e613-4839-8fbc-8c5b635d90d8",
+      "ended_on": null,
+      "identifier": {
+        "control_tags": null,
+        "entity_def_id": "job",
+        "image_id": null,
+        "permalink": "matthew-kemelhar-executive-stripe--02c5f0e6",
+        "uuid": "02c5f0e6-e613-4839-8fbc-8c5b635d90d8",
+        "value": "Matthew Kemelhar Lifecycle Security Manager @ Stripe"
+      },
+      "organization_identifier": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      },
+      "person_identifier": {
+        "control_tags": null,
+        "entity_def_id": "person",
+        "image_id": "o0cv0o2fcludeqhltwpo",
+        "permalink": "matthew-kemelhar",
+        "uuid": "ad503033-c924-4cc8-b7a8-fe8fc8903f40",
+        "value": "Matthew Kemelhar"
+      },
+      "started_on": {
+        "value": "2020-05-01",
+        "precision": "month"
+      }
+    }
+  },
+  {
+    "properties": {
+      "entity_def_id": "job",
+      "title": "Product Manager",
+      "uuid": "02e7a8b1-f5b4-44fd-9087-1622ba9b86f7",
+      "ended_on": null,
+      "identifier": {
+        "control_tags": null,
+        "entity_def_id": "job",
+        "image_id": null,
+        "permalink": "katerina-pascoulis-employee-stripe--02e7a8b1",
+        "uuid": "02e7a8b1-f5b4-44fd-9087-1622ba9b86f7",
+        "value": "Katerina Pascoulis Product Manager @ Stripe"
+      },
+      "organization_identifier": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      },
+      "person_identifier": {
+        "control_tags": null,
+        "entity_def_id": "person",
+        "image_id": "qhygrwvg0m6vv1ffofny",
+        "permalink": "katerina-pascoulis",
+        "uuid": "7b902ab5-fccd-4fdf-b279-98c083781b60",
+        "value": "Katerina Pascoulis"
+      },
+      "started_on": {
+        "value": "2022-05-23",
+        "precision": "day"
+      }
+    }
+  },
+  {
+    "properties": {
+      "entity_def_id": "job",
+      "title": "Software Engineer",
+      "uuid": "033fc8e8-36e9-4b9a-b831-60d2b4bc0c3d",
+      "ended_on": null,
+      "identifier": {
+        "control_tags": null,
+        "entity_def_id": "job",
+        "image_id": null,
+        "permalink": "jonathan-maltz-employee-stripe--033fc8e8",
+        "uuid": "033fc8e8-36e9-4b9a-b831-60d2b4bc0c3d",
+        "value": "Jonathan Maltz Software Engineer @ Stripe"
+      },
+      "organization_identifier": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      },
+      "person_identifier": {
+        "control_tags": null,
+        "entity_def_id": "person",
+        "image_id": "swd2eblhtf3z5rdxcgvh",
+        "permalink": "jonathan-maltz",
+        "uuid": "1933d712-be18-4c8c-b4db-3c124425f654",
+        "value": "Jonathan Maltz"
+      },
+      "started_on": {
+        "value": "2020-04-01",
+        "precision": "month"
+      }
+    }
+  },
+  {
+    "properties": {
+      "entity_def_id": "job",
+      "title": "Engineering Manager",
+      "uuid": "04bb4049-e3e8-cbe6-5598-323c184ad6f4",
+      "ended_on": {
+        "value": "2021-01-01",
+        "precision": "month"
+      },
+      "identifier": {
+        "control_tags": null,
+        "entity_def_id": "job",
+        "image_id": null,
+        "permalink": "dylan-vassallo-employee-stripe--04bb4049",
+        "uuid": "04bb4049-e3e8-cbe6-5598-323c184ad6f4",
+        "value": "Dylan Vassallo Engineering Manager @ Stripe"
+      },
+      "organization_identifier": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      },
+      "person_identifier": {
+        "control_tags": null,
+        "entity_def_id": "person",
+        "image_id": "v1506330235/ydyocb3rspu4hh4v6asq.png",
+        "permalink": "dylan-vassallo",
+        "uuid": "a60d5a01-04dd-3872-3116-e8147e41cace",
+        "value": "Dylan Vassallo"
+      },
+      "started_on": {
+        "value": "2018-01-01",
+        "precision": "year"
+      }
+    }
+  },
+  {
+    "properties": {
+      "entity_def_id": "job",
+      "title": "Head of EMEA Public Policy",
+      "uuid": "055f23b9-3857-45ff-f80c-a96e3e5f4fb5",
+      "ended_on": null,
+      "identifier": {
+        "control_tags": null,
+        "entity_def_id": "job",
+        "image_id": null,
+        "permalink": "sandro-gianella-executive-stripe--055f23b9",
+        "uuid": "055f23b9-3857-45ff-f80c-a96e3e5f4fb5",
+        "value": "Sandro Gianella Head of EMEA Public Policy @ Stripe"
+      },
+      "organization_identifier": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      },
+      "person_identifier": {
+        "control_tags": null,
+        "entity_def_id": "person",
+        "image_id": "v1506683591/lf6f4y07bc1uf3te33ac.jpg",
+        "permalink": "sandro-gianella",
+        "uuid": "de654119-e6a4-82ca-0a70-45189427299d",
+        "value": "Sandro Gianella"
+      },
+      "started_on": {
+        "value": "2017-08-21",
+        "precision": "day"
+      }
+    }
+  },
+  {
+    "properties": {
+      "entity_def_id": "job",
+      "title": "Engineering Manager",
+      "uuid": "05a011a7-bcef-4497-8e95-b5cdf42a363c",
+      "ended_on": null,
+      "identifier": {
+        "control_tags": null,
+        "entity_def_id": "job",
+        "image_id": null,
+        "permalink": "chris-maddox-2-employee-stripe--05a011a7",
+        "uuid": "05a011a7-bcef-4497-8e95-b5cdf42a363c",
+        "value": "Chris Maddox Engineering Manager @ Stripe"
+      },
+      "organization_identifier": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      },
+      "person_identifier": {
+        "control_tags": null,
+        "entity_def_id": "person",
+        "image_id": "nvioulif5rmwycgvlpjp",
+        "permalink": "chris-maddox-2",
+        "uuid": "c6829a69-dc36-0fc8-fd85-138b14f2cceb",
+        "value": "Chris Maddox"
+      },
+      "started_on": {
+        "value": "2022-01-01",
+        "precision": "month"
+      }
+    }
+  },
+  {
+    "properties": {
+      "entity_def_id": "job",
+      "title": "People Analytics Program Manager",
+      "uuid": "05af7ef8-012f-461c-984f-c3e8708def6d",
+      "ended_on": null,
+      "identifier": {
+        "control_tags": null,
+        "entity_def_id": "job",
+        "image_id": null,
+        "permalink": "hilton-lam-employee-stripe--05af7ef8",
+        "uuid": "05af7ef8-012f-461c-984f-c3e8708def6d",
+        "value": "Hilton Lam People Analytics Program Manager @ Stripe"
+      },
+      "organization_identifier": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      },
+      "person_identifier": {
+        "control_tags": null,
+        "entity_def_id": "person",
+        "image_id": "v1454611552/t4nlkz6jmi5in68bltaz.jpg",
+        "permalink": "hilton-lam",
+        "uuid": "3b7f7c1c-b6ff-75e6-4abc-e87d313ee065",
+        "value": "Hilton Lam"
+      },
+      "started_on": {
+        "value": "2022-04-01",
+        "precision": "month"
+      }
+    }
+  },
+  {
+    "properties": {
+      "entity_def_id": "job",
+      "title": "SMB Operations, Americas",
+      "uuid": "0606c154-9356-4a3d-a531-7ed7b04b8bf8",
+      "ended_on": null,
+      "identifier": {
+        "control_tags": null,
+        "entity_def_id": "job",
+        "image_id": null,
+        "permalink": "megan-jantsch-executive-stripe--0606c154",
+        "uuid": "0606c154-9356-4a3d-a531-7ed7b04b8bf8",
+        "value": "Megan Jantsch SMB Operations, Americas @ Stripe"
+      },
+      "organization_identifier": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      },
+      "person_identifier": {
+        "control_tags": null,
+        "entity_def_id": "person",
+        "image_id": "uakuoe5sfbj5ebfk9lsw",
+        "permalink": "megan-jantsch",
+        "uuid": "585d4e29-f55b-4e1c-9cba-9482284e4df7",
+        "value": "Megan Jantsch"
+      },
+      "started_on": {
+        "value": "2021-06-01",
+        "precision": "month"
+      }
+    }
+  }
+]

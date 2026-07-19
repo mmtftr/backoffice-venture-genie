@@ -1,0 +1,353 @@
+[
+  {
+    "properties": {
+      "entity_def_id": "key_employee_change",
+      "image_id": "597994df42aa406694400bcf746ef4ff",
+      "key_event_date": "2026-01-16",
+      "sentiment": "c100_positive",
+      "updated_at": "2026-01-19T14:04:26Z",
+      "uuid": "15085fb1-b0ce-4596-a8fe-4ff825540886",
+      "identifier": {
+        "entity_def_id": "key_employee_change",
+        "image_id": "597994df42aa406694400bcf746ef4ff",
+        "permalink": null,
+        "uuid": "15085fb1-b0ce-4596-a8fe-4ff825540886",
+        "value": null
+      },
+      "organization_identifier": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      },
+      "press_reference_link": {
+        "value": "https://www.geekwire.com/2026/tech-moves-microsoft-cvp-jumps-to-google-seattle-engineers-launch-new-startup-github-names-vp/",
+        "label": "Tech Moves: Microsoft CVP jumps to Google; Seattle engineers launch new startup; GitHub names VP"
+      },
+      "press_references": [
+        {
+          "entity_def_id": "press_reference",
+          "posted_on": "2026-01-16",
+          "publisher": "GeekWire",
+          "source_url": "https://www.geekwire.com/2026/tech-moves-microsoft-cvp-jumps-to-google-seattle-engineers-launch-new-startup-github-names-vp/",
+          "thumbnail_url": "https://cdn.geekwire.com/wp-content/uploads/2026/01/image-10-1.jpeg",
+          "uuid": "cfd78d9b-512a-4956-9e1a-010520019fde",
+          "value": "Tech Moves: Microsoft CVP jumps to Google; Seattle engineers launch new startup; GitHub names VP"
+        }
+      ]
+    }
+  },
+  {
+    "properties": {
+      "entity_def_id": "key_employee_change",
+      "image_id": "cd7489b63799400b82e4d2f408ae4481",
+      "key_event_date": "2025-02-02",
+      "sentiment": null,
+      "updated_at": "2025-02-04T01:31:33Z",
+      "uuid": "331af8be-095d-41a5-a2dc-e85297f90d1d",
+      "identifier": {
+        "entity_def_id": "key_employee_change",
+        "image_id": "cd7489b63799400b82e4d2f408ae4481",
+        "permalink": null,
+        "uuid": "331af8be-095d-41a5-a2dc-e85297f90d1d",
+        "value": null
+      },
+      "organization_identifier": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      },
+      "press_reference_link": {
+        "value": "https://techcrunch.com/2025/02/03/stripe-brings-aboard-new-head-of-startup-and-vc-partnerships/",
+        "label": "Stripe brings aboard new head of \u2018startup and VC partnerships\u2019"
+      },
+      "press_references": [
+        {
+          "entity_def_id": "press_reference",
+          "posted_on": "2025-02-03",
+          "publisher": "TechCrunch",
+          "source_url": "https://techcrunch.com/2025/02/03/stripe-brings-aboard-new-head-of-startup-and-vc-partnerships/",
+          "thumbnail_url": null,
+          "uuid": "a28e60d5-be1d-4d17-a364-6c836b9ec32e",
+          "value": "Stripe brings aboard new head of \u2018startup and VC partnerships\u2019"
+        }
+      ]
+    }
+  },
+  {
+    "properties": {
+      "entity_def_id": "key_employee_change",
+      "image_id": "31c928404b48432aa93b744faa2ce678",
+      "key_event_date": "2021-02-26",
+      "sentiment": null,
+      "updated_at": "2021-02-27T08:44:39Z",
+      "uuid": "34f96423-3f91-4ccc-928a-a30cf8d5f971",
+      "identifier": {
+        "entity_def_id": "key_employee_change",
+        "image_id": "31c928404b48432aa93b744faa2ce678",
+        "permalink": null,
+        "uuid": "34f96423-3f91-4ccc-928a-a30cf8d5f971",
+        "value": null
+      },
+      "organization_identifier": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      },
+      "press_reference_link": {
+        "value": "http://on.forbes.com/6019HY4sl",
+        "label": "Stripe Hires Former Google Comms VP Peter Barron"
+      },
+      "press_references": [
+        {
+          "entity_def_id": "press_reference",
+          "posted_on": "2021-02-26",
+          "publisher": "Forbes",
+          "source_url": "http://on.forbes.com/6019HY4sl",
+          "thumbnail_url": "https://specials-images.forbesimg.com/imageserve/60386c5d627b3aee03981541/960x0.jpg?fit=scale",
+          "uuid": "fe3f54b7-1f1b-403c-a2a5-92361a9ad910",
+          "value": "Stripe Hires Former Google Comms VP Peter Barron"
+        }
+      ]
+    }
+  },
+  {
+    "properties": {
+      "entity_def_id": "key_employee_change",
+      "image_id": "31c928404b48432aa93b744faa2ce678",
+      "key_event_date": "2025-08-13",
+      "sentiment": "c200_neutral",
+      "updated_at": "2025-08-14T07:02:38Z",
+      "uuid": "5ed1f890-65ca-4f72-8c5a-b6899cc9a85d",
+      "identifier": {
+        "entity_def_id": "key_employee_change",
+        "image_id": "31c928404b48432aa93b744faa2ce678",
+        "permalink": null,
+        "uuid": "5ed1f890-65ca-4f72-8c5a-b6899cc9a85d",
+        "value": null
+      },
+      "organization_identifier": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      },
+      "press_reference_link": {
+        "value": "https://www.coindesk.com/business/2025/08/13/stripe-taps-paradigm-s-matt-huang-to-lead-new-blockchain-tempo-fortune",
+        "label": "Stripe Taps Paradigm\u2019s Matt Huang to Lead New Blockchain Tempo: Fortune"
+      },
+      "press_references": [
+        {
+          "entity_def_id": "press_reference",
+          "posted_on": "2025-08-13",
+          "publisher": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+          "source_url": "https://www.coindesk.com/business/2025/08/13/stripe-taps-paradigm-s-matt-huang-to-lead-new-blockchain-tempo-fortune",
+          "thumbnail_url": null,
+          "uuid": "76e35748-9f71-4374-8be9-74fae10acc37",
+          "value": "Stripe Taps Paradigm\u2019s Matt Huang to Lead New Blockchain Tempo: Fortune"
+        }
+      ]
+    }
+  },
+  {
+    "properties": {
+      "entity_def_id": "key_employee_change",
+      "image_id": "e4230a2cce0c4b2d8a0d27ee8729e7ad",
+      "key_event_date": "2020-08-05",
+      "sentiment": null,
+      "updated_at": "2020-08-07T07:28:24Z",
+      "uuid": "7fd4babd-3802-4946-bd35-5a2bb6a4d6fa",
+      "identifier": {
+        "entity_def_id": "key_employee_change",
+        "image_id": "e4230a2cce0c4b2d8a0d27ee8729e7ad",
+        "permalink": null,
+        "uuid": "7fd4babd-3802-4946-bd35-5a2bb6a4d6fa",
+        "value": null
+      },
+      "organization_identifier": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      },
+      "press_reference_link": {
+        "value": "https://www.pymnts.com/personnel/2020/stripe-hires-aws-exec-chief-revenue-officer-position",
+        "label": "Stripe Hires AWS Exec For CRO Position"
+      },
+      "press_references": [
+        {
+          "entity_def_id": "press_reference",
+          "posted_on": "2020-08-05",
+          "publisher": "PYMNTS.com",
+          "source_url": "https://www.pymnts.com/personnel/2020/stripe-hires-aws-exec-chief-revenue-officer-position",
+          "thumbnail_url": "https://securecdn.pymnts.com/wp-content/uploads/2020/08/stripe.jpg",
+          "uuid": "07e84d85-ab27-4d37-98f7-50fe9332d6ae",
+          "value": "Stripe Hires AWS Exec For CRO Position"
+        }
+      ]
+    }
+  },
+  {
+    "properties": {
+      "entity_def_id": "key_employee_change",
+      "image_id": "5e021ed00f854b1db19622164def8061",
+      "key_event_date": "2026-06-22",
+      "sentiment": "c100_positive",
+      "updated_at": "2026-06-22T21:58:33Z",
+      "uuid": "989ebea7-d557-4be4-8aa1-7a5cd075f8af",
+      "identifier": {
+        "entity_def_id": "key_employee_change",
+        "image_id": "5e021ed00f854b1db19622164def8061",
+        "permalink": null,
+        "uuid": "989ebea7-d557-4be4-8aa1-7a5cd075f8af",
+        "value": null
+      },
+      "organization_identifier": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      },
+      "press_reference_link": {
+        "value": "https://fxnewsgroup.com/forex-news/executives/stripe-appoints-eileen-omara-as-its-vice-chair-tyler-bryson-as-chief-revenue-officer/",
+        "label": "Stripe appoints Eileen O\u2019Mara as its vice chair, Tyler Bryson as chief revenue officer"
+      },
+      "press_references": [
+        {
+          "entity_def_id": "press_reference",
+          "posted_on": "2026-06-22",
+          "publisher": "FX News Group",
+          "source_url": "https://fxnewsgroup.com/forex-news/executives/stripe-appoints-eileen-omara-as-its-vice-chair-tyler-bryson-as-chief-revenue-officer/",
+          "thumbnail_url": null,
+          "uuid": "b34ee5aa-f16e-431d-9db7-49abd49cace3",
+          "value": "Stripe appoints Eileen O\u2019Mara as its vice chair, Tyler Bryson as chief revenue officer"
+        }
+      ]
+    }
+  },
+  {
+    "properties": {
+      "entity_def_id": "key_employee_change",
+      "image_id": "5e021ed00f854b1db19622164def8061",
+      "key_event_date": "2026-03-09",
+      "sentiment": "c100_positive",
+      "updated_at": "2026-03-17T04:05:27Z",
+      "uuid": "d7b5c4be-984c-4d35-b130-10fa9442ab37",
+      "identifier": {
+        "entity_def_id": "key_employee_change",
+        "image_id": "5e021ed00f854b1db19622164def8061",
+        "permalink": null,
+        "uuid": "d7b5c4be-984c-4d35-b130-10fa9442ab37",
+        "value": null
+      },
+      "organization_identifier": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      },
+      "press_reference_link": {
+        "value": "https://www.crn.com/news/cloud/2026/aws-security-director-leaves-for-stripe",
+        "label": "AWS Security Director Leaves For Stripe"
+      },
+      "press_references": [
+        {
+          "entity_def_id": "press_reference",
+          "posted_on": "2026-03-16",
+          "publisher": "CRN",
+          "source_url": "https://www.crn.com/news/cloud/2026/aws-security-director-leaves-for-stripe",
+          "thumbnail_url": null,
+          "uuid": "0cda6d77-57a6-4e99-9b95-1effdaef0fd1",
+          "value": "AWS Security Director Leaves For Stripe"
+        }
+      ]
+    }
+  },
+  {
+    "properties": {
+      "entity_def_id": "key_employee_change",
+      "image_id": "82b5cc2cdce94fa3bed13a0fc94e53c4",
+      "key_event_date": "2022-04-16",
+      "sentiment": null,
+      "updated_at": "2024-09-11T05:25:01Z",
+      "uuid": "e81abfb7-2bb5-4efd-b308-1eb7f47b438d",
+      "identifier": {
+        "entity_def_id": "key_employee_change",
+        "image_id": "82b5cc2cdce94fa3bed13a0fc94e53c4",
+        "permalink": null,
+        "uuid": "e81abfb7-2bb5-4efd-b308-1eb7f47b438d",
+        "value": null
+      },
+      "organization_identifier": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      },
+      "press_reference_link": {
+        "value": "https://news.bloomberglaw.com/banking-law/stripe-hires-ex-microsoft-executive-as-financial-services-head",
+        "label": "Stripe Hires Ex-Microsoft Executive as Financial-Services Head"
+      },
+      "press_references": [
+        {
+          "entity_def_id": "press_reference",
+          "posted_on": "2022-04-16",
+          "publisher": "bloomberglaw.com",
+          "source_url": "https://news.bloomberglaw.com/banking-law/stripe-hires-ex-microsoft-executive-as-financial-services-head",
+          "thumbnail_url": null,
+          "uuid": "84d4416d-87a0-43e9-82bf-f6c24920b336",
+          "value": "Stripe Hires Ex-Microsoft Executive as Financial-Services Head"
+        }
+      ]
+    }
+  },
+  {
+    "properties": {
+      "entity_def_id": "key_employee_change",
+      "image_id": "379ba7db995c4b95ab89ebbe6b29e9bc",
+      "key_event_date": "2025-10-17",
+      "sentiment": "c200_neutral",
+      "updated_at": "2025-10-18T09:01:51Z",
+      "uuid": "f302aad9-0f59-4525-aa32-abc96c811007",
+      "identifier": {
+        "entity_def_id": "key_employee_change",
+        "image_id": "379ba7db995c4b95ab89ebbe6b29e9bc",
+        "permalink": null,
+        "uuid": "f302aad9-0f59-4525-aa32-abc96c811007",
+        "value": null
+      },
+      "organization_identifier": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      },
+      "press_reference_link": {
+        "value": "https://cointelegraph.com/news/ethereum-foundation-veteran-dankrad-feist-join-tempo",
+        "label": "Ethereum Foundation veteran Dankrad Feist joins Stripe\u2019s Tempo team"
+      },
+      "press_references": [
+        {
+          "entity_def_id": "press_reference",
+          "posted_on": "2025-10-17",
+          "publisher": "Cointelegraph",
+          "source_url": "https://cointelegraph.com/news/ethereum-foundation-veteran-dankrad-feist-join-tempo",
+          "thumbnail_url": null,
+          "uuid": "ff8602e9-7909-47cf-89eb-82644df2c671",
+          "value": "Ethereum Foundation veteran Dankrad Feist joins Stripe\u2019s Tempo team"
+        }
+      ]
+    }
+  }
+]

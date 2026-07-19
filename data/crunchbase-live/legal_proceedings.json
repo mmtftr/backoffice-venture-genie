@@ -1,0 +1,170 @@
+[
+  {
+    "properties": {
+      "description": "Stripe\u0019s application for a GA Merchant Acquirer Limited Purpose Bank charter was accepted on Apr 4, 2025, positioning it to process card payments directly via Visa and Mastercard.",
+      "entity_def_id": "legal_proceeding",
+      "image_id": "f137af6adb1a4170908597d523483c13",
+      "key_event_date": "2025-04-04",
+      "name": "Legal Proceeding (regulatory) 2025-04-04",
+      "proceeding_type": "regulatory",
+      "sentiment": "c200_neutral",
+      "updated_at": "2025-10-09T14:35:24Z",
+      "uuid": "2124a442-fd75-4dda-90b1-bf183a6ad7ed",
+      "identifier": {
+        "entity_def_id": "legal_proceeding",
+        "image_id": "f137af6adb1a4170908597d523483c13",
+        "permalink": null,
+        "uuid": "2124a442-fd75-4dda-90b1-bf183a6ad7ed",
+        "value": "Legal Proceeding (regulatory) 2025-04-04"
+      },
+      "organization": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      },
+      "press_reference_link": {
+        "value": "https://www.pymnts.com/news/banking/2025/fintechs-roadmap-to-scale-includes-bank-charters/",
+        "label": "FinTechs\u2019 Roadmap to Scale Includes Bank Charters"
+      },
+      "press_references": [
+        {
+          "entity_def_id": "press_reference",
+          "posted_on": "2025-10-07",
+          "publisher": "PYMNTS.com",
+          "source_url": "https://www.pymnts.com/news/banking/2025/fintechs-roadmap-to-scale-includes-bank-charters/",
+          "thumbnail_url": null,
+          "uuid": "8c48ebec-7966-4557-a618-6cac62b238e2",
+          "value": "FinTechs\u2019 Roadmap to Scale Includes Bank Charters"
+        }
+      ]
+    }
+  },
+  {
+    "properties": {
+      "description": "Stripe filed an opposition challenging fees sought by JPMorgan Chase, indicating an active legal dispute over fee charges.",
+      "entity_def_id": "legal_proceeding",
+      "image_id": "d8df9e009814490fb264f771d45dc498",
+      "key_event_date": "2025-09-03",
+      "name": "Legal Proceeding (other) 2025-09-03",
+      "proceeding_type": "other",
+      "sentiment": "c200_neutral",
+      "updated_at": "2025-11-07T19:11:13Z",
+      "uuid": "7f0555b2-1ec1-4571-843f-7afa5540725b",
+      "identifier": {
+        "entity_def_id": "legal_proceeding",
+        "image_id": "d8df9e009814490fb264f771d45dc498",
+        "permalink": null,
+        "uuid": "7f0555b2-1ec1-4571-843f-7afa5540725b",
+        "value": "Legal Proceeding (other) 2025-09-03"
+      },
+      "organization": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      },
+      "press_reference_link": {
+        "value": "https://thepaypers.com/payments/news/stripe-files-opposition-to-jpmorgan-fees",
+        "label": "Stripe files opposition to JPMorgan fees"
+      },
+      "press_references": [
+        {
+          "entity_def_id": "press_reference",
+          "posted_on": "2025-09-03",
+          "publisher": "Paypers",
+          "source_url": "https://thepaypers.com/payments/news/stripe-files-opposition-to-jpmorgan-fees",
+          "thumbnail_url": null,
+          "uuid": "a6069d31-cf7f-4814-973b-3a7d2f69e33f",
+          "value": "Stripe files opposition to JPMorgan fees"
+        }
+      ]
+    }
+  },
+  {
+    "properties": {
+      "description": "Stripe has applied for a special purpose banking charter in Georgia, known as a merchant acquirer limited purpose banks charter. This charter would allow Stripe direct access to card networks, eliminating the need to partner with banks for credit card transactions. The application was accepted on March 31, and a decision is expected by July.",
+      "entity_def_id": "legal_proceeding",
+      "image_id": "31cb6b71104144f2a44c2baafdc9bebc",
+      "key_event_date": "2025-03-31",
+      "name": "Legal Proceeding (regulatory) 2025-03-31",
+      "proceeding_type": "regulatory",
+      "sentiment": "c100_positive",
+      "updated_at": "2025-04-07T20:09:37Z",
+      "uuid": "c135bb37-c158-4f05-9bba-e6e94c4e5a5e",
+      "identifier": {
+        "entity_def_id": "legal_proceeding",
+        "image_id": "31cb6b71104144f2a44c2baafdc9bebc",
+        "permalink": null,
+        "uuid": "c135bb37-c158-4f05-9bba-e6e94c4e5a5e",
+        "value": "Legal Proceeding (regulatory) 2025-03-31"
+      },
+      "organization": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      },
+      "press_reference_link": {
+        "value": "https://www.paymentsdive.com/news/stripe-georgia-special-banking-charter-credit-card-payments/744613/",
+        "label": "Stripe seeks Georgia special banking charter"
+      },
+      "press_references": [
+        {
+          "entity_def_id": "press_reference",
+          "posted_on": "2025-04-07",
+          "publisher": "Payments Dive",
+          "source_url": "https://www.paymentsdive.com/news/stripe-georgia-special-banking-charter-credit-card-payments/744613/",
+          "thumbnail_url": null,
+          "uuid": "eb974cb1-4d18-4457-b138-a98eb4b26d57",
+          "value": "Stripe seeks Georgia special banking charter"
+        }
+      ]
+    }
+  },
+  {
+    "properties": {
+      "description": "The FTC warned Stripe that restricting customers or facilitating third-party removal of users in ways that conflict with disclosed policies or reasonable expectations could be deemed unfair or deceptive, exposing the company to regulatory enforcement.",
+      "entity_def_id": "legal_proceeding",
+      "image_id": "32de1b1384a54d16991f045cbd941788",
+      "key_event_date": "2026-03-26",
+      "name": "Legal Proceeding (regulatory) 2026-03-26",
+      "proceeding_type": "regulatory",
+      "sentiment": "c300_negative",
+      "updated_at": "2026-03-27T14:02:58Z",
+      "uuid": "f15738e7-a21b-4fd2-9573-cf9450dfbc3e",
+      "identifier": {
+        "entity_def_id": "legal_proceeding",
+        "image_id": "32de1b1384a54d16991f045cbd941788",
+        "permalink": null,
+        "uuid": "f15738e7-a21b-4fd2-9573-cf9450dfbc3e",
+        "value": "Legal Proceeding (regulatory) 2026-03-26"
+      },
+      "organization": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      },
+      "press_reference_link": {
+        "value": "https://news.bitcoin.com/ftc-warns-visa-mastercard-paypal-stripe-as-debanking-concerns-shake-us-financial-access/",
+        "label": "FTC Warns Visa, Mastercard, Paypal, Stripe as Debanking Concerns Shake US Financial Access"
+      },
+      "press_references": [
+        {
+          "entity_def_id": "press_reference",
+          "posted_on": "2026-03-26",
+          "publisher": "Bitcoin News",
+          "source_url": "https://news.bitcoin.com/ftc-warns-visa-mastercard-paypal-stripe-as-debanking-concerns-shake-us-financial-access/",
+          "thumbnail_url": null,
+          "uuid": "2b98d4fb-cbbd-4960-81d9-0de9fd470fdd",
+          "value": "FTC Warns Visa, Mastercard, Paypal, Stripe as Debanking Concerns Shake US Financial Access"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,288 @@
+[
+  {
+    "properties": {
+      "entity_def_id": "investment",
+      "funding_round_investment_type": "seed",
+      "is_lead_investor": true,
+      "uuid": "00423ad6-e06d-46e4-ae30-4b9284f5b1d4",
+      "identifier": {
+        "control_tags": null,
+        "entity_def_id": "investment",
+        "image_id": null,
+        "permalink": "stripe-invested-in-assembled-seed--4a4267b5--00423ad6",
+        "uuid": "00423ad6-e06d-46e4-ae30-4b9284f5b1d4",
+        "value": "Stripe investment in Seed Round - Assembled"
+      },
+      "organization_diversity_spotlights": null
+    }
+  },
+  {
+    "properties": {
+      "entity_def_id": "investment",
+      "funding_round_investment_type": "series_unknown",
+      "is_lead_investor": null,
+      "uuid": "09c459a3-d748-4fcc-8bf7-ed32b8d44268",
+      "identifier": {
+        "control_tags": null,
+        "entity_def_id": "investment",
+        "image_id": null,
+        "permalink": "stripe-invested-in-clear-9311-series-unknown--6bde2c0e--09c459a3",
+        "uuid": "09c459a3-d748-4fcc-8bf7-ed32b8d44268",
+        "value": "Stripe investment in Venture Round - Clear"
+      },
+      "organization_diversity_spotlights": null
+    }
+  },
+  {
+    "properties": {
+      "entity_def_id": "investment",
+      "funding_round_investment_type": "seed",
+      "is_lead_investor": null,
+      "uuid": "0a04fdcb-8e89-4eca-9e03-40d3077436cf",
+      "identifier": {
+        "control_tags": null,
+        "entity_def_id": "investment",
+        "image_id": null,
+        "permalink": "stripe-invested-in-incorp-chain-seed--bbd570d7--0a04fdcb",
+        "uuid": "0a04fdcb-8e89-4eca-9e03-40d3077436cf",
+        "value": "Stripe investment in Seed Round - InCorp Chain"
+      },
+      "organization_diversity_spotlights": null
+    }
+  },
+  {
+    "properties": {
+      "entity_def_id": "investment",
+      "funding_round_investment_type": "series_b",
+      "is_lead_investor": null,
+      "uuid": "0ed88c49-571a-41a7-aafd-e589c13cebae",
+      "identifier": {
+        "control_tags": null,
+        "entity_def_id": "investment",
+        "image_id": null,
+        "permalink": "stripe-invested-in-clerk-a9b8-series-b--766691b1--0ed88c49",
+        "uuid": "0ed88c49-571a-41a7-aafd-e589c13cebae",
+        "value": "Stripe investment in Series B - Clerk"
+      },
+      "organization_diversity_spotlights": null
+    }
+  },
+  {
+    "properties": {
+      "entity_def_id": "investment",
+      "funding_round_investment_type": "series_b",
+      "is_lead_investor": true,
+      "uuid": "11d45b85-b8a6-470c-9925-7db8edc4393a",
+      "identifier": {
+        "control_tags": null,
+        "entity_def_id": "investment",
+        "image_id": null,
+        "permalink": "stripe-invested-in-gofast-series-b--01c392e3--11d45b85",
+        "uuid": "11d45b85-b8a6-470c-9925-7db8edc4393a",
+        "value": "Stripe investment in Series B - Fast"
+      },
+      "organization_diversity_spotlights": [
+        {
+          "entity_def_id": "diversity_spotlight",
+          "image_id": null,
+          "permalink": "women-founded",
+          "uuid": "212d952e-261d-40db-8311-a6b4c3c94c6a",
+          "value": "Women Founded"
+        }
+      ]
+    }
+  },
+  {
+    "properties": {
+      "entity_def_id": "investment",
+      "funding_round_investment_type": "series_c",
+      "is_lead_investor": true,
+      "uuid": "1525f825-be5c-424d-8170-c56530403794",
+      "identifier": {
+        "control_tags": null,
+        "entity_def_id": "investment",
+        "image_id": null,
+        "permalink": "stripe-invested-in-check-2a75-series-c--f9e6dcff--1525f825",
+        "uuid": "1525f825-be5c-424d-8170-c56530403794",
+        "value": "Stripe investment in Series C - Check"
+      },
+      "organization_diversity_spotlights": null
+    }
+  },
+  {
+    "properties": {
+      "entity_def_id": "investment",
+      "funding_round_investment_type": "seed",
+      "is_lead_investor": true,
+      "uuid": "166a34d4-8fa9-4591-855a-fc18c84ebcf4",
+      "identifier": {
+        "control_tags": null,
+        "entity_def_id": "investment",
+        "image_id": null,
+        "permalink": "stripe-invested-in-worqhat-seed--de915eef--166a34d4",
+        "uuid": "166a34d4-8fa9-4591-855a-fc18c84ebcf4",
+        "value": "Stripe investment in Seed Round - WorqHat"
+      },
+      "organization_diversity_spotlights": null
+    }
+  },
+  {
+    "properties": {
+      "entity_def_id": "investment",
+      "funding_round_investment_type": "series_e",
+      "is_lead_investor": null,
+      "uuid": "1f65c262-1c92-45b8-a0c8-7ac4f7e5ea2b",
+      "identifier": {
+        "control_tags": null,
+        "entity_def_id": "investment",
+        "image_id": null,
+        "permalink": "stripe-invested-in-ramp-financial-series-e--ea5bc0a5--1f65c262",
+        "uuid": "1f65c262-1c92-45b8-a0c8-7ac4f7e5ea2b",
+        "value": "Stripe investment in Series E - Ramp"
+      },
+      "organization_diversity_spotlights": null
+    }
+  },
+  {
+    "properties": {
+      "entity_def_id": "investment",
+      "funding_round_investment_type": "seed",
+      "is_lead_investor": null,
+      "uuid": "2984ffff-aa05-41fa-9315-0defa758c955",
+      "identifier": {
+        "control_tags": null,
+        "entity_def_id": "investment",
+        "image_id": null,
+        "permalink": "stripe-invested-in-accord-acff-seed--d8257645--2984ffff",
+        "uuid": "2984ffff-aa05-41fa-9315-0defa758c955",
+        "value": "Stripe investment in Seed Round - Accord"
+      },
+      "organization_diversity_spotlights": null
+    }
+  },
+  {
+    "properties": {
+      "entity_def_id": "investment",
+      "funding_round_investment_type": "series_a",
+      "is_lead_investor": true,
+      "uuid": "29c01966-eeb0-43b8-b55f-9b1241fb467c",
+      "identifier": {
+        "control_tags": null,
+        "entity_def_id": "investment",
+        "image_id": null,
+        "permalink": "stripe-invested-in-wave-mobile-money-series-a--a4d58027--29c01966",
+        "uuid": "29c01966-eeb0-43b8-b55f-9b1241fb467c",
+        "value": "Stripe investment in Series A - Wave Mobile Money"
+      },
+      "organization_diversity_spotlights": null
+    }
+  },
+  {
+    "properties": {
+      "entity_def_id": "investment",
+      "funding_round_investment_type": "series_b",
+      "is_lead_investor": true,
+      "uuid": "330a07de-cee0-45a6-96a4-3222b834f922",
+      "identifier": {
+        "control_tags": null,
+        "entity_def_id": "investment",
+        "image_id": null,
+        "permalink": "stripe-invested-in-ramp-financial-series-b--edccde11--330a07de",
+        "uuid": "330a07de-cee0-45a6-96a4-3222b834f922",
+        "value": "Stripe investment in Series B - Ramp"
+      },
+      "organization_diversity_spotlights": null
+    }
+  },
+  {
+    "properties": {
+      "entity_def_id": "investment",
+      "funding_round_investment_type": "seed",
+      "is_lead_investor": null,
+      "uuid": "34206fd3-8e1d-4ee3-80e1-9f5659b98e89",
+      "identifier": {
+        "control_tags": null,
+        "entity_def_id": "investment",
+        "image_id": null,
+        "permalink": "stripe-invested-in-bluedot-technologies-seed--12286fba--34206fd3",
+        "uuid": "34206fd3-8e1d-4ee3-80e1-9f5659b98e89",
+        "value": "Stripe investment in Seed Round - Bluedot"
+      },
+      "organization_diversity_spotlights": [
+        {
+          "entity_def_id": "diversity_spotlight",
+          "image_id": null,
+          "permalink": "middle-eastern-or-north-african-founded",
+          "uuid": "ba45601d-e66f-4fb5-943d-db12c1b002e4",
+          "value": "Middle Eastern / North African Founded"
+        },
+        {
+          "entity_def_id": "diversity_spotlight",
+          "image_id": null,
+          "permalink": "women-founded",
+          "uuid": "212d952e-261d-40db-8311-a6b4c3c94c6a",
+          "value": "Women Founded"
+        }
+      ]
+    }
+  },
+  {
+    "properties": {
+      "entity_def_id": "investment",
+      "funding_round_investment_type": "corporate_round",
+      "is_lead_investor": true,
+      "uuid": "38b87698-cd21-4c72-ab3b-1430d12c8906",
+      "identifier": {
+        "control_tags": null,
+        "entity_def_id": "investment",
+        "image_id": null,
+        "permalink": "stripe-invested-in-stdlib-corporate-round--60fb5a9b--38b87698",
+        "uuid": "38b87698-cd21-4c72-ab3b-1430d12c8906",
+        "value": "Stripe investment in Corporate Round - Autocode"
+      },
+      "organization_diversity_spotlights": null
+    }
+  },
+  {
+    "properties": {
+      "entity_def_id": "investment",
+      "funding_round_investment_type": "series_b",
+      "is_lead_investor": null,
+      "uuid": "3bbf370e-3355-4850-999e-3cdcfa0b8847",
+      "identifier": {
+        "control_tags": null,
+        "entity_def_id": "investment",
+        "image_id": null,
+        "permalink": "stripe-invested-in-pulley-series-b--15e3a4c9--3bbf370e",
+        "uuid": "3bbf370e-3355-4850-999e-3cdcfa0b8847",
+        "value": "Stripe investment in Series B - Pulley"
+      },
+      "organization_diversity_spotlights": [
+        {
+          "entity_def_id": "diversity_spotlight",
+          "image_id": null,
+          "permalink": "women-founded",
+          "uuid": "212d952e-261d-40db-8311-a6b4c3c94c6a",
+          "value": "Women Founded"
+        }
+      ]
+    }
+  },
+  {
+    "properties": {
+      "entity_def_id": "investment",
+      "funding_round_investment_type": "seed",
+      "is_lead_investor": true,
+      "uuid": "3f19ab16-a696-42ea-81af-0cc2b4f78002",
+      "identifier": {
+        "control_tags": null,
+        "entity_def_id": "investment",
+        "image_id": null,
+        "permalink": "stripe-invested-in-dream-business-system-seed--4826e775--3f19ab16",
+        "uuid": "3f19ab16-a696-42ea-81af-0cc2b4f78002",
+        "value": "Stripe investment in Seed Round - Dream Business System"
+      },
+      "organization_diversity_spotlights": null
+    }
+  }
+]

@@ -1,0 +1,587 @@
+[
+  {
+    "properties": {
+      "description": "Stripe unveiled Tempo, a payments-oriented layer-1 blockchain for stablecoin transactions, incubated by Stripe and Paradigm and optimized for real-world financial services.",
+      "entity_def_id": "product_launch",
+      "image_id": "650f3c5b1360498b9cbb5004f8e10652",
+      "key_event_date": "2025-09-04",
+      "updated_at": "2025-09-12T02:14:09Z",
+      "uuid": "12b240e7-1d2e-40b6-bcb5-10d0e5a3463e",
+      "identifier": {
+        "entity_def_id": "product_launch",
+        "image_id": "650f3c5b1360498b9cbb5004f8e10652",
+        "permalink": null,
+        "uuid": "12b240e7-1d2e-40b6-bcb5-10d0e5a3463e",
+        "value": null
+      },
+      "organization": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      },
+      "press_reference_link": {
+        "value": "https://cointelegraph.com/news/race-global-stablecoin-rails-stripe-fireblocks",
+        "label": "Race for global stablecoin rails heats up with Stripe, Fireblocks launches"
+      },
+      "press_references": [
+        {
+          "entity_def_id": "press_reference",
+          "posted_on": "2025-09-04",
+          "publisher": "Cointelegraph",
+          "source_url": "https://cointelegraph.com/news/race-global-stablecoin-rails-stripe-fireblocks",
+          "thumbnail_url": null,
+          "uuid": "c3c94cc7-713c-4d9b-a68b-c42cc3e1e3fa",
+          "value": "Race for global stablecoin rails heats up with Stripe, Fireblocks launches"
+        }
+      ]
+    }
+  },
+  {
+    "properties": {
+      "description": "Stripe has launched new products leveraging AI and stablecoins to accelerate business growth.",
+      "entity_def_id": "product_launch",
+      "image_id": "d954e794f18e48c3b134c069ae53fb61",
+      "key_event_date": "2025-05-09",
+      "updated_at": "2025-05-23T16:57:54Z",
+      "uuid": "3ba233c7-c7c0-482c-b74e-52a5502632b8",
+      "identifier": {
+        "entity_def_id": "product_launch",
+        "image_id": "d954e794f18e48c3b134c069ae53fb61",
+        "permalink": null,
+        "uuid": "3ba233c7-c7c0-482c-b74e-52a5502632b8",
+        "value": null
+      },
+      "organization": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      },
+      "press_reference_link": {
+        "value": "https://thepaypers.com/search/index.aspx?search=sepa",
+        "label": "Search"
+      },
+      "press_references": [
+        {
+          "entity_def_id": "press_reference",
+          "posted_on": "2025-05-22",
+          "publisher": "Paypers",
+          "source_url": "https://thepaypers.com/search/index.aspx?search=sepa",
+          "thumbnail_url": null,
+          "uuid": "e92f99cd-c3c2-4894-b181-815b92984edb",
+          "value": "Search"
+        }
+      ]
+    }
+  },
+  {
+    "properties": {
+      "description": "Stripe has launched new features for businesses in Japan, including PayPay integration, card installment options, and support for network tokens. These updates aim to enhance payment methods, reduce checkout friction, and improve transaction security.",
+      "entity_def_id": "product_launch",
+      "image_id": "9ba31fa9e8544088a6e9af5fc5584ff1",
+      "key_event_date": "2025-04-22",
+      "updated_at": "2025-04-22T17:24:56Z",
+      "uuid": "5e7153ff-0d2c-4567-b817-af57656d8ccc",
+      "identifier": {
+        "entity_def_id": "product_launch",
+        "image_id": "9ba31fa9e8544088a6e9af5fc5584ff1",
+        "permalink": null,
+        "uuid": "5e7153ff-0d2c-4567-b817-af57656d8ccc",
+        "value": null
+      },
+      "organization": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      },
+      "press_reference_link": {
+        "value": "https://financialit.net/news/payments/stripe-launches-new-features-businesses-japan-including-paypay-integration",
+        "label": "Stripe Launches New Features for Businesses in Japan, Including PayPay Integration"
+      },
+      "press_references": [
+        {
+          "entity_def_id": "press_reference",
+          "posted_on": "2025-04-22",
+          "publisher": "Financial IT",
+          "source_url": "https://financialit.net/news/payments/stripe-launches-new-features-businesses-japan-including-paypay-integration",
+          "thumbnail_url": null,
+          "uuid": "4c5d2551-355b-4676-bd79-ee61c5b6c49d",
+          "value": "Stripe Launches New Features for Businesses in Japan, Including PayPay Integration"
+        }
+      ]
+    }
+  },
+  {
+    "properties": {
+      "description": "Stripe and Tempo launched the Machine Payments Protocol on Tempo's mainnet, adding a session-based streaming payments layer for AI agents with support for both stablecoins and traditional fiat payment methods.",
+      "entity_def_id": "product_launch",
+      "image_id": "6649d0113dac4c03b79ae6f5feb37039",
+      "key_event_date": "2026-03-18",
+      "updated_at": "2026-07-04T03:40:58Z",
+      "uuid": "5f545994-fa5c-49ed-829d-82e550ba307e",
+      "identifier": {
+        "entity_def_id": "product_launch",
+        "image_id": "6649d0113dac4c03b79ae6f5feb37039",
+        "permalink": null,
+        "uuid": "5f545994-fa5c-49ed-829d-82e550ba307e",
+        "value": null
+      },
+      "organization": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      },
+      "press_reference_link": {
+        "value": "https://www.techtimes.com/articles/319664/20260703/ai-agents-can-now-spend-real-money-autonomously-how-stripe-built-payment-infrastructure.htm",
+        "label": "AI Agents Can Now Spend Real Money Autonomously: How Stripe Built the Payment Infrastructure"
+      },
+      "press_references": [
+        {
+          "entity_def_id": "press_reference",
+          "posted_on": "2026-07-04",
+          "publisher": "Tech Times",
+          "source_url": "https://www.techtimes.com/articles/319664/20260703/ai-agents-can-now-spend-real-money-autonomously-how-stripe-built-payment-infrastructure.htm",
+          "thumbnail_url": null,
+          "uuid": "b2268b26-8964-4d10-bca1-ddbe034d9d32",
+          "value": "AI Agents Can Now Spend Real Money Autonomously: How Stripe Built the Payment Infrastructure"
+        }
+      ]
+    }
+  },
+  {
+    "properties": {
+      "description": "Stripe has developed machine-readable checkout infrastructure compliant with the Agentic Commerce Protocol (ACP) and AI-native fraud detection via Stripe Radar to support agent-led, machine-to-machine commerce.",
+      "entity_def_id": "product_launch",
+      "image_id": "21ecbbd980734cdcb69f3ffdc67df3e9",
+      "key_event_date": "2026-04-22",
+      "updated_at": "2026-04-27T00:35:55Z",
+      "uuid": "6dfb1fa3-af49-430d-9b02-c60200d7766a",
+      "identifier": {
+        "entity_def_id": "product_launch",
+        "image_id": "21ecbbd980734cdcb69f3ffdc67df3e9",
+        "permalink": null,
+        "uuid": "6dfb1fa3-af49-430d-9b02-c60200d7766a",
+        "value": null
+      },
+      "organization": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      },
+      "press_reference_link": {
+        "value": "https://mexicobusiness.news/ecommerce/news/agent-led-commerce-rises-stripe-drives-shift",
+        "label": "Agent-led Commerce Rises as Stripe Drives Shift"
+      },
+      "press_references": [
+        {
+          "entity_def_id": "press_reference",
+          "posted_on": "2026-04-22",
+          "publisher": "Mexico Business",
+          "source_url": "https://mexicobusiness.news/ecommerce/news/agent-led-commerce-rises-stripe-drives-shift",
+          "thumbnail_url": null,
+          "uuid": "56f0c518-1230-4363-8685-5801f1fe3315",
+          "value": "Agent-led Commerce Rises as Stripe Drives Shift"
+        }
+      ]
+    }
+  },
+  {
+    "properties": {
+      "description": "Stripe has launched a new payment protocol designed for AI agents, intensifying competition in AI-driven payment solutions.",
+      "entity_def_id": "product_launch",
+      "image_id": "d8df9e009814490fb264f771d45dc498",
+      "key_event_date": "2026-03-18",
+      "updated_at": "2026-03-19T12:03:20Z",
+      "uuid": "84061b27-9895-43d5-98eb-e88032543d84",
+      "identifier": {
+        "entity_def_id": "product_launch",
+        "image_id": "d8df9e009814490fb264f771d45dc498",
+        "permalink": null,
+        "uuid": "84061b27-9895-43d5-98eb-e88032543d84",
+        "value": null
+      },
+      "organization": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      },
+      "press_reference_link": {
+        "value": "https://www.panewslab.com/zh/articles/019d039e-4544-70dd-9ec0-0f5b2721c7c0",
+        "label": "Coinbase\u6b63\u63a8\u52a8AI\u4ee3\u7406\u4f7f\u7528\u52a0\u5bc6\u652f\u4ed8\uff0c\u5e76\u4e89\u53d6\u4e0eCloudflare\u8fbe\u6210\u7a33\u5b9a\u5e01\u5408\u4f5c"
+      },
+      "press_references": [
+        {
+          "entity_def_id": "press_reference",
+          "posted_on": "2026-03-18",
+          "publisher": "PANews",
+          "source_url": "https://www.panewslab.com/zh/articles/019d039e-4544-70dd-9ec0-0f5b2721c7c0",
+          "thumbnail_url": null,
+          "uuid": "68b62e91-72ed-471a-b69d-e134b445130f",
+          "value": "Coinbase\u6b63\u63a8\u52a8AI\u4ee3\u7406\u4f7f\u7528\u52a0\u5bc6\u652f\u4ed8\uff0c\u5e76\u4e89\u53d6\u4e0eCloudflare\u8fbe\u6210\u7a33\u5b9a\u5e01\u5408\u4f5c"
+        }
+      ]
+    }
+  },
+  {
+    "properties": {
+      "description": "Stripe unveiled Tempo, a payments-oriented layer-1 blockchain for stablecoin transactions, incubated by Stripe and Paradigm and optimized for real-world financial services.",
+      "entity_def_id": "product_launch",
+      "image_id": "455bef59b94c4afbb86a64beb33c813d",
+      "key_event_date": "2025-09-04",
+      "updated_at": "2025-09-12T02:24:14Z",
+      "uuid": "89302bc9-1fdf-4e7c-a106-06e27e2b3a4a",
+      "identifier": {
+        "entity_def_id": "product_launch",
+        "image_id": "455bef59b94c4afbb86a64beb33c813d",
+        "permalink": null,
+        "uuid": "89302bc9-1fdf-4e7c-a106-06e27e2b3a4a",
+        "value": null
+      },
+      "organization": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      },
+      "press_reference_link": {
+        "value": "https://cointelegraph.com/news/race-global-stablecoin-rails-stripe-fireblocks",
+        "label": "Race for global stablecoin rails heats up with Stripe, Fireblocks launches"
+      },
+      "press_references": [
+        {
+          "entity_def_id": "press_reference",
+          "posted_on": "2025-09-04",
+          "publisher": "Cointelegraph",
+          "source_url": "https://cointelegraph.com/news/race-global-stablecoin-rails-stripe-fireblocks",
+          "thumbnail_url": null,
+          "uuid": "c3c94cc7-713c-4d9b-a68b-c42cc3e1e3fa",
+          "value": "Race for global stablecoin rails heats up with Stripe, Fireblocks launches"
+        }
+      ]
+    }
+  },
+  {
+    "properties": {
+      "description": "A set of guidelines for handling events, allowing event producers to send events to various destinations like message queues and event buses.",
+      "entity_def_id": "product_launch",
+      "image_id": "cd7489b63799400b82e4d2f408ae4481",
+      "key_event_date": "2025-02-26",
+      "updated_at": "2025-02-26T21:47:20Z",
+      "uuid": "a52b2d70-003c-47dd-bc04-00f7ff064a81",
+      "identifier": {
+        "entity_def_id": "product_launch",
+        "image_id": "cd7489b63799400b82e4d2f408ae4481",
+        "permalink": null,
+        "uuid": "a52b2d70-003c-47dd-bc04-00f7ff064a81",
+        "value": null
+      },
+      "organization": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      },
+      "press_reference_link": {
+        "value": "https://thenewstack.io/event-destinations-a-faster-alternative-to-webhooks/",
+        "label": "Event Destinations: A Faster Alternative to Webhooks"
+      },
+      "press_references": [
+        {
+          "entity_def_id": "press_reference",
+          "posted_on": "2025-02-26",
+          "publisher": "The New Stack",
+          "source_url": "https://thenewstack.io/event-destinations-a-faster-alternative-to-webhooks/",
+          "thumbnail_url": null,
+          "uuid": "1a426eec-0ad9-48d7-af44-5e08a6487369",
+          "value": "Event Destinations: A Faster Alternative to Webhooks"
+        }
+      ]
+    }
+  },
+  {
+    "properties": {
+      "description": "Stripe unveiled Tempo, a payments-oriented layer-1 blockchain for stablecoin transactions, incubated by Stripe and Paradigm and optimized for real-world financial services.",
+      "entity_def_id": "product_launch",
+      "image_id": "d954e794f18e48c3b134c069ae53fb61",
+      "key_event_date": "2025-09-04",
+      "updated_at": "2025-09-12T02:07:44Z",
+      "uuid": "b4550c06-8df8-4263-ba28-a0a5f1b3d89f",
+      "identifier": {
+        "entity_def_id": "product_launch",
+        "image_id": "d954e794f18e48c3b134c069ae53fb61",
+        "permalink": null,
+        "uuid": "b4550c06-8df8-4263-ba28-a0a5f1b3d89f",
+        "value": null
+      },
+      "organization": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      },
+      "press_reference_link": {
+        "value": "https://cointelegraph.com/news/race-global-stablecoin-rails-stripe-fireblocks",
+        "label": "Race for global stablecoin rails heats up with Stripe, Fireblocks launches"
+      },
+      "press_references": [
+        {
+          "entity_def_id": "press_reference",
+          "posted_on": "2025-09-04",
+          "publisher": "Cointelegraph",
+          "source_url": "https://cointelegraph.com/news/race-global-stablecoin-rails-stripe-fireblocks",
+          "thumbnail_url": null,
+          "uuid": "c3c94cc7-713c-4d9b-a68b-c42cc3e1e3fa",
+          "value": "Race for global stablecoin rails heats up with Stripe, Fireblocks launches"
+        }
+      ]
+    }
+  },
+  {
+    "properties": {
+      "description": "Stripe is testing and rolling out its new X402 payment protocol on Base to enable machine-to-machine crypto payments between AI agents.",
+      "entity_def_id": "product_launch",
+      "image_id": "cd7489b63799400b82e4d2f408ae4481",
+      "key_event_date": "2026-02-11",
+      "updated_at": "2026-02-11T21:07:36Z",
+      "uuid": "b4eb5563-0c42-490b-b3a6-1ec698232063",
+      "identifier": {
+        "entity_def_id": "product_launch",
+        "image_id": "cd7489b63799400b82e4d2f408ae4481",
+        "permalink": null,
+        "uuid": "b4eb5563-0c42-490b-b3a6-1ec698232063",
+        "value": null
+      },
+      "organization": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      },
+      "press_reference_link": {
+        "value": "https://www.newsbtc.com/news/stripe-x402-ai-protocol-fuels-subbd-token-presale/",
+        "label": "Stripe\u2019s New X402 Protocol for AI Agents Spotlights a Booming Trend, Fueling SUBBD Token\u2019s Presale"
+      },
+      "press_references": [
+        {
+          "entity_def_id": "press_reference",
+          "posted_on": "2026-02-11",
+          "publisher": "NewsBTC",
+          "source_url": "https://www.newsbtc.com/news/stripe-x402-ai-protocol-fuels-subbd-token-presale/",
+          "thumbnail_url": null,
+          "uuid": "febee29e-85ea-491f-9932-87199e8e86b3",
+          "value": "Stripe\u2019s New X402 Protocol for AI Agents Spotlights a Booming Trend, Fueling SUBBD Token\u2019s Presale"
+        }
+      ]
+    }
+  },
+  {
+    "properties": {
+      "description": "Stripe has launched new features for businesses in Japan, including PayPay integration, card installment options, and support for network tokens. These updates aim to enhance payment methods, reduce checkout friction, and improve transaction security.",
+      "entity_def_id": "product_launch",
+      "image_id": "31cb6b71104144f2a44c2baafdc9bebc",
+      "key_event_date": "2025-04-22",
+      "updated_at": "2025-04-22T16:35:11Z",
+      "uuid": "b97dfa9e-5d6f-42bb-a260-336ac9ee4551",
+      "identifier": {
+        "entity_def_id": "product_launch",
+        "image_id": "31cb6b71104144f2a44c2baafdc9bebc",
+        "permalink": null,
+        "uuid": "b97dfa9e-5d6f-42bb-a260-336ac9ee4551",
+        "value": null
+      },
+      "organization": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      },
+      "press_reference_link": {
+        "value": "https://financialit.net/news/payments/stripe-launches-new-features-businesses-japan-including-paypay-integration",
+        "label": "Stripe Launches New Features for Businesses in Japan, Including PayPay Integration"
+      },
+      "press_references": [
+        {
+          "entity_def_id": "press_reference",
+          "posted_on": "2025-04-22",
+          "publisher": "Financial IT",
+          "source_url": "https://financialit.net/news/payments/stripe-launches-new-features-businesses-japan-including-paypay-integration",
+          "thumbnail_url": null,
+          "uuid": "4c5d2551-355b-4676-bd79-ee61c5b6c49d",
+          "value": "Stripe Launches New Features for Businesses in Japan, Including PayPay Integration"
+        }
+      ]
+    }
+  },
+  {
+    "properties": {
+      "description": "Stripe launched its Stablecoin API in 2025 to bridge traditional businesses with on-chain stablecoin payments and settlement.",
+      "entity_def_id": "product_launch",
+      "image_id": "d8df9e009814490fb264f771d45dc498",
+      "key_event_date": "2025-01-01",
+      "updated_at": "2026-05-26T03:02:59Z",
+      "uuid": "bbc98855-3e26-4296-a0fe-7791d4739627",
+      "identifier": {
+        "entity_def_id": "product_launch",
+        "image_id": "d8df9e009814490fb264f771d45dc498",
+        "permalink": null,
+        "uuid": "bbc98855-3e26-4296-a0fe-7791d4739627",
+        "value": null
+      },
+      "organization": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      },
+      "press_reference_link": {
+        "value": "https://www.panewslab.com/zh/articles/019e5e45-46c4-75bb-a7ac-e56c01dd3e32",
+        "label": "Crypto Agent\u5546\u4e1a\u5316\u57fa\u7840\u8bbe\u65bd\u7814\u7a76\uff1a\u4ee5\u7a33\u5b9a\u5e01\u4e3a\u6838\u5fc3\u201c\u539f\u751f\u8d27\u5e01\u5c42\u201d\u4e0e\u7ed3\u7b97\u7f51\u7edc\u6df1\u5ea6\u89e3\u6790"
+      },
+      "press_references": [
+        {
+          "entity_def_id": "press_reference",
+          "posted_on": "2026-05-26",
+          "publisher": "PANews",
+          "source_url": "https://www.panewslab.com/zh/articles/019e5e45-46c4-75bb-a7ac-e56c01dd3e32",
+          "thumbnail_url": null,
+          "uuid": "6f0a5f16-dbd8-48cd-b263-1ba8656f9a67",
+          "value": "Crypto Agent\u5546\u4e1a\u5316\u57fa\u7840\u8bbe\u65bd\u7814\u7a76\uff1a\u4ee5\u7a33\u5b9a\u5e01\u4e3a\u6838\u5fc3\u201c\u539f\u751f\u8d27\u5e01\u5c42\u201d\u4e0e\u7ed3\u7b97\u7f51\u7edc\u6df1\u5ea6\u89e3\u6790"
+        }
+      ]
+    }
+  },
+  {
+    "properties": {
+      "description": "Stripe, in partnership with Crypto.com, is launching a new checkout integration that enables Stripe merchants in the US to accept cryptocurrency payments starting January 2026, with plans for international expansion.",
+      "entity_def_id": "product_launch",
+      "image_id": "965ded32ecc54a209f6ec2f500b3b4de",
+      "key_event_date": "2026-01-01",
+      "updated_at": "2026-01-09T15:05:51Z",
+      "uuid": "ce93ef02-c037-4939-bdc7-e911b6d79da5",
+      "identifier": {
+        "entity_def_id": "product_launch",
+        "image_id": "965ded32ecc54a209f6ec2f500b3b4de",
+        "permalink": null,
+        "uuid": "ce93ef02-c037-4939-bdc7-e911b6d79da5",
+        "value": null
+      },
+      "organization": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      },
+      "press_reference_link": {
+        "value": "https://www.ledgerinsights.com/stripe-enables-crypto-payments-via-crypto-com-partnership/",
+        "label": "Stripe enables crypto payments via Crypto.com partnership"
+      },
+      "press_references": [
+        {
+          "entity_def_id": "press_reference",
+          "posted_on": "2026-01-08",
+          "publisher": "Ledger Insights - blockchain for enterprise",
+          "source_url": "https://www.ledgerinsights.com/stripe-enables-crypto-payments-via-crypto-com-partnership/",
+          "thumbnail_url": null,
+          "uuid": "f86401b3-3370-4ac1-8c0f-d444411671d3",
+          "value": "Stripe enables crypto payments via Crypto.com partnership"
+        }
+      ]
+    }
+  },
+  {
+    "properties": {
+      "description": "Stripe rolled out stablecoin-based accounts that allow customers to send, receive and hold balances in USDC and USDB across more than 100 countries.",
+      "entity_def_id": "product_launch",
+      "image_id": "5e021ed00f854b1db19622164def8061",
+      "key_event_date": "2025-05-01",
+      "updated_at": "2025-12-03T07:05:27Z",
+      "uuid": "d8c6446e-0bbb-4518-8135-792cc2f9b55f",
+      "identifier": {
+        "entity_def_id": "product_launch",
+        "image_id": "5e021ed00f854b1db19622164def8061",
+        "permalink": null,
+        "uuid": "d8c6446e-0bbb-4518-8135-792cc2f9b55f",
+        "value": null
+      },
+      "organization": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      },
+      "press_reference_link": {
+        "value": "https://cointelegraph.com/news/unlimit-stablecoin-infrastructure-decentralized-clearing-house",
+        "label": "Unlimit enters stablecoin infrastructure race with decentralized clearing house"
+      },
+      "press_references": [
+        {
+          "entity_def_id": "press_reference",
+          "posted_on": "2025-12-02",
+          "publisher": "Cointelegraph",
+          "source_url": "https://cointelegraph.com/news/unlimit-stablecoin-infrastructure-decentralized-clearing-house",
+          "thumbnail_url": null,
+          "uuid": "4e145eee-0942-4ab6-863a-eae09f5081c4",
+          "value": "Unlimit enters stablecoin infrastructure race with decentralized clearing house"
+        }
+      ]
+    }
+  },
+  {
+    "properties": {
+      "description": "Stripe launched a quick lending product for small businesses in Australia under Stripe Capital, coinciding with the platform surpassing one million users across Australia and New Zealand.",
+      "entity_def_id": "product_launch",
+      "image_id": "cd7489b63799400b82e4d2f408ae4481",
+      "key_event_date": "2025-09-15",
+      "updated_at": "2025-09-15T22:08:10Z",
+      "uuid": "dbb27f5a-169e-426c-8adc-a97d652925eb",
+      "identifier": {
+        "entity_def_id": "product_launch",
+        "image_id": "cd7489b63799400b82e4d2f408ae4481",
+        "permalink": null,
+        "uuid": "dbb27f5a-169e-426c-8adc-a97d652925eb",
+        "value": null
+      },
+      "organization": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      },
+      "press_reference_link": {
+        "value": "https://www.smartcompany.com.au/finance/stripe-capital-quick-lending-small-businesses-australia/",
+        "label": "Stripe launches quick lending for small businesses in Australia"
+      },
+      "press_references": [
+        {
+          "entity_def_id": "press_reference",
+          "posted_on": "2025-09-15",
+          "publisher": "SmartCompany",
+          "source_url": "https://www.smartcompany.com.au/finance/stripe-capital-quick-lending-small-businesses-australia/",
+          "thumbnail_url": null,
+          "uuid": "3c9cf591-0c8b-4c52-a083-4ad19cc77f09",
+          "value": "Stripe launches quick lending for small businesses in Australia"
+        }
+      ]
+    }
+  }
+]

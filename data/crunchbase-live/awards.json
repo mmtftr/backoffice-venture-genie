@@ -1,0 +1,207 @@
+[
+  {
+    "properties": {
+      "description": "Stripe was recognized as a 'Market Leader' in the FeaturedCustomers Summer 2025 Tax Compliance Software Customer Success Report for its strong social media presence and customer base.",
+      "entity_def_id": "award",
+      "image_id": "31c928404b48432aa93b744faa2ce678",
+      "key_event_date": "2025-06-10",
+      "name": "Market Leader - Summer 2025 Tax Compliance Software Customer Success Report",
+      "sentiment": null,
+      "updated_at": "2025-06-11T06:24:07Z",
+      "uuid": "07371ef7-f228-48b4-bb1e-499835b628f0",
+      "identifier": {
+        "entity_def_id": "award",
+        "image_id": "31c928404b48432aa93b744faa2ce678",
+        "permalink": null,
+        "uuid": "07371ef7-f228-48b4-bb1e-499835b628f0",
+        "value": "Market Leader - Summer 2025 Tax Compliance Software Customer Success Report"
+      },
+      "organization": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      },
+      "press_reference_link": {
+        "value": "https://www.einpresswire.com/article/820461644/the-top-tax-compliance-software-vendors-according-to-the-featuredcustomers-summer-2025-customer-success-report-rankings",
+        "label": "The Top Tax Compliance Software Vendors According to the FeaturedCustomers Summer 2025 Customer Success Report Rankings"
+      },
+      "press_references": [
+        {
+          "entity_def_id": "press_reference",
+          "posted_on": "2025-06-10",
+          "publisher": "EIN Presswire",
+          "source_url": "https://www.einpresswire.com/article/820461644/the-top-tax-compliance-software-vendors-according-to-the-featuredcustomers-summer-2025-customer-success-report-rankings",
+          "thumbnail_url": null,
+          "uuid": "fd5464ae-f275-43e7-a30b-430693b208ca",
+          "value": "The Top Tax Compliance Software Vendors According to the FeaturedCustomers Summer 2025 Customer Success Report Rankings"
+        }
+      ]
+    }
+  },
+  {
+    "properties": {
+      "description": "Stripe and Adyen were recognized as top digital payment fintech players in Hong Kong by Fintech News Hong Kong for their impact and scale.",
+      "entity_def_id": "award",
+      "image_id": "965ded32ecc54a209f6ec2f500b3b4de",
+      "key_event_date": "2025-08-01",
+      "name": "Top 25 Fintech Players in Hong Kong",
+      "sentiment": null,
+      "updated_at": "2025-08-02T10:04:41Z",
+      "uuid": "181e14a4-5cbb-44e2-90c4-0e64dd036931",
+      "identifier": {
+        "entity_def_id": "award",
+        "image_id": "965ded32ecc54a209f6ec2f500b3b4de",
+        "permalink": null,
+        "uuid": "181e14a4-5cbb-44e2-90c4-0e64dd036931",
+        "value": "Top 25 Fintech Players in Hong Kong"
+      },
+      "organization": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      },
+      "press_reference_link": {
+        "value": "https://fintechnews.hk/34948/various/fintech-news-hong-kong-unveils-citys-top-25-fintech-players-defining-the-financial-sector/",
+        "label": "Fintech News Hong Kong Unveils City\u2019s Top 25 Fintech Players Defining the Financial Sector"
+      },
+      "press_references": [
+        {
+          "entity_def_id": "press_reference",
+          "posted_on": "2025-08-01",
+          "publisher": "Fintech Hong Kong",
+          "source_url": "https://fintechnews.hk/34948/various/fintech-news-hong-kong-unveils-citys-top-25-fintech-players-defining-the-financial-sector/",
+          "thumbnail_url": null,
+          "uuid": "93f24534-403c-40d1-99b3-7239f315490c",
+          "value": "Fintech News Hong Kong Unveils City\u2019s Top 25 Fintech Players Defining the Financial Sector"
+        }
+      ]
+    }
+  },
+  {
+    "properties": {
+      "description": "Stripe was recognized at #10 in FinTech Magazine\u2019s Top 100 FinTech Companies 2025 ranking.",
+      "entity_def_id": "award",
+      "image_id": "b6ca7e5951a54c48a856b3c25552ed15",
+      "key_event_date": "2025-10-07",
+      "name": "Top 100 FinTech Companies 2025",
+      "sentiment": null,
+      "updated_at": "2025-10-07T18:13:08Z",
+      "uuid": "22aa50b0-b948-4a3c-8c68-85264b64a779",
+      "identifier": {
+        "entity_def_id": "award",
+        "image_id": "b6ca7e5951a54c48a856b3c25552ed15",
+        "permalink": null,
+        "uuid": "22aa50b0-b948-4a3c-8c68-85264b64a779",
+        "value": "Top 100 FinTech Companies 2025"
+      },
+      "organization": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      },
+      "press_reference_link": {
+        "value": "https://www.prnewswire.com/news-releases/fintech-magazine-publishes-editorial-top-100-fintech-companies-2025-302576084.html",
+        "label": "FinTech Magazine Publishes Editorial Top 100 FinTech Companies 2025"
+      },
+      "press_references": [
+        {
+          "entity_def_id": "press_reference",
+          "posted_on": "2025-10-07",
+          "publisher": "PR Newswire",
+          "source_url": "https://www.prnewswire.com/news-releases/fintech-magazine-publishes-editorial-top-100-fintech-companies-2025-302576084.html",
+          "thumbnail_url": null,
+          "uuid": "d9dd9d65-67ac-4bd9-8835-60a235625055",
+          "value": "FinTech Magazine Publishes Editorial Top 100 FinTech Companies 2025"
+        }
+      ]
+    }
+  },
+  {
+    "properties": {
+      "description": "Stripe received an AI Innovator Award in the 2025 Shoplazza Awards for integrating AI across its payment and risk products.",
+      "entity_def_id": "award",
+      "image_id": "5e021ed00f854b1db19622164def8061",
+      "key_event_date": "2026-02-05",
+      "name": "2025 Shoplazza Awards - AI Innovator",
+      "sentiment": null,
+      "updated_at": "2026-02-05T08:05:33Z",
+      "uuid": "6d5c72d9-df61-4908-98e1-a3f1fa988938",
+      "identifier": {
+        "entity_def_id": "award",
+        "image_id": "5e021ed00f854b1db19622164def8061",
+        "permalink": null,
+        "uuid": "6d5c72d9-df61-4908-98e1-a3f1fa988938",
+        "value": "2025 Shoplazza Awards - AI Innovator"
+      },
+      "organization": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      },
+      "press_reference_link": {
+        "value": "https://www.prnewswire.com/news-releases/shoplazza-awards-mark-fourth-year-as-merchants-shift-toward-ai-driven-sustainable-growth-spotlighted-on-the-nasdaq-tower-in-times-square-302679840.html",
+        "label": "Shoplazza Awards Mark Fourth Year as Merchants Shift Toward AI-Driven, Sustainable Growth, Spotlighted on the Nasdaq Tower in Times Square"
+      },
+      "press_references": [
+        {
+          "entity_def_id": "press_reference",
+          "posted_on": "2026-02-05",
+          "publisher": "PR Newswire",
+          "source_url": "https://www.prnewswire.com/news-releases/shoplazza-awards-mark-fourth-year-as-merchants-shift-toward-ai-driven-sustainable-growth-spotlighted-on-the-nasdaq-tower-in-times-square-302679840.html",
+          "thumbnail_url": null,
+          "uuid": "f7d6fe62-a870-455b-a7f2-be3c8e403d0f",
+          "value": "Shoplazza Awards Mark Fourth Year as Merchants Shift Toward AI-Driven, Sustainable Growth, Spotlighted on the Nasdaq Tower in Times Square"
+        }
+      ]
+    }
+  },
+  {
+    "properties": {
+      "description": "Stripe earned the Market Leader designation in FeaturedCustomers' Summer 2026 Tax Compliance Software Customer Success Report based on strong customer references and market share.",
+      "entity_def_id": "award",
+      "image_id": "cd7489b63799400b82e4d2f408ae4481",
+      "key_event_date": "2026-06-30",
+      "name": "Summer 2026 Tax Compliance Software Market Leader",
+      "sentiment": null,
+      "updated_at": "2026-06-30T19:22:15Z",
+      "uuid": "94489d8c-3e62-484f-9603-d6b92cf93876",
+      "identifier": {
+        "entity_def_id": "award",
+        "image_id": "cd7489b63799400b82e4d2f408ae4481",
+        "permalink": null,
+        "uuid": "94489d8c-3e62-484f-9603-d6b92cf93876",
+        "value": "Summer 2026 Tax Compliance Software Market Leader"
+      },
+      "organization": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      },
+      "press_reference_link": {
+        "value": "https://www.einpresswire.com/article/923095089/the-top-tax-compliance-software-vendors-according-to-the-featuredcustomers-summer-2026-customer-success-report-rankings",
+        "label": "The Top Tax Compliance Software Vendors According to the FeaturedCustomers Summer 2026 Customer Success Report Rankings"
+      },
+      "press_references": [
+        {
+          "entity_def_id": "press_reference",
+          "posted_on": "2026-06-30",
+          "publisher": "EIN Presswire",
+          "source_url": "https://www.einpresswire.com/article/923095089/the-top-tax-compliance-software-vendors-according-to-the-featuredcustomers-summer-2026-customer-success-report-rankings",
+          "thumbnail_url": null,
+          "uuid": "6b8e483f-0d1f-4a3e-9b0d-6cddec8d9be3",
+          "value": "The Top Tax Compliance Software Vendors According to the FeaturedCustomers Summer 2026 Customer Success Report Rankings"
+        }
+      ]
+    }
+  }
+]

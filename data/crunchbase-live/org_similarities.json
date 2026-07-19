@@ -1,0 +1,74 @@
+[
+  {
+    "properties": {
+      "entity_def_id": "org_similarity",
+      "uuid": "01fd55ee-76a5-459e-83aa-92ab8710905e"
+    }
+  },
+  {
+    "properties": {
+      "entity_def_id": "org_similarity",
+      "uuid": "2b66d529-0c84-407e-ba05-33f3efca39db"
+    }
+  },
+  {
+    "properties": {
+      "entity_def_id": "org_similarity",
+      "uuid": "3ec5010b-76c2-4a92-ac34-b1a031be29fb"
+    }
+  },
+  {
+    "properties": {
+      "entity_def_id": "org_similarity",
+      "uuid": "66387a14-e10b-4e5c-a674-0aec0516af3e"
+    }
+  },
+  {
+    "properties": {
+      "entity_def_id": "org_similarity",
+      "uuid": "6d20015b-e6fd-40ea-811d-df0d618b9bf2"
+    }
+  },
+  {
+    "properties": {
+      "entity_def_id": "org_similarity",
+      "uuid": "6da1b263-4ff7-434b-917d-752094afe9d7"
+    }
+  },
+  {
+    "properties": {
+      "entity_def_id": "org_similarity",
+      "uuid": "7d53597e-1343-4a33-bdf2-5e860ec350fc"
+    }
+  },
+  {
+    "properties": {
+      "entity_def_id": "org_similarity",
+      "uuid": "ab8a8a2d-e087-4fb0-825d-20213c421641"
+    }
+  },
+  {
+    "properties": {
+      "entity_def_id": "org_similarity",
+      "uuid": "c7737603-5a94-40fa-b1dd-163821220cd7"
+    }
+  },
+  {
+    "properties": {
+      "entity_def_id": "org_similarity",
+      "uuid": "cb2950ef-f084-49ed-9b42-b984a64ed723"
+    }
+  },
+  {
+    "properties": {
+      "entity_def_id": "org_similarity",
+      "uuid": "e0278964-170c-43f7-b6b4-57230857c3d0"
+    }
+  },
+  {
+    "properties": {
+      "entity_def_id": "org_similarity",
+      "uuid": "f66c12c7-0259-475a-b4d1-e43feaad0a1d"
+    }
+  }
+]

@@ -1,0 +1,890 @@
+[
+  {
+    "properties": {
+      "author": "James Pothen",
+      "entity_def_id": "press_reference",
+      "posted_on": "2023-07-07",
+      "publisher": "Payments Dive",
+      "thumbnail_url": "https://www.paymentsdive.com/imgproxy/Krl3ELYpknl7EyxHbD9SITLTaqkeWmGJjsEQT5M1mIU/g:ce/rs:fill:1600:900:1/bG9jYWw6Ly8vZGl2ZWltYWdlL0dldHR5SW1hZ2VzLTExODYzODkzNTQuanBn.jpg",
+      "uuid": "0007e22b-a14e-4652-a762-56c0ba179894",
+      "activity_entities": [
+        {
+          "control_tags": null,
+          "entity_def_id": "organization",
+          "image_id": "82700c1a09d149ef87c707c065d73317",
+          "permalink": "stripe",
+          "role": null,
+          "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+          "value": "Stripe"
+        }
+      ],
+      "identifier": {
+        "entity_def_id": "press_reference",
+        "image_id": null,
+        "permalink": null,
+        "uuid": "0007e22b-a14e-4652-a762-56c0ba179894",
+        "value": "Stripe cuts additional jobs"
+      }
+    }
+  },
+  {
+    "properties": {
+      "author": null,
+      "entity_def_id": "press_reference",
+      "posted_on": "2026-06-16",
+      "publisher": "legacy.thefly.com",
+      "thumbnail_url": null,
+      "uuid": "000a6e2e-e45e-4335-85ef-9a4fa9602a2b",
+      "activity_entities": [
+        {
+          "control_tags": null,
+          "entity_def_id": "organization",
+          "image_id": "82700c1a09d149ef87c707c065d73317",
+          "permalink": "stripe",
+          "role": null,
+          "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+          "value": "Stripe"
+        },
+        {
+          "control_tags": null,
+          "entity_def_id": "organization",
+          "image_id": "a733732a0d904032a1a08d73f86bb78c",
+          "permalink": "zip-f492",
+          "role": null,
+          "uuid": "7910ddf1-058f-49bb-9a25-85eddaaaf492",
+          "value": "Zip"
+        }
+      ],
+      "identifier": {
+        "entity_def_id": "press_reference",
+        "image_id": null,
+        "permalink": null,
+        "uuid": "000a6e2e-e45e-4335-85ef-9a4fa9602a2b",
+        "value": "Zip Co. expands partnership with Stripe"
+      }
+    }
+  },
+  {
+    "properties": {
+      "author": null,
+      "entity_def_id": "press_reference",
+      "posted_on": "2021-09-01",
+      "publisher": "TechNode",
+      "thumbnail_url": "https://i2.wp.com/technode.com/wp-content/uploads/2021/08/technode-news-feed-1-1.png?fit=540%2C540&ssl=1",
+      "uuid": "000b6897-579c-4709-a7e6-e1108e27d902",
+      "activity_entities": [
+        {
+          "control_tags": null,
+          "entity_def_id": "organization",
+          "image_id": "82700c1a09d149ef87c707c065d73317",
+          "permalink": "stripe",
+          "role": null,
+          "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+          "value": "Stripe"
+        }
+      ],
+      "identifier": {
+        "entity_def_id": "press_reference",
+        "image_id": null,
+        "permalink": null,
+        "uuid": "000b6897-579c-4709-a7e6-e1108e27d902",
+        "value": "Stripe adds support for China\u2019s UnionPay"
+      }
+    }
+  },
+  {
+    "properties": {
+      "author": "Ledger Insights",
+      "entity_def_id": "press_reference",
+      "posted_on": "2025-10-15",
+      "publisher": "Ledger Insights - blockchain for enterprise",
+      "thumbnail_url": null,
+      "uuid": "000d18a3-6248-41e3-8680-46fe440e4c0c",
+      "activity_entities": [
+        {
+          "control_tags": null,
+          "entity_def_id": "organization",
+          "image_id": "ydu7gydqbafzcotyhv2w",
+          "permalink": "bridge-05d0",
+          "role": null,
+          "uuid": "8c172e0f-9076-4ea2-9dcb-011070f905d0",
+          "value": "Bridge"
+        },
+        {
+          "control_tags": null,
+          "entity_def_id": "organization",
+          "image_id": "onopspdnhgb86yiuvtsy",
+          "permalink": "circle-2",
+          "role": null,
+          "uuid": "e9fc5b1e-309f-dae7-580a-b924c5c5608d",
+          "value": "Circle"
+        },
+        {
+          "control_tags": null,
+          "entity_def_id": "organization",
+          "image_id": "bhusvwtttjcsxhaq0kil",
+          "permalink": "coinbase",
+          "role": null,
+          "uuid": "66e40cf4-9685-ff3b-b5a7-0d43cc45eefb",
+          "value": "Coinbase"
+        },
+        {
+          "control_tags": null,
+          "entity_def_id": "organization",
+          "image_id": "u0c6bnvchnfyosshmqub",
+          "permalink": "sony-bank",
+          "role": null,
+          "uuid": "ffe8dffa-3e85-4fb9-99c2-3a0b76fe1d15",
+          "value": "Sony Bank"
+        },
+        {
+          "control_tags": null,
+          "entity_def_id": "organization",
+          "image_id": "82700c1a09d149ef87c707c065d73317",
+          "permalink": "stripe",
+          "role": null,
+          "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+          "value": "Stripe"
+        },
+        {
+          "control_tags": null,
+          "entity_def_id": "organization",
+          "image_id": "f2768a38486747efadd84b41ecc1ac0e",
+          "permalink": "tether-50cc",
+          "role": null,
+          "uuid": "a9510682-b08f-464a-b99a-45d741fb50cc",
+          "value": "Tether"
+        }
+      ],
+      "identifier": {
+        "entity_def_id": "press_reference",
+        "image_id": null,
+        "permalink": null,
+        "uuid": "000d18a3-6248-41e3-8680-46fe440e4c0c",
+        "value": "Stripe\u2019s Bridge stablecoin arm pursues OCC trust charter"
+      }
+    }
+  },
+  {
+    "properties": {
+      "author": "Ken Yeung",
+      "entity_def_id": "press_reference",
+      "posted_on": "2016-05-03",
+      "publisher": "Venture Beat",
+      "thumbnail_url": "http://1u88jj3r4db2x4txp44yqfj1.wpengine.netdna-cdn.com/wp-content/uploads/2016/05/Designer-Fund-Team_Credit-Colin-Price_Web-780x520.jpg",
+      "uuid": "00110aca-2e7d-fda3-6235-dca66a0dbcfa",
+      "activity_entities": [
+        {
+          "control_tags": null,
+          "entity_def_id": "organization",
+          "image_id": "v1403804472/mpjiithjnvud5zfhnnlg.png",
+          "permalink": "designer-fund",
+          "role": null,
+          "uuid": "368e8dcb-0d85-1b7c-7ed5-afe47873f4b5",
+          "value": "Designer Fund"
+        },
+        {
+          "control_tags": null,
+          "entity_def_id": "person",
+          "image_id": "kapuyhomyvuwbqvwzr2d",
+          "permalink": "lisa-anne-logan",
+          "role": null,
+          "uuid": "a10f783a-ec91-507d-ca9d-f655cf29d525",
+          "value": "Lisa Anne Logan"
+        },
+        {
+          "control_tags": null,
+          "entity_def_id": "organization",
+          "image_id": "82700c1a09d149ef87c707c065d73317",
+          "permalink": "stripe",
+          "role": null,
+          "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+          "value": "Stripe"
+        },
+        {
+          "control_tags": null,
+          "entity_def_id": "organization",
+          "image_id": "v1487973008/aa2efwthg5vvx1kgmggu.png",
+          "permalink": "venturebeat",
+          "role": null,
+          "uuid": "07bca62f-bc7a-7d38-94b9-335d5e95c20c",
+          "value": "VentureBeat"
+        }
+      ],
+      "identifier": {
+        "entity_def_id": "press_reference",
+        "image_id": null,
+        "permalink": null,
+        "uuid": "00110aca-2e7d-fda3-6235-dca66a0dbcfa",
+        "value": "Designer Fund launches with $20 million to invest in startups with taste"
+      }
+    }
+  },
+  {
+    "properties": {
+      "author": "Matt Kapko",
+      "entity_def_id": "press_reference",
+      "posted_on": "2016-09-12",
+      "publisher": "PC World",
+      "thumbnail_url": "http://images.techhive.com/images/article/2015/05/facebook-messenger-100586774-large.png",
+      "uuid": "00165e0e-00aa-dbb2-f3d5-7a3d30d0f4c1",
+      "activity_entities": [
+        {
+          "control_tags": null,
+          "entity_def_id": "organization",
+          "image_id": "d454edbf5c1247e89bfb02beaff55804",
+          "permalink": "americanexpress",
+          "role": null,
+          "uuid": "a998e3ab-9586-6be8-22d7-9c7f94668fe6",
+          "value": "American Express"
+        },
+        {
+          "control_tags": null,
+          "entity_def_id": "organization",
+          "image_id": "fsrtjqdifiuss5gm8hmr",
+          "permalink": "braintree-payment-solutions",
+          "role": null,
+          "uuid": "d3923166-5f5b-0c2a-81cb-f2a0055233ff",
+          "value": "Braintree"
+        },
+        {
+          "control_tags": null,
+          "entity_def_id": "organization",
+          "image_id": "zcxtywwtavspe1uiizox",
+          "permalink": "mastercard",
+          "role": null,
+          "uuid": "50c8a611-49e5-e497-69e2-02402d6f2bcd",
+          "value": "Mastercard"
+        },
+        {
+          "control_tags": null,
+          "entity_def_id": "organization",
+          "image_id": "v1447476896/lcrdrlh1hfa0nbl9ycy3.png",
+          "permalink": "paypal",
+          "role": null,
+          "uuid": "96ab87ca-00b5-2ebc-f218-86262954e320",
+          "value": "PayPal"
+        },
+        {
+          "control_tags": null,
+          "entity_def_id": "organization",
+          "image_id": "82700c1a09d149ef87c707c065d73317",
+          "permalink": "stripe",
+          "role": null,
+          "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+          "value": "Stripe"
+        },
+        {
+          "control_tags": null,
+          "entity_def_id": "organization",
+          "image_id": "v1488032888/p7vdrckw0wuktcfiwdnh.png",
+          "permalink": "visa",
+          "role": null,
+          "uuid": "95b124ce-5927-50eb-d1ea-15aad4f20ce9",
+          "value": "Visa"
+        }
+      ],
+      "identifier": {
+        "entity_def_id": "press_reference",
+        "image_id": null,
+        "permalink": null,
+        "uuid": "00165e0e-00aa-dbb2-f3d5-7a3d30d0f4c1",
+        "value": "Want to send payments via Facebook Messenger? Now you can"
+      }
+    }
+  },
+  {
+    "properties": {
+      "author": null,
+      "entity_def_id": "press_reference",
+      "posted_on": "2017-06-02",
+      "publisher": "e27 News",
+      "thumbnail_url": "https://d388w23p6r1vqc.cloudfront.net/wp-content/uploads/2017/06/02123522/stripe_sigma_launch.jpg",
+      "uuid": "00236188-eab9-4ee3-9513-a740611b448a",
+      "activity_entities": [
+        {
+          "control_tags": null,
+          "entity_def_id": "organization",
+          "image_id": "82700c1a09d149ef87c707c065d73317",
+          "permalink": "stripe",
+          "role": null,
+          "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+          "value": "Stripe"
+        }
+      ],
+      "identifier": {
+        "entity_def_id": "press_reference",
+        "image_id": null,
+        "permalink": null,
+        "uuid": "00236188-eab9-4ee3-9513-a740611b448a",
+        "value": "Tools for entrepreneurs, Stripe launches Sigma to help companies understand revenue data"
+      }
+    }
+  },
+  {
+    "properties": {
+      "author": "Robert Bartley",
+      "entity_def_id": "press_reference",
+      "posted_on": "2015-12-07",
+      "publisher": "Fierce CIO",
+      "thumbnail_url": "http://assets.fiercemarkets.net/public/opengraphimages/updated/opengraph_fiercecio.jpg",
+      "uuid": "00670401-5470-615b-22c5-e828d7df3158",
+      "activity_entities": [
+        {
+          "control_tags": null,
+          "entity_def_id": "organization",
+          "image_id": "a6eb3a1422d244bb940a52ea0fea7f36",
+          "permalink": "andreessen-horowitz",
+          "role": null,
+          "uuid": "ce91bad7-b6d8-e56e-0f45-4763c6c5ca29",
+          "value": "Andreessen Horowitz"
+        },
+        {
+          "control_tags": null,
+          "entity_def_id": "organization",
+          "image_id": "vueilfncxdlfjqdlda7r",
+          "permalink": "gigster",
+          "role": null,
+          "uuid": "2021f0a4-2c06-ffc8-7c1a-4fc21620e275",
+          "value": "Gigster"
+        },
+        {
+          "control_tags": null,
+          "entity_def_id": "organization",
+          "image_id": "82700c1a09d149ef87c707c065d73317",
+          "permalink": "stripe",
+          "role": null,
+          "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+          "value": "Stripe"
+        },
+        {
+          "control_tags": null,
+          "entity_def_id": "organization",
+          "image_id": "v1487972722/z2yb0lc1dci3dalkwcvj.png",
+          "permalink": "techcrunch",
+          "role": null,
+          "uuid": "d3646878-c4c7-04d9-6b62-ef2aae4d6744",
+          "value": "TechCrunch"
+        }
+      ],
+      "identifier": {
+        "entity_def_id": "press_reference",
+        "image_id": null,
+        "permalink": null,
+        "uuid": "00670401-5470-615b-22c5-e828d7df3158",
+        "value": "Gigster Uberizes software development for the enterprise, nets $10M in funding"
+      }
+    }
+  },
+  {
+    "properties": {
+      "author": "Fintechnews Switzerland",
+      "entity_def_id": "press_reference",
+      "posted_on": "2026-01-06",
+      "publisher": "Fintech Schweiz Digital Finance News - FintechNewsCH",
+      "thumbnail_url": null,
+      "uuid": "0070bc83-a73a-44dd-ad6d-4fdb2e944e48",
+      "activity_entities": [
+        {
+          "control_tags": null,
+          "entity_def_id": "organization",
+          "image_id": "42a7b365fdac4e53b30401e156b2f339",
+          "permalink": "crypto-com",
+          "role": null,
+          "uuid": "21c37378-96c4-b7a0-d170-8bc49c581d30",
+          "value": "Crypto.com"
+        },
+        {
+          "control_tags": null,
+          "entity_def_id": "organization",
+          "image_id": "82700c1a09d149ef87c707c065d73317",
+          "permalink": "stripe",
+          "role": null,
+          "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+          "value": "Stripe"
+        }
+      ],
+      "identifier": {
+        "entity_def_id": "press_reference",
+        "image_id": null,
+        "permalink": null,
+        "uuid": "0070bc83-a73a-44dd-ad6d-4fdb2e944e48",
+        "value": "Crypto.com and Stripe Partner to Enable Direct Crypto Payments"
+      }
+    }
+  },
+  {
+    "properties": {
+      "author": "James Eyers",
+      "entity_def_id": "press_reference",
+      "posted_on": "2022-03-28",
+      "publisher": "Australian Financial Review",
+      "thumbnail_url": "https://static.ffx.io/images/$zoom_0.546%2C$multiply_2%2C$ratio_1%2C$width_378%2C$x_256%2C$y_40/t_crop_custom/c_scale%2Cw_440%2Cq_52%2Cf_auto/1bfc2168292b22998fefa216fbde50c6999857f8",
+      "uuid": "00778979-5943-4c8f-a120-34ea688d383c",
+      "activity_entities": [
+        {
+          "control_tags": null,
+          "entity_def_id": "organization",
+          "image_id": "82700c1a09d149ef87c707c065d73317",
+          "permalink": "stripe",
+          "role": null,
+          "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+          "value": "Stripe"
+        }
+      ],
+      "identifier": {
+        "entity_def_id": "press_reference",
+        "image_id": null,
+        "permalink": null,
+        "uuid": "00778979-5943-4c8f-a120-34ea688d383c",
+        "value": "Stripe lays out plan to muscle in on Australian banks"
+      }
+    }
+  },
+  {
+    "properties": {
+      "author": "Allison Schiff",
+      "entity_def_id": "press_reference",
+      "posted_on": "2016-06-21",
+      "publisher": "AdExchanger",
+      "thumbnail_url": "https://adexchanger.com/wp-content/uploads/2016/06/ProjectSeptember.jpg",
+      "uuid": "00a87eb7-b720-2f43-f046-f25d754bbbe4",
+      "activity_entities": [
+        {
+          "control_tags": null,
+          "entity_def_id": "organization",
+          "image_id": "v1410012504/t2txlmepwsnh15l0wgkg.png",
+          "permalink": "adexchanger",
+          "role": null,
+          "uuid": "90234e60-96f4-d282-d5f3-41b5313429d4",
+          "value": "AdExchanger"
+        },
+        {
+          "control_tags": null,
+          "entity_def_id": "person",
+          "image_id": "v1397182617/4aa4e752989b94368dd7598723e32acd.jpg",
+          "permalink": "alexis-maybank",
+          "role": null,
+          "uuid": "7519397f-34f0-4b93-31ff-0cb661a1d89e",
+          "value": "Alexis Maybank"
+        },
+        {
+          "control_tags": null,
+          "entity_def_id": "organization",
+          "image_id": "poj7k0xkfurxprffwruo",
+          "permalink": "bbg-ventures",
+          "role": null,
+          "uuid": "38a2cfd8-31bf-64db-faca-486386e44406",
+          "value": "BBG Ventures"
+        },
+        {
+          "control_tags": null,
+          "entity_def_id": "organization",
+          "image_id": "owwofcjfclrzodwljupu",
+          "permalink": "first-round-capital",
+          "role": null,
+          "uuid": "043d9e52-dcc0-0dd8-6074-206e42e20e13",
+          "value": "First Round Capital"
+        },
+        {
+          "control_tags": null,
+          "entity_def_id": "organization",
+          "image_id": "sgs6lfph5lwnwkvhskc1",
+          "permalink": "greylock",
+          "role": null,
+          "uuid": "e2006571-6b7a-e477-002a-f7014f48a7e3",
+          "value": "Greylock"
+        },
+        {
+          "control_tags": null,
+          "entity_def_id": "person",
+          "image_id": "ssioqk5hhq9dc5qqxy0i",
+          "permalink": "leah-park",
+          "role": null,
+          "uuid": "487cfbc6-e838-4e04-e162-659223320110",
+          "value": "Leah Park"
+        },
+        {
+          "control_tags": null,
+          "entity_def_id": "organization",
+          "image_id": "v1397180685/a8e20009ec2ad722ebd7218c9827fa87.jpg",
+          "permalink": "nasty-gal",
+          "role": null,
+          "uuid": "e8e4cb78-6db7-7956-ed9b-093c898e3d82",
+          "value": "Nasty Gal"
+        },
+        {
+          "control_tags": null,
+          "entity_def_id": "organization",
+          "image_id": "revirewv0tx7zboaihui",
+          "permalink": "pinterest",
+          "role": null,
+          "uuid": "8f83e283-e00b-8101-d79b-bf2dd6914d6e",
+          "value": "Pinterest"
+        },
+        {
+          "control_tags": null,
+          "entity_def_id": "organization",
+          "image_id": "82700c1a09d149ef87c707c065d73317",
+          "permalink": "stripe",
+          "role": null,
+          "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+          "value": "Stripe"
+        },
+        {
+          "control_tags": null,
+          "entity_def_id": "organization",
+          "image_id": "tp0anhokmywhysjyjpo1",
+          "permalink": "venrock",
+          "role": null,
+          "uuid": "ed24f9ce-2313-cb8c-8ff2-9de6899ea992",
+          "value": "Venrock"
+        }
+      ],
+      "identifier": {
+        "entity_def_id": "press_reference",
+        "image_id": null,
+        "permalink": null,
+        "uuid": "00a87eb7-b720-2f43-f046-f25d754bbbe4",
+        "value": "Project September Wants To Bring Social Shopping Back Into Fashion"
+      }
+    }
+  },
+  {
+    "properties": {
+      "author": "Dow Jones",
+      "entity_def_id": "press_reference",
+      "posted_on": "2026-07-15",
+      "publisher": "Morningstar.com",
+      "thumbnail_url": null,
+      "uuid": "00ba75bc-719b-4622-b67f-56081f10d640",
+      "activity_entities": [
+        {
+          "control_tags": null,
+          "entity_def_id": "organization",
+          "image_id": "mrkgh4aeunkd2au7zaxf",
+          "permalink": "blackrock",
+          "role": null,
+          "uuid": "931f7202-91fd-ab26-c07d-06518289ef06",
+          "value": "BlackRock"
+        },
+        {
+          "control_tags": null,
+          "entity_def_id": "organization",
+          "image_id": "v1493382092/baojhmu2qwwuolnckjlj.jpg",
+          "permalink": "conagra-inc",
+          "role": null,
+          "uuid": "10cc39d6-d346-26d6-f560-d74162412c3f",
+          "value": "Conagra Brands"
+        },
+        {
+          "control_tags": null,
+          "entity_def_id": "organization",
+          "image_id": "7100f9488d62477f8c0bfdf84f290477",
+          "permalink": "kalshi",
+          "role": null,
+          "uuid": "e223b5dc-26e6-4323-b602-4b8f3f83ac27",
+          "value": "Kalshi"
+        },
+        {
+          "control_tags": null,
+          "entity_def_id": "organization",
+          "image_id": "v1447476896/lcrdrlh1hfa0nbl9ycy3.png",
+          "permalink": "paypal",
+          "role": null,
+          "uuid": "96ab87ca-00b5-2ebc-f218-86262954e320",
+          "value": "PayPal"
+        },
+        {
+          "control_tags": null,
+          "entity_def_id": "organization",
+          "image_id": "v1450257921/g0owhrdis2pheswfevzw.png",
+          "permalink": "qvc",
+          "role": null,
+          "uuid": "22875f87-0660-82e3-330f-01b7853e99f9",
+          "value": "QVC"
+        },
+        {
+          "control_tags": null,
+          "entity_def_id": "organization",
+          "image_id": "u196odmivjn2dvw09xhx",
+          "permalink": "space-exploration-technologies",
+          "role": null,
+          "uuid": "2372e88e-240a-a19c-c549-bd262c670ee1",
+          "value": "SpaceX"
+        },
+        {
+          "control_tags": null,
+          "entity_def_id": "organization",
+          "image_id": "82700c1a09d149ef87c707c065d73317",
+          "permalink": "stripe",
+          "role": null,
+          "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+          "value": "Stripe"
+        },
+        {
+          "control_tags": null,
+          "entity_def_id": "organization",
+          "image_id": "fad89e65c22841aba71394eb4f322304",
+          "permalink": "thinking-machines-lab",
+          "role": null,
+          "uuid": "8308827f-07e6-4fa6-8595-748349ce6af1",
+          "value": "Thinking Machines Lab"
+        }
+      ],
+      "identifier": {
+        "entity_def_id": "press_reference",
+        "image_id": null,
+        "permalink": null,
+        "uuid": "00ba75bc-719b-4622-b67f-56081f10d640",
+        "value": "Dow Jones Top Company Headlines at 9 PM ET: United Airlines Lifts Outlook as Higher Fares Blunt Turbulent Fuel Prices | SpaceX ..."
+      }
+    }
+  },
+  {
+    "properties": {
+      "author": "Evan Bakker",
+      "entity_def_id": "press_reference",
+      "posted_on": "2016-02-07",
+      "publisher": "Business Insider Australia",
+      "thumbnail_url": "http://static.businessinsider.com/image/56b21ecc6e97c62f008b4728-400/image.jpg",
+      "uuid": "00c34bed-2003-5e16-7292-b81d0977b827",
+      "activity_entities": [
+        {
+          "control_tags": null,
+          "entity_def_id": "organization",
+          "image_id": "d454edbf5c1247e89bfb02beaff55804",
+          "permalink": "americanexpress",
+          "role": null,
+          "uuid": "a998e3ab-9586-6be8-22d7-9c7f94668fe6",
+          "value": "American Express"
+        },
+        {
+          "control_tags": null,
+          "entity_def_id": "organization",
+          "image_id": "v1462819098/khwmhzdtppuhkrjado0u.jpg",
+          "permalink": "bango",
+          "role": null,
+          "uuid": "3905f5ac-377f-2597-6b9b-4c3e6a537bf8",
+          "value": "Bango"
+        },
+        {
+          "control_tags": null,
+          "entity_def_id": "organization",
+          "image_id": "npq3kwvui8snz8j9kjg7",
+          "permalink": "bi-intelligence",
+          "role": null,
+          "uuid": "ba1d55fe-0ea8-aba2-a241-427ed8111a80",
+          "value": "BI Intelligence"
+        },
+        {
+          "control_tags": null,
+          "entity_def_id": "organization",
+          "image_id": "t4zspe7lwawlpp1x5jrs",
+          "permalink": "gemalto",
+          "role": null,
+          "uuid": "83586afb-666a-ded0-f19a-1e0c3659e9f1",
+          "value": "Gemalto"
+        },
+        {
+          "control_tags": null,
+          "entity_def_id": "organization",
+          "image_id": "i7yjhhitbze4kylwmbfy",
+          "permalink": "klarna",
+          "role": null,
+          "uuid": "2cc3a5de-2303-aa00-cd1a-50bd96420392",
+          "value": "Klarna"
+        },
+        {
+          "control_tags": null,
+          "entity_def_id": "organization",
+          "image_id": "v1476998685/qukdixchhvolzlwqddp1.jpg",
+          "permalink": "oberthur-technologies",
+          "role": null,
+          "uuid": "8792db58-b88f-1247-20e5-8cf82e19f1b3",
+          "value": "Oberthur Technologies"
+        },
+        {
+          "control_tags": null,
+          "entity_def_id": "organization",
+          "image_id": "v1447476896/lcrdrlh1hfa0nbl9ycy3.png",
+          "permalink": "paypal",
+          "role": null,
+          "uuid": "96ab87ca-00b5-2ebc-f218-86262954e320",
+          "value": "PayPal"
+        },
+        {
+          "control_tags": null,
+          "entity_def_id": "organization",
+          "image_id": "v1412976641/tigeexch9uzkvlvw0e09.png",
+          "permalink": "shopkeep-com",
+          "role": null,
+          "uuid": "c2a58539-e25c-8f83-ffe3-a2d9808a8e88",
+          "value": "ShopKeep"
+        },
+        {
+          "control_tags": null,
+          "entity_def_id": "organization",
+          "image_id": "82700c1a09d149ef87c707c065d73317",
+          "permalink": "stripe",
+          "role": null,
+          "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+          "value": "Stripe"
+        },
+        {
+          "control_tags": null,
+          "entity_def_id": "organization",
+          "image_id": "jpjprxh75yx1gvqkxflp",
+          "permalink": "venmo",
+          "role": null,
+          "uuid": "e8499ac5-4fc5-a3fb-2106-dce0d7d3c98c",
+          "value": "Venmo"
+        },
+        {
+          "control_tags": null,
+          "entity_def_id": "organization",
+          "image_id": "v1454443960/rfar9hjykdcs7nisg7o7.jpg",
+          "permalink": "verifone",
+          "role": null,
+          "uuid": "6d42a4ec-4ca9-66b8-2fc1-d27d5f0631b1",
+          "value": "Verifone"
+        },
+        {
+          "control_tags": null,
+          "entity_def_id": "organization",
+          "image_id": "2cca868af5f044d98cd1541e128d5b1a",
+          "permalink": "western-union",
+          "role": null,
+          "uuid": "0189ce46-ea1a-d76e-a8a1-631a6e07ef8f",
+          "value": "Western Union"
+        }
+      ],
+      "identifier": {
+        "entity_def_id": "press_reference",
+        "image_id": null,
+        "permalink": null,
+        "uuid": "00c34bed-2003-5e16-7292-b81d0977b827",
+        "value": "THE PAYMENTS ECOSYSTEM: Everything you need to know about the next era of payment processing"
+      }
+    }
+  },
+  {
+    "properties": {
+      "author": "Alex Wilhelm",
+      "entity_def_id": "press_reference",
+      "posted_on": "2020-03-26",
+      "publisher": "TechCrunch",
+      "thumbnail_url": "https://techcrunch.com/wp-content/uploads/2019/11/GettyImages-1085801142.jpg?w=514",
+      "uuid": "00c41a6f-e693-4728-8599-9188820d5e63",
+      "activity_entities": [
+        {
+          "control_tags": null,
+          "entity_def_id": "organization",
+          "image_id": "ct3kzpmkbqmqtatmhkfa",
+          "permalink": "index-ventures",
+          "role": null,
+          "uuid": "60b5dade-24ed-84b0-99e2-1ecda554a1ab",
+          "value": "Index Ventures"
+        },
+        {
+          "control_tags": null,
+          "entity_def_id": "organization",
+          "image_id": "82700c1a09d149ef87c707c065d73317",
+          "permalink": "stripe",
+          "role": null,
+          "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+          "value": "Stripe"
+        },
+        {
+          "control_tags": null,
+          "entity_def_id": "organization",
+          "image_id": "we1ddukzj8unskbmgecl",
+          "permalink": "susa-ventures",
+          "role": null,
+          "uuid": "c631111a-6bbd-c92b-c567-0ef2abc512d3",
+          "value": "Susa Ventures"
+        }
+      ],
+      "identifier": {
+        "entity_def_id": "press_reference",
+        "image_id": null,
+        "permalink": null,
+        "uuid": "00c41a6f-e693-4728-8599-9188820d5e63",
+        "value": "Stripe leads $20M Series A into Fast, which is building a universal checkout service for e-commerce"
+      }
+    }
+  },
+  {
+    "properties": {
+      "author": "Naga Avan-Nomayo",
+      "entity_def_id": "press_reference",
+      "posted_on": "2026-04-21",
+      "publisher": "The Block",
+      "thumbnail_url": null,
+      "uuid": "00cb5d07-85d0-4694-a05c-b4e28b65c0a0",
+      "activity_entities": [
+        {
+          "control_tags": null,
+          "entity_def_id": "organization",
+          "image_id": "30c9cb4022694f58860fb28378a6e95e",
+          "permalink": "dolarapp",
+          "role": null,
+          "uuid": "39a6250f-f16d-46e1-8320-e2c93fb4c4a0",
+          "value": "ARQ"
+        },
+        {
+          "control_tags": null,
+          "entity_def_id": "organization",
+          "image_id": "b5vmfgfsndmag6j29vom",
+          "permalink": "coastal-bank",
+          "role": null,
+          "uuid": "b606a867-1c31-4b8d-ae17-c8648acca35d",
+          "value": "Coastal Bank"
+        },
+        {
+          "control_tags": null,
+          "entity_def_id": "organization",
+          "image_id": "b2cximlauocyxfs2lkfh",
+          "permalink": "doordash",
+          "role": null,
+          "uuid": "7c298009-3d51-07f5-94c7-1fa11cd24a7c",
+          "value": "DoorDash"
+        },
+        {
+          "control_tags": null,
+          "entity_def_id": "organization",
+          "image_id": "82700c1a09d149ef87c707c065d73317",
+          "permalink": "stripe",
+          "role": null,
+          "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+          "value": "Stripe"
+        },
+        {
+          "control_tags": null,
+          "entity_def_id": "organization",
+          "image_id": "mhp2tselamri3hn0didg",
+          "permalink": "tempo-labs",
+          "role": null,
+          "uuid": "0d003579-d2dd-4baa-90fd-965892aaacf5",
+          "value": "Tempo"
+        },
+        {
+          "control_tags": null,
+          "entity_def_id": "organization",
+          "image_id": "34dcfd6dc4244a59a1119b76bea23d48",
+          "permalink": "tempo-36b7",
+          "role": null,
+          "uuid": "22bb07dc-5059-4f84-b445-c825da6b36b7",
+          "value": "Tempo"
+        }
+      ],
+      "identifier": {
+        "entity_def_id": "press_reference",
+        "image_id": null,
+        "permalink": null,
+        "uuid": "00cb5d07-85d0-4694-a05c-b4e28b65c0a0",
+        "value": "DoorDash to offer stablecoin payouts with Tempo in push toward everyday crypto payments"
+      }
+    }
+  }
+]

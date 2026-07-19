@@ -1,0 +1,616 @@
+[
+  {
+    "properties": {
+      "customers": "c200_improving",
+      "engagement": null,
+      "entity_def_id": "growth_insight",
+      "finance": "c200_improving",
+      "funding_raised": null,
+      "generated_on": "2026-06-15",
+      "growth_confidence": null,
+      "growth_direction": "c400_growing",
+      "headcount": null,
+      "image_id": "d954e794f18e48c3b134c069ae53fb61",
+      "indicator": "growing",
+      "market_share": null,
+      "mergers_acquisitions": "c200_improving",
+      "name": "Growth Insight 2026-06-15",
+      "operations": null,
+      "outbound_investment": null,
+      "updated_at": "2026-06-15T07:02:38Z",
+      "uuid": "06c07e74-8286-47e1-8464-9ef9f686f872",
+      "identifier": {
+        "entity_def_id": "growth_insight",
+        "image_id": "d954e794f18e48c3b134c069ae53fb61",
+        "permalink": null,
+        "uuid": "06c07e74-8286-47e1-8464-9ef9f686f872",
+        "value": "Growth Insight 2026-06-15"
+      },
+      "organization": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      },
+      "press_references": [
+        {
+          "entity_def_id": "press_reference",
+          "posted_on": "2026-02-24",
+          "publisher": "PYMNTS.com",
+          "source_url": "https://www.pymnts.com/news/fintech-investments/2026/stripe-reaches-record-valuation-global-volume-hits-2-trillion-dollars/",
+          "thumbnail_url": null,
+          "uuid": "19f664cb-8d08-4817-a33c-cbfd7b27cf2e",
+          "value": "Stripe Reaches Record Valuation as Global Volume Hits $1.9 Trillion"
+        },
+        {
+          "entity_def_id": "press_reference",
+          "posted_on": "2026-03-08",
+          "publisher": "Small Business Trends",
+          "source_url": "https://smallbiztrends.com/stripe-hits-1-9-trillion-in-transactions-as-new-businesses-surge-in-2025/",
+          "thumbnail_url": null,
+          "uuid": "81959cfc-879c-4e40-a4d7-22ec2ff2ae69",
+          "value": "Stripe Hits $1.9 Trillion in Transactions as New Businesses Surge in 2025"
+        }
+      ]
+    }
+  },
+  {
+    "properties": {
+      "customers": "c200_improving",
+      "engagement": null,
+      "entity_def_id": "growth_insight",
+      "finance": "c200_improving",
+      "funding_raised": null,
+      "generated_on": "2026-02-22",
+      "growth_confidence": null,
+      "growth_direction": "c400_growing",
+      "headcount": null,
+      "image_id": "9ba31fa9e8544088a6e9af5fc5584ff1",
+      "indicator": "growing",
+      "market_share": null,
+      "mergers_acquisitions": null,
+      "name": "Growth Insight 2026-02-22",
+      "operations": null,
+      "outbound_investment": null,
+      "updated_at": "2026-02-22T02:03:00Z",
+      "uuid": "15b182d3-f157-40d4-8ec8-3663998d2b03",
+      "identifier": {
+        "entity_def_id": "growth_insight",
+        "image_id": "9ba31fa9e8544088a6e9af5fc5584ff1",
+        "permalink": null,
+        "uuid": "15b182d3-f157-40d4-8ec8-3663998d2b03",
+        "value": "Growth Insight 2026-02-22"
+      },
+      "organization": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      },
+      "press_references": [
+        {
+          "entity_def_id": "press_reference",
+          "posted_on": "2025-10-31",
+          "publisher": "PYMNTS.com",
+          "source_url": "https://www.pymnts.com/cryptocurrency/2025/this-week-in-stablecoins-the-race-to-own-the-rails/",
+          "thumbnail_url": null,
+          "uuid": "12f08ea9-a53e-4b1a-a999-00c5b1d19a79",
+          "value": "This Week in Stablecoins: The Race to Own the Rails"
+        },
+        {
+          "entity_def_id": "press_reference",
+          "posted_on": "2025-12-11",
+          "publisher": "Small Business Trends",
+          "source_url": "https://smallbiztrends.com/stripe-hits-record-40b-in-transactions-over-black-friday-weekend/",
+          "thumbnail_url": null,
+          "uuid": "08e46110-c069-483c-b223-455a5bbb915f",
+          "value": "Stripe Hits Record $40B in Transactions Over Black Friday Weekend"
+        },
+        {
+          "entity_def_id": "press_reference",
+          "posted_on": "2025-09-11",
+          "publisher": "Financial IT",
+          "source_url": "https://financialit.net/news/infrastructure/stripe-capital-launch-australia-stripe-celebrates-1-million-users-across",
+          "thumbnail_url": null,
+          "uuid": "a6fdeb11-e3b8-468a-b871-e91b418267d9",
+          "value": "Stripe Capital to Launch in Australia, as Stripe Celebrates 1 Million Users Across Australia and New Zealand"
+        }
+      ]
+    }
+  },
+  {
+    "properties": {
+      "customers": "c200_improving",
+      "engagement": null,
+      "entity_def_id": "growth_insight",
+      "finance": "c200_improving",
+      "funding_raised": null,
+      "generated_on": "2026-07-19",
+      "growth_confidence": null,
+      "growth_direction": "c400_growing",
+      "headcount": null,
+      "image_id": "31999e1e31d44000a545886b67c1737e",
+      "indicator": "growing",
+      "market_share": null,
+      "mergers_acquisitions": "c200_improving",
+      "name": "Growth Insight 2026-07-19",
+      "operations": null,
+      "outbound_investment": null,
+      "updated_at": "2026-07-19T02:00:46Z",
+      "uuid": "25891a7b-c9ef-4a89-abe3-6b19c489944d",
+      "identifier": {
+        "entity_def_id": "growth_insight",
+        "image_id": "31999e1e31d44000a545886b67c1737e",
+        "permalink": null,
+        "uuid": "25891a7b-c9ef-4a89-abe3-6b19c489944d",
+        "value": "Growth Insight 2026-07-19"
+      },
+      "organization": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      },
+      "press_references": [
+        {
+          "entity_def_id": "press_reference",
+          "posted_on": "2026-03-08",
+          "publisher": "Small Business Trends",
+          "source_url": "https://smallbiztrends.com/stripe-hits-1-9-trillion-in-transactions-as-new-businesses-surge-in-2025/",
+          "thumbnail_url": null,
+          "uuid": "81959cfc-879c-4e40-a4d7-22ec2ff2ae69",
+          "value": "Stripe Hits $1.9 Trillion in Transactions as New Businesses Surge in 2025"
+        },
+        {
+          "entity_def_id": "press_reference",
+          "posted_on": "2026-02-24",
+          "publisher": "Crowdfund Insider",
+          "source_url": "https://www.crowdfundinsider.com/2026/02/263849-stripe-valued-at-159-billion-as-it-provides-opportunity-for-early-shareholders-to-exit-updates-on-performance/",
+          "thumbnail_url": null,
+          "uuid": "c5034d37-afac-4ced-9664-d3f39a626345",
+          "value": "Stripe Valued at $159 Billion as it Provides Opportunity for Early Shareholders to Exit, Updates on Performance"
+        },
+        {
+          "entity_def_id": "press_reference",
+          "posted_on": "2026-01-20",
+          "publisher": "Tech In Africa",
+          "source_url": "https://www.techinafrica.com/paystack-launches-holding-company-after-hitting-profitability-payment-volumes-surge-12x-since-stripe-acquisition/",
+          "thumbnail_url": null,
+          "uuid": "f80657cf-b638-4da6-b5cc-653bc99cf3a2",
+          "value": "Paystack Launches Holding Company After Hitting Profitability, Payment Volumes Surge 12x Since Stripe Acquisition"
+        }
+      ]
+    }
+  },
+  {
+    "properties": {
+      "customers": "c200_improving",
+      "engagement": null,
+      "entity_def_id": "growth_insight",
+      "finance": "c200_improving",
+      "funding_raised": "c200_improving",
+      "generated_on": "2026-04-19",
+      "growth_confidence": null,
+      "growth_direction": "c400_growing",
+      "headcount": "c200_improving",
+      "image_id": "379ba7db995c4b95ab89ebbe6b29e9bc",
+      "indicator": "growing",
+      "market_share": null,
+      "mergers_acquisitions": null,
+      "name": "Growth Insight 2026-04-19",
+      "operations": null,
+      "outbound_investment": null,
+      "updated_at": "2026-04-19T02:06:06Z",
+      "uuid": "27d4e524-ba8b-49e8-ba06-810bfcf81b86",
+      "identifier": {
+        "entity_def_id": "growth_insight",
+        "image_id": "379ba7db995c4b95ab89ebbe6b29e9bc",
+        "permalink": null,
+        "uuid": "27d4e524-ba8b-49e8-ba06-810bfcf81b86",
+        "value": "Growth Insight 2026-04-19"
+      },
+      "organization": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      },
+      "press_references": [
+        {
+          "entity_def_id": "press_reference",
+          "posted_on": "2025-12-11",
+          "publisher": "Small Business Trends",
+          "source_url": "https://smallbiztrends.com/stripe-hits-record-40b-in-transactions-over-black-friday-weekend/",
+          "thumbnail_url": null,
+          "uuid": "08e46110-c069-483c-b223-455a5bbb915f",
+          "value": "Stripe Hits Record $40B in Transactions Over Black Friday Weekend"
+        },
+        {
+          "entity_def_id": "press_reference",
+          "posted_on": "2026-02-24",
+          "publisher": "PYMNTS.com",
+          "source_url": "https://www.pymnts.com/news/fintech-investments/2026/stripe-reaches-record-valuation-global-volume-hits-2-trillion-dollars/",
+          "thumbnail_url": null,
+          "uuid": "19f664cb-8d08-4817-a33c-cbfd7b27cf2e",
+          "value": "Stripe Reaches Record Valuation as Global Volume Hits $1.9 Trillion"
+        },
+        {
+          "entity_def_id": "press_reference",
+          "posted_on": "2026-02-24",
+          "publisher": "Payments Dive",
+          "source_url": "https://www.paymentsdive.com/news/stripe-valued-at-159b-in-tender-offer-ipo-payments/812883/",
+          "thumbnail_url": null,
+          "uuid": "46b821ee-fa97-42ac-95fd-7851614a51cf",
+          "value": "Stripe valued at $159B in tender offer"
+        }
+      ]
+    }
+  },
+  {
+    "properties": {
+      "customers": "c200_improving",
+      "engagement": null,
+      "entity_def_id": "growth_insight",
+      "finance": "c200_improving",
+      "funding_raised": "c200_improving",
+      "generated_on": "2025-11-17",
+      "growth_confidence": null,
+      "growth_direction": "c400_growing",
+      "headcount": null,
+      "image_id": "57841823690b496c91cbef2ddb17462b",
+      "indicator": "growing",
+      "market_share": null,
+      "mergers_acquisitions": "c200_improving",
+      "name": "Growth Insight 2025-11-17",
+      "operations": null,
+      "outbound_investment": null,
+      "updated_at": "2025-11-17T09:02:25Z",
+      "uuid": "281288a5-c162-4952-857a-17ef063fde2e",
+      "identifier": {
+        "entity_def_id": "growth_insight",
+        "image_id": "57841823690b496c91cbef2ddb17462b",
+        "permalink": null,
+        "uuid": "281288a5-c162-4952-857a-17ef063fde2e",
+        "value": "Growth Insight 2025-11-17"
+      },
+      "organization": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      },
+      "press_references": [
+        {
+          "entity_def_id": "press_reference",
+          "posted_on": "2025-09-24",
+          "publisher": "Irish Times",
+          "source_url": "https://www.irishtimes.com/business/2025/09/24/stripes-valuation-rises-above-its-2021-peak-to-1067bn/",
+          "thumbnail_url": "https://www.irishtimes.com/business/2025/09/24/stripes-valuation-rises-above-its-2021-peak-to-1067bn/",
+          "uuid": "44f2bb43-9d9b-4406-b6b0-86776bcabc95",
+          "value": "Stripe\u2019s valuation rises above its 2021 peak to $106.7bn"
+        },
+        {
+          "entity_def_id": "press_reference",
+          "posted_on": "2025-06-13",
+          "publisher": "PYMNTS.com",
+          "source_url": "https://www.pymnts.com/cryptocurrency/2025/making-sense-where-stablecoins-fit-issuer-merchant-acquirer-stack/",
+          "thumbnail_url": "https://www.pymnts.com/cryptocurrency/2025/making-sense-where-stablecoins-fit-issuer-merchant-acquirer-stack/",
+          "uuid": "5f310394-e362-4fd7-ae07-54c9cc1ac9d4",
+          "value": "Making Sense of Where Stablecoins Fit in the Issuer-Merchant-Acquirer Stack"
+        },
+        {
+          "entity_def_id": "press_reference",
+          "posted_on": "2025-10-21",
+          "publisher": "Crowdfund Insider",
+          "source_url": "https://www.crowdfundinsider.com/2025/10/254783-stripe-backed-tempo-announces-500m-series-a-at-5b-valuation/",
+          "thumbnail_url": "https://www.crowdfundinsider.com/2025/10/254783-stripe-backed-tempo-announces-500m-series-a-at-5b-valuation/",
+          "uuid": "85d127bc-f83a-4754-b853-e92ef4244644",
+          "value": "Stripe backed Tempo Announces $500M Series A at $5B Valuation"
+        }
+      ]
+    }
+  },
+  {
+    "properties": {
+      "customers": "c200_improving",
+      "engagement": null,
+      "entity_def_id": "growth_insight",
+      "finance": "c200_improving",
+      "funding_raised": null,
+      "generated_on": "2025-12-21",
+      "growth_confidence": null,
+      "growth_direction": "c400_growing",
+      "headcount": null,
+      "image_id": "637ec8eee11e4f64aa129d8bb31be19a",
+      "indicator": "growing",
+      "market_share": null,
+      "mergers_acquisitions": null,
+      "name": "Growth Insight 2025-12-21",
+      "operations": null,
+      "outbound_investment": null,
+      "updated_at": "2025-12-21T02:01:53Z",
+      "uuid": "7473556e-277e-4b54-9694-0bdb9a0a6596",
+      "identifier": {
+        "entity_def_id": "growth_insight",
+        "image_id": "637ec8eee11e4f64aa129d8bb31be19a",
+        "permalink": null,
+        "uuid": "7473556e-277e-4b54-9694-0bdb9a0a6596",
+        "value": "Growth Insight 2025-12-21"
+      },
+      "organization": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      },
+      "press_references": [
+        {
+          "entity_def_id": "press_reference",
+          "posted_on": "2025-10-09",
+          "publisher": "Small Business Trends",
+          "source_url": "https://smallbiztrends.com/stripe-unveils-open-issuance-enabling-rapid-creation-of-stablecoins/",
+          "thumbnail_url": null,
+          "uuid": "0fecab03-aadc-4e07-8d68-69bf3322577b",
+          "value": "Stripe Unveils Open Issuance, Enabling Rapid Creation of Stablecoins"
+        },
+        {
+          "entity_def_id": "press_reference",
+          "posted_on": "2025-12-04",
+          "publisher": "Payments Dive",
+          "source_url": "https://www.paymentsdive.com/news/stripe-to-buy-metronome/807055/",
+          "thumbnail_url": null,
+          "uuid": "633db8a4-194d-43bc-9781-e57f5affd9cf",
+          "value": "Stripe to buy Metronome"
+        },
+        {
+          "entity_def_id": "press_reference",
+          "posted_on": "2025-07-02",
+          "publisher": "Payments Cards & Mobile",
+          "source_url": "https://www.paymentscardsandmobile.com/stripe-expands-pay-by-bank-to-france-and-germany/",
+          "thumbnail_url": "https://www.paymentscardsandmobile.com/stripe-expands-pay-by-bank-to-france-and-germany/",
+          "uuid": "e44c4540-f79b-4389-80f3-4cf1ad902081",
+          "value": "Stripe expands Pay by Bank to France and Germany"
+        }
+      ]
+    }
+  },
+  {
+    "properties": {
+      "customers": "c200_improving",
+      "engagement": null,
+      "entity_def_id": "growth_insight",
+      "finance": "c200_improving",
+      "funding_raised": "c200_improving",
+      "generated_on": "2026-05-31",
+      "growth_confidence": null,
+      "growth_direction": "c400_growing",
+      "headcount": "c200_improving",
+      "image_id": "9ba31fa9e8544088a6e9af5fc5584ff1",
+      "indicator": "growing",
+      "market_share": null,
+      "mergers_acquisitions": null,
+      "name": "Growth Insight 2026-05-31",
+      "operations": null,
+      "outbound_investment": null,
+      "updated_at": "2026-05-31T02:18:40Z",
+      "uuid": "8062cf58-4635-490f-a0a7-acef8542b1f1",
+      "identifier": {
+        "entity_def_id": "growth_insight",
+        "image_id": "9ba31fa9e8544088a6e9af5fc5584ff1",
+        "permalink": null,
+        "uuid": "8062cf58-4635-490f-a0a7-acef8542b1f1",
+        "value": "Growth Insight 2026-05-31"
+      },
+      "organization": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      },
+      "press_references": [
+        {
+          "entity_def_id": "press_reference",
+          "posted_on": "2026-02-24",
+          "publisher": "Payments Dive",
+          "source_url": "https://www.paymentsdive.com/news/stripe-valued-at-159b-in-tender-offer-ipo-payments/812883/",
+          "thumbnail_url": null,
+          "uuid": "46b821ee-fa97-42ac-95fd-7851614a51cf",
+          "value": "Stripe valued at $159B in tender offer"
+        },
+        {
+          "entity_def_id": "press_reference",
+          "posted_on": "2026-02-10",
+          "publisher": "Silicon Republic",
+          "source_url": "https://www.siliconrepublic.com/business/stripe-tender-140bn-valuation-fintech-axios-report-ireland",
+          "thumbnail_url": null,
+          "uuid": "04c8d41c-5d22-4e95-b7fd-a12e52694466",
+          "value": "Report: New tender offer to value Stripe at $140bn"
+        },
+        {
+          "entity_def_id": "press_reference",
+          "posted_on": "2026-02-24",
+          "publisher": "Crowdfund Insider",
+          "source_url": "https://www.crowdfundinsider.com/2026/02/263849-stripe-valued-at-159-billion-as-it-provides-opportunity-for-early-shareholders-to-exit-updates-on-performance/",
+          "thumbnail_url": null,
+          "uuid": "c5034d37-afac-4ced-9664-d3f39a626345",
+          "value": "Stripe Valued at $159 Billion as it Provides Opportunity for Early Shareholders to Exit, Updates on Performance"
+        }
+      ]
+    }
+  },
+  {
+    "properties": {
+      "customers": "c200_improving",
+      "engagement": null,
+      "entity_def_id": "growth_insight",
+      "finance": "c200_improving",
+      "funding_raised": null,
+      "generated_on": "2026-03-22",
+      "growth_confidence": null,
+      "growth_direction": "c400_growing",
+      "headcount": null,
+      "image_id": "21ecbbd980734cdcb69f3ffdc67df3e9",
+      "indicator": "growing",
+      "market_share": null,
+      "mergers_acquisitions": "c200_improving",
+      "name": "Growth Insight 2026-03-22",
+      "operations": null,
+      "outbound_investment": null,
+      "updated_at": "2026-03-22T02:20:34Z",
+      "uuid": "9231dea9-88a8-4727-b6dc-97cddebad94a",
+      "identifier": {
+        "entity_def_id": "growth_insight",
+        "image_id": "21ecbbd980734cdcb69f3ffdc67df3e9",
+        "permalink": null,
+        "uuid": "9231dea9-88a8-4727-b6dc-97cddebad94a",
+        "value": "Growth Insight 2026-03-22"
+      },
+      "organization": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      },
+      "press_references": [
+        {
+          "entity_def_id": "press_reference",
+          "posted_on": "2026-02-24",
+          "publisher": "Crowdfund Insider",
+          "source_url": "https://www.crowdfundinsider.com/2026/02/263849-stripe-valued-at-159-billion-as-it-provides-opportunity-for-early-shareholders-to-exit-updates-on-performance/",
+          "thumbnail_url": null,
+          "uuid": "c5034d37-afac-4ced-9664-d3f39a626345",
+          "value": "Stripe Valued at $159 Billion as it Provides Opportunity for Early Shareholders to Exit, Updates on Performance"
+        },
+        {
+          "entity_def_id": "press_reference",
+          "posted_on": "2025-12-11",
+          "publisher": "Small Business Trends",
+          "source_url": "https://smallbiztrends.com/stripe-hits-record-40b-in-transactions-over-black-friday-weekend/",
+          "thumbnail_url": null,
+          "uuid": "08e46110-c069-483c-b223-455a5bbb915f",
+          "value": "Stripe Hits Record $40B in Transactions Over Black Friday Weekend"
+        }
+      ]
+    }
+  },
+  {
+    "properties": {
+      "customers": "c200_improving",
+      "engagement": null,
+      "entity_def_id": "growth_insight",
+      "finance": "c200_improving",
+      "funding_raised": null,
+      "generated_on": "2026-05-04",
+      "growth_confidence": null,
+      "growth_direction": "c400_growing",
+      "headcount": null,
+      "image_id": "650f3c5b1360498b9cbb5004f8e10652",
+      "indicator": "growing",
+      "market_share": null,
+      "mergers_acquisitions": null,
+      "name": "Growth Insight 2026-05-04",
+      "operations": null,
+      "outbound_investment": null,
+      "updated_at": "2026-05-04T07:03:10Z",
+      "uuid": "aeeb2f53-bb96-4df5-878f-a6a54d975b1c",
+      "identifier": {
+        "entity_def_id": "growth_insight",
+        "image_id": "650f3c5b1360498b9cbb5004f8e10652",
+        "permalink": null,
+        "uuid": "aeeb2f53-bb96-4df5-878f-a6a54d975b1c",
+        "value": "Growth Insight 2026-05-04"
+      },
+      "organization": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      },
+      "press_references": [
+        {
+          "entity_def_id": "press_reference",
+          "posted_on": "2026-03-08",
+          "publisher": "Small Business Trends",
+          "source_url": "https://smallbiztrends.com/stripe-hits-1-9-trillion-in-transactions-as-new-businesses-surge-in-2025/",
+          "thumbnail_url": null,
+          "uuid": "81959cfc-879c-4e40-a4d7-22ec2ff2ae69",
+          "value": "Stripe Hits $1.9 Trillion in Transactions as New Businesses Surge in 2025"
+        },
+        {
+          "entity_def_id": "press_reference",
+          "posted_on": "2026-02-24",
+          "publisher": "PYMNTS.com",
+          "source_url": "https://www.pymnts.com/news/fintech-investments/2026/stripe-reaches-record-valuation-global-volume-hits-2-trillion-dollars/",
+          "thumbnail_url": null,
+          "uuid": "19f664cb-8d08-4817-a33c-cbfd7b27cf2e",
+          "value": "Stripe Reaches Record Valuation as Global Volume Hits $1.9 Trillion"
+        }
+      ]
+    }
+  },
+  {
+    "properties": {
+      "customers": "c200_improving",
+      "engagement": null,
+      "entity_def_id": "growth_insight",
+      "finance": "c200_improving",
+      "funding_raised": null,
+      "generated_on": "2026-01-05",
+      "growth_confidence": null,
+      "growth_direction": "c400_growing",
+      "headcount": null,
+      "image_id": "5e021ed00f854b1db19622164def8061",
+      "indicator": "growing",
+      "market_share": null,
+      "mergers_acquisitions": "c200_improving",
+      "name": "Growth Insight 2026-01-05",
+      "operations": null,
+      "outbound_investment": null,
+      "updated_at": "2026-01-05T07:01:47Z",
+      "uuid": "dfaf0cee-03b5-4aa5-8734-e38f60acce76",
+      "identifier": {
+        "entity_def_id": "growth_insight",
+        "image_id": "5e021ed00f854b1db19622164def8061",
+        "permalink": null,
+        "uuid": "dfaf0cee-03b5-4aa5-8734-e38f60acce76",
+        "value": "Growth Insight 2026-01-05"
+      },
+      "organization": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      },
+      "press_references": [
+        {
+          "entity_def_id": "press_reference",
+          "posted_on": "2025-09-24",
+          "publisher": "PYMNTS.com",
+          "source_url": "https://www.pymnts.com/news/fintech-investments/2025/stripe-valuation-reaches-record-106-billion/",
+          "thumbnail_url": "https://www.pymnts.com/news/fintech-investments/2025/stripe-valuation-reaches-record-106-billion/",
+          "uuid": "4f83d8b4-ced7-462e-b063-8b58d7be2bfc",
+          "value": "Stripe Valuation Reaches Record $106 Billion"
+        },
+        {
+          "entity_def_id": "press_reference",
+          "posted_on": "2025-10-12",
+          "publisher": "Crowdfund Insider",
+          "source_url": "https://www.crowdfundinsider.com/2025/10/254427-mastercard-and-coinbase-bidding-to-acquire-stablecoin-startup-bvnk/",
+          "thumbnail_url": null,
+          "uuid": "c6a59c4f-92a2-4634-87f1-440af9cd9ba9",
+          "value": "Mastercard and Coinbase Bidding to Acquire Stablecoin Startup BVNK"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,352 @@
+[
+  {
+    "properties": {
+      "description": "A suite of tools to accept and process payments online and in person globally, supporting multiple currencies and payment methods.",
+      "discontinuation_sentiment": null,
+      "entity_def_id": "product",
+      "launch_sentiment": null,
+      "local_rank": 1,
+      "name": "Payments",
+      "uuid": "f013158d-2d1c-489b-b19b-c5afa686fc55",
+      "identifier": {
+        "entity_def_id": "product",
+        "image_id": null,
+        "permalink": null,
+        "uuid": "f013158d-2d1c-489b-b19b-c5afa686fc55",
+        "value": "Payments"
+      },
+      "organization": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      }
+    }
+  },
+  {
+    "properties": {
+      "description": "A platform to manage subscriptions, usage-based billing, invoicing, and automate finance operations for recurring revenue models.",
+      "discontinuation_sentiment": null,
+      "entity_def_id": "product",
+      "launch_sentiment": null,
+      "local_rank": 2,
+      "name": "Billing",
+      "uuid": "e7f030a8-04e3-42ae-bd04-43e215d181b7",
+      "identifier": {
+        "entity_def_id": "product",
+        "image_id": null,
+        "permalink": null,
+        "uuid": "e7f030a8-04e3-42ae-bd04-43e215d181b7",
+        "value": "Billing"
+      },
+      "organization": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      }
+    }
+  },
+  {
+    "properties": {
+      "description": "A solution to onboard service providers, manage multiparty payments, and send payouts within platforms and marketplaces.",
+      "discontinuation_sentiment": null,
+      "entity_def_id": "product",
+      "launch_sentiment": null,
+      "local_rank": 3,
+      "name": "Connect",
+      "uuid": "2c65261b-14b3-4032-95c6-d31403d2724f",
+      "identifier": {
+        "entity_def_id": "product",
+        "image_id": null,
+        "permalink": null,
+        "uuid": "2c65261b-14b3-4032-95c6-d31403d2724f",
+        "value": "Connect"
+      },
+      "organization": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      }
+    }
+  },
+  {
+    "properties": {
+      "description": "A platform to launch, manage, and scale commercial card programs for businesses without setup fees.",
+      "discontinuation_sentiment": null,
+      "entity_def_id": "product",
+      "launch_sentiment": null,
+      "local_rank": 4,
+      "name": "Issuing",
+      "uuid": "a0273cf3-fe71-4155-8524-8bda95b336dd",
+      "identifier": {
+        "entity_def_id": "product",
+        "image_id": null,
+        "permalink": null,
+        "uuid": "a0273cf3-fe71-4155-8524-8bda95b336dd",
+        "value": "Issuing"
+      },
+      "organization": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      }
+    }
+  },
+  {
+    "properties": {
+      "description": "A set of APIs to embed financial services such as accounts, cards, and lending into products for tailored customer experiences.",
+      "discontinuation_sentiment": null,
+      "entity_def_id": "product",
+      "launch_sentiment": null,
+      "local_rank": 5,
+      "name": "Treasury",
+      "uuid": "772787a2-b3e9-4be7-9b75-82b2623343b4",
+      "identifier": {
+        "entity_def_id": "product",
+        "image_id": null,
+        "permalink": null,
+        "uuid": "772787a2-b3e9-4be7-9b75-82b2623343b4",
+        "value": "Treasury"
+      },
+      "organization": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      }
+    }
+  },
+  {
+    "properties": {
+      "description": "An AI-powered fraud detection system to reduce fraud and increase payment authorization rates.",
+      "discontinuation_sentiment": null,
+      "entity_def_id": "product",
+      "launch_sentiment": null,
+      "local_rank": 6,
+      "name": "Radar",
+      "uuid": "ae46b711-5321-42c6-8fa4-a6c54c73c2cb",
+      "identifier": {
+        "entity_def_id": "product",
+        "image_id": null,
+        "permalink": null,
+        "uuid": "ae46b711-5321-42c6-8fa4-a6c54c73c2cb",
+        "value": "Radar"
+      },
+      "organization": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      }
+    }
+  },
+  {
+    "properties": {
+      "description": "A reporting and analytics tool providing customizable financial and operational data insights through SQL queries.",
+      "discontinuation_sentiment": null,
+      "entity_def_id": "product",
+      "launch_sentiment": null,
+      "local_rank": 7,
+      "name": "Sigma",
+      "uuid": "e00d5893-fbb2-4cbf-85c7-8efe11dc03d2",
+      "identifier": {
+        "entity_def_id": "product",
+        "image_id": null,
+        "permalink": null,
+        "uuid": "e00d5893-fbb2-4cbf-85c7-8efe11dc03d2",
+        "value": "Sigma"
+      },
+      "organization": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      }
+    }
+  },
+  {
+    "properties": {
+      "description": "A service to automate tax calculation, collection, and reporting for global transactions.",
+      "discontinuation_sentiment": null,
+      "entity_def_id": "product",
+      "launch_sentiment": null,
+      "local_rank": 8,
+      "name": "Tax",
+      "uuid": "45222578-4407-4993-82ba-1574813d8354",
+      "identifier": {
+        "entity_def_id": "product",
+        "image_id": null,
+        "permalink": null,
+        "uuid": "45222578-4407-4993-82ba-1574813d8354",
+        "value": "Tax"
+      },
+      "organization": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      }
+    }
+  },
+  {
+    "properties": {
+      "description": "A solution to accept in-person payments using physical card readers integrated with Stripe\u2019s payment platform.",
+      "discontinuation_sentiment": null,
+      "entity_def_id": "product",
+      "launch_sentiment": null,
+      "local_rank": 9,
+      "name": "Terminal",
+      "uuid": "3f1bc073-4953-4736-bd16-f94b48dcd00f",
+      "identifier": {
+        "entity_def_id": "product",
+        "image_id": null,
+        "permalink": null,
+        "uuid": "3f1bc073-4953-4736-bd16-f94b48dcd00f",
+        "value": "Terminal"
+      },
+      "organization": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      }
+    }
+  },
+  {
+    "properties": {
+      "description": "A prebuilt, hosted payment page optimized for accepting payments with minimal coding required.",
+      "discontinuation_sentiment": null,
+      "entity_def_id": "product",
+      "launch_sentiment": null,
+      "local_rank": 10,
+      "name": "Checkout",
+      "uuid": "6bf1568a-0cdc-4580-85d0-83b01e82f3eb",
+      "identifier": {
+        "entity_def_id": "product",
+        "image_id": null,
+        "permalink": null,
+        "uuid": "6bf1568a-0cdc-4580-85d0-83b01e82f3eb",
+        "value": "Checkout"
+      },
+      "organization": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      }
+    }
+  },
+  {
+    "properties": {
+      "description": "A tool to create and share payment links for accepting payments without coding or integration.",
+      "discontinuation_sentiment": null,
+      "entity_def_id": "product",
+      "launch_sentiment": null,
+      "local_rank": 11,
+      "name": "Payment Links",
+      "uuid": "aa4b1d2b-5303-46b1-832b-a7479ae2c3ba",
+      "identifier": {
+        "entity_def_id": "product",
+        "image_id": null,
+        "permalink": null,
+        "uuid": "aa4b1d2b-5303-46b1-832b-a7479ae2c3ba",
+        "value": "Payment Links"
+      },
+      "organization": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      }
+    }
+  },
+  {
+    "properties": {
+      "description": "A service to help entrepreneurs form legal entities, issue stock, and start accepting payments.",
+      "discontinuation_sentiment": null,
+      "entity_def_id": "product",
+      "launch_sentiment": null,
+      "local_rank": 12,
+      "name": "Atlas",
+      "uuid": "0b233bde-4d74-4978-86d6-a95879fff0ec",
+      "identifier": {
+        "entity_def_id": "product",
+        "image_id": null,
+        "permalink": null,
+        "uuid": "0b233bde-4d74-4978-86d6-a95879fff0ec",
+        "value": "Atlas"
+      },
+      "organization": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      }
+    }
+  },
+  {
+    "properties": {
+      "description": "Stripe\u2019s API that lets traditional businesses accept and settle payments in stablecoins like USDC.",
+      "discontinuation_sentiment": null,
+      "entity_def_id": "product",
+      "launch_sentiment": "c100_positive",
+      "local_rank": 13,
+      "name": "Stripe Stablecoin API",
+      "uuid": "761cc5ba-8b50-4d9f-9bfc-98d36bf99c06",
+      "identifier": {
+        "entity_def_id": "product",
+        "image_id": null,
+        "permalink": null,
+        "uuid": "761cc5ba-8b50-4d9f-9bfc-98d36bf99c06",
+        "value": "Stripe Stablecoin API"
+      },
+      "organization": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      }
+    }
+  },
+  {
+    "properties": {
+      "description": "A session-based payments protocol that lets AI agents stream micropayments using stablecoins and fiat methods over Tempo.",
+      "discontinuation_sentiment": null,
+      "entity_def_id": "product",
+      "launch_sentiment": "c100_positive",
+      "local_rank": 14,
+      "name": "Machine Payments Protocol",
+      "uuid": "e2ee185d-c88f-4998-b3b3-e14354b92478",
+      "identifier": {
+        "entity_def_id": "product",
+        "image_id": null,
+        "permalink": null,
+        "uuid": "e2ee185d-c88f-4998-b3b3-e14354b92478",
+        "value": "Machine Payments Protocol"
+      },
+      "organization": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      }
+    }
+  }
+]

@@ -1,0 +1,275 @@
+[
+  {
+    "properties": {
+      "entity_def_id": "layoff",
+      "image_id": "cd7489b63799400b82e4d2f408ae4481",
+      "key_event_date": "2025-01-01",
+      "sentiment": null,
+      "updated_at": "2025-04-11T16:37:04Z",
+      "uuid": "187b1c52-da5e-462a-98b5-6064eefc1a6d",
+      "identifier": {
+        "entity_def_id": "layoff",
+        "image_id": "cd7489b63799400b82e4d2f408ae4481",
+        "permalink": null,
+        "uuid": "187b1c52-da5e-462a-98b5-6064eefc1a6d",
+        "value": null
+      },
+      "organization_identifier": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      },
+      "press_reference_link": {
+        "value": "https://www.businessinsider.com/stripe-ceo-patrick-collison-customer-feedback-elon-musk-2025-4",
+        "label": "Stripe's CEO has customers join manager meetings to share feedback \u2014 and Elon Musk says it's a 'good idea'"
+      },
+      "press_references": [
+        {
+          "entity_def_id": "press_reference",
+          "posted_on": "2025-04-11",
+          "publisher": "Business Insider",
+          "source_url": "https://www.businessinsider.com/stripe-ceo-patrick-collison-customer-feedback-elon-musk-2025-4",
+          "thumbnail_url": null,
+          "uuid": "1a1f1e1b-66cc-477c-9447-2e38f4e2a752",
+          "value": "Stripe's CEO has customers join manager meetings to share feedback \u2014 and Elon Musk says it's a 'good idea'"
+        }
+      ]
+    }
+  },
+  {
+    "properties": {
+      "entity_def_id": "layoff",
+      "image_id": "d8df9e009814490fb264f771d45dc498",
+      "key_event_date": "2025-06-14",
+      "sentiment": null,
+      "updated_at": "2025-06-14T10:03:36Z",
+      "uuid": "90964499-ff0f-436b-ac3c-db24f4686c03",
+      "identifier": {
+        "entity_def_id": "layoff",
+        "image_id": "d8df9e009814490fb264f771d45dc498",
+        "permalink": null,
+        "uuid": "90964499-ff0f-436b-ac3c-db24f4686c03",
+        "value": null
+      },
+      "organization_identifier": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      },
+      "press_reference_link": {
+        "value": "https://www.irishtimes.com/business/2025/06/14/are-irelands-tech-layoffs-down-to-an-ai-rout/",
+        "label": "Are Ireland\u2019s tech layoffs down to an AI rout?"
+      },
+      "press_references": [
+        {
+          "entity_def_id": "press_reference",
+          "posted_on": "2025-06-14",
+          "publisher": "Irish Times",
+          "source_url": "https://www.irishtimes.com/business/2025/06/14/are-irelands-tech-layoffs-down-to-an-ai-rout/",
+          "thumbnail_url": "https://www.irishtimes.com/business/2025/06/14/are-irelands-tech-layoffs-down-to-an-ai-rout/",
+          "uuid": "046978ba-16c7-4555-b444-67b34be22efb",
+          "value": "Are Ireland\u2019s tech layoffs down to an AI rout?"
+        }
+      ]
+    }
+  },
+  {
+    "properties": {
+      "entity_def_id": "layoff",
+      "image_id": "224560df7ade409690a6e1a0166c076e",
+      "key_event_date": "2022-11-03",
+      "sentiment": null,
+      "updated_at": "2022-11-04T04:12:39Z",
+      "uuid": "bab1134a-d5fa-4390-b259-76f8f841115b",
+      "identifier": {
+        "entity_def_id": "layoff",
+        "image_id": "224560df7ade409690a6e1a0166c076e",
+        "permalink": null,
+        "uuid": "bab1134a-d5fa-4390-b259-76f8f841115b",
+        "value": null
+      },
+      "organization_identifier": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      },
+      "press_reference_link": {
+        "value": "http://dlvr.it/Sc9FVJ",
+        "label": "Payments Processor Stripe Cutting Over 1,000 Jobs"
+      },
+      "press_references": [
+        {
+          "entity_def_id": "press_reference",
+          "posted_on": "2022-11-03",
+          "publisher": "coindesk.com",
+          "source_url": "http://dlvr.it/Sc9FVJ",
+          "thumbnail_url": "https://www.coindesk.com/resizer/IDVFdRhlcN9LRp2VSw5zAo5N_Pc=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/LUYJLWK7ARF3BISAVH6B3LBVBE.jpg",
+          "uuid": "b4f35a8d-39bf-4a83-8d5c-3222cb256628",
+          "value": "Payments Processor Stripe Cutting Over 1,000 Jobs"
+        }
+      ]
+    }
+  },
+  {
+    "properties": {
+      "entity_def_id": "layoff",
+      "image_id": "455bef59b94c4afbb86a64beb33c813d",
+      "key_event_date": "2023-06-30",
+      "sentiment": null,
+      "updated_at": "2023-07-01T05:13:24Z",
+      "uuid": "bf7565cc-92c1-4b88-96c5-f9bb7b6cee00",
+      "identifier": {
+        "entity_def_id": "layoff",
+        "image_id": "455bef59b94c4afbb86a64beb33c813d",
+        "permalink": null,
+        "uuid": "bf7565cc-92c1-4b88-96c5-f9bb7b6cee00",
+        "value": null
+      },
+      "organization_identifier": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      },
+      "press_reference_link": {
+        "value": "https://www.businesspost.ie/news/stripe-makes-additional-layoffs-including-in-ireland/",
+        "label": "Stripe makes additional layoffs, including in Ireland"
+      },
+      "press_references": [
+        {
+          "entity_def_id": "press_reference",
+          "posted_on": "2023-06-30",
+          "publisher": "Business Post",
+          "source_url": "https://www.businesspost.ie/news/stripe-makes-additional-layoffs-including-in-ireland/",
+          "thumbnail_url": "https://imengine.public.prod.sbp.infomaker.io?uuid=4aa30f4b-eca1-5ca1-bfff-0a0057c72cb8&function=cropresize&type=preview&source=false&q=75&crop_w=0.99999&crop_h=0.84334&x=0&y=0&width=1500&height=844",
+          "uuid": "e55b549f-31b6-4601-8d82-51e8809d02ad",
+          "value": "Stripe makes additional layoffs, including in Ireland"
+        }
+      ]
+    }
+  },
+  {
+    "properties": {
+      "entity_def_id": "layoff",
+      "image_id": "d954e794f18e48c3b134c069ae53fb61",
+      "key_event_date": "2025-01-21",
+      "sentiment": null,
+      "updated_at": "2025-01-22T04:13:06Z",
+      "uuid": "e01a0527-d4f3-42bf-9f1e-6d66430e7cdb",
+      "identifier": {
+        "entity_def_id": "layoff",
+        "image_id": "d954e794f18e48c3b134c069ae53fb61",
+        "permalink": null,
+        "uuid": "e01a0527-d4f3-42bf-9f1e-6d66430e7cdb",
+        "value": null
+      },
+      "organization_identifier": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      },
+      "press_reference_link": {
+        "value": "https://www.businessinsider.com/stripe-layoffs-staff-payments-memo-2025-1",
+        "label": "Leaked memo: Stripe lays off 300 employees, mostly in product, engineering, and operations"
+      },
+      "press_references": [
+        {
+          "entity_def_id": "press_reference",
+          "posted_on": "2025-01-21",
+          "publisher": "Business Insider",
+          "source_url": "https://www.businessinsider.com/stripe-layoffs-staff-payments-memo-2025-1",
+          "thumbnail_url": null,
+          "uuid": "9a4ea457-8512-4c40-b686-d8ba41fc4993",
+          "value": "Leaked memo: Stripe lays off 300 employees, mostly in product, engineering, and operations"
+        }
+      ]
+    }
+  },
+  {
+    "properties": {
+      "entity_def_id": "layoff",
+      "image_id": "480c27108b6141fe8b1994b5e9e5159d",
+      "key_event_date": "2023-07-07",
+      "sentiment": null,
+      "updated_at": "2023-07-14T02:40:10Z",
+      "uuid": "e68d968d-5bac-45b5-b93c-06661ebf7b6a",
+      "identifier": {
+        "entity_def_id": "layoff",
+        "image_id": "480c27108b6141fe8b1994b5e9e5159d",
+        "permalink": null,
+        "uuid": "e68d968d-5bac-45b5-b93c-06661ebf7b6a",
+        "value": null
+      },
+      "organization_identifier": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      },
+      "press_reference_link": {
+        "value": "https://www.paymentsdive.com/news/fintech-stripe-cuts-additional-job-digital-payments/685101/",
+        "label": "Stripe cuts additional jobs"
+      },
+      "press_references": [
+        {
+          "entity_def_id": "press_reference",
+          "posted_on": "2023-07-07",
+          "publisher": "Payments Dive",
+          "source_url": "https://www.paymentsdive.com/news/fintech-stripe-cuts-additional-job-digital-payments/685101/",
+          "thumbnail_url": "https://www.paymentsdive.com/imgproxy/Krl3ELYpknl7EyxHbD9SITLTaqkeWmGJjsEQT5M1mIU/g:ce/rs:fill:1600:900:1/bG9jYWw6Ly8vZGl2ZWltYWdlL0dldHR5SW1hZ2VzLTExODYzODkzNTQuanBn.jpg",
+          "uuid": "444fb24e-ea9c-4879-be76-7568c0b5c34c",
+          "value": "Stripe cuts additional jobs"
+        }
+      ]
+    }
+  },
+  {
+    "properties": {
+      "entity_def_id": "layoff",
+      "image_id": "5e021ed00f854b1db19622164def8061",
+      "key_event_date": "2025-01-01",
+      "sentiment": null,
+      "updated_at": "2026-02-11T00:10:00Z",
+      "uuid": "e70cc820-b9fb-4927-a514-8398539562a3",
+      "identifier": {
+        "entity_def_id": "layoff",
+        "image_id": "5e021ed00f854b1db19622164def8061",
+        "permalink": null,
+        "uuid": "e70cc820-b9fb-4927-a514-8398539562a3",
+        "value": null
+      },
+      "organization_identifier": {
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      },
+      "press_reference_link": {
+        "value": "https://www.irishtimes.com/business/2026/02/10/stripe-valuation-set-to-hit-140bn-in-new-tender-offer/",
+        "label": "Stripe valuation set to hit $140bn in new tender offer"
+      },
+      "press_references": [
+        {
+          "entity_def_id": "press_reference",
+          "posted_on": "2026-02-10",
+          "publisher": "Irish Times",
+          "source_url": "https://www.irishtimes.com/business/2026/02/10/stripe-valuation-set-to-hit-140bn-in-new-tender-offer/",
+          "thumbnail_url": null,
+          "uuid": "797d9f99-9484-45c4-92d0-d7e80752dfd6",
+          "value": "Stripe valuation set to hit $140bn in new tender offer"
+        }
+      ]
+    }
+  }
+]

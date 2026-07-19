@@ -1,0 +1,482 @@
+[
+  {
+    "properties": {
+      "appearance_type": "sponsor",
+      "entity_def_id": "event_appearance",
+      "event_starts_on": "2018-12-04",
+      "short_description": null,
+      "uuid": "03780f8d-a661-4050-9ae5-1b93d0c6ff1c",
+      "event_identifier": {
+        "entity_def_id": "event",
+        "image_id": "k7lhh71usqfmhp6fqxab",
+        "permalink": "slush-2018",
+        "uuid": "22cb84fa-3204-4cf2-8f85-fbc9f85bf85f",
+        "value": "Slush 2018"
+      },
+      "identifier": {
+        "control_tags": null,
+        "entity_def_id": "event_appearance",
+        "image_id": null,
+        "permalink": "stripe-sponsor-slush-2018--03780f8d",
+        "uuid": "03780f8d-a661-4050-9ae5-1b93d0c6ff1c",
+        "value": "Slush 2018's sponsor - Stripe"
+      },
+      "participant_identifier": {
+        "control_tags": null,
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      }
+    }
+  },
+  {
+    "properties": {
+      "appearance_type": "sponsor",
+      "entity_def_id": "event_appearance",
+      "event_starts_on": "2020-06-18",
+      "short_description": null,
+      "uuid": "05d6c7d1-1ddd-4325-9c46-44f713496b41",
+      "event_identifier": {
+        "entity_def_id": "event",
+        "image_id": "fes5qg9gn48xhnne58wf",
+        "permalink": "startupbootcamp-commerce-amsterdam",
+        "uuid": "0e0f6a7a-0ee8-4b4c-bd7a-c1e23735d529",
+        "value": "Startupbootcamp Commerce Amsterdam"
+      },
+      "identifier": {
+        "control_tags": null,
+        "entity_def_id": "event_appearance",
+        "image_id": null,
+        "permalink": "stripe-sponsor-startupbootcamp-commerce-amsterdam--05d6c7d1",
+        "uuid": "05d6c7d1-1ddd-4325-9c46-44f713496b41",
+        "value": "Startupbootcamp Commerce Amsterdam's sponsor - Stripe"
+      },
+      "participant_identifier": {
+        "control_tags": null,
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      }
+    }
+  },
+  {
+    "properties": {
+      "appearance_type": "sponsor",
+      "entity_def_id": "event_appearance",
+      "event_starts_on": "2021-04-15",
+      "short_description": null,
+      "uuid": "17d733e6-ba5b-4e53-b790-e08e3ca67c65",
+      "event_identifier": {
+        "entity_def_id": "event",
+        "image_id": "be4s4qpe93dma5q0lhxm",
+        "permalink": "startupbootcamp-fintech-cairo-demo-day",
+        "uuid": "927a7afd-2a09-4e17-96a5-c6c4dec3f19f",
+        "value": "Startupbootcamp FinTech Cairo Demo Day"
+      },
+      "identifier": {
+        "control_tags": null,
+        "entity_def_id": "event_appearance",
+        "image_id": null,
+        "permalink": "stripe-sponsor-startupbootcamp-fintech-cairo-demo-day--17d733e6",
+        "uuid": "17d733e6-ba5b-4e53-b790-e08e3ca67c65",
+        "value": "Startupbootcamp FinTech Cairo Demo Day's sponsor - Stripe"
+      },
+      "participant_identifier": {
+        "control_tags": null,
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      }
+    }
+  },
+  {
+    "properties": {
+      "appearance_type": "sponsor",
+      "entity_def_id": "event_appearance",
+      "event_starts_on": "2015-10-14",
+      "short_description": "silver sponsor",
+      "uuid": "23cb50ac-ba78-452b-a441-adb7daca2da7",
+      "event_identifier": {
+        "entity_def_id": "event",
+        "image_id": "v1421745877/wxlbcypbul0jwr05ahcs.png",
+        "permalink": "grace-hopper-celebration-of-women-in-computing-20151014-houston",
+        "uuid": "711add01-5738-1a3a-963c-3035b82cf490",
+        "value": "Grace Hopper Celebration of Women in Computing 2015"
+      },
+      "identifier": {
+        "control_tags": null,
+        "entity_def_id": "event_appearance",
+        "image_id": null,
+        "permalink": "stripe-sponsor-grace-hopper-celebration-of-women-in-computing-20151014-houston--23cb50ac",
+        "uuid": "23cb50ac-ba78-452b-a441-adb7daca2da7",
+        "value": "Grace Hopper Celebration of Women in Computing 2015's sponsor - Stripe"
+      },
+      "participant_identifier": {
+        "control_tags": null,
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      }
+    }
+  },
+  {
+    "properties": {
+      "appearance_type": "sponsor",
+      "entity_def_id": "event_appearance",
+      "event_starts_on": "2020-08-20",
+      "short_description": null,
+      "uuid": "2df93e66-7204-4553-b411-487edb8a503c",
+      "event_identifier": {
+        "entity_def_id": "event",
+        "image_id": "dk8mlde8w0ccbfsevvgf",
+        "permalink": "startupbootcamp-sport-eventtech-melbourne-demo-day",
+        "uuid": "d6189ca5-cfbe-4a69-92ee-f8fe24d58751",
+        "value": "Startupbootcamp Sport & EventTech Melbourne Demo Day"
+      },
+      "identifier": {
+        "control_tags": null,
+        "entity_def_id": "event_appearance",
+        "image_id": null,
+        "permalink": "stripe-sponsor-startupbootcamp-sport-eventtech-melbourne-demo-day--2df93e66",
+        "uuid": "2df93e66-7204-4553-b411-487edb8a503c",
+        "value": "Startupbootcamp Sport & EventTech Melbourne Demo Day's sponsor - Stripe"
+      },
+      "participant_identifier": {
+        "control_tags": null,
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      }
+    }
+  },
+  {
+    "properties": {
+      "appearance_type": "sponsor",
+      "entity_def_id": "event_appearance",
+      "event_starts_on": "2018-06-27",
+      "short_description": null,
+      "uuid": "36791dbe-1e2a-4560-a890-f7af11923059",
+      "event_identifier": {
+        "entity_def_id": "event",
+        "image_id": "u1tslxz3ibnkybwlhdxs",
+        "permalink": "geekwire-cloud-tech-summit-2018",
+        "uuid": "de5f41c2-7327-4800-affa-ce85d50568eb",
+        "value": "GeekWire Cloud Tech Summit 2018"
+      },
+      "identifier": {
+        "control_tags": null,
+        "entity_def_id": "event_appearance",
+        "image_id": null,
+        "permalink": "stripe-sponsor-geekwire-cloud-tech-summit-2018--36791dbe",
+        "uuid": "36791dbe-1e2a-4560-a890-f7af11923059",
+        "value": "GeekWire Cloud Tech Summit 2018's sponsor - Stripe"
+      },
+      "participant_identifier": {
+        "control_tags": null,
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      }
+    }
+  },
+  {
+    "properties": {
+      "appearance_type": "sponsor",
+      "entity_def_id": "event_appearance",
+      "event_starts_on": "2020-07-07",
+      "short_description": null,
+      "uuid": "36fb49ba-b80d-46af-9f83-49dd46fe6d47",
+      "event_identifier": {
+        "entity_def_id": "event",
+        "image_id": "un3sxatcwgba9uvgllmc",
+        "permalink": "startup-impact-summit-2020",
+        "uuid": "5e86caca-0384-42c7-b62f-79bfb1434dd1",
+        "value": "Startup Impact Summit 2020"
+      },
+      "identifier": {
+        "control_tags": null,
+        "entity_def_id": "event_appearance",
+        "image_id": null,
+        "permalink": "stripe-sponsor-startup-impact-summit-2020--36fb49ba",
+        "uuid": "36fb49ba-b80d-46af-9f83-49dd46fe6d47",
+        "value": "Startup Impact Summit 2020's sponsor - Stripe"
+      },
+      "participant_identifier": {
+        "control_tags": null,
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      }
+    }
+  },
+  {
+    "properties": {
+      "appearance_type": "sponsor",
+      "entity_def_id": "event_appearance",
+      "event_starts_on": "2020-09-23",
+      "short_description": null,
+      "uuid": "37abadfd-7db2-44c3-8dc3-1333610d35b5",
+      "event_identifier": {
+        "entity_def_id": "event",
+        "image_id": "tqvyoxs7mgvtxm1ncryf",
+        "permalink": "katapult-accelerator-demo-day",
+        "uuid": "5d1084b4-74e5-42c0-8461-d0325a33006c",
+        "value": "Katapult Accelerator Demo Day"
+      },
+      "identifier": {
+        "control_tags": null,
+        "entity_def_id": "event_appearance",
+        "image_id": null,
+        "permalink": "stripe-sponsor-katapult-accelerator-demo-day--37abadfd",
+        "uuid": "37abadfd-7db2-44c3-8dc3-1333610d35b5",
+        "value": "Katapult Accelerator Demo Day's sponsor - Stripe"
+      },
+      "participant_identifier": {
+        "control_tags": null,
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      }
+    }
+  },
+  {
+    "properties": {
+      "appearance_type": "sponsor",
+      "entity_def_id": "event_appearance",
+      "event_starts_on": "2020-10-12",
+      "short_description": null,
+      "uuid": "3f43a0b4-6cbd-4b73-9406-c431b05f1bf3",
+      "event_identifier": {
+        "entity_def_id": "event",
+        "image_id": "jztk0rd52fhvoesv2ejm",
+        "permalink": "saastock20-dublin",
+        "uuid": "197967a8-a59f-4eee-84aa-4ac813f3d3c9",
+        "value": "SaaStock20 | Dublin"
+      },
+      "identifier": {
+        "control_tags": null,
+        "entity_def_id": "event_appearance",
+        "image_id": null,
+        "permalink": "stripe-sponsor-saastock20-dublin--3f43a0b4",
+        "uuid": "3f43a0b4-6cbd-4b73-9406-c431b05f1bf3",
+        "value": "SaaStock20 | Dublin's sponsor - Stripe"
+      },
+      "participant_identifier": {
+        "control_tags": null,
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      }
+    }
+  },
+  {
+    "properties": {
+      "appearance_type": "sponsor",
+      "entity_def_id": "event_appearance",
+      "event_starts_on": "2019-10-01",
+      "short_description": null,
+      "uuid": "4804a034-1d9b-439e-a7b6-fd2a25f22f25",
+      "event_identifier": {
+        "entity_def_id": "event",
+        "image_id": "xgsrtqpymmdvhiejpdrl",
+        "permalink": "grace-hopper-celebration-of-women-in-computing-2019",
+        "uuid": "61a24938-ecd0-4f9a-8c52-f16899409387",
+        "value": "Grace Hopper Celebration of Women in Computing 2019"
+      },
+      "identifier": {
+        "control_tags": null,
+        "entity_def_id": "event_appearance",
+        "image_id": null,
+        "permalink": "stripe-sponsor-grace-hopper-celebration-of-women-in-computing-2019--4804a034",
+        "uuid": "4804a034-1d9b-439e-a7b6-fd2a25f22f25",
+        "value": "Grace Hopper Celebration of Women in Computing 2019's sponsor - Stripe"
+      },
+      "participant_identifier": {
+        "control_tags": null,
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      }
+    }
+  },
+  {
+    "properties": {
+      "appearance_type": "sponsor",
+      "entity_def_id": "event_appearance",
+      "event_starts_on": "2022-10-23",
+      "short_description": "5star Sponsors",
+      "uuid": "489b54c8-1160-40a1-963f-84bdb102f4eb",
+      "event_identifier": {
+        "entity_def_id": "event",
+        "image_id": "d7b45unuosdbfxggcgmg",
+        "permalink": "money-20-20-usa-2022",
+        "uuid": "d4fa862f-7285-46f4-8a3f-da74c24d9438",
+        "value": "Money 20/20 USA 2022"
+      },
+      "identifier": {
+        "control_tags": null,
+        "entity_def_id": "event_appearance",
+        "image_id": null,
+        "permalink": "stripe-sponsor-money-20-20-usa-2022--489b54c8",
+        "uuid": "489b54c8-1160-40a1-963f-84bdb102f4eb",
+        "value": "Money 20/20 USA 2022's sponsor - Stripe"
+      },
+      "participant_identifier": {
+        "control_tags": null,
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      }
+    }
+  },
+  {
+    "properties": {
+      "appearance_type": "sponsor",
+      "entity_def_id": "event_appearance",
+      "event_starts_on": "2022-10-10",
+      "short_description": null,
+      "uuid": "4b4a5490-91fb-4186-b89a-56e9311e5f9d",
+      "event_identifier": {
+        "entity_def_id": "event",
+        "image_id": "bo7gk5jugv3v0lmjrckn",
+        "permalink": "fintech-surge-2022",
+        "uuid": "a45678d4-7f44-47db-8397-bd77f12bff75",
+        "value": "Fintech Surge 2022"
+      },
+      "identifier": {
+        "control_tags": null,
+        "entity_def_id": "event_appearance",
+        "image_id": null,
+        "permalink": "stripe-sponsor-fintech-surge-2022--4b4a5490",
+        "uuid": "4b4a5490-91fb-4186-b89a-56e9311e5f9d",
+        "value": "Fintech Surge 2022's sponsor - Stripe"
+      },
+      "participant_identifier": {
+        "control_tags": null,
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      }
+    }
+  },
+  {
+    "properties": {
+      "appearance_type": "sponsor",
+      "entity_def_id": "event_appearance",
+      "event_starts_on": "2018-10-17",
+      "short_description": null,
+      "uuid": "4cf15f14-4761-453a-991f-9551897c1023",
+      "event_identifier": {
+        "entity_def_id": "event",
+        "image_id": "gghnufr5dj4ghvswejlu",
+        "permalink": "signal-twilio-customer-developer-conference-2018",
+        "uuid": "2b2edb48-8e5c-4cdd-811b-90702719fa33",
+        "value": "SIGNAL \u2013 Twilio Customer & Developer Conference 2018"
+      },
+      "identifier": {
+        "control_tags": null,
+        "entity_def_id": "event_appearance",
+        "image_id": null,
+        "permalink": "stripe-sponsor-signal-twilio-customer-developer-conference-2018--4cf15f14",
+        "uuid": "4cf15f14-4761-453a-991f-9551897c1023",
+        "value": "SIGNAL \u2013 Twilio Customer & Developer Conference 2018's sponsor - Stripe"
+      },
+      "participant_identifier": {
+        "control_tags": null,
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      }
+    }
+  },
+  {
+    "properties": {
+      "appearance_type": "sponsor",
+      "entity_def_id": "event_appearance",
+      "event_starts_on": "2017-10-04",
+      "short_description": "gold",
+      "uuid": "4d46ec21-96cf-4cba-bfb2-87870d22565c",
+      "event_identifier": {
+        "entity_def_id": "event",
+        "image_id": "v1504860425/umkxitdlvfkp8mwlduhd.png",
+        "permalink": "grace-hopper-celebration-of-women-in-computing-2017-2017104",
+        "uuid": "f2d72cef-d6a5-8273-4306-3a179e67f4ec",
+        "value": "Grace Hopper Celebration of Women in Computing 2017"
+      },
+      "identifier": {
+        "control_tags": null,
+        "entity_def_id": "event_appearance",
+        "image_id": null,
+        "permalink": "stripe-sponsor-grace-hopper-celebration-of-women-in-computing-2017-2017104--4d46ec21",
+        "uuid": "4d46ec21-96cf-4cba-bfb2-87870d22565c",
+        "value": "Grace Hopper Celebration of Women in Computing 2017's sponsor - Stripe"
+      },
+      "participant_identifier": {
+        "control_tags": null,
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      }
+    }
+  },
+  {
+    "properties": {
+      "appearance_type": "sponsor",
+      "entity_def_id": "event_appearance",
+      "event_starts_on": "2019-10-30",
+      "short_description": null,
+      "uuid": "4dce95a5-f33d-4204-8d9e-0c52857a4dd8",
+      "event_identifier": {
+        "entity_def_id": "event",
+        "image_id": "watpcsngjzv9isgf5x8v",
+        "permalink": "noah-london-conference-2019",
+        "uuid": "fbb48af2-776a-412c-9887-34520f852831",
+        "value": "NOAH London 2019 - Main Stage"
+      },
+      "identifier": {
+        "control_tags": null,
+        "entity_def_id": "event_appearance",
+        "image_id": null,
+        "permalink": "stripe-sponsor-noah-london-conference-2019--4dce95a5",
+        "uuid": "4dce95a5-f33d-4204-8d9e-0c52857a4dd8",
+        "value": "NOAH London 2019 - Main Stage's sponsor - Stripe"
+      },
+      "participant_identifier": {
+        "control_tags": null,
+        "entity_def_id": "organization",
+        "image_id": "82700c1a09d149ef87c707c065d73317",
+        "permalink": "stripe",
+        "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+        "value": "Stripe"
+      }
+    }
+  }
+]
