@@ -1,0 +1,332 @@
+{
+  "founder_id": "flagpost",
+  "name": "Devon Reyes",
+  "company": "Flagpost",
+  "evidence": [
+    {
+      "source": "deck",
+      "content": "# Flagpost — Feature Flags That Understand Your Backend\n\n## Problem\nFeature flagging has become table stakes, but existing tools stop at the toggle. Engineers can turn a flag on, but they can't easily answer the questions that matter during a risky rollout: is this flag causing the latency regression? Which downstream service is degrading? Should we auto-roll-back? Today that means gluing a flag tool to three separate observability tools and eyeballing dashboards while a deploy burns. The flag and the telemetry live in different worlds.\n\n## Product\nFlagpost is a feature-management platform with observability built into the flag itself. Every flag is wired to the metrics of the code paths it guards, so a progressive rollout automatically watches error rate, p99 latency, and saturation for the guarded path and halts or reverts on a breach — a real, automated rollback, not an alert. We ship SDKs for Go, TypeScript, Python, and Rust, and integrate with the customer's existing metrics pipeline rather than forcing a new one.\n\n## Team\n- **Devon Reyes (CEO)** — ex-Datadog senior engineer, UC Berkeley. Built parts of Datadog's rollout-monitoring internals; knows the observability integration surface cold.\n- **Amara Nwosu (CTO)** — ex-PagerDuty staff engineer, Georgia Tech. Owned incident-automation systems and the reliability of the eventing core.\n- **Kenji Tanaka (Founding PM)** — ex-LaunchDarkly product lead, University of Washington. Shipped LaunchDarkly's experimentation features and understands exactly where that product leaves users wanting.\n\n## Market\nThe feature-management and progressive-delivery market is ~$1.5B and growing fast as continuous deployment becomes universal. LaunchDarkly defined the category; Datadog and PagerDuty own the telemetry and incident sides. Flagpost's wedge is the seam between them — the ~8,000 US and EU engineering orgs already doing continuous delivery who currently duct-tape flags to observability by hand. Land-and-expand from a team to an org, ACV ~$30K.\n\n## Traction\nLive for 5 months. 14 paying teams across 11 companies, $220K ARR, net revenue retention tracking above 120% on early cohorts. Our self-serve funnel converts unusually well because the automated-rollback demo lands in the first session. Raised a $2.5M seed led by a strong early-stage fund, with angels from the observability world.\n\n## Ask\nRaising to grow from $220K to $1.5M ARR over 18 months. Use of funds: 5 engineers, a design partner program for the enterprise tier, and SOC 2 Type II.\n",
+      "tags": [
+        "deck",
+        "seed",
+        "normal"
+      ],
+      "id": "ev_55e9d9ef2a49311a",
+      "founder_id": "flagpost",
+      "ts": "2026-07-19T12:27:09.523Z",
+      "hash": "e99cfd9b4e74c747"
+    },
+    {
+      "source": "ph",
+      "content": "Product Hunt launch 'Flagpost — feature flags with automated rollback' hit #1 Product of the Day with ~910 upvotes. Several commenters are engineers describing the exact pain (flag tool + observability tool disconnect) and asking about self-hosting. Maker replies are credible and specific.",
+      "tags": [
+        "community",
+        "ph"
+      ],
+      "id": "ev_ffb322a80e0d395d",
+      "founder_id": "flagpost",
+      "ts": "2026-07-19T12:27:09.523Z",
+      "hash": "72094dbdf9144e51"
+    },
+    {
+      "source": "hn",
+      "content": "Show HN for Flagpost reached the front page (~230 points, 90 comments). Sentiment is mixed-positive: praise for the auto-rollback concept, but multiple experienced commenters push back that 'metrics-gated rollback is only as good as your metrics' and question whether it generalizes beyond simple services. No commenter disputes that the product works as demoed.",
+      "tags": [
+        "community",
+        "hn"
+      ],
+      "id": "ev_515fa8229f0698e6",
+      "founder_id": "flagpost",
+      "ts": "2026-07-19T12:27:09.523Z",
+      "hash": "77c6bb6d04a22d93"
+    },
+    {
+      "source": "agent:teamMember",
+      "content": "Devon Reyes: strengths=Claimed experience as a senior engineer at Datadog is closely aligned with Flagpost's observability-focused product.; The deck states that Devon built parts of Datadog's rollout-monitoring internals, suggesting relevant technical domain expertise.; The product's positioning and integration details indicate a clear understanding of the seam between feature flags and observability.; Product Hunt and Hacker News responses describe the maker's replies as credible and specific, providing some evidence of technical communication.; UC Berkeley is a highly prestigious institution, but no school-specific evidence of Devon's demonstrated excellence is supplied.; concerns=The supplied material provides limited evidence of Devon's effectiveness as a CEO, including hiring, sales, fundraising, or company-building outcomes attributable specifically to him.; Datadog experience and the stated internal work are presented as background claims; no independent verification or concrete scope of Devon's contributions is provided.; The product's ability to generalize beyond simple services remains questioned by experienced commenters, which could create execution and product-validation challenges for Devon.; Connections to Datadog are hints of relevant expertise, not proof of exceptional performance or future success.; school tier=top; prior outputs=ev_55e9d9ef2a49311a; ev_ffb322a80e0d395d; ev_515fa8229f0698e6.",
+      "tags": [
+        "team",
+        "agent"
+      ],
+      "id": "ev_5d906f96a42e6ba8",
+      "founder_id": "flagpost",
+      "ts": "2026-07-19T12:30:36.559Z",
+      "hash": "f4b41f2bd50e1b31"
+    },
+    {
+      "source": "agent:communitySignal",
+      "content": "Community evidence available: ph: Product Hunt launch 'Flagpost — feature flags with automated rollback' hit #1 Product of the Day with ~910 upvotes. Several commenters are engineers describing the exact pain (flag tool + observability tool disconnect) and asking about self-hosting. Maker replies are credible and specific.; hn: Show HN for Flagpost reached the front page (~230 points, 90 comments). Sentiment is mixed-positive: praise for the auto-rollback concept, but multiple experienced commenters push back that 'metrics-gated rollback is only as good as your metrics' and question whether it generalizes beyond simple services. No commenter disputes that the product works as demoed.",
+      "tags": [
+        "community",
+        "agent"
+      ],
+      "id": "ev_131577b23ee16db2",
+      "founder_id": "flagpost",
+      "ts": "2026-07-19T12:30:36.561Z",
+      "hash": "c88e22dce7090216"
+    },
+    {
+      "source": "agent:teamMember",
+      "content": "Kenji Tanaka: strengths=Claimed experience as a LaunchDarkly product lead is directly relevant to Flagpost’s feature-management product and wedge.; The deck states that he shipped LaunchDarkly’s experimentation features, suggesting demonstrated product execution in the target category.; His stated understanding of limitations in existing feature-flag products aligns closely with Flagpost’s observability and automated-rollback positioning.; concerns=The material provides no quantified evidence of his individual impact, such as adoption, revenue, retention, or delivery outcomes from the experimentation features.; There is no direct evidence of his technical depth in observability, SDKs, or automated rollback systems.; The LaunchDarkly background is a relevant signal but should be treated as a hint rather than independently verified proof of expertise.; The deck does not provide evidence of his enterprise sales, customer discovery, or hiring leadership capabilities.; school tier=mid; prior outputs=none found.",
+      "tags": [
+        "team",
+        "agent"
+      ],
+      "id": "ev_db49dccafe9f3d24",
+      "founder_id": "flagpost",
+      "ts": "2026-07-19T12:30:36.981Z",
+      "hash": "4a1347dd03aa1b51"
+    },
+    {
+      "source": "agent:teamMember",
+      "content": "Amara Nwosu: strengths=The deck reports that she owned incident-automation systems and the reliability of PagerDuty's eventing core, which is directly relevant to Flagpost's automated rollback and reliability requirements.; Her reported background suggests strong alignment with designing dependable event-driven infrastructure and handling operational failure modes.; The product has early traction—14 paying teams, $220K ARR, and net revenue retention above 120%—though the material does not attribute these outcomes specifically to her.; concerns=The PagerDuty affiliation and staff-engineer title are useful signals but do not independently establish the depth or quality of her contributions.; The material provides no concrete technical accomplishments, shipped systems, scale metrics, or references specific to Amara beyond broad ownership claims.; There is no direct evidence of her effectiveness as a startup CTO, including hiring, product execution, customer-facing work, or scaling Flagpost's engineering organization.; The deck does not show whether the automated rollback system handles the generalization and metrics-quality concerns raised by experienced Show HN commenters.; school tier=unknown; prior outputs=none found.",
+      "tags": [
+        "team",
+        "agent"
+      ],
+      "id": "ev_a6e8a72989ffc15e",
+      "founder_id": "flagpost",
+      "ts": "2026-07-19T12:30:37.618Z",
+      "hash": "272635f116ab7412"
+    },
+    {
+      "source": "agent:competitorDiscovery",
+      "content": "Competitors: LaunchDarkly (Leading feature-management platform with progressive rollouts, targeting the same teams that need safer flag-driven releases.); Harness Feature Management (Combines feature flags with continuous delivery, verification, and rollback workflows, directly overlapping Flagpost’s automated rollout-safety positioning.); Split (Provides feature delivery, experimentation, and progressive-release controls for engineering organizations managing production rollouts.); Unleash (Feature-flag platform with gradual rollouts and operational controls that can compete for teams seeking self-managed or flexible flag infrastructure.); Statsig (Offers feature gates, experimentation, and monitoring-oriented rollout workflows, competing for product and engineering teams adopting data-driven releases.)",
+      "tags": [
+        "competition",
+        "agent"
+      ],
+      "id": "ev_c6e60172a27db9cd",
+      "founder_id": "flagpost",
+      "ts": "2026-07-19T12:30:38.285Z",
+      "hash": "785043c6d16baae0"
+    },
+    {
+      "source": "agent:contradiction",
+      "content": "medium: Raised a $2.5M seed led by a strong early-stage fund, with angels from the observability world. conflicts with Crunchbase lists no company profile and no funding rounds for Flagpost. This is an absence of corroborating records, not proof that the claimed seed round did not occur; the supplied memory evidence merely repeats the deck claim.",
+      "tags": [
+        "contradiction",
+        "agent"
+      ],
+      "id": "ev_bc29fbc8437f6bb3",
+      "founder_id": "flagpost",
+      "ts": "2026-07-19T12:30:41.544Z",
+      "hash": "f03277820dcd2ca6"
+    },
+    {
+      "source": "agent:competitorEval",
+      "content": "Harness Feature Management: investor signal=unknown; trajectory=No disclosed rounds, funding amounts, dates, or investors provided.; threat=low.",
+      "tags": [
+        "competition",
+        "funding",
+        "agent"
+      ],
+      "id": "ev_d60933490ce1ef3f",
+      "founder_id": "flagpost",
+      "ts": "2026-07-19T12:30:43.001Z",
+      "hash": "007a836c99e6d981"
+    },
+    {
+      "source": "agent:competitorEval",
+      "content": "LaunchDarkly: investor signal=low; trajectory=Single disclosed $2.6M venture round in June 2015 from SoftTech VC; no broader funding trajectory is provided.; threat=low.",
+      "tags": [
+        "competition",
+        "funding",
+        "agent"
+      ],
+      "id": "ev_2131eb250d597447",
+      "founder_id": "flagpost",
+      "ts": "2026-07-19T12:30:43.263Z",
+      "hash": "35b3b33e367bbc65"
+    },
+    {
+      "source": "agent:competitorEval",
+      "content": "Split: investor signal=low; trajectory=Single $1M seed round announced 2014-03-26; no later rounds provided.; threat=low.",
+      "tags": [
+        "competition",
+        "funding",
+        "agent"
+      ],
+      "id": "ev_5e8400828382ebb7",
+      "founder_id": "flagpost",
+      "ts": "2026-07-19T12:30:43.386Z",
+      "hash": "8e4f2744051a87c5"
+    },
+    {
+      "source": "agent:competitorEval",
+      "content": "Statsig: investor signal=unknown; trajectory=No funding rounds or investor data provided; trajectory cannot be assessed.; threat=low.",
+      "tags": [
+        "competition",
+        "funding",
+        "agent"
+      ],
+      "id": "ev_4d53a7dc1071c1ab",
+      "founder_id": "flagpost",
+      "ts": "2026-07-19T12:30:43.538Z",
+      "hash": "6f835c91150caad2"
+    },
+    {
+      "source": "agent:competitorEval",
+      "content": "Unleash: investor signal=low; trajectory=Raised $10.3M across four venture rounds from March 2012 to June 2015, growing from $1.0M to $1.8M to $4.0M, followed by a $3.5M round; consistent funding but with a modest decline in the latest round.; threat=medium.",
+      "tags": [
+        "competition",
+        "funding",
+        "agent"
+      ],
+      "id": "ev_5097f46ee8ab34b8",
+      "founder_id": "flagpost",
+      "ts": "2026-07-19T12:30:43.763Z",
+      "hash": "7517bb8893f24156"
+    },
+    {
+      "source": "agent:contradiction",
+      "content": "medium: Raised a $2.5M seed led by a strong early-stage fund, with angels from the observability world. conflicts with Crunchbase has no company profile or funding rounds for Flagpost. This is an absence of corroboration, not proof of a conflict; the memory evidence only repeats the deck claim.",
+      "tags": [
+        "contradiction",
+        "agent"
+      ],
+      "id": "ev_3a0037d46eb17c08",
+      "founder_id": "flagpost",
+      "ts": "2026-07-19T12:36:35.778Z",
+      "hash": "ba4a23ad6fc5b6ab"
+    },
+    {
+      "source": "agent:communitySignal",
+      "content": "Community evidence available: ph: Product Hunt launch 'Flagpost — feature flags with automated rollback' hit #1 Product of the Day with ~910 upvotes. Several commenters are engineers describing the exact pain (flag tool + observability tool disconnect) and asking about self-hosting. Maker replies are credible and specific.; hn: Show HN for Flagpost reached the front page (~230 points, 90 comments). Sentiment is mixed-positive: praise for the auto-rollback concept, but multiple experienced commenters push back that 'metrics-gated rollback is only as good as your metrics' and question whether it generalizes beyond simple services. No commenter disputes that the product works as demoed.; agent:communitySignal: Community evidence available: ph: Product Hunt launch 'Flagpost — feature flags with automated rollback' hit #1 Product of the Day with ~910 upvotes. Several commenters are engineers describing the exact pain (flag tool + observability tool disconnect) and asking about self-hosting. Maker replies are credible and specific.; hn: Show HN for Flagpost reached the front page (~230 points, 90 comments). Sentiment is mixed-positive: praise for the auto-rollback concept, but multiple experienced commenters push back that 'metrics-gated rollback is only as good as your metrics' and question whether it generalizes beyond simple services. No commenter disputes that the product works as demoed.",
+      "tags": [
+        "community",
+        "agent"
+      ],
+      "id": "ev_a8a34971b9c56f06",
+      "founder_id": "flagpost",
+      "ts": "2026-07-19T12:36:35.779Z",
+      "hash": "5a6fdd28bd1fcf71"
+    },
+    {
+      "source": "agent:competitorDiscovery",
+      "content": "Competitors: LaunchDarkly (Leading feature-management platform with progressive rollouts and experimentation; Flagpost directly targets gaps in LaunchDarkly’s rollout observability and automated rollback capabilities.); Harness (Provides feature flags and progressive delivery with deployment verification and automated rollback, overlapping Flagpost’s rollout-control and reliability workflow.); Split (Feature-delivery and experimentation platform with metrics-based rollout monitoring, making it a direct competitor for data-driven feature releases.); Statsig (Combines feature gates, experimentation, and product metrics, overlapping Flagpost’s integrated evaluation of feature impact during rollouts.); Unleash (Open-source and commercial feature-management platform supporting gradual rollouts and operational controls, competing for teams adopting feature flags.)",
+      "tags": [
+        "competition",
+        "agent"
+      ],
+      "id": "ev_2710cb20e2e4d5e5",
+      "founder_id": "flagpost",
+      "ts": "2026-07-19T12:36:36.479Z",
+      "hash": "ad21740a48e97f0a"
+    },
+    {
+      "source": "agent:teamMember",
+      "content": "Kenji Tanaka: strengths=Claimed experience as a LaunchDarkly product lead is directly relevant to Flagpost’s feature-management product and positioning.; The deck states that he shipped LaunchDarkly’s experimentation features, indicating relevant product execution experience, though the scope and impact are not independently verified.; His stated understanding of limitations in existing feature-flag products aligns with Flagpost’s observability and automated-rollback wedge.; concerns=The material provides no quantified evidence of his individual impact, such as adoption, revenue, retention, or delivery outcomes from the experimentation features.; There is no direct evidence of his technical depth in observability, SDKs, reliability, or automated rollback systems.; The LaunchDarkly affiliation and product-lead role are relevant signals, but connections and titles should be treated as hints rather than proof of exceptional performance.; The material does not provide evidence of his enterprise sales, customer discovery, hiring, or startup leadership capabilities.; Experienced Show HN commenters questioned whether metrics-gated rollback generalizes beyond simple services; the material does not show Kenji’s role in addressing this product-validation concern.; school tier=mid; prior outputs=ev_db49dccafe9f3d24.",
+      "tags": [
+        "team",
+        "agent"
+      ],
+      "id": "ev_e3841d1dd773565f",
+      "founder_id": "flagpost",
+      "ts": "2026-07-19T12:36:36.800Z",
+      "hash": "20ab7500a3f54b7a"
+    },
+    {
+      "source": "agent:teamMember",
+      "content": "Devon Reyes: strengths=The deck claims senior engineering experience at Datadog, which is closely aligned with Flagpost’s observability-focused product.; The claimed work on Datadog’s rollout-monitoring internals is directly relevant to Flagpost’s automated rollback and telemetry integration.; Flagpost’s product positioning demonstrates a clear understanding of the interface between feature flags and observability.; Product Hunt and Hacker News responses describe the maker’s replies as credible and specific, offering some evidence of technical communication.; UC Berkeley is a highly prestigious school, though the supplied material does not establish Devon’s individual excellence there.; concerns=The material provides limited evidence of Devon’s effectiveness as a CEO, including hiring, sales, fundraising, or company-building outcomes attributable specifically to him.; Datadog employment and the stated internal contributions are claimed background signals without independent verification or concrete scope metrics.; Early traction is reported for the company but is not attributed specifically to Devon.; Experienced Hacker News commenters questioned whether metrics-gated rollback generalizes beyond simple services and noted dependence on metric quality, creating product-validation and execution risks.; Connections to Datadog are hints of relevant expertise, not proof of exceptional performance or future success.; school tier=top; prior outputs=ev_5d906f96a42e6ba8.",
+      "tags": [
+        "team",
+        "agent"
+      ],
+      "id": "ev_e5a151ede1755d17",
+      "founder_id": "flagpost",
+      "ts": "2026-07-19T12:36:37.228Z",
+      "hash": "4196491357d25110"
+    },
+    {
+      "source": "agent:teamMember",
+      "content": "Amara Nwosu: strengths=The deck reports that she owned incident-automation systems and the reliability of PagerDuty’s eventing core, which is directly relevant to Flagpost’s automated rollback and reliability requirements.; Her reported background suggests experience with dependable event-driven infrastructure and operational failure modes.; Georgia Tech is a highly regarded technical institution, but the material provides no evidence of her academic distinction there.; concerns=PagerDuty affiliation and staff-engineer title are useful signals, not independently verified proof of exceptional contributions.; The material provides no concrete technical accomplishments, shipped-system details, scale metrics, or references specific to her beyond broad ownership claims.; There is no direct evidence of her effectiveness as a startup CTO, including hiring, product execution, customer-facing work, or scaling Flagpost’s engineering organization.; Flagpost’s early traction is not attributed specifically to her.; The material does not establish whether the automated-rollback system generalizes beyond simple services or addresses the metrics-quality concerns raised by experienced commenters.; Her connections to PagerDuty should be treated as hints of relevant expertise, not proof of performance or future success.; school tier=top; prior outputs=ev_a6e8a72989ffc15e.",
+      "tags": [
+        "team",
+        "agent"
+      ],
+      "id": "ev_9dd7ac509d75d400",
+      "founder_id": "flagpost",
+      "ts": "2026-07-19T12:36:38.267Z",
+      "hash": "1a7a395854f9c55e"
+    },
+    {
+      "source": "agent:competitorEval",
+      "content": "Statsig: investor signal=unknown; trajectory=No funding rounds, dates, sizes, or investors provided.; threat=low.",
+      "tags": [
+        "competition",
+        "funding",
+        "agent"
+      ],
+      "id": "ev_011ddf47f0bd8cd1",
+      "founder_id": "flagpost",
+      "ts": "2026-07-19T12:36:39.933Z",
+      "hash": "306a6eea26473855"
+    },
+    {
+      "source": "agent:competitorEval",
+      "content": "Harness: investor signal=low; trajectory=One venture round announced in 2015 with Armat Group; no round size or subsequent funding disclosed.; threat=low.",
+      "tags": [
+        "competition",
+        "funding",
+        "agent"
+      ],
+      "id": "ev_df4e9c9df94f3b16",
+      "founder_id": "flagpost",
+      "ts": "2026-07-19T12:36:40.021Z",
+      "hash": "bdb84ffc7b402523"
+    },
+    {
+      "source": "agent:competitorEval",
+      "content": "Split: investor signal=low; trajectory=Single disclosed seed round of $1,000,000 announced on 2014-03-26; no subsequent rounds provided.; threat=low.",
+      "tags": [
+        "competition",
+        "funding",
+        "agent"
+      ],
+      "id": "ev_0378ec3375ac42f5",
+      "founder_id": "flagpost",
+      "ts": "2026-07-19T12:36:40.186Z",
+      "hash": "718f4fc94473671d"
+    },
+    {
+      "source": "agent:competitorEval",
+      "content": "Unleash: investor signal=low; trajectory=Raised $10.3M across four venture rounds from March 2012 to June 2015, growing from $1.0M to $4.0M before a $3.5M follow-on round; steady funding with modest momentum.; threat=medium.",
+      "tags": [
+        "competition",
+        "funding",
+        "agent"
+      ],
+      "id": "ev_950e1f058b192bf1",
+      "founder_id": "flagpost",
+      "ts": "2026-07-19T12:36:40.414Z",
+      "hash": "c26c770b583bd387"
+    },
+    {
+      "source": "agent:competitorEval",
+      "content": "LaunchDarkly: investor signal=low; trajectory=Single $2.6M venture round announced June 4, 2015, with no later rounds provided; funding trajectory appears early and limited.; threat=low.",
+      "tags": [
+        "competition",
+        "funding",
+        "agent"
+      ],
+      "id": "ev_6394b5d8701f01a5",
+      "founder_id": "flagpost",
+      "ts": "2026-07-19T12:36:40.440Z",
+      "hash": "a6156dbb661b7786"
+    }
+  ],
+  "founderScoreHistory": [
+    {
+      "ts": "2026-07-19T12:31:02.549Z",
+      "score_0_100": 60,
+      "delta": 10,
+      "reason": "Raises the persistent score from its neutral baseline because the team has strong, complementary category-specific backgrounds and credible community-facing technical communication. The increase is capped by unverified employment impact, absent prior-collaboration evidence, limited build-and-sell proof, and uncorroborated funding and traction claims."
+    },
+    {
+      "ts": "2026-07-19T12:37:01.103Z",
+      "score_0_100": 67,
+      "delta": 7,
+      "reason": "Increase reflects exceptional category-specific team complementarity and credible public technical engagement beyond the persistent score of 60. The uplift is limited by unverified employment impact, no demonstrated prior collaboration, weak evidence of sales leadership, sparse competitor funding benchmarks, and an unnamed, uncorroborated seed investor that cannot be matched to the allowlist."
+    }
+  ]
+}

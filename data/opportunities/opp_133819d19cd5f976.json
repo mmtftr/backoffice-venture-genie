@@ -1,0 +1,339 @@
+{
+  "id": "opp_133819d19cd5f976",
+  "founder_id": "flagpost",
+  "company": "Flagpost",
+  "track": "inbound",
+  "createdAt": "2026-07-19T12:30:32.010Z",
+  "status": "screened",
+  "deckText": "# Flagpost — Feature Flags That Understand Your Backend\n\n## Problem\nFeature flagging has become table stakes, but existing tools stop at the toggle. Engineers can turn a flag on, but they can't easily answer the questions that matter during a risky rollout: is this flag causing the latency regression? Which downstream service is degrading? Should we auto-roll-back? Today that means gluing a flag tool to three separate observability tools and eyeballing dashboards while a deploy burns. The flag and the telemetry live in different worlds.\n\n## Product\nFlagpost is a feature-management platform with observability built into the flag itself. Every flag is wired to the metrics of the code paths it guards, so a progressive rollout automatically watches error rate, p99 latency, and saturation for the guarded path and halts or reverts on a breach — a real, automated rollback, not an alert. We ship SDKs for Go, TypeScript, Python, and Rust, and integrate with the customer's existing metrics pipeline rather than forcing a new one.\n\n## Team\n- **Devon Reyes (CEO)** — ex-Datadog senior engineer, UC Berkeley. Built parts of Datadog's rollout-monitoring internals; knows the observability integration surface cold.\n- **Amara Nwosu (CTO)** — ex-PagerDuty staff engineer, Georgia Tech. Owned incident-automation systems and the reliability of the eventing core.\n- **Kenji Tanaka (Founding PM)** — ex-LaunchDarkly product lead, University of Washington. Shipped LaunchDarkly's experimentation features and understands exactly where that product leaves users wanting.\n\n## Market\nThe feature-management and progressive-delivery market is ~$1.5B and growing fast as continuous deployment becomes universal. LaunchDarkly defined the category; Datadog and PagerDuty own the telemetry and incident sides. Flagpost's wedge is the seam between them — the ~8,000 US and EU engineering orgs already doing continuous delivery who currently duct-tape flags to observability by hand. Land-and-expand from a team to an org, ACV ~$30K.\n\n## Traction\nLive for 5 months. 14 paying teams across 11 companies, $220K ARR, net revenue retention tracking above 120% on early cohorts. Our self-serve funnel converts unusually well because the automated-rollback demo lands in the first session. Raised a $2.5M seed led by a strong early-stage fund, with angels from the observability world.\n\n## Ask\nRaising to grow from $220K to $1.5M ARR over 18 months. Use of funds: 5 engineers, a design partner program for the enterprise tier, and SOC 2 Type II.\n",
+  "screening": {
+    "founder_id": "flagpost",
+    "company": "Flagpost",
+    "axes": [
+      {
+        "axis": "Founder",
+        "score_0_100": 76,
+        "trend": "improving",
+        "evidence_ids": [
+          "ev_e5a151ede1755d17",
+          "ev_9dd7ac509d75d400",
+          "ev_e3841d1dd773565f",
+          "ev_bc29fbc8437f6bb3",
+          "ev_ffb322a80e0d395d"
+        ],
+        "rationale": "The team has unusually strong category alignment: Devon brings claimed Datadog rollout-monitoring experience, Amara claimed PagerDuty incident-automation ownership, and Kenji claimed LaunchDarkly product experience. Berkeley and Georgia Tech are strong schools, but demonstrated excellence within school is not established. The team covers observability engineering, reliability infrastructure, and product, creating credible build-plus-product coverage; enterprise selling ability and prior collaboration remain unproven. Specific community responses provide a useful cold-start substitute for absent verified track record. The claimed $2.5M seed is stage-normal, but the lead is unnamed, cannot be matched to the high-signal allowlist, lacks Crunchbase corroboration, and has no disclosed date, preventing recency or follow-on assessment. Competitor investor evaluations are mostly low or unknown, so they do not reveal a clearly superior competing team, although that benchmark is based on sparse funding data."
+      },
+      {
+        "axis": "Market",
+        "score_0_100": 72,
+        "trend": "stable",
+        "evidence_ids": [
+          "ev_55e9d9ef2a49311a",
+          "ev_ffb322a80e0d395d",
+          "ev_515fa8229f0698e6",
+          "ev_c6e60172a27db9cd"
+        ],
+        "rationale": "Developer tools in the US and EU fit the thesis, and community engagement corroborates a genuine pain around disconnected feature flags and observability. The claimed $1.5B category, 8,000 target organizations, $30K ACV, and rapid growth are deck-sourced and unverified. The market contains established alternatives including LaunchDarkly, Harness, Split, Statsig, and Unleash, creating meaningful platform-bundling and distribution risk. Product Hunt and Hacker News interest supports demand, but does not establish budget size, durable retention, or broad enterprise adoption."
+      },
+      {
+        "axis": "IdeaVsMarket",
+        "score_0_100": 70,
+        "trend": "stable",
+        "evidence_ids": [
+          "ev_55e9d9ef2a49311a",
+          "ev_515fa8229f0698e6",
+          "ev_2710cb20e2e4d5e5",
+          "ev_3a0037d46eb17c08"
+        ],
+        "rationale": "Embedding telemetry-aware safeguards and automatic rollback into feature flags is a coherent wedge, and no community commenter disputes that the demonstrated product works. However, experienced engineers warn that automated rollback is only as reliable as the underlying metrics and may not generalize beyond simple services. Existing competitors already offer combinations of feature flags, experimentation, verification, and rollback, so differentiation may narrow as incumbents bundle adjacent capabilities. The claimed 14 paying teams, 11 companies, $220K ARR, and above-120% NRR are low-trust deck figures without Crunchbase or other independent customer corroboration; the very early cohort makes NRR especially uncertain."
+      }
+    ],
+    "founderScoreDelta": 7,
+    "founderScoreReason": "Increase reflects exceptional category-specific team complementarity and credible public technical engagement beyond the persistent score of 60. The uplift is limited by unverified employment impact, no demonstrated prior collaboration, weak evidence of sales leadership, sparse competitor funding benchmarks, and an unnamed, uncorroborated seed investor that cannot be matched to the allowlist.",
+    "coldStart": true,
+    "substitutionRung": "community_footprint",
+    "thesisFit_0_1": 0.88
+  },
+  "memo": {
+    "company": "Flagpost",
+    "founder_id": "flagpost",
+    "sections": [
+      {
+        "title": "Company snapshot",
+        "claims": [
+          {
+            "text": "Flagpost presents itself as a feature-management platform that connects feature flags to code-path telemetry and can halt or reverse progressive rollouts when monitored thresholds are breached.",
+            "evidence_ids": [
+              "ev_55e9d9ef2a49311a"
+            ],
+            "confidence_0_1": 0.78,
+            "verification": "internal",
+            "contradictions": []
+          },
+          {
+            "text": "The founding team claims directly relevant experience across Datadog rollout monitoring, PagerDuty incident automation, and LaunchDarkly product management, but those roles and individual contributions have not been independently verified.",
+            "evidence_ids": [
+              "ev_55e9d9ef2a49311a",
+              "ev_e5a151ede1755d17",
+              "ev_9dd7ac509d75d400",
+              "ev_e3841d1dd773565f"
+            ],
+            "confidence_0_1": 0.62,
+            "verification": "internal",
+            "contradictions": []
+          },
+          {
+            "text": "The deck estimates a roughly $1.5B feature-management and progressive-delivery market, approximately 8,000 target engineering organizations in the US and EU, and a target ACV of about $30K; no independent market validation is supplied.",
+            "evidence_ids": [
+              "ev_55e9d9ef2a49311a"
+            ],
+            "confidence_0_1": 0.48,
+            "verification": "internal",
+            "contradictions": []
+          }
+        ],
+        "prose": "Flagpost has strong category alignment, but the company profile remains predominantly founder-supplied."
+      },
+      {
+        "title": "Investment hypotheses",
+        "claims": [
+          {
+            "text": "The core wedge may resonate because engineers publicly described the disconnect between feature flags and observability, while both Product Hunt and Hacker News generated substantial engagement around Flagpost's automated-rollback concept.",
+            "evidence_ids": [
+              "ev_ffb322a80e0d395d",
+              "ev_515fa8229f0698e6"
+            ],
+            "confidence_0_1": 0.84,
+            "verification": "external",
+            "contradictions": []
+          },
+          {
+            "text": "The team's claimed backgrounds create potentially strong product-domain coverage spanning observability, reliable event-driven infrastructure, incident automation, and feature-management product development.",
+            "evidence_ids": [
+              "ev_e5a151ede1755d17",
+              "ev_9dd7ac509d75d400",
+              "ev_e3841d1dd773565f"
+            ],
+            "confidence_0_1": 0.65,
+            "verification": "internal",
+            "contradictions": []
+          },
+          {
+            "text": "A land-and-expand model could become attractive if Flagpost validates its stated approximately $30K ACV and converts early team adoption into organization-wide deployments, but neither pricing durability nor expansion behavior has been independently established.",
+            "evidence_ids": [
+              "ev_55e9d9ef2a49311a"
+            ],
+            "confidence_0_1": 0.46,
+            "verification": "internal",
+            "contradictions": []
+          },
+          {
+            "text": "The investment case depends on automated rollback remaining reliable in complex production environments despite public concerns that outcomes depend heavily on metric quality and may not generalize beyond simple services.",
+            "evidence_ids": [
+              "ev_515fa8229f0698e6"
+            ],
+            "confidence_0_1": 0.82,
+            "verification": "external",
+            "contradictions": []
+          }
+        ],
+        "prose": "The upside rests on converting visible developer interest into durable enterprise adoption while proving safe operation across heterogeneous systems."
+      },
+      {
+        "title": "SWOT",
+        "claims": [
+          {
+            "text": "Strength: Flagpost's proposed integration of feature controls, path-level observability, and automated rollback offers a coherent workflow-oriented wedge, supported by relevant but unverified team backgrounds.",
+            "evidence_ids": [
+              "ev_55e9d9ef2a49311a",
+              "ev_e5a151ede1755d17",
+              "ev_9dd7ac509d75d400",
+              "ev_e3841d1dd773565f"
+            ],
+            "confidence_0_1": 0.66,
+            "verification": "internal",
+            "contradictions": []
+          },
+          {
+            "text": "Weakness: traction, retention, market sizing, ACV, founder employment impact, and enterprise execution capability are supported primarily by company-supplied material rather than customer references or independently verified operating data.",
+            "evidence_ids": [
+              "ev_55e9d9ef2a49311a",
+              "ev_e5a151ede1755d17",
+              "ev_9dd7ac509d75d400",
+              "ev_e3841d1dd773565f"
+            ],
+            "confidence_0_1": 0.76,
+            "verification": "internal",
+            "contradictions": []
+          },
+          {
+            "text": "Opportunity: Product Hunt users described the targeted workflow problem and asked about self-hosting, suggesting interest in both the core use case and deployment flexibility.",
+            "evidence_ids": [
+              "ev_ffb322a80e0d395d"
+            ],
+            "confidence_0_1": 0.82,
+            "verification": "external",
+            "contradictions": []
+          },
+          {
+            "text": "Threat: LaunchDarkly, Harness, Split, Statsig, and Unleash overlap with parts of Flagpost's feature-management, experimentation, monitoring, progressive-delivery, or rollback proposition, creating bundling and distribution risk.",
+            "evidence_ids": [
+              "ev_c6e60172a27db9cd",
+              "ev_2710cb20e2e4d5e5"
+            ],
+            "confidence_0_1": 0.76,
+            "verification": "internal",
+            "contradictions": []
+          },
+          {
+            "text": "Threat: experienced Hacker News commenters warned that metrics-gated rollback is only as reliable as the selected metrics and questioned applicability beyond simple services.",
+            "evidence_ids": [
+              "ev_515fa8229f0698e6"
+            ],
+            "confidence_0_1": 0.88,
+            "verification": "external",
+            "contradictions": []
+          }
+        ],
+        "prose": "Differentiation is credible as a workflow thesis, but defensibility and operational reliability require deeper validation."
+      },
+      {
+        "title": "Problem & product",
+        "claims": [
+          {
+            "text": "The deck argues that engineers currently connect separate flagging and observability tools and manually inspect dashboards during risky deployments because flag state and telemetry are disconnected.",
+            "evidence_ids": [
+              "ev_55e9d9ef2a49311a"
+            ],
+            "confidence_0_1": 0.7,
+            "verification": "internal",
+            "contradictions": []
+          },
+          {
+            "text": "External community discussion supports the existence of this workflow pain, with engineers describing the flag-tool and observability-tool disconnect.",
+            "evidence_ids": [
+              "ev_ffb322a80e0d395d"
+            ],
+            "confidence_0_1": 0.84,
+            "verification": "external",
+            "contradictions": []
+          },
+          {
+            "text": "Flagpost claims that each flag can monitor error rate, p99 latency, and saturation for guarded code paths and automatically halt or revert a rollout when a threshold is breached.",
+            "evidence_ids": [
+              "ev_55e9d9ef2a49311a"
+            ],
+            "confidence_0_1": 0.74,
+            "verification": "internal",
+            "contradictions": []
+          },
+          {
+            "text": "The company claims SDK support for Go, TypeScript, Python, and Rust and says the product integrates with customers' existing metrics pipelines.",
+            "evidence_ids": [
+              "ev_55e9d9ef2a49311a"
+            ],
+            "confidence_0_1": 0.73,
+            "verification": "internal",
+            "contradictions": []
+          },
+          {
+            "text": "Hacker News discussion did not dispute that the demonstrated product worked, but it did challenge whether the approach is robust across more complicated services and imperfect telemetry.",
+            "evidence_ids": [
+              "ev_515fa8229f0698e6"
+            ],
+            "confidence_0_1": 0.86,
+            "verification": "external",
+            "contradictions": []
+          }
+        ],
+        "prose": "The product directly addresses a recognized operational seam; technical diligence should focus on failure modes, metric selection, and rollback safety."
+      },
+      {
+        "title": "Traction & KPIs",
+        "claims": [
+          {
+            "text": "The deck reports that Flagpost had been live for five months, served 14 paying teams across 11 companies, generated $220K ARR, and was tracking above 120% net revenue retention on early cohorts.",
+            "evidence_ids": [
+              "ev_55e9d9ef2a49311a"
+            ],
+            "confidence_0_1": 0.54,
+            "verification": "internal",
+            "contradictions": []
+          },
+          {
+            "text": "Flagpost's Product Hunt launch reached number one Product of the Day with approximately 910 upvotes, while its Show HN post reached the front page with approximately 230 points and 90 comments.",
+            "evidence_ids": [
+              "ev_ffb322a80e0d395d",
+              "ev_515fa8229f0698e6"
+            ],
+            "confidence_0_1": 0.88,
+            "verification": "external",
+            "contradictions": []
+          },
+          {
+            "text": "The deck claims a $2.5M seed led by an unnamed early-stage fund with observability-sector angels, but two contradiction checks found no Flagpost company profile or funding rounds on Crunchbase; this is missing corroboration rather than proof that the financing did not occur.",
+            "evidence_ids": [
+              "ev_55e9d9ef2a49311a",
+              "ev_bc29fbc8437f6bb3",
+              "ev_3a0037d46eb17c08"
+            ],
+            "confidence_0_1": 0.3,
+            "verification": "external",
+            "contradictions": [
+              "ev_bc29fbc8437f6bb3: Crunchbase lists no company profile or funding rounds for Flagpost, conflicting with the deck's claimed $2.5M seed only through absence of corroboration.",
+              "ev_3a0037d46eb17c08: Crunchbase has no Flagpost profile or funding rounds, while the supplied memory merely repeats the deck's financing claim.",
+              "medium: Raised a $2.5M seed led by a strong early-stage fund, with angels from the observability world. conflicts with Crunchbase has no company profile or funding rounds for Flagpost. This is an absence of corroboration, not proof of a conflict; the memory evidence only repeats the deck claim."
+            ]
+          },
+          {
+            "text": "Management's stated objective is to grow from $220K to $1.5M ARR over 18 months, using proceeds for five engineers, an enterprise design-partner program, and SOC 2 Type II.",
+            "evidence_ids": [
+              "ev_55e9d9ef2a49311a"
+            ],
+            "confidence_0_1": 0.7,
+            "verification": "internal",
+            "contradictions": []
+          }
+        ],
+        "prose": "Public engagement is encouraging, but revenue quality, customer concentration, retention, and financing require primary-source verification."
+      }
+    ],
+    "redFlags": [
+      "ev_bc29fbc8437f6bb3: The claimed $2.5M seed lacks Crunchbase corroboration because no Flagpost company profile or funding rounds were found; this is not proof that the round did not occur.",
+      "ev_3a0037d46eb17c08: A second contradiction finding likewise reports no Crunchbase profile or funding rounds for Flagpost and notes that other supplied material only repeats the deck claim.",
+      "ev_515fa8229f0698e6: Experienced Hacker News commenters questioned whether metrics-gated rollback remains reliable with poor metrics or complex service architectures.",
+      "ev_55e9d9ef2a49311a: ARR, customer count, NRR, market size, target-organization count, and ACV are company-supplied and lack independent corroboration.",
+      "ev_c6e60172a27db9cd: Established feature-management and progressive-delivery competitors overlap with important portions of Flagpost's proposition.",
+      "medium: Raised a $2.5M seed led by a strong early-stage fund, with angels from the observability world. conflicts with Crunchbase has no company profile or funding rounds for Flagpost. This is an absence of corroboration, not proof of a conflict; the memory evidence only repeats the deck claim."
+    ],
+    "gaps": [
+      "Cap table: not disclosed",
+      "Current round size and valuation: not disclosed",
+      "Seed lead investor: not disclosed",
+      "Seed financing date: not disclosed",
+      "Named customers: not disclosed",
+      "Customer references: not disclosed",
+      "ARR reconciliation: not disclosed",
+      "Revenue concentration: not disclosed",
+      "Gross margin: not disclosed",
+      "Burn rate and runway: not disclosed",
+      "Churn and cohort tables: not disclosed",
+      "NRR calculation methodology: not disclosed",
+      "CAC and payback period: not disclosed",
+      "Self-serve conversion rate: not disclosed",
+      "Enterprise pipeline: not disclosed",
+      "Security audit status: not disclosed",
+      "Automated-rollback failure-rate data: not disclosed",
+      "Prior founder collaboration history: not disclosed"
+    ],
+    "trustScore_0_1": 1
+  },
+  "decision": {
+    "founder_id": "flagpost",
+    "company": "Flagpost",
+    "recommendation": "watch",
+    "thesisRationale": "Flagpost is strongly aligned with the Developer Tools and AI Infrastructure thesis, appears to be at the target seed stage, and has a technically credible team with relevant observability, reliability, and feature-management experience. Its metrics-gated rollback wedge addresses a community-corroborated developer pain point, while launch engagement provides early evidence of demand. However, the claimed $220K ARR, customer base, retention, financing, and investor quality remain unverified. The fund's $100K check is also unlikely to secure the 7% ownership target if the reported $2.5M seed is accurate. Advance only after validating geography, customer references, revenue and cohort data, rollback performance, cap table, round terms, and lead-investor identity.",
+    "whyThisCouldFail": "Flagpost may be a thin feature rather than a durable platform: LaunchDarkly, Harness, Split, Statsig, or observability incumbents could add telemetry-linked rollback and distribute it through larger installed bases. More fundamentally, automated rollback is only as dependable as metric attribution; noisy telemetry, delayed signals, shared dependencies, and complex distributed systems can trigger false reversions or miss real regressions, undermining trust in the product's core promise. Community attention may not translate into enterprise adoption, particularly given security, integration, and procurement burdens. If the unverified ARR and retention claims reflect pilots, short cohorts, or concentrated usage, traction could deteriorate quickly while the company faces a crowded market and limited pricing power."
+  },
+  "traceSummary": "- teamMember extracted Flagpost’s team and evaluated Devon Reyes, Amara Nwosu, and Kenji Tanaka for relevant Datadog, PagerDuty, and LaunchDarkly experience.\n- competitorDiscovery queried Crunchbase, found no Flagpost candidates, and identified LaunchDarkly, Harness, Split, Unleash, and Statsig as competitors.\n- contradiction cross-checked Flagpost and flagged that its claimed $2.5M seed lacked Crunchbase corroboration because no company profile or funding rounds were found.\n- competitorEval assessed the identified competitors’ disclosed funding and rated each as a low threat or unknown where funding data was absent.\n- screening scored Flagpost, memo drafted an investment memo, and decision recommended placing Flagpost on the watch list."
+}

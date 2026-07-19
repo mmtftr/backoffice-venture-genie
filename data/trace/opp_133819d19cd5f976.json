@@ -1,0 +1,682 @@
+[
+  {
+    "agent": "teamMember",
+    "action": "extract_team",
+    "target": "Flagpost",
+    "evidence_ids": [],
+    "id": "tr_9fa37447287a7135",
+    "opportunity_id": "opp_133819d19cd5f976",
+    "ts": "2026-07-19T12:30:32.012Z"
+  },
+  {
+    "agent": "teamMember",
+    "action": "extract_team:done",
+    "target": "Flagpost",
+    "detail": "{\"members\":[\"Devon Reyes\",\"Amara Nwosu\",\"Kenji Tanaka\"]}",
+    "evidence_ids": [],
+    "id": "tr_77917a1cb897070a",
+    "opportunity_id": "opp_133819d19cd5f976",
+    "ts": "2026-07-19T12:30:32.979Z"
+  },
+  {
+    "agent": "teamMember",
+    "action": "evaluate",
+    "target": "Devon Reyes",
+    "evidence_ids": [],
+    "id": "tr_7b9ca67e5a50a432",
+    "opportunity_id": "opp_133819d19cd5f976",
+    "ts": "2026-07-19T12:30:32.984Z"
+  },
+  {
+    "agent": "teamMember",
+    "action": "evaluate",
+    "target": "Amara Nwosu",
+    "evidence_ids": [],
+    "id": "tr_bf3522a30f4349e8",
+    "opportunity_id": "opp_133819d19cd5f976",
+    "ts": "2026-07-19T12:30:33.007Z"
+  },
+  {
+    "agent": "teamMember",
+    "action": "evaluate",
+    "target": "Kenji Tanaka",
+    "evidence_ids": [],
+    "id": "tr_46d8146f2c9ac319",
+    "opportunity_id": "opp_133819d19cd5f976",
+    "ts": "2026-07-19T12:30:33.023Z"
+  },
+  {
+    "agent": "competitorDiscovery",
+    "action": "queried crunchbase",
+    "target": "Flagpost",
+    "detail": "0 candidates",
+    "evidence_ids": [],
+    "id": "tr_a51fd1144e93b6b3",
+    "opportunity_id": "opp_133819d19cd5f976",
+    "ts": "2026-07-19T12:30:35.330Z"
+  },
+  {
+    "agent": "contradiction",
+    "action": "queried crunchbase",
+    "target": "Flagpost",
+    "detail": "company not found",
+    "evidence_ids": [],
+    "id": "tr_ba56601ed29779e6",
+    "opportunity_id": "opp_133819d19cd5f976",
+    "ts": "2026-07-19T12:30:35.331Z"
+  },
+  {
+    "agent": "competitorDiscovery",
+    "action": "merge_candidates",
+    "target": "Flagpost",
+    "evidence_ids": [],
+    "id": "tr_b814a96c9190236d",
+    "opportunity_id": "opp_133819d19cd5f976",
+    "ts": "2026-07-19T12:30:35.331Z"
+  },
+  {
+    "agent": "contradiction",
+    "action": "cross_check",
+    "target": "Flagpost",
+    "evidence_ids": [],
+    "id": "tr_f83b16f9f9ed0e75",
+    "opportunity_id": "opp_133819d19cd5f976",
+    "ts": "2026-07-19T12:30:35.333Z"
+  },
+  {
+    "agent": "teamMember",
+    "action": "evaluate:done",
+    "target": "Devon Reyes",
+    "detail": "{\"member\":\"Devon Reyes\",\"strengths\":[\"Claimed experience as a senior engineer at Datadog is closely aligned with Flagpost's observability-focused product.\",\"The deck states that Devon built parts of Datadog's rollout-monitoring internals, s",
+    "evidence_ids": [],
+    "id": "tr_7f551ebcc51f7220",
+    "opportunity_id": "opp_133819d19cd5f976",
+    "ts": "2026-07-19T12:30:36.558Z"
+  },
+  {
+    "agent": "communitySignal",
+    "action": "reviewed existing evidence",
+    "target": "Flagpost",
+    "detail": "2 community signals",
+    "evidence_ids": [
+      "ev_ffb322a80e0d395d",
+      "ev_515fa8229f0698e6"
+    ],
+    "id": "tr_e2ccaf5553b2df75",
+    "opportunity_id": "opp_133819d19cd5f976",
+    "ts": "2026-07-19T12:30:36.561Z"
+  },
+  {
+    "agent": "teamMember",
+    "action": "evaluate:done",
+    "target": "Kenji Tanaka",
+    "detail": "{\"member\":\"Kenji Tanaka\",\"strengths\":[\"Claimed experience as a LaunchDarkly product lead is directly relevant to Flagpost’s feature-management product and wedge.\",\"The deck states that he shipped LaunchDarkly’s experimentation features, sug",
+    "evidence_ids": [],
+    "id": "tr_29fcaff2cd686e4b",
+    "opportunity_id": "opp_133819d19cd5f976",
+    "ts": "2026-07-19T12:30:36.980Z"
+  },
+  {
+    "agent": "teamMember",
+    "action": "evaluate:done",
+    "target": "Amara Nwosu",
+    "detail": "{\"member\":\"Amara Nwosu\",\"strengths\":[\"The deck reports that she owned incident-automation systems and the reliability of PagerDuty's eventing core, which is directly relevant to Flagpost's automated rollback and reliability requirements.\",\"",
+    "evidence_ids": [],
+    "id": "tr_4e85f9b5bed302f3",
+    "opportunity_id": "opp_133819d19cd5f976",
+    "ts": "2026-07-19T12:30:37.617Z"
+  },
+  {
+    "agent": "competitorDiscovery",
+    "action": "merge_candidates:done",
+    "target": "Flagpost",
+    "detail": "{\"competitors\":[{\"name\":\"LaunchDarkly\",\"why\":\"Leading feature-management platform with progressive rollouts, targeting the same teams that need safer flag-driven releases.\",\"source\":\"llm\"},{\"name\":\"Harness Feature Management\",\"why\":\"Combine",
+    "evidence_ids": [],
+    "id": "tr_ef4db4aacc8fb897",
+    "opportunity_id": "opp_133819d19cd5f976",
+    "ts": "2026-07-19T12:30:38.284Z"
+  },
+  {
+    "agent": "contradiction",
+    "action": "cross_check:done",
+    "target": "Flagpost",
+    "detail": "{\"contradictions\":[{\"claim\":\"Raised a $2.5M seed led by a strong early-stage fund, with angels from the observability world.\",\"conflictsWith\":\"Crunchbase lists no company profile and no funding rounds for Flagpost. This is an absence of cor",
+    "evidence_ids": [],
+    "id": "tr_ea596f84fecedad1",
+    "opportunity_id": "opp_133819d19cd5f976",
+    "ts": "2026-07-19T12:30:41.543Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "queried crunchbase",
+    "target": "LaunchDarkly",
+    "detail": "1 funding rounds",
+    "evidence_ids": [],
+    "id": "tr_d3bc0d7b41bd294c",
+    "opportunity_id": "opp_133819d19cd5f976",
+    "ts": "2026-07-19T12:30:41.582Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "queried crunchbase",
+    "target": "Harness Feature Management",
+    "detail": "0 funding rounds",
+    "evidence_ids": [],
+    "id": "tr_70b60612ba8c0aab",
+    "opportunity_id": "opp_133819d19cd5f976",
+    "ts": "2026-07-19T12:30:41.582Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "queried crunchbase",
+    "target": "Split",
+    "detail": "1 funding rounds",
+    "evidence_ids": [],
+    "id": "tr_ce5827d79aae59a3",
+    "opportunity_id": "opp_133819d19cd5f976",
+    "ts": "2026-07-19T12:30:41.583Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "queried crunchbase",
+    "target": "Unleash",
+    "detail": "4 funding rounds",
+    "evidence_ids": [],
+    "id": "tr_c62560bab14b1e67",
+    "opportunity_id": "opp_133819d19cd5f976",
+    "ts": "2026-07-19T12:30:41.583Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "queried crunchbase",
+    "target": "Statsig",
+    "detail": "0 funding rounds",
+    "evidence_ids": [],
+    "id": "tr_7be4bdf5a6d491ca",
+    "opportunity_id": "opp_133819d19cd5f976",
+    "ts": "2026-07-19T12:30:41.584Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate",
+    "target": "LaunchDarkly",
+    "evidence_ids": [],
+    "id": "tr_cc1e1edeffe55d00",
+    "opportunity_id": "opp_133819d19cd5f976",
+    "ts": "2026-07-19T12:30:41.584Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate",
+    "target": "Harness Feature Management",
+    "evidence_ids": [],
+    "id": "tr_2729661a6022e794",
+    "opportunity_id": "opp_133819d19cd5f976",
+    "ts": "2026-07-19T12:30:41.586Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate",
+    "target": "Split",
+    "evidence_ids": [],
+    "id": "tr_89622895d18089c1",
+    "opportunity_id": "opp_133819d19cd5f976",
+    "ts": "2026-07-19T12:30:41.587Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate",
+    "target": "Unleash",
+    "evidence_ids": [],
+    "id": "tr_329194b3a7440d5c",
+    "opportunity_id": "opp_133819d19cd5f976",
+    "ts": "2026-07-19T12:30:41.588Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate",
+    "target": "Statsig",
+    "evidence_ids": [],
+    "id": "tr_0d1556b3f62c9c54",
+    "opportunity_id": "opp_133819d19cd5f976",
+    "ts": "2026-07-19T12:30:41.589Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate:done",
+    "target": "Harness Feature Management",
+    "detail": "{\"competitor\":\"Harness Feature Management\",\"investorSignal\":\"unknown\",\"trajectory\":\"No disclosed rounds, funding amounts, dates, or investors provided.\",\"threat\":\"low\"}",
+    "evidence_ids": [],
+    "id": "tr_8631445f64aa6a62",
+    "opportunity_id": "opp_133819d19cd5f976",
+    "ts": "2026-07-19T12:30:43.000Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate:done",
+    "target": "LaunchDarkly",
+    "detail": "{\"competitor\":\"LaunchDarkly\",\"investorSignal\":\"low\",\"trajectory\":\"Single disclosed $2.6M venture round in June 2015 from SoftTech VC; no broader funding trajectory is provided.\",\"threat\":\"low\"}",
+    "evidence_ids": [],
+    "id": "tr_79311c88e5444853",
+    "opportunity_id": "opp_133819d19cd5f976",
+    "ts": "2026-07-19T12:30:43.261Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate:done",
+    "target": "Split",
+    "detail": "{\"competitor\":\"Split\",\"investorSignal\":\"low\",\"trajectory\":\"Single $1M seed round announced 2014-03-26; no later rounds provided.\",\"threat\":\"low\"}",
+    "evidence_ids": [],
+    "id": "tr_f66e688251debaf3",
+    "opportunity_id": "opp_133819d19cd5f976",
+    "ts": "2026-07-19T12:30:43.385Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate:done",
+    "target": "Statsig",
+    "detail": "{\"competitor\":\"Statsig\",\"investorSignal\":\"unknown\",\"trajectory\":\"No funding rounds or investor data provided; trajectory cannot be assessed.\",\"threat\":\"low\"}",
+    "evidence_ids": [],
+    "id": "tr_99012e4eff998825",
+    "opportunity_id": "opp_133819d19cd5f976",
+    "ts": "2026-07-19T12:30:43.537Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate:done",
+    "target": "Unleash",
+    "detail": "{\"competitor\":\"Unleash\",\"investorSignal\":\"low\",\"trajectory\":\"Raised $10.3M across four venture rounds from March 2012 to June 2015, growing from $1.0M to $1.8M to $4.0M, followed by a $3.5M round; consistent funding but with a modest declin",
+    "evidence_ids": [],
+    "id": "tr_6584b5d2998f718d",
+    "opportunity_id": "opp_133819d19cd5f976",
+    "ts": "2026-07-19T12:30:43.761Z"
+  },
+  {
+    "agent": "screening",
+    "action": "score",
+    "target": "Flagpost",
+    "evidence_ids": [],
+    "id": "tr_4925c01fe67fe0fe",
+    "opportunity_id": "opp_133819d19cd5f976",
+    "ts": "2026-07-19T12:30:45.781Z"
+  },
+  {
+    "agent": "screening",
+    "action": "score:done",
+    "target": "Flagpost",
+    "detail": "{\"founder_id\":\"flagpost\",\"company\":\"Flagpost\",\"axes\":[{\"axis\":\"Founder\",\"score_0_100\":75,\"trend\":\"stable\",\"evidence_ids\":[\"ev_5d906f96a42e6ba8\",\"ev_a6e8a72989ffc15e\",\"ev_db49dccafe9f3d24\",\"ev_ffb322a80e0d395d\"],\"rationale\":\"The claimed Data",
+    "evidence_ids": [],
+    "id": "tr_4e7a14206f973c21",
+    "opportunity_id": "opp_133819d19cd5f976",
+    "ts": "2026-07-19T12:31:02.549Z"
+  },
+  {
+    "agent": "memo",
+    "action": "write",
+    "target": "Flagpost",
+    "evidence_ids": [],
+    "id": "tr_02b4fdc93d2435db",
+    "opportunity_id": "opp_133819d19cd5f976",
+    "ts": "2026-07-19T12:31:02.552Z"
+  },
+  {
+    "agent": "memo",
+    "action": "write:done",
+    "target": "Flagpost",
+    "detail": "{\"company\":\"Flagpost\",\"founder_id\":\"flagpost\",\"sections\":[{\"title\":\"Company snapshot\",\"claims\":[{\"text\":\"Flagpost describes itself as a feature-management platform that connects flags to guarded-path telemetry and can halt or revert progres",
+    "evidence_ids": [],
+    "id": "tr_651875d19ab5cd07",
+    "opportunity_id": "opp_133819d19cd5f976",
+    "ts": "2026-07-19T12:31:40.927Z"
+  },
+  {
+    "agent": "decision",
+    "action": "recommend",
+    "target": "Flagpost",
+    "evidence_ids": [],
+    "id": "tr_a55ab80387a175ef",
+    "opportunity_id": "opp_133819d19cd5f976",
+    "ts": "2026-07-19T12:31:40.932Z"
+  },
+  {
+    "agent": "decision",
+    "action": "recommend:done",
+    "target": "Flagpost",
+    "detail": "{\"founder_id\":\"flagpost\",\"company\":\"Flagpost\",\"recommendation\":\"watch\",\"thesisRationale\":\"Flagpost is strongly aligned with the Developer Tools and AI Infrastructure thesis, appears to be at the target seed stage, and has a technically cred",
+    "evidence_ids": [],
+    "id": "tr_8286ed37519f5c59",
+    "opportunity_id": "opp_133819d19cd5f976",
+    "ts": "2026-07-19T12:31:50.740Z"
+  },
+  {
+    "agent": "teamMember",
+    "action": "extract_team",
+    "target": "Flagpost",
+    "evidence_ids": [],
+    "id": "tr_d9bc08fbffe04669",
+    "opportunity_id": "opp_133819d19cd5f976",
+    "ts": "2026-07-19T12:36:33.139Z"
+  },
+  {
+    "agent": "teamMember",
+    "action": "extract_team:done",
+    "target": "Flagpost",
+    "detail": "{\"members\":[\"Devon Reyes\",\"Amara Nwosu\",\"Kenji Tanaka\"]}",
+    "evidence_ids": [],
+    "id": "tr_086b8beddff7aaa4",
+    "opportunity_id": "opp_133819d19cd5f976",
+    "ts": "2026-07-19T12:36:33.851Z"
+  },
+  {
+    "agent": "teamMember",
+    "action": "evaluate",
+    "target": "Devon Reyes",
+    "evidence_ids": [],
+    "id": "tr_503a42089caab087",
+    "opportunity_id": "opp_133819d19cd5f976",
+    "ts": "2026-07-19T12:36:33.881Z"
+  },
+  {
+    "agent": "teamMember",
+    "action": "evaluate",
+    "target": "Amara Nwosu",
+    "evidence_ids": [],
+    "id": "tr_b0bc8244792e91c0",
+    "opportunity_id": "opp_133819d19cd5f976",
+    "ts": "2026-07-19T12:36:33.883Z"
+  },
+  {
+    "agent": "teamMember",
+    "action": "evaluate",
+    "target": "Kenji Tanaka",
+    "evidence_ids": [],
+    "id": "tr_8a653f3729e5ed81",
+    "opportunity_id": "opp_133819d19cd5f976",
+    "ts": "2026-07-19T12:36:33.884Z"
+  },
+  {
+    "agent": "competitorDiscovery",
+    "action": "queried crunchbase",
+    "target": "Flagpost",
+    "detail": "0 candidates",
+    "evidence_ids": [],
+    "id": "tr_1aac291796b05703",
+    "opportunity_id": "opp_133819d19cd5f976",
+    "ts": "2026-07-19T12:36:33.886Z"
+  },
+  {
+    "agent": "contradiction",
+    "action": "queried crunchbase",
+    "target": "Flagpost",
+    "detail": "company not found",
+    "evidence_ids": [],
+    "id": "tr_91cdd23b2698bc9d",
+    "opportunity_id": "opp_133819d19cd5f976",
+    "ts": "2026-07-19T12:36:33.886Z"
+  },
+  {
+    "agent": "competitorDiscovery",
+    "action": "merge_candidates",
+    "target": "Flagpost",
+    "evidence_ids": [],
+    "id": "tr_72d70269a3ac54b3",
+    "opportunity_id": "opp_133819d19cd5f976",
+    "ts": "2026-07-19T12:36:33.887Z"
+  },
+  {
+    "agent": "contradiction",
+    "action": "cross_check",
+    "target": "Flagpost",
+    "evidence_ids": [],
+    "id": "tr_12ad3daa238fd63b",
+    "opportunity_id": "opp_133819d19cd5f976",
+    "ts": "2026-07-19T12:36:33.889Z"
+  },
+  {
+    "agent": "contradiction",
+    "action": "cross_check:done",
+    "target": "Flagpost",
+    "detail": "{\"contradictions\":[{\"claim\":\"Raised a $2.5M seed led by a strong early-stage fund, with angels from the observability world.\",\"conflictsWith\":\"Crunchbase has no company profile or funding rounds for Flagpost. This is an absence of corrobora",
+    "evidence_ids": [],
+    "id": "tr_c3d1454b4215cd78",
+    "opportunity_id": "opp_133819d19cd5f976",
+    "ts": "2026-07-19T12:36:35.777Z"
+  },
+  {
+    "agent": "communitySignal",
+    "action": "reviewed existing evidence",
+    "target": "Flagpost",
+    "detail": "3 community signals",
+    "evidence_ids": [
+      "ev_ffb322a80e0d395d",
+      "ev_515fa8229f0698e6",
+      "ev_131577b23ee16db2"
+    ],
+    "id": "tr_f67e9701eec7da80",
+    "opportunity_id": "opp_133819d19cd5f976",
+    "ts": "2026-07-19T12:36:35.779Z"
+  },
+  {
+    "agent": "competitorDiscovery",
+    "action": "merge_candidates:done",
+    "target": "Flagpost",
+    "detail": "{\"competitors\":[{\"name\":\"LaunchDarkly\",\"why\":\"Leading feature-management platform with progressive rollouts and experimentation; Flagpost directly targets gaps in LaunchDarkly’s rollout observability and automated rollback capabilities.\",\"s",
+    "evidence_ids": [],
+    "id": "tr_cdfe80e32a3273bc",
+    "opportunity_id": "opp_133819d19cd5f976",
+    "ts": "2026-07-19T12:36:36.478Z"
+  },
+  {
+    "agent": "teamMember",
+    "action": "evaluate:done",
+    "target": "Kenji Tanaka",
+    "detail": "{\"member\":\"Kenji Tanaka\",\"strengths\":[\"Claimed experience as a LaunchDarkly product lead is directly relevant to Flagpost’s feature-management product and positioning.\",\"The deck states that he shipped LaunchDarkly’s experimentation feature",
+    "evidence_ids": [],
+    "id": "tr_bf58c4ffc7624bc3",
+    "opportunity_id": "opp_133819d19cd5f976",
+    "ts": "2026-07-19T12:36:36.799Z"
+  },
+  {
+    "agent": "teamMember",
+    "action": "evaluate:done",
+    "target": "Devon Reyes",
+    "detail": "{\"member\":\"Devon Reyes\",\"strengths\":[\"The deck claims senior engineering experience at Datadog, which is closely aligned with Flagpost’s observability-focused product.\",\"The claimed work on Datadog’s rollout-monitoring internals is directly",
+    "evidence_ids": [],
+    "id": "tr_cbf8a4ea7e59b14d",
+    "opportunity_id": "opp_133819d19cd5f976",
+    "ts": "2026-07-19T12:36:37.227Z"
+  },
+  {
+    "agent": "teamMember",
+    "action": "evaluate:done",
+    "target": "Amara Nwosu",
+    "detail": "{\"member\":\"Amara Nwosu\",\"strengths\":[\"The deck reports that she owned incident-automation systems and the reliability of PagerDuty’s eventing core, which is directly relevant to Flagpost’s automated rollback and reliability requirements.\",\"",
+    "evidence_ids": [],
+    "id": "tr_890c5731064b09e2",
+    "opportunity_id": "opp_133819d19cd5f976",
+    "ts": "2026-07-19T12:36:38.265Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "queried crunchbase",
+    "target": "LaunchDarkly",
+    "detail": "1 funding rounds",
+    "evidence_ids": [],
+    "id": "tr_f8b23f5cabd655f3",
+    "opportunity_id": "opp_133819d19cd5f976",
+    "ts": "2026-07-19T12:36:38.312Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "queried crunchbase",
+    "target": "Harness",
+    "detail": "1 funding rounds",
+    "evidence_ids": [],
+    "id": "tr_f24c143eb5e18b43",
+    "opportunity_id": "opp_133819d19cd5f976",
+    "ts": "2026-07-19T12:36:38.312Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "queried crunchbase",
+    "target": "Split",
+    "detail": "1 funding rounds",
+    "evidence_ids": [],
+    "id": "tr_ed8250fd1e7bd4e5",
+    "opportunity_id": "opp_133819d19cd5f976",
+    "ts": "2026-07-19T12:36:38.313Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "queried crunchbase",
+    "target": "Statsig",
+    "detail": "0 funding rounds",
+    "evidence_ids": [],
+    "id": "tr_c0a75e3bfb01abd5",
+    "opportunity_id": "opp_133819d19cd5f976",
+    "ts": "2026-07-19T12:36:38.313Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "queried crunchbase",
+    "target": "Unleash",
+    "detail": "4 funding rounds",
+    "evidence_ids": [],
+    "id": "tr_8a79584dc7b0fd2f",
+    "opportunity_id": "opp_133819d19cd5f976",
+    "ts": "2026-07-19T12:36:38.314Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate",
+    "target": "LaunchDarkly",
+    "evidence_ids": [],
+    "id": "tr_2146c95569d1b8ae",
+    "opportunity_id": "opp_133819d19cd5f976",
+    "ts": "2026-07-19T12:36:38.314Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate",
+    "target": "Harness",
+    "evidence_ids": [],
+    "id": "tr_1723bac73865d614",
+    "opportunity_id": "opp_133819d19cd5f976",
+    "ts": "2026-07-19T12:36:38.315Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate",
+    "target": "Split",
+    "evidence_ids": [],
+    "id": "tr_5bbab92179f6f479",
+    "opportunity_id": "opp_133819d19cd5f976",
+    "ts": "2026-07-19T12:36:38.316Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate",
+    "target": "Statsig",
+    "evidence_ids": [],
+    "id": "tr_08a2272c44c06aae",
+    "opportunity_id": "opp_133819d19cd5f976",
+    "ts": "2026-07-19T12:36:38.316Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate",
+    "target": "Unleash",
+    "evidence_ids": [],
+    "id": "tr_4c9b98398156a0fd",
+    "opportunity_id": "opp_133819d19cd5f976",
+    "ts": "2026-07-19T12:36:38.317Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate:done",
+    "target": "Statsig",
+    "detail": "{\"competitor\":\"Statsig\",\"investorSignal\":\"unknown\",\"trajectory\":\"No funding rounds, dates, sizes, or investors provided.\",\"threat\":\"low\"}",
+    "evidence_ids": [],
+    "id": "tr_4652391266b49158",
+    "opportunity_id": "opp_133819d19cd5f976",
+    "ts": "2026-07-19T12:36:39.931Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate:done",
+    "target": "Harness",
+    "detail": "{\"competitor\":\"Harness\",\"investorSignal\":\"low\",\"trajectory\":\"One venture round announced in 2015 with Armat Group; no round size or subsequent funding disclosed.\",\"threat\":\"low\"}",
+    "evidence_ids": [],
+    "id": "tr_7f9e3d650ce06a66",
+    "opportunity_id": "opp_133819d19cd5f976",
+    "ts": "2026-07-19T12:36:40.019Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate:done",
+    "target": "Split",
+    "detail": "{\"competitor\":\"Split\",\"investorSignal\":\"low\",\"trajectory\":\"Single disclosed seed round of $1,000,000 announced on 2014-03-26; no subsequent rounds provided.\",\"threat\":\"low\"}",
+    "evidence_ids": [],
+    "id": "tr_3f9deba7d5a29010",
+    "opportunity_id": "opp_133819d19cd5f976",
+    "ts": "2026-07-19T12:36:40.184Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate:done",
+    "target": "Unleash",
+    "detail": "{\"competitor\":\"Unleash\",\"investorSignal\":\"low\",\"trajectory\":\"Raised $10.3M across four venture rounds from March 2012 to June 2015, growing from $1.0M to $4.0M before a $3.5M follow-on round; steady funding with modest momentum.\",\"threat\":\"",
+    "evidence_ids": [],
+    "id": "tr_66c3310e431c73d8",
+    "opportunity_id": "opp_133819d19cd5f976",
+    "ts": "2026-07-19T12:36:40.412Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate:done",
+    "target": "LaunchDarkly",
+    "detail": "{\"competitor\":\"LaunchDarkly\",\"investorSignal\":\"low\",\"trajectory\":\"Single $2.6M venture round announced June 4, 2015, with no later rounds provided; funding trajectory appears early and limited.\",\"threat\":\"low\"}",
+    "evidence_ids": [],
+    "id": "tr_bbf8e4693765f397",
+    "opportunity_id": "opp_133819d19cd5f976",
+    "ts": "2026-07-19T12:36:40.439Z"
+  },
+  {
+    "agent": "screening",
+    "action": "score",
+    "target": "Flagpost",
+    "evidence_ids": [],
+    "id": "tr_b25a817245ce5216",
+    "opportunity_id": "opp_133819d19cd5f976",
+    "ts": "2026-07-19T12:36:42.908Z"
+  },
+  {
+    "agent": "screening",
+    "action": "score:done",
+    "target": "Flagpost",
+    "detail": "{\"founder_id\":\"flagpost\",\"company\":\"Flagpost\",\"axes\":[{\"axis\":\"Founder\",\"score_0_100\":76,\"trend\":\"improving\",\"evidence_ids\":[\"ev_e5a151ede1755d17\",\"ev_9dd7ac509d75d400\",\"ev_e3841d1dd773565f\",\"ev_bc29fbc8437f6bb3\",\"ev_ffb322a80e0d395d\"],\"rat",
+    "evidence_ids": [],
+    "id": "tr_6f2825df9f9d355a",
+    "opportunity_id": "opp_133819d19cd5f976",
+    "ts": "2026-07-19T12:37:01.103Z"
+  },
+  {
+    "agent": "memo",
+    "action": "write",
+    "target": "Flagpost",
+    "evidence_ids": [],
+    "id": "tr_e9d64e1d268ae6ab",
+    "opportunity_id": "opp_133819d19cd5f976",
+    "ts": "2026-07-19T12:37:01.106Z"
+  },
+  {
+    "agent": "memo",
+    "action": "write:done",
+    "target": "Flagpost",
+    "detail": "{\"company\":\"Flagpost\",\"founder_id\":\"flagpost\",\"sections\":[{\"title\":\"Company snapshot\",\"claims\":[{\"text\":\"Flagpost presents itself as a feature-management platform that connects feature flags to code-path telemetry and can halt or reverse pr",
+    "evidence_ids": [],
+    "id": "tr_c4864a84bbad7ea9",
+    "opportunity_id": "opp_133819d19cd5f976",
+    "ts": "2026-07-19T12:37:50.617Z"
+  }
+]

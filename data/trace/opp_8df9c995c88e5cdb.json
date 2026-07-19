@@ -1,0 +1,309 @@
+[
+  {
+    "agent": "teamMember",
+    "action": "extract_team",
+    "target": "Cadence Labs",
+    "evidence_ids": [],
+    "id": "tr_10c7ee24d724878a",
+    "opportunity_id": "opp_8df9c995c88e5cdb",
+    "ts": "2026-07-19T12:33:41.077Z"
+  },
+  {
+    "agent": "teamMember",
+    "action": "extract_team:done",
+    "target": "Cadence Labs",
+    "detail": "{\"members\":[\"Jonah Whitfield\"]}",
+    "evidence_ids": [],
+    "id": "tr_a1f7ff9a7481e6f1",
+    "opportunity_id": "opp_8df9c995c88e5cdb",
+    "ts": "2026-07-19T12:33:43.485Z"
+  },
+  {
+    "agent": "teamMember",
+    "action": "evaluate",
+    "target": "Jonah Whitfield",
+    "evidence_ids": [],
+    "id": "tr_6ff03e1f51a8f942",
+    "opportunity_id": "opp_8df9c995c88e5cdb",
+    "ts": "2026-07-19T12:33:43.518Z"
+  },
+  {
+    "agent": "competitorDiscovery",
+    "action": "queried crunchbase",
+    "target": "Cadence Labs",
+    "detail": "0 candidates",
+    "evidence_ids": [],
+    "id": "tr_fae1c2d1e8429d34",
+    "opportunity_id": "opp_8df9c995c88e5cdb",
+    "ts": "2026-07-19T12:33:43.519Z"
+  },
+  {
+    "agent": "contradiction",
+    "action": "queried crunchbase",
+    "target": "Cadence Labs",
+    "detail": "company not found",
+    "evidence_ids": [],
+    "id": "tr_a4d8202339b3834b",
+    "opportunity_id": "opp_8df9c995c88e5cdb",
+    "ts": "2026-07-19T12:33:43.519Z"
+  },
+  {
+    "agent": "communitySignal",
+    "action": "no community evidence available",
+    "target": "Cadence Labs",
+    "evidence_ids": [],
+    "id": "tr_9f8ee78e5ac749f0",
+    "opportunity_id": "opp_8df9c995c88e5cdb",
+    "ts": "2026-07-19T12:33:43.520Z"
+  },
+  {
+    "agent": "competitorDiscovery",
+    "action": "merge_candidates",
+    "target": "Cadence Labs",
+    "evidence_ids": [],
+    "id": "tr_bb3e6535ed0399c9",
+    "opportunity_id": "opp_8df9c995c88e5cdb",
+    "ts": "2026-07-19T12:33:43.520Z"
+  },
+  {
+    "agent": "contradiction",
+    "action": "cross_check",
+    "target": "Cadence Labs",
+    "evidence_ids": [],
+    "id": "tr_cce8827e2c2d9db5",
+    "opportunity_id": "opp_8df9c995c88e5cdb",
+    "ts": "2026-07-19T12:33:43.521Z"
+  },
+  {
+    "agent": "teamMember",
+    "action": "evaluate:done",
+    "target": "Jonah Whitfield",
+    "detail": "{\"member\":\"Jonah Whitfield\",\"strengths\":[\"Six years of runtime-team experience at a large cloud provider, including three years building internal tracing infrastructure for causal ordering across services\",\"Has shipped a record-replay debug",
+    "evidence_ids": [],
+    "id": "tr_c83a3da0389de590",
+    "opportunity_id": "opp_8df9c995c88e5cdb",
+    "ts": "2026-07-19T12:33:46.306Z"
+  },
+  {
+    "agent": "contradiction",
+    "action": "cross_check:done",
+    "target": "Cadence Labs",
+    "detail": "{\"contradictions\":[]}",
+    "evidence_ids": [],
+    "id": "tr_15cd3456da4bba70",
+    "opportunity_id": "opp_8df9c995c88e5cdb",
+    "ts": "2026-07-19T12:33:46.800Z"
+  },
+  {
+    "agent": "competitorDiscovery",
+    "action": "merge_candidates:done",
+    "target": "Cadence Labs",
+    "detail": "{\"competitors\":[{\"name\":\"Undo\",\"why\":\"Provides time-travel debugging through execution recording and replay, overlapping with Cadence Labs’ deterministic replay workflow for hard-to-reproduce backend failures.\",\"source\":\"llm\"},{\"name\":\"Repl",
+    "evidence_ids": [],
+    "id": "tr_50f66f1bc47fb23e",
+    "opportunity_id": "opp_8df9c995c88e5cdb",
+    "ts": "2026-07-19T12:33:49.712Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "queried crunchbase",
+    "target": "Undo",
+    "detail": "1 funding rounds",
+    "evidence_ids": [],
+    "id": "tr_fe3ac9b7477e9365",
+    "opportunity_id": "opp_8df9c995c88e5cdb",
+    "ts": "2026-07-19T12:33:49.761Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "queried crunchbase",
+    "target": "Replay.io",
+    "detail": "0 funding rounds",
+    "evidence_ids": [],
+    "id": "tr_add5ac1cb090f892",
+    "opportunity_id": "opp_8df9c995c88e5cdb",
+    "ts": "2026-07-19T12:33:49.761Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "queried crunchbase",
+    "target": "Microsoft Time Travel Debugging",
+    "detail": "0 funding rounds",
+    "evidence_ids": [],
+    "id": "tr_c8a9ff4668fd40f8",
+    "opportunity_id": "opp_8df9c995c88e5cdb",
+    "ts": "2026-07-19T12:33:49.762Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "queried crunchbase",
+    "target": "OverOps",
+    "detail": "0 funding rounds",
+    "evidence_ids": [],
+    "id": "tr_80b9cbcd9248c2b3",
+    "opportunity_id": "opp_8df9c995c88e5cdb",
+    "ts": "2026-07-19T12:33:49.762Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "queried crunchbase",
+    "target": "Datadog",
+    "detail": "5 funding rounds",
+    "evidence_ids": [],
+    "id": "tr_2f4e73759e790865",
+    "opportunity_id": "opp_8df9c995c88e5cdb",
+    "ts": "2026-07-19T12:33:49.762Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate",
+    "target": "Undo",
+    "evidence_ids": [],
+    "id": "tr_1465b1ff1b5b5e8d",
+    "opportunity_id": "opp_8df9c995c88e5cdb",
+    "ts": "2026-07-19T12:33:49.763Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate",
+    "target": "Replay.io",
+    "evidence_ids": [],
+    "id": "tr_d306e65bb5255a1a",
+    "opportunity_id": "opp_8df9c995c88e5cdb",
+    "ts": "2026-07-19T12:33:49.764Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate",
+    "target": "Microsoft Time Travel Debugging",
+    "evidence_ids": [],
+    "id": "tr_cabed0f2a3ef26c6",
+    "opportunity_id": "opp_8df9c995c88e5cdb",
+    "ts": "2026-07-19T12:33:49.764Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate",
+    "target": "OverOps",
+    "evidence_ids": [],
+    "id": "tr_dda6fca686816c4b",
+    "opportunity_id": "opp_8df9c995c88e5cdb",
+    "ts": "2026-07-19T12:33:49.765Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate",
+    "target": "Datadog",
+    "evidence_ids": [],
+    "id": "tr_0e52dfc58db58e29",
+    "opportunity_id": "opp_8df9c995c88e5cdb",
+    "ts": "2026-07-19T12:33:49.766Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate:done",
+    "target": "Microsoft Time Travel Debugging",
+    "detail": "{\"competitor\":\"Microsoft Time Travel Debugging\",\"investorSignal\":\"unknown\",\"trajectory\":\"No disclosed funding rounds or investors provided.\",\"threat\":\"low\"}",
+    "evidence_ids": [],
+    "id": "tr_89366bf42e84dec4",
+    "opportunity_id": "opp_8df9c995c88e5cdb",
+    "ts": "2026-07-19T12:33:51.333Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate:done",
+    "target": "Datadog",
+    "detail": "{\"competitor\":\"Datadog\",\"investorSignal\":\"high\",\"trajectory\":\"Progressive funding trajectory from a 2010 seed round to $1.2M in 2011, $6.2M in 2012, $15M in 2014, and $31M in 2015, with increasing round sizes and repeat participation from I",
+    "evidence_ids": [],
+    "id": "tr_be2163d5d6d4af71",
+    "opportunity_id": "opp_8df9c995c88e5cdb",
+    "ts": "2026-07-19T12:33:51.508Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate:done",
+    "target": "Undo",
+    "detail": "{\"competitor\":\"Undo\",\"investorSignal\":\"unknown\",\"trajectory\":\"No funding trajectory data is available for Undo; the provided round is for Dinamundo.\",\"threat\":\"low\"}",
+    "evidence_ids": [],
+    "id": "tr_fa1dc52983a3f119",
+    "opportunity_id": "opp_8df9c995c88e5cdb",
+    "ts": "2026-07-19T12:33:51.782Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate:done",
+    "target": "OverOps",
+    "detail": "{\"competitor\":\"OverOps\",\"investorSignal\":\"unknown\",\"trajectory\":\"No funding rounds, dates, sizes, or investors were provided, so the funding trajectory cannot be assessed.\",\"threat\":\"low\"}",
+    "evidence_ids": [],
+    "id": "tr_c9e1bef1bebe0b5d",
+    "opportunity_id": "opp_8df9c995c88e5cdb",
+    "ts": "2026-07-19T12:33:51.875Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate:done",
+    "target": "Replay.io",
+    "detail": "{\"competitor\":\"Replay.io\",\"investorSignal\":\"unknown\",\"trajectory\":\"No funding rounds or investors were provided, so funding trajectory cannot be assessed.\",\"threat\":\"low\"}",
+    "evidence_ids": [],
+    "id": "tr_0cb31f438c7824b0",
+    "opportunity_id": "opp_8df9c995c88e5cdb",
+    "ts": "2026-07-19T12:33:52.153Z"
+  },
+  {
+    "agent": "screening",
+    "action": "score",
+    "target": "Cadence Labs",
+    "evidence_ids": [],
+    "id": "tr_c1f022b2cdc9e139",
+    "opportunity_id": "opp_8df9c995c88e5cdb",
+    "ts": "2026-07-19T12:33:54.178Z"
+  },
+  {
+    "agent": "screening",
+    "action": "score:done",
+    "target": "Cadence Labs",
+    "detail": "{\"founder_id\":\"cadence-labs\",\"company\":\"Cadence Labs\",\"axes\":[{\"axis\":\"Founder\",\"score_0_100\":62,\"trend\":\"stable\",\"evidence_ids\":[\"ev_55e4408cb43fad12\",\"ev_2be42b85afc703cd\",\"ev_349ebe7b008a7236\"],\"rationale\":\"Jonah has strong founder-probl",
+    "evidence_ids": [],
+    "id": "tr_2f7801a1f04f3dab",
+    "opportunity_id": "opp_8df9c995c88e5cdb",
+    "ts": "2026-07-19T12:34:14.720Z"
+  },
+  {
+    "agent": "memo",
+    "action": "write",
+    "target": "Cadence Labs",
+    "evidence_ids": [],
+    "id": "tr_99773c78f5e30f11",
+    "opportunity_id": "opp_8df9c995c88e5cdb",
+    "ts": "2026-07-19T12:34:14.722Z"
+  },
+  {
+    "agent": "memo",
+    "action": "write:done",
+    "target": "Cadence Labs",
+    "detail": "{\"company\":\"Cadence Labs\",\"founder_id\":\"cadence-labs\",\"sections\":[{\"title\":\"Company snapshot\",\"claims\":[{\"text\":\"Cadence Labs is a proposed deterministic record-and-replay layer for backend services, founded by Jonah Whitfield.\",\"evidence_i",
+    "evidence_ids": [],
+    "id": "tr_07a889c9233a4a1f",
+    "opportunity_id": "opp_8df9c995c88e5cdb",
+    "ts": "2026-07-19T12:34:58.582Z"
+  },
+  {
+    "agent": "decision",
+    "action": "recommend",
+    "target": "Cadence Labs",
+    "evidence_ids": [],
+    "id": "tr_80b3194eb6028ed0",
+    "opportunity_id": "opp_8df9c995c88e5cdb",
+    "ts": "2026-07-19T12:34:58.584Z"
+  },
+  {
+    "agent": "decision",
+    "action": "recommend:done",
+    "target": "Cadence Labs",
+    "detail": "{\"founder_id\":\"cadence-labs\",\"company\":\"Cadence Labs\",\"recommendation\":\"watch\",\"thesisRationale\":\"Cadence Labs strongly matches the AI Infrastructure and Developer Tools thesis and is at the target pre-seed stage. Its runtime-level determin",
+    "evidence_ids": [],
+    "id": "tr_758cb1aee5e071d0",
+    "opportunity_id": "opp_8df9c995c88e5cdb",
+    "ts": "2026-07-19T12:35:11.070Z"
+  }
+]

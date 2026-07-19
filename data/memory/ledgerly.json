@@ -1,0 +1,208 @@
+{
+  "founder_id": "ledgerly",
+  "name": "Priya Nandakumar",
+  "company": "Ledgerly",
+  "evidence": [
+    {
+      "source": "deck",
+      "content": "# Ledgerly — Autonomous Reconciliation for Modern Finance Teams\n\n## Problem\nMid-market finance teams still reconcile bank statements, payment processors, and their ERP by hand. A typical 40-person SaaS company burns 25+ analyst-hours every month close chasing pennies across Stripe, their bank, and NetSuite. Errors compound: 1 in 6 monthly closes ships with a mis-stated cash position. Existing tooling (spreadsheets, brittle Zapier flows) breaks the moment a new payment rail is added.\n\n## Product\nLedgerly is an autonomous reconciliation engine. We ingest transaction feeds from banks (via Plaid), payment processors (Stripe, Adyen), and the general ledger, then use a matching model to auto-clear 94% of line items and surface only true exceptions to a human. Close time drops from 5 days to under 1. We are, in effect, the reconciliation layer that Plaid never built and that Adyen's dashboards can't touch.\n\n## Team\n- **Priya Nandakumar (CEO)** — ex-Stripe (3 years, Treasury Infrastructure), MS Computer Science, Carnegie Mellon. Shipped the internal ledger-diffing tool used across Stripe's finance org.\n- **Tom Bergqvist (CTO)** — ex-Adyen platform engineer, KTH Royal Institute of Technology. Built high-throughput settlement pipelines processing €40B/yr.\n- **Dana Osei (Head of ML)** — PhD in probabilistic matching, ETH Zürich; two first-author NeurIPS papers on entity resolution.\n\n## Market\nThe reconciliation and financial-close software market is ~$4.6B and growing 12% YoY as mid-market companies adopt more payment rails. Our wedge is the 60,000 US + EU SaaS companies between $2M and $50M ARR — too big for spreadsheets, too small for a BlackLine deployment. Bottom-up, that's a $900M addressable slice at our $8K/yr ACV.\n\n## Traction\nWe are live and growing fast. **$50K MRR** as of this month, up from $12K MRR three months ago — a 60% month-over-month run-rate. 22 paying customers, including three Series B fintechs. Net revenue retention of 130%. We were selected for **Y Combinator (W24)** and closed a $1.5M pre-seed on the back of Demo Day, led by a top-tier fund.\n\n## Ask\nRaising a $4M seed to expand from reconciliation into full autonomous close (accruals, intercompany, flux analysis). Use of funds: 6 engineers, 2 GTM hires, SOC 2 Type II. Target: $2M ARR in 18 months.\n",
+      "tags": [
+        "deck",
+        "seed",
+        "contradiction"
+      ],
+      "id": "ev_6cffac11da7bde69",
+      "founder_id": "ledgerly",
+      "ts": "2026-07-19T12:27:09.524Z",
+      "hash": "4bca134dd0100986"
+    },
+    {
+      "source": "website",
+      "content": "Ledgerly homepage (ledgerly.io), captured this week: hero reads 'Autonomous reconciliation is coming. Join our waitlist — we're launching soon.' The only CTA is an email capture form. Footer states 'Ledgerly is currently in private beta and pre-revenue. No pricing is published.' There is no login, no customer logos, and no dashboard demo.",
+      "tags": [
+        "website"
+      ],
+      "id": "ev_38109446d6dc8287",
+      "founder_id": "ledgerly",
+      "ts": "2026-07-19T12:27:09.524Z",
+      "hash": "c565ab02619b7d21"
+    },
+    {
+      "source": "hn",
+      "content": "Hacker News 'Ask HN: anyone using Ledgerly for close automation?' thread from last month, 4 comments. No commenter reports being a paying customer; two say they joined the waitlist months ago and never got access. Top reply: 'Looks like vaporware for now — the site's been a waitlist page since at least last fall.'",
+      "tags": [
+        "community",
+        "hn"
+      ],
+      "id": "ev_af42f72cb0d7cd37",
+      "founder_id": "ledgerly",
+      "ts": "2026-07-19T12:27:09.524Z",
+      "hash": "bb7ea701e9c69633"
+    },
+    {
+      "source": "accelerator",
+      "content": "Search of the Y Combinator public company directory (ycombinator.com/companies) returns NO result for 'Ledgerly' in any batch, including W24. The W24 batch list does not contain the company or founder Priya Nandakumar.",
+      "tags": [
+        "accelerator"
+      ],
+      "id": "ev_e691955d9712a812",
+      "founder_id": "ledgerly",
+      "ts": "2026-07-19T12:27:09.524Z",
+      "hash": "4a447b3be436d24d"
+    },
+    {
+      "source": "press",
+      "content": "No press coverage, funding announcement, or Crunchbase round could be found for a $1.5M pre-seed into Ledgerly. No 'top-tier fund' has published a portfolio listing for the company.",
+      "tags": [],
+      "id": "ev_880f0474f19420d9",
+      "founder_id": "ledgerly",
+      "ts": "2026-07-19T12:27:09.524Z",
+      "hash": "f5df581fb2d5cd72"
+    },
+    {
+      "source": "agent:competitorDiscovery",
+      "content": "Competitors: BlackLine (Financial close and account reconciliation platform serving companies that need to automate reconciliations and reduce manual close work.); FloQast (Close-management and reconciliation software used by finance teams to automate month-end close workflows and exception handling.); Numeric (Modern automated accounting and close platform focused on reconciliation, transaction matching, and exception-based workflows for growing companies.); Trintech Cadency (Enterprise financial close and reconciliation suite that automates transaction matching, balance-sheet reconciliation, and close controls.); ReconArt (Specialized reconciliation software for automating high-volume transaction matching across banks, payment processors, and ledgers.)",
+      "tags": [
+        "competition",
+        "agent"
+      ],
+      "id": "ev_46ff8adb650b6d9c",
+      "founder_id": "ledgerly",
+      "ts": "2026-07-19T12:31:57.123Z",
+      "hash": "196887c33cedf804"
+    },
+    {
+      "source": "agent:communitySignal",
+      "content": "Community evidence available: hn: Hacker News 'Ask HN: anyone using Ledgerly for close automation?' thread from last month, 4 comments. No commenter reports being a paying customer; two say they joined the waitlist months ago and never got access. Top reply: 'Looks like vaporware for now — the site's been a waitlist page since at least last fall.'",
+      "tags": [
+        "community",
+        "agent"
+      ],
+      "id": "ev_6134d9fed22c1b88",
+      "founder_id": "ledgerly",
+      "ts": "2026-07-19T12:31:57.124Z",
+      "hash": "6c0800378bc1266b"
+    },
+    {
+      "source": "agent:teamMember",
+      "content": "Dana Osei: strengths=PhD in probabilistic matching from ETH Zürich, directly relevant to Ledgerly’s reconciliation and entity-resolution problem.; Two first-author NeurIPS papers on entity resolution, demonstrating strong research achievement in a highly relevant ML area.; concerns=The supplied material does not independently verify her PhD, publications, or specific contributions to Ledgerly’s reported matching performance.; No evidence is provided of her experience deploying ML systems in production or of product outcomes specifically attributable to her.; Other supplied evidence conflicts with the deck’s claims about Ledgerly’s launch and traction, which reduces confidence in unverified team and company representations.; school tier=top; prior outputs=none found.",
+      "tags": [
+        "team",
+        "agent"
+      ],
+      "id": "ev_e12cde7f56693f0d",
+      "founder_id": "ledgerly",
+      "ts": "2026-07-19T12:31:57.503Z",
+      "hash": "c031f9c9daf3ca1b"
+    },
+    {
+      "source": "agent:teamMember",
+      "content": "Priya Nandakumar: strengths=The deck claims she shipped an internal ledger-diffing tool used across Stripe’s finance organization.; Her stated MS in Computer Science from Carnegie Mellon indicates training at a top-tier institution.; concerns=The claimed Stripe experience and internal-tool impact are not independently corroborated in the supplied evidence and should be treated as claims rather than established facts.; The deck claims $50K MRR, 22 paying customers, 130% net revenue retention, YC W24 selection, and a $1.5M pre-seed, but the website describes Ledgerly as private beta and pre-revenue, Hacker News commenters report no customer access, YC’s directory contains no Ledgerly or Priya Nandakumar listing, and no funding announcement or portfolio listing was found.; No independent evidence demonstrates Priya’s ability to recruit, sell, operate, or lead beyond the deck’s assertions.; school tier=top; prior outputs=none found.",
+      "tags": [
+        "team",
+        "agent"
+      ],
+      "id": "ev_bc38acd134c4330c",
+      "founder_id": "ledgerly",
+      "ts": "2026-07-19T12:31:57.700Z",
+      "hash": "0d007e64acf8f368"
+    },
+    {
+      "source": "agent:teamMember",
+      "content": "Tom Bergqvist: strengths=The deck attributes relevant payments infrastructure experience to him as an ex-Adyen platform engineer.; The deck claims he built high-throughput settlement pipelines processing €40B annually, which would be directly relevant to Ledgerly’s transaction-ingestion and reconciliation product if verified.; concerns=His Adyen affiliation and €40B settlement-pipeline claim are not independently substantiated in the supplied evidence; the company’s broader traction and funding claims are contradicted by its waitlist-only website and external checks.; The deck provides no specific details about his individual technical contributions, leadership scope, or outcomes beyond the settlement-pipeline assertion.; KTH Royal Institute of Technology is listed as his school, but the supplied material does not establish a school tier or provide evidence of demonstrated excellence there.; The claimed company traction is inconsistent with external evidence describing Ledgerly as private beta and pre-revenue, which reduces confidence in the context supporting his current CTO track record.; school tier=unknown; prior outputs=none found.",
+      "tags": [
+        "team",
+        "agent"
+      ],
+      "id": "ev_b81c427e3f9b6388",
+      "founder_id": "ledgerly",
+      "ts": "2026-07-19T12:31:58.222Z",
+      "hash": "5fa90187d79bf80c"
+    },
+    {
+      "source": "agent:contradiction",
+      "content": "high: Ledgerly is live and generating $50K MRR from 22 paying customers. conflicts with The current Ledgerly website says the company is launching soon, is in private beta, and is pre-revenue; it shows only a waitlist and no customer access, logos, or pricing. This is a direct revenue-versus-pre-revenue conflict.; high: Ledgerly has three Series B fintechs among its 22 paying customers. conflicts with The current website explicitly describes Ledgerly as pre-revenue and provides no customer logos, while recent community evidence reports no users obtaining access. The pre-revenue statement directly conflicts with the existence of paying customers, although the customers' identities are not independently known.; high: Ledgerly has 130% net revenue retention. conflicts with The current website states that Ledgerly is pre-revenue. A realized net revenue retention metric requires an existing recurring-revenue customer cohort, making this a direct conflict.; medium: Ledgerly was selected for Y Combinator W24. conflicts with Ledgerly and founder Priya Nandakumar are absent from Y Combinator's public company directory and W24 batch list. This is strong contrary record evidence, but directory absence alone is not definitive proof that the claim is false.; medium: Ledgerly closed a $1.5M pre-seed led by a top-tier fund after Demo Day. conflicts with Crunchbase lists no company record or funding rounds, and no funding announcement, press coverage, or fund portfolio listing was found. This is an absence of corroborating records rather than a proven conflict; the claimed Demo Day context also depends on the uncorroborated YC W24 claim.; high: The addressable slice is $900M based on 60,000 companies at an $8K annual contract value. conflicts with The deck's own inputs calculate to $480M annually (60,000 × $8,000), not $900M.; medium: Ledgerly has $50K MRR across 22 paying customers while its ACV is $8K per year. conflicts with $50K MRR equals $600K ARR, which across 22 customers implies an average annual value of about $27.3K, not $8K. At an $8K ACV, 22 customers would produce approximately $14.7K MRR.",
+      "tags": [
+        "contradiction",
+        "agent"
+      ],
+      "id": "ev_d6600f3dcc9bc1e5",
+      "founder_id": "ledgerly",
+      "ts": "2026-07-19T12:32:14.957Z",
+      "hash": "b5eaa47f44361746"
+    },
+    {
+      "source": "agent:competitorEval",
+      "content": "ReconArt: investor signal=unknown; trajectory=No disclosed funding rounds, dates, sizes, or investors provided.; threat=low.",
+      "tags": [
+        "competition",
+        "funding",
+        "agent"
+      ],
+      "id": "ev_76c5e0d19119caa8",
+      "founder_id": "ledgerly",
+      "ts": "2026-07-19T12:32:16.291Z",
+      "hash": "62af6f1c77de894c"
+    },
+    {
+      "source": "agent:competitorEval",
+      "content": "FloQast: investor signal=low; trajectory=Raised $50K in October 2013, followed by a $1.3M seed round in November 2014, indicating a substantial increase in funding momentum.; threat=medium.",
+      "tags": [
+        "competition",
+        "funding",
+        "agent"
+      ],
+      "id": "ev_72f0a43fefca12b4",
+      "founder_id": "ledgerly",
+      "ts": "2026-07-19T12:32:16.707Z",
+      "hash": "370e26b93f862ed7"
+    },
+    {
+      "source": "agent:competitorEval",
+      "content": "Numeric: investor signal=unknown; trajectory=No rounds, dates, sizes, or investors disclosed.; threat=low.",
+      "tags": [
+        "competition",
+        "funding",
+        "agent"
+      ],
+      "id": "ev_e5f319c88fb0739e",
+      "founder_id": "ledgerly",
+      "ts": "2026-07-19T12:32:17.295Z",
+      "hash": "9a7d30ca15687bf6"
+    },
+    {
+      "source": "agent:competitorEval",
+      "content": "Trintech Cadency: investor signal=unknown; trajectory=No funding rounds, dates, sizes, or investors were provided.; threat=low.",
+      "tags": [
+        "competition",
+        "funding",
+        "agent"
+      ],
+      "id": "ev_85b34b3c90f4d9a1",
+      "founder_id": "ledgerly",
+      "ts": "2026-07-19T12:32:17.798Z",
+      "hash": "3d28916cf027b900"
+    },
+    {
+      "source": "agent:competitorEval",
+      "content": "BlackLine: investor signal=low; trajectory=One disclosed $220M undisclosed round on 2013-08-16; no multi-round trajectory is provided.; threat=medium.",
+      "tags": [
+        "competition",
+        "funding",
+        "agent"
+      ],
+      "id": "ev_6a6fb9d440c5260e",
+      "founder_id": "ledgerly",
+      "ts": "2026-07-19T12:32:18.342Z",
+      "hash": "6e84aa72962194d4"
+    }
+  ],
+  "founderScoreHistory": [
+    {
+      "ts": "2026-07-19T12:32:39.787Z",
+      "score_0_100": 35,
+      "delta": -15,
+      "reason": "Lowered from the persistent score because central claims about revenue, customers, accelerator participation, and financing conflict with current public and community evidence. Relevant founder-market backgrounds remain possible, but the absence of independent verification, demonstrated selling ability, and a recent verified follow-on warrants the maximum negative adjustment."
+    }
+  ]
+}

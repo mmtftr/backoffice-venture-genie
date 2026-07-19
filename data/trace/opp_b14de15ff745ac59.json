@@ -1,0 +1,350 @@
+[
+  {
+    "agent": "teamMember",
+    "action": "extract_team",
+    "target": "Ledgerly",
+    "evidence_ids": [],
+    "id": "tr_e6972ef64d2c290b",
+    "opportunity_id": "opp_b14de15ff745ac59",
+    "ts": "2026-07-19T12:31:53.225Z"
+  },
+  {
+    "agent": "teamMember",
+    "action": "extract_team:done",
+    "target": "Ledgerly",
+    "detail": "{\"members\":[\"Priya Nandakumar\",\"Tom Bergqvist\",\"Dana Osei\"]}",
+    "evidence_ids": [],
+    "id": "tr_c031cf1bfa2c3a81",
+    "opportunity_id": "opp_b14de15ff745ac59",
+    "ts": "2026-07-19T12:31:54.028Z"
+  },
+  {
+    "agent": "teamMember",
+    "action": "evaluate",
+    "target": "Priya Nandakumar",
+    "evidence_ids": [],
+    "id": "tr_0640a1c70313bbed",
+    "opportunity_id": "opp_b14de15ff745ac59",
+    "ts": "2026-07-19T12:31:54.058Z"
+  },
+  {
+    "agent": "teamMember",
+    "action": "evaluate",
+    "target": "Tom Bergqvist",
+    "evidence_ids": [],
+    "id": "tr_d47cacb71ebc7f44",
+    "opportunity_id": "opp_b14de15ff745ac59",
+    "ts": "2026-07-19T12:31:54.061Z"
+  },
+  {
+    "agent": "teamMember",
+    "action": "evaluate",
+    "target": "Dana Osei",
+    "evidence_ids": [],
+    "id": "tr_b3eccfd7e1f7baf8",
+    "opportunity_id": "opp_b14de15ff745ac59",
+    "ts": "2026-07-19T12:31:54.063Z"
+  },
+  {
+    "agent": "competitorDiscovery",
+    "action": "queried crunchbase",
+    "target": "Ledgerly",
+    "detail": "0 candidates",
+    "evidence_ids": [],
+    "id": "tr_36e865b9c4cca8dc",
+    "opportunity_id": "opp_b14de15ff745ac59",
+    "ts": "2026-07-19T12:31:54.065Z"
+  },
+  {
+    "agent": "contradiction",
+    "action": "queried crunchbase",
+    "target": "Ledgerly",
+    "detail": "company not found",
+    "evidence_ids": [],
+    "id": "tr_876ba4b69d2c9460",
+    "opportunity_id": "opp_b14de15ff745ac59",
+    "ts": "2026-07-19T12:31:54.066Z"
+  },
+  {
+    "agent": "competitorDiscovery",
+    "action": "merge_candidates",
+    "target": "Ledgerly",
+    "evidence_ids": [],
+    "id": "tr_4913518a391d5155",
+    "opportunity_id": "opp_b14de15ff745ac59",
+    "ts": "2026-07-19T12:31:54.067Z"
+  },
+  {
+    "agent": "contradiction",
+    "action": "cross_check",
+    "target": "Ledgerly",
+    "evidence_ids": [],
+    "id": "tr_3dff866488ea77bc",
+    "opportunity_id": "opp_b14de15ff745ac59",
+    "ts": "2026-07-19T12:31:54.068Z"
+  },
+  {
+    "agent": "competitorDiscovery",
+    "action": "merge_candidates:done",
+    "target": "Ledgerly",
+    "detail": "{\"competitors\":[{\"name\":\"BlackLine\",\"why\":\"Financial close and account reconciliation platform serving companies that need to automate reconciliations and reduce manual close work.\",\"source\":\"llm\"},{\"name\":\"FloQast\",\"why\":\"Close-management ",
+    "evidence_ids": [],
+    "id": "tr_d45afb77988be38a",
+    "opportunity_id": "opp_b14de15ff745ac59",
+    "ts": "2026-07-19T12:31:57.123Z"
+  },
+  {
+    "agent": "communitySignal",
+    "action": "reviewed existing evidence",
+    "target": "Ledgerly",
+    "detail": "1 community signals",
+    "evidence_ids": [
+      "ev_af42f72cb0d7cd37"
+    ],
+    "id": "tr_9ced77b7e529d289",
+    "opportunity_id": "opp_b14de15ff745ac59",
+    "ts": "2026-07-19T12:31:57.125Z"
+  },
+  {
+    "agent": "teamMember",
+    "action": "evaluate:done",
+    "target": "Dana Osei",
+    "detail": "{\"member\":\"Dana Osei\",\"strengths\":[\"PhD in probabilistic matching from ETH Zürich, directly relevant to Ledgerly’s reconciliation and entity-resolution problem.\",\"Two first-author NeurIPS papers on entity resolution, demonstrating strong re",
+    "evidence_ids": [],
+    "id": "tr_29da6a6308e276d2",
+    "opportunity_id": "opp_b14de15ff745ac59",
+    "ts": "2026-07-19T12:31:57.501Z"
+  },
+  {
+    "agent": "teamMember",
+    "action": "evaluate:done",
+    "target": "Priya Nandakumar",
+    "detail": "{\"member\":\"Priya Nandakumar\",\"strengths\":[\"The deck claims she shipped an internal ledger-diffing tool used across Stripe’s finance organization.\",\"Her stated MS in Computer Science from Carnegie Mellon indicates training at a top-tier inst",
+    "evidence_ids": [],
+    "id": "tr_d393e4a3057a35fc",
+    "opportunity_id": "opp_b14de15ff745ac59",
+    "ts": "2026-07-19T12:31:57.699Z"
+  },
+  {
+    "agent": "teamMember",
+    "action": "evaluate:done",
+    "target": "Tom Bergqvist",
+    "detail": "{\"member\":\"Tom Bergqvist\",\"strengths\":[\"The deck attributes relevant payments infrastructure experience to him as an ex-Adyen platform engineer.\",\"The deck claims he built high-throughput settlement pipelines processing €40B annually, which",
+    "evidence_ids": [],
+    "id": "tr_6593455227a4479c",
+    "opportunity_id": "opp_b14de15ff745ac59",
+    "ts": "2026-07-19T12:31:58.221Z"
+  },
+  {
+    "agent": "contradiction",
+    "action": "cross_check:done",
+    "target": "Ledgerly",
+    "detail": "{\"contradictions\":[{\"claim\":\"Ledgerly is live and generating $50K MRR from 22 paying customers.\",\"conflictsWith\":\"The current Ledgerly website says the company is launching soon, is in private beta, and is pre-revenue; it shows only a waitl",
+    "evidence_ids": [],
+    "id": "tr_17714738a420d694",
+    "opportunity_id": "opp_b14de15ff745ac59",
+    "ts": "2026-07-19T12:32:14.956Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "queried crunchbase",
+    "target": "BlackLine",
+    "detail": "1 funding rounds",
+    "evidence_ids": [],
+    "id": "tr_569fb935493c3ad7",
+    "opportunity_id": "opp_b14de15ff745ac59",
+    "ts": "2026-07-19T12:32:14.988Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "queried crunchbase",
+    "target": "FloQast",
+    "detail": "2 funding rounds",
+    "evidence_ids": [],
+    "id": "tr_41d88cab2e7daca1",
+    "opportunity_id": "opp_b14de15ff745ac59",
+    "ts": "2026-07-19T12:32:14.990Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "queried crunchbase",
+    "target": "Numeric",
+    "detail": "0 funding rounds",
+    "evidence_ids": [],
+    "id": "tr_0c14df6827dff2ec",
+    "opportunity_id": "opp_b14de15ff745ac59",
+    "ts": "2026-07-19T12:32:14.991Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "queried crunchbase",
+    "target": "Trintech Cadency",
+    "detail": "0 funding rounds",
+    "evidence_ids": [],
+    "id": "tr_782e3ca6065e292f",
+    "opportunity_id": "opp_b14de15ff745ac59",
+    "ts": "2026-07-19T12:32:14.992Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "queried crunchbase",
+    "target": "ReconArt",
+    "detail": "0 funding rounds",
+    "evidence_ids": [],
+    "id": "tr_209845d411d007f6",
+    "opportunity_id": "opp_b14de15ff745ac59",
+    "ts": "2026-07-19T12:32:14.992Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate",
+    "target": "BlackLine",
+    "evidence_ids": [],
+    "id": "tr_0a0e08546ac00d23",
+    "opportunity_id": "opp_b14de15ff745ac59",
+    "ts": "2026-07-19T12:32:14.993Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate",
+    "target": "FloQast",
+    "evidence_ids": [],
+    "id": "tr_75ee5b59c5c0498a",
+    "opportunity_id": "opp_b14de15ff745ac59",
+    "ts": "2026-07-19T12:32:14.995Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate",
+    "target": "Numeric",
+    "evidence_ids": [],
+    "id": "tr_5d30447284a7411c",
+    "opportunity_id": "opp_b14de15ff745ac59",
+    "ts": "2026-07-19T12:32:14.997Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate",
+    "target": "Trintech Cadency",
+    "evidence_ids": [],
+    "id": "tr_56f9f51265d2487a",
+    "opportunity_id": "opp_b14de15ff745ac59",
+    "ts": "2026-07-19T12:32:14.998Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate",
+    "target": "ReconArt",
+    "evidence_ids": [],
+    "id": "tr_95ae3c95001a1fa4",
+    "opportunity_id": "opp_b14de15ff745ac59",
+    "ts": "2026-07-19T12:32:15.001Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate:done",
+    "target": "ReconArt",
+    "detail": "{\"competitor\":\"ReconArt\",\"investorSignal\":\"unknown\",\"trajectory\":\"No disclosed funding rounds, dates, sizes, or investors provided.\",\"threat\":\"low\"}",
+    "evidence_ids": [],
+    "id": "tr_c386134bf72aab54",
+    "opportunity_id": "opp_b14de15ff745ac59",
+    "ts": "2026-07-19T12:32:16.290Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate:done",
+    "target": "FloQast",
+    "detail": "{\"competitor\":\"FloQast\",\"investorSignal\":\"low\",\"trajectory\":\"Raised $50K in October 2013, followed by a $1.3M seed round in November 2014, indicating a substantial increase in funding momentum.\",\"threat\":\"medium\"}",
+    "evidence_ids": [],
+    "id": "tr_10abb38a71b114db",
+    "opportunity_id": "opp_b14de15ff745ac59",
+    "ts": "2026-07-19T12:32:16.705Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate:done",
+    "target": "Numeric",
+    "detail": "{\"competitor\":\"Numeric\",\"investorSignal\":\"unknown\",\"trajectory\":\"No rounds, dates, sizes, or investors disclosed.\",\"threat\":\"low\"}",
+    "evidence_ids": [],
+    "id": "tr_f69651a7c6a82c98",
+    "opportunity_id": "opp_b14de15ff745ac59",
+    "ts": "2026-07-19T12:32:17.294Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate:done",
+    "target": "Trintech Cadency",
+    "detail": "{\"competitor\":\"Trintech Cadency\",\"investorSignal\":\"unknown\",\"trajectory\":\"No funding rounds, dates, sizes, or investors were provided.\",\"threat\":\"low\"}",
+    "evidence_ids": [],
+    "id": "tr_da28dcefeb84a918",
+    "opportunity_id": "opp_b14de15ff745ac59",
+    "ts": "2026-07-19T12:32:17.797Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate:done",
+    "target": "BlackLine",
+    "detail": "{\"competitor\":\"BlackLine\",\"investorSignal\":\"low\",\"trajectory\":\"One disclosed $220M undisclosed round on 2013-08-16; no multi-round trajectory is provided.\",\"threat\":\"medium\"}",
+    "evidence_ids": [],
+    "id": "tr_2622633633178a06",
+    "opportunity_id": "opp_b14de15ff745ac59",
+    "ts": "2026-07-19T12:32:18.340Z"
+  },
+  {
+    "agent": "screening",
+    "action": "score",
+    "target": "Ledgerly",
+    "evidence_ids": [],
+    "id": "tr_68f390a266f6c719",
+    "opportunity_id": "opp_b14de15ff745ac59",
+    "ts": "2026-07-19T12:32:20.751Z"
+  },
+  {
+    "agent": "screening",
+    "action": "score:done",
+    "target": "Ledgerly",
+    "detail": "{\"founder_id\":\"ledgerly\",\"company\":\"Ledgerly\",\"axes\":[{\"axis\":\"Founder\",\"score_0_100\":30,\"trend\":\"declining\",\"evidence_ids\":[\"ev_bc38acd134c4330c\",\"ev_b81c427e3f9b6388\",\"ev_e12cde7f56693f0d\",\"ev_e691955d9712a812\",\"ev_880f0474f19420d9\"],\"rat",
+    "evidence_ids": [],
+    "id": "tr_ad2974f7ab0d5639",
+    "opportunity_id": "opp_b14de15ff745ac59",
+    "ts": "2026-07-19T12:32:39.786Z"
+  },
+  {
+    "agent": "memo",
+    "action": "write",
+    "target": "Ledgerly",
+    "evidence_ids": [],
+    "id": "tr_01190189db4750ad",
+    "opportunity_id": "opp_b14de15ff745ac59",
+    "ts": "2026-07-19T12:32:39.788Z"
+  },
+  {
+    "agent": "memo",
+    "action": "write:done",
+    "target": "Ledgerly",
+    "detail": "{\"company\":\"Ledgerly\",\"founder_id\":\"ledgerly\",\"sections\":[{\"title\":\"Company snapshot\",\"claims\":[{\"text\":\"Ledgerly presents itself as an autonomous reconciliation engine that ingests bank, payment-processor, and general-ledger feeds and rout",
+    "evidence_ids": [],
+    "id": "tr_ede50939b60ed816",
+    "opportunity_id": "opp_b14de15ff745ac59",
+    "ts": "2026-07-19T12:33:29.249Z"
+  },
+  {
+    "agent": "decision",
+    "action": "recommend",
+    "target": "Ledgerly",
+    "evidence_ids": [],
+    "id": "tr_3693864bfba344fa",
+    "opportunity_id": "opp_b14de15ff745ac59",
+    "ts": "2026-07-19T12:33:29.259Z"
+  },
+  {
+    "agent": "decision",
+    "action": "recommend:done",
+    "target": "Ledgerly",
+    "detail": "{\"founder_id\":\"ledgerly\",\"company\":\"Ledgerly\",\"recommendation\":\"pass\",\"thesisRationale\":\"Ledgerly is directionally aligned with the Fintech and Developer Tools thesis, targets recurring reconciliation workflows in the US/EU, and appears to ",
+    "evidence_ids": [],
+    "id": "tr_3ccecefa364c343a",
+    "opportunity_id": "opp_b14de15ff745ac59",
+    "ts": "2026-07-19T12:33:38.796Z"
+  }
+]

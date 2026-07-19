@@ -1,0 +1,333 @@
+{
+  "id": "opp_8df9c995c88e5cdb",
+  "founder_id": "cadence-labs",
+  "company": "Cadence Labs",
+  "track": "inbound",
+  "createdAt": "2026-07-19T12:33:41.072Z",
+  "status": "screened",
+  "deckText": "# Cadence Labs — Deterministic Replay for Distributed Systems\n\n## Problem\nThe hardest bugs in distributed systems are the ones you can't reproduce. A race condition that shows up once in ten million requests, a message reordering that corrupts state under load — engineers spend days adding logs and praying it happens again. Production incidents that hinge on non-deterministic timing are, in practice, un-debuggable with today's tools. Observability shows you *that* something broke; it almost never lets you replay *why*.\n\n## Product\nCadence Labs is building a deterministic record-and-replay layer for backend services. We capture the exact sequence of non-deterministic inputs a service saw — network I/O, clock reads, scheduler decisions, random seeds — with sub-2% overhead, and let an engineer replay the failing execution locally, stepping through it as if it were a single-threaded program. The insight is that you don't need to record all state, only the non-determinism; everything else is a pure function of it. We instrument at the runtime level so application code is untouched.\n\n## Team\n- **Jonah Whitfield (Founder/CEO)** — I spent six years on the runtime team at a large cloud provider, three of them building the internal tracing infrastructure that captured causal ordering across services. I have shipped a hobbyist record-replay debugger for Go that taught me both the technical shape of this problem and how badly engineers want it solved. I am currently a solo founder actively recruiting a systems co-founder.\n\n## Market\nEvery company running non-trivial backend infrastructure is a potential user; the wedge is the ~15,000 mid-to-large engineering orgs whose on-call engineers lose measurable time to irreproducible incidents. Adjacent tools — Datadog, New Relic, PagerDuty — tell teams something is wrong but stop at the replay boundary, which is exactly where we begin. Developer-tools infrastructure of this kind has historically monetized through seat-based and usage-based pricing once it becomes load-bearing in the incident workflow.\n\n## Traction\nI am pre-product and pre-revenue. This application is deliberately early: I would rather bring in a thesis-aligned investor before I write the production instrumentation than after. What I am offering is a precise articulation of a real, painful, under-served problem; a credible technical approach grounded in first-hand runtime experience; and a clear-eyed view of the risks (runtime coverage, overhead budget, and the co-founder gap I am closing now).\n\n## Ask\nRaising a $500K pre-seed to hire a systems co-founder and two runtime engineers, and to ship an instrumented replay MVP for the JVM and Go within nine months. I want an investor who backs technical founders early, on conviction about the problem and the person.\n",
+  "traceSummary": "- teamMember extracted Cadence Labs’ team, identified Jonah Whitfield, and evaluated his runtime and tracing-infrastructure experience.\n- competitorDiscovery queried Crunchbase, found no Cadence Labs record, and merged competitor candidates including Undo, Replay.io, Microsoft Time Travel Debugging, OverOps, and Datadog.\n- contradiction queried Crunchbase, found the company absent, and cross-checked Cadence Labs without identifying contradictions.\n- competitorEval evaluated the identified competitors, finding Datadog a high-signal threat while assigning low or unknown funding-based threat signals to the others.\n- screening scored Cadence Labs, memo wrote an investment memo, and decision recommended placing Cadence Labs on the watch list.",
+  "screening": {
+    "founder_id": "cadence-labs",
+    "company": "Cadence Labs",
+    "axes": [
+      {
+        "axis": "Founder",
+        "score_0_100": 62,
+        "trend": "stable",
+        "evidence_ids": [
+          "ev_55e4408cb43fad12",
+          "ev_2be42b85afc703cd",
+          "ev_349ebe7b008a7236"
+        ],
+        "rationale": "Jonah has strong founder-problem fit from six years in cloud runtimes, relevant causal-tracing work, and a claimed hobbyist Go replay debugger, but the prior output is not independently verified. School tier is unknown. He is solo, has no demonstrated prior collaboration, and currently provides technical build coverage without clear sales coverage; recruiting a co-founder and engineers is a material dependency. No existing funding or investor is disclosed, so there is no high-signal-allowlist endorsement or funding track record to evaluate. The $500K target is broadly reasonable for pre-seed but remains only an ask; because there was no prior round, the more-than-18-month no-follow-on penalty is not applicable. Versus Datadog's investor-validated team and trajectory, revealed competitive quality is weaker. Persistent FounderScore is 50 with no history, supporting a stable rather than directional trend."
+      },
+      {
+        "axis": "Market",
+        "score_0_100": 60,
+        "trend": "stable",
+        "evidence_ids": [
+          "ev_2be42b85afc703cd",
+          "ev_410bc8fcc7869d29",
+          "ev_349ebe7b008a7236"
+        ],
+        "rationale": "Irreproducible distributed-systems failures are a credible, costly developer-tools problem, and Datadog's progressive financing with repeat Index Ventures participation validates substantial observability demand and buyer budgets. However, Datadog is also a high-threat incumbent, while Undo, Replay.io, Microsoft Time Travel Debugging, and OverOps indicate an established competitive category. The claimed approximately 15,000 target organizations, measurable time loss, and monetization potential are unsupported application estimates. Cadence is explicitly pre-product and pre-revenue, with no community or Crunchbase corroboration, so all traction and market-size claims remain low-confidence."
+      },
+      {
+        "axis": "IdeaVsMarket",
+        "score_0_100": 66,
+        "trend": "stable",
+        "evidence_ids": [
+          "ev_2be42b85afc703cd",
+          "ev_55e4408cb43fad12",
+          "ev_410bc8fcc7869d29",
+          "ev_f1d244873c695ab6"
+        ],
+        "rationale": "Capturing nondeterministic inputs at the runtime layer offers a coherent differentiated wedge beyond conventional observability, and the founder identifies concrete technical risks. The proposed sub-2% overhead, untouched application code, and JVM-plus-Go MVP within nine months are unverified and technically ambitious. Direct and adjacent alternatives—including Replay.io, Undo, Microsoft Time Travel Debugging, OverOps, and Datadog—show market relevance but reduce novelty and may constrain distribution. With no product, customer validation, community corroboration, or confirmed usage, fit is promising but remains hypothesis-level."
+      }
+    ],
+    "founderScoreDelta": 8,
+    "founderScoreReason": "Relevant runtime and tracing experience plus a technically precise application justify an uplift from the persistent score of 50, moderated by the solo-founder gap, unverified prior output, absent customer evidence, unknown education signal, and lack of funding validation.",
+    "coldStart": true,
+    "substitutionRung": "application_quality",
+    "thesisFit_0_1": 0.84
+  },
+  "memo": {
+    "company": "Cadence Labs",
+    "founder_id": "cadence-labs",
+    "sections": [
+      {
+        "title": "Company snapshot",
+        "claims": [
+          {
+            "text": "Cadence Labs is a proposed deterministic record-and-replay layer for backend services, founded by Jonah Whitfield.",
+            "evidence_ids": [
+              "ev_2be42b85afc703cd"
+            ],
+            "confidence_0_1": 0.9,
+            "verification": "internal",
+            "contradictions": []
+          },
+          {
+            "text": "Whitfield reports six years on a large cloud provider's runtime team, including three years building causal-ordering tracing infrastructure, plus a hobbyist Go record-replay debugger; these credentials have not been independently verified.",
+            "evidence_ids": [
+              "ev_2be42b85afc703cd",
+              "ev_55e4408cb43fad12"
+            ],
+            "confidence_0_1": 0.55,
+            "verification": "internal",
+            "contradictions": []
+          },
+          {
+            "text": "The company is pre-product and pre-revenue, and Whitfield is a solo founder recruiting a systems co-founder.",
+            "evidence_ids": [
+              "ev_2be42b85afc703cd",
+              "ev_55e4408cb43fad12"
+            ],
+            "confidence_0_1": 0.95,
+            "verification": "internal",
+            "contradictions": []
+          },
+          {
+            "text": "Cadence Labs is seeking a $500,000 pre-seed to recruit a systems co-founder and two runtime engineers and target a JVM-and-Go MVP within nine months.",
+            "evidence_ids": [
+              "ev_2be42b85afc703cd"
+            ],
+            "confidence_0_1": 0.9,
+            "verification": "internal",
+            "contradictions": []
+          }
+        ],
+        "prose": "The opportunity is an exceptionally early technical-founder bet, with financing preceding product construction and customer validation."
+      },
+      {
+        "title": "Investment hypotheses",
+        "claims": [
+          {
+            "text": "Founder-problem fit may be strong because the founder's claimed runtime and causal-tracing experience is directly relevant to deterministic replay, although the experience and prior debugger remain unverified outside the application.",
+            "evidence_ids": [
+              "ev_2be42b85afc703cd",
+              "ev_55e4408cb43fad12"
+            ],
+            "confidence_0_1": 0.55,
+            "verification": "internal",
+            "contradictions": []
+          },
+          {
+            "text": "Runtime-level capture of nondeterministic inputs could offer a differentiated diagnostic workflow beyond conventional observability if it enables faithful local replay without application-code changes.",
+            "evidence_ids": [
+              "ev_2be42b85afc703cd"
+            ],
+            "confidence_0_1": 0.48,
+            "verification": "internal",
+            "contradictions": []
+          },
+          {
+            "text": "The proposed wedge of approximately 15,000 mid-to-large engineering organizations and the suggested seat- or usage-based monetization model are application estimates unsupported by customer or revenue evidence.",
+            "evidence_ids": [
+              "ev_2be42b85afc703cd",
+              "ev_55e4408cb43fad12"
+            ],
+            "confidence_0_1": 0.3,
+            "verification": "internal",
+            "contradictions": []
+          },
+          {
+            "text": "The existence of Undo, Replay.io, Microsoft Time Travel Debugging, OverOps, and Datadog indicates established demand for replay or adjacent incident-diagnosis workflows, but also creates meaningful competitive and substitution risk.",
+            "evidence_ids": [
+              "ev_410bc8fcc7869d29"
+            ],
+            "confidence_0_1": 0.65,
+            "verification": "external",
+            "contradictions": []
+          },
+          {
+            "text": "Datadog is the highest-signal incumbent identified: the supplied evaluation classifies it as a high threat and reports progressively larger financings with repeat Index Ventures participation.",
+            "evidence_ids": [
+              "ev_349ebe7b008a7236"
+            ],
+            "confidence_0_1": 0.75,
+            "verification": "external",
+            "contradictions": []
+          }
+        ],
+        "prose": "Investment merit depends on validating both technical feasibility and buyer urgency before treating the broad market thesis as underwritten."
+      },
+      {
+        "title": "SWOT",
+        "claims": [
+          {
+            "text": "Strength: the founder claims directly relevant runtime, tracing, and Go replay-debugger experience and demonstrates awareness of runtime coverage, performance-overhead, and team-composition risks.",
+            "evidence_ids": [
+              "ev_2be42b85afc703cd",
+              "ev_55e4408cb43fad12"
+            ],
+            "confidence_0_1": 0.58,
+            "verification": "internal",
+            "contradictions": []
+          },
+          {
+            "text": "Weakness: the company has no product, revenue, customer validation, demonstrated demand, or independently verified prior founder output in the supplied evidence.",
+            "evidence_ids": [
+              "ev_2be42b85afc703cd",
+              "ev_55e4408cb43fad12"
+            ],
+            "confidence_0_1": 0.9,
+            "verification": "internal",
+            "contradictions": []
+          },
+          {
+            "text": "Opportunity: a successful replay layer could complement observability products by addressing the post-incident reproduction and step-through debugging workflow described in the application.",
+            "evidence_ids": [
+              "ev_2be42b85afc703cd"
+            ],
+            "confidence_0_1": 0.48,
+            "verification": "internal",
+            "contradictions": []
+          },
+          {
+            "text": "Threat: dedicated or adjacent alternatives include Undo, Replay.io, Microsoft Time Travel Debugging, OverOps, and Datadog, with Datadog assessed as the highest-threat incumbent among those evaluated.",
+            "evidence_ids": [
+              "ev_410bc8fcc7869d29",
+              "ev_349ebe7b008a7236"
+            ],
+            "confidence_0_1": 0.72,
+            "verification": "external",
+            "contradictions": []
+          },
+          {
+            "text": "Execution risk is concentrated in recruiting a systems co-founder and engineers while simultaneously proving runtime coverage, low overhead, and support for both JVM and Go.",
+            "evidence_ids": [
+              "ev_2be42b85afc703cd",
+              "ev_55e4408cb43fad12"
+            ],
+            "confidence_0_1": 0.83,
+            "verification": "internal",
+            "contradictions": []
+          }
+        ],
+        "prose": "The primary strengths are technical coherence and founder-problem alignment; the primary weaknesses are the absence of proof and a hiring-dependent roadmap."
+      },
+      {
+        "title": "Problem & product",
+        "claims": [
+          {
+            "text": "The application identifies irreproducible race conditions, message reorderings, and other nondeterministic production failures as incidents that observability can expose but generally cannot replay.",
+            "evidence_ids": [
+              "ev_2be42b85afc703cd"
+            ],
+            "confidence_0_1": 0.62,
+            "verification": "internal",
+            "contradictions": []
+          },
+          {
+            "text": "The proposed product would record nondeterministic inputs—including network I/O, clock reads, scheduler decisions, and random seeds—and use them to replay an execution locally.",
+            "evidence_ids": [
+              "ev_2be42b85afc703cd"
+            ],
+            "confidence_0_1": 0.88,
+            "verification": "internal",
+            "contradictions": []
+          },
+          {
+            "text": "The technical thesis is that recording nondeterminism rather than all program state is sufficient because the remaining execution is treated as a pure function of those inputs.",
+            "evidence_ids": [
+              "ev_2be42b85afc703cd"
+            ],
+            "confidence_0_1": 0.45,
+            "verification": "internal",
+            "contradictions": []
+          },
+          {
+            "text": "Sub-2% overhead, untouched application code, faithful replay, and delivery across JVM and Go have not been demonstrated and remain technically ambitious targets.",
+            "evidence_ids": [
+              "ev_2be42b85afc703cd",
+              "ev_55e4408cb43fad12"
+            ],
+            "confidence_0_1": 0.35,
+            "verification": "internal",
+            "contradictions": []
+          }
+        ],
+        "prose": "Technical diligence should prioritize replay fidelity, sources of nondeterminism, distributed causal ordering, storage costs, security implications, and measured production overhead."
+      },
+      {
+        "title": "Traction & KPIs",
+        "claims": [
+          {
+            "text": "Cadence Labs reports no product and no revenue.",
+            "evidence_ids": [
+              "ev_2be42b85afc703cd"
+            ],
+            "confidence_0_1": 0.98,
+            "verification": "internal",
+            "contradictions": []
+          },
+          {
+            "text": "No customers, pilots, design partners, users, usage metrics, retention metrics, revenue metrics, or community validation are provided in the supplied evidence.",
+            "evidence_ids": [
+              "ev_55e4408cb43fad12"
+            ],
+            "confidence_0_1": 0.9,
+            "verification": "internal",
+            "contradictions": []
+          },
+          {
+            "text": "The principal stated milestone is an instrumented replay MVP for JVM and Go within nine months, funded by the proposed $500,000 raise and dependent on planned hiring.",
+            "evidence_ids": [
+              "ev_2be42b85afc703cd",
+              "ev_55e4408cb43fad12"
+            ],
+            "confidence_0_1": 0.88,
+            "verification": "internal",
+            "contradictions": []
+          },
+          {
+            "text": "No direct contradictions were established by the contradiction review, but the absence of external corroboration limits the evidentiary value of the application claims.",
+            "evidence_ids": [
+              "ev_5e3c1490d2ab448e"
+            ],
+            "confidence_0_1": 0.8,
+            "verification": "external",
+            "contradictions": []
+          }
+        ],
+        "prose": "Near-term diligence gates should be a working benchmark, reproducible customer-relevant failure cases, quantified overhead, design-partner commitments, and evidence that the required team can be recruited within the financing plan."
+      }
+    ],
+    "redFlags": [
+      "Pre-product and pre-revenue, with no supplied customer validation or demonstrated demand [ev_2be42b85afc703cd; ev_55e4408cb43fad12].",
+      "Solo-founder structure and a roadmap dependent on recruiting a systems co-founder and two runtime engineers [ev_2be42b85afc703cd; ev_55e4408cb43fad12].",
+      "Sub-2% overhead, no-code-change instrumentation, faithful replay, and JVM-plus-Go delivery are unproven technical targets [ev_2be42b85afc703cd; ev_55e4408cb43fad12].",
+      "The approximately 15,000-organization market estimate and proposed monetization model lack supporting customer or traction data [ev_2be42b85afc703cd; ev_55e4408cb43fad12].",
+      "Competition includes dedicated replay tools and well-capitalized observability substitutes; Datadog was assessed as a high-threat incumbent [ev_410bc8fcc7869d29; ev_349ebe7b008a7236].",
+      "Founder employment history and claimed hobbyist Go debugger have not been independently verified [ev_2be42b85afc703cd; ev_55e4408cb43fad12]."
+    ],
+    "gaps": [
+      "Cap table: not disclosed",
+      "Valuation and round terms: not disclosed",
+      "Existing funding and investors: not disclosed",
+      "Founder ownership: not disclosed",
+      "Founder education: not disclosed",
+      "Systems co-founder candidate: not disclosed",
+      "Customer interviews: not disclosed",
+      "Design partners and pilots: not disclosed",
+      "Product demo or prototype: not disclosed",
+      "Benchmark methodology and results: not disclosed",
+      "Replay-fidelity results: not disclosed",
+      "Security and data-privacy architecture: not disclosed",
+      "Go debugger repository or usage: not disclosed",
+      "Pricing and willingness-to-pay evidence: not disclosed",
+      "Detailed use of funds and runway: not disclosed",
+      "Hiring pipeline and compensation plan: not disclosed"
+    ],
+    "trustScore_0_1": 1
+  },
+  "decision": {
+    "founder_id": "cadence-labs",
+    "company": "Cadence Labs",
+    "recommendation": "watch",
+    "thesisRationale": "Cadence Labs strongly matches the AI Infrastructure and Developer Tools thesis and is at the target pre-seed stage. Its runtime-level deterministic replay approach addresses a credible engineering pain point, while the founder’s claimed cloud-runtime and causal-tracing experience suggests relevant founder-problem fit. The fund’s high risk appetite makes the technical ambition investable in principle, but geography is unconfirmed, founder credentials are unverified, and there is no prototype, customer evidence, or pricing validation. The $100,000 check could participate in the $500,000 round, but achieving 7% ownership appears unlikely unless the round terms are unusually favorable or the fund leads at a larger allocation. Keep under active review pending a working benchmark demonstrating replay fidelity and low overhead, multiple credible design partners, verification of the founder’s background, and clarity on geography, valuation, hiring, and security architecture.",
+    "whyThisCouldFail": "The core technical promise may be infeasible at commercially acceptable overhead: faithfully capturing scheduler behavior, network effects, clocks, randomness, and distributed causal ordering across JVM and Go without code changes is substantially harder than the application implies. Even if it works, recording production execution could create prohibitive storage, privacy, security, and compliance burdens, while debugging incidents may be too episodic to support strong willingness to pay. A solo founder must recruit scarce systems talent before proving the product, and the $500,000 raise may be insufficient for the proposed scope. Datadog or another well-capitalized observability vendor could bundle an adequate substitute into an existing workflow, while dedicated replay vendors already possess product and distribution advantages. With no prototype, customers, or externally verified founder output, the company could exhaust its capital proving a technically impressive capability that buyers will not deploy in production."
+  }
+}

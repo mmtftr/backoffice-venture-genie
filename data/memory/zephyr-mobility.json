@@ -1,0 +1,41 @@
+{
+  "founder_id": "zephyr-mobility",
+  "name": "Camila Ferreira",
+  "company": "Zephyr Mobility",
+  "evidence": [
+    {
+      "source": "deck",
+      "content": "# Zephyr Mobility — Electric Two-Wheeler Ride-Hailing for Latin America\n\n## Problem\nIn dense Latin American cities, car-based ride-hailing is slow, expensive, and stuck in traffic, while millions of daily commuters need an affordable way to move across town. Informal motorcycle taxis fill the gap but are unsafe, cash-only, and unregulated. There is no trusted, electric, app-based two-wheeler network built for the region's traffic, incomes, and payment habits.\n\n## Product\nZephyr Mobility operates an electric-motorcycle ride-hailing and delivery network. We own and maintain a fleet of electric two-wheelers, deploy battery-swap stations across each city, and match riders and delivery orders through our app. Drivers rent vehicles from us on flexible daily plans, eliminating the upfront cost that keeps them out of formal work. Payments run through our in-app wallet, with cash top-ups at partner kiosks for the unbanked.\n\n## Team\n- **Camila Ferreira (CEO)** — ex-operations lead at a regional super-app, University of São Paulo. Scaled last-mile delivery to 50 cities.\n- **Bruno Alves (COO)** — former logistics director at a large retailer, FGV São Paulo. Built distribution networks across Brazil.\n- **Diego Rojas (CTO)** — ex-marketplace engineer, University of Buenos Aires. Owned dispatch and pricing systems at scale.\n- **Sofia Mendez (Head of Energy)** — mechanical engineer, University of Chile; ran battery-swap infrastructure for a mobility operator.\n\n## Market\nLatin American urban mobility is a massive market with hundreds of millions of daily trips and low car ownership. We compete directly with the two-wheeler and ride-hailing operations of Uber and regional super-apps, differentiating on an owned electric fleet, battery-swap economics, and driver financing. Electrification lowers our per-trip cost well below gasoline incumbents, and swap stations create a defensible physical moat.\n\n## Traction\nOperating in São Paulo and Bogotá for two years. 4,100 active drivers, ~380,000 monthly trips, and 62 battery-swap stations deployed. Gross margins turned positive in our São Paulo market last quarter. We previously raised a $22M Series A from regional venture and impact funds, plus vehicle-asset financing facilities.\n\n## Ask\nRaising a **$45M Series B** to expand to four new cities, deploy 200 additional swap stations, and grow the fleet to 15,000 vehicles. Use of funds: fleet and energy infrastructure (60%), city launches (25%), technology and driver-financing platform (15%).\n",
+      "tags": [
+        "deck",
+        "seed",
+        "normal"
+      ],
+      "id": "ev_e9e2ab5e9f0bf896",
+      "founder_id": "zephyr-mobility",
+      "ts": "2026-07-19T12:27:09.526Z",
+      "hash": "21cc4be54d3eed0f"
+    },
+    {
+      "source": "press",
+      "content": "A Latin American tech outlet covered Zephyr Mobility's $22M Series A, describing an electric two-wheeler ride-hailing operator based in São Paulo, Brazil, backed by regional venture and impact investors, with battery-swap infrastructure as its differentiator.",
+      "tags": [],
+      "id": "ev_42a01323751b4aaf",
+      "founder_id": "zephyr-mobility",
+      "ts": "2026-07-19T12:27:09.526Z",
+      "hash": "7ad81e9d84ba4b20"
+    },
+    {
+      "source": "website",
+      "content": "zephyrmobility.com advertises driver sign-up in São Paulo and Bogotá, lists 60+ battery-swap stations, and promotes daily vehicle-rental plans and an in-app wallet with cash top-up at partner kiosks. No consolidated financials are published.",
+      "tags": [
+        "website"
+      ],
+      "id": "ev_e9227a97e05b3c4b",
+      "founder_id": "zephyr-mobility",
+      "ts": "2026-07-19T12:27:09.526Z",
+      "hash": "5e392a24fbda4c6f"
+    }
+  ],
+  "founderScoreHistory": []
+}

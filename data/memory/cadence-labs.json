@@ -1,0 +1,129 @@
+{
+  "founder_id": "cadence-labs",
+  "name": "Jonah Whitfield",
+  "company": "Cadence Labs",
+  "evidence": [
+    {
+      "source": "deck",
+      "content": "# Cadence Labs — Deterministic Replay for Distributed Systems\n\n## Problem\nThe hardest bugs in distributed systems are the ones you can't reproduce. A race condition that shows up once in ten million requests, a message reordering that corrupts state under load — engineers spend days adding logs and praying it happens again. Production incidents that hinge on non-deterministic timing are, in practice, un-debuggable with today's tools. Observability shows you *that* something broke; it almost never lets you replay *why*.\n\n## Product\nCadence Labs is building a deterministic record-and-replay layer for backend services. We capture the exact sequence of non-deterministic inputs a service saw — network I/O, clock reads, scheduler decisions, random seeds — with sub-2% overhead, and let an engineer replay the failing execution locally, stepping through it as if it were a single-threaded program. The insight is that you don't need to record all state, only the non-determinism; everything else is a pure function of it. We instrument at the runtime level so application code is untouched.\n\n## Team\n- **Jonah Whitfield (Founder/CEO)** — I spent six years on the runtime team at a large cloud provider, three of them building the internal tracing infrastructure that captured causal ordering across services. I have shipped a hobbyist record-replay debugger for Go that taught me both the technical shape of this problem and how badly engineers want it solved. I am currently a solo founder actively recruiting a systems co-founder.\n\n## Market\nEvery company running non-trivial backend infrastructure is a potential user; the wedge is the ~15,000 mid-to-large engineering orgs whose on-call engineers lose measurable time to irreproducible incidents. Adjacent tools — Datadog, New Relic, PagerDuty — tell teams something is wrong but stop at the replay boundary, which is exactly where we begin. Developer-tools infrastructure of this kind has historically monetized through seat-based and usage-based pricing once it becomes load-bearing in the incident workflow.\n\n## Traction\nI am pre-product and pre-revenue. This application is deliberately early: I would rather bring in a thesis-aligned investor before I write the production instrumentation than after. What I am offering is a precise articulation of a real, painful, under-served problem; a credible technical approach grounded in first-hand runtime experience; and a clear-eyed view of the risks (runtime coverage, overhead budget, and the co-founder gap I am closing now).\n\n## Ask\nRaising a $500K pre-seed to hire a systems co-founder and two runtime engineers, and to ship an instrumented replay MVP for the JVM and Go within nine months. I want an investor who backs technical founders early, on conviction about the problem and the person.\n",
+      "tags": [
+        "deck",
+        "seed",
+        "cold_start_minimal"
+      ],
+      "id": "ev_2be42b85afc703cd",
+      "founder_id": "cadence-labs",
+      "ts": "2026-07-19T12:27:09.522Z",
+      "hash": "a466fce603629d08"
+    },
+    {
+      "source": "agent:teamMember",
+      "content": "Jonah Whitfield: strengths=Six years of runtime-team experience at a large cloud provider, including three years building internal tracing infrastructure for causal ordering across services; Has shipped a record-replay debugger for Go, demonstrating relevant hands-on initiative; Articulates a technically coherent approach focused on capturing nondeterministic inputs rather than all application state; Shows awareness of key execution risks, including runtime coverage, overhead, and the co-founder gap; concerns=Currently a solo founder and still recruiting a systems co-founder for a technically demanding product; Pre-product and pre-revenue, with no customer validation or demonstrated demand beyond the founder's stated experience; The claimed sub-2% overhead and feasibility across JVM and Go are not yet demonstrated; The proposed nine-month MVP depends on hiring a co-founder and two runtime engineers; Market sizing and monetization claims are broad and unsupported by traction in the supplied material; school tier=unknown; prior outputs=none found.",
+      "tags": [
+        "team",
+        "agent"
+      ],
+      "id": "ev_55e4408cb43fad12",
+      "founder_id": "cadence-labs",
+      "ts": "2026-07-19T12:33:46.307Z",
+      "hash": "d4b2c4eb1b1ef772"
+    },
+    {
+      "source": "agent:contradiction",
+      "content": "No direct contradictions were established from available evidence.",
+      "tags": [
+        "contradiction",
+        "agent"
+      ],
+      "id": "ev_5e3c1490d2ab448e",
+      "founder_id": "cadence-labs",
+      "ts": "2026-07-19T12:33:46.802Z",
+      "hash": "a717cccd98e6748d"
+    },
+    {
+      "source": "agent:competitorDiscovery",
+      "content": "Competitors: Undo (Provides time-travel debugging through execution recording and replay, overlapping with Cadence Labs’ deterministic replay workflow for hard-to-reproduce backend failures.); Replay.io (Offers deterministic record-and-replay debugging for JavaScript and Node.js applications, providing a direct analogue for replaying production failures.); Microsoft Time Travel Debugging (Records program execution for later deterministic replay and step-through debugging, competing as an established platform-level alternative for supported environments.); OverOps (Captures production error context, variable state, and execution details to diagnose previously unreproducible failures, serving as an adjacent alternative to full deterministic replay.); Datadog (Provides broad observability, tracing, profiling, and incident-diagnosis capabilities that engineering teams may use instead of adopting a dedicated replay layer.)",
+      "tags": [
+        "competition",
+        "agent"
+      ],
+      "id": "ev_410bc8fcc7869d29",
+      "founder_id": "cadence-labs",
+      "ts": "2026-07-19T12:33:49.713Z",
+      "hash": "13f6ffe80c040f51"
+    },
+    {
+      "source": "agent:competitorEval",
+      "content": "Microsoft Time Travel Debugging: investor signal=unknown; trajectory=No disclosed funding rounds or investors provided.; threat=low.",
+      "tags": [
+        "competition",
+        "funding",
+        "agent"
+      ],
+      "id": "ev_09725d0a5db8bf32",
+      "founder_id": "cadence-labs",
+      "ts": "2026-07-19T12:33:51.334Z",
+      "hash": "8c574c2b481bafe3"
+    },
+    {
+      "source": "agent:competitorEval",
+      "content": "Datadog: investor signal=high; trajectory=Progressive funding trajectory from a 2010 seed round to $1.2M in 2011, $6.2M in 2012, $15M in 2014, and $31M in 2015, with increasing round sizes and repeat participation from Index Ventures.; threat=high.",
+      "tags": [
+        "competition",
+        "funding",
+        "agent"
+      ],
+      "id": "ev_349ebe7b008a7236",
+      "founder_id": "cadence-labs",
+      "ts": "2026-07-19T12:33:51.510Z",
+      "hash": "811b3a7865034c66"
+    },
+    {
+      "source": "agent:competitorEval",
+      "content": "Undo: investor signal=unknown; trajectory=No funding trajectory data is available for Undo; the provided round is for Dinamundo.; threat=low.",
+      "tags": [
+        "competition",
+        "funding",
+        "agent"
+      ],
+      "id": "ev_a1d512c2e72c3f47",
+      "founder_id": "cadence-labs",
+      "ts": "2026-07-19T12:33:51.783Z",
+      "hash": "8d484f57346f8c48"
+    },
+    {
+      "source": "agent:competitorEval",
+      "content": "OverOps: investor signal=unknown; trajectory=No funding rounds, dates, sizes, or investors were provided, so the funding trajectory cannot be assessed.; threat=low.",
+      "tags": [
+        "competition",
+        "funding",
+        "agent"
+      ],
+      "id": "ev_512f57007f5b9da4",
+      "founder_id": "cadence-labs",
+      "ts": "2026-07-19T12:33:51.876Z",
+      "hash": "72b56420316df029"
+    },
+    {
+      "source": "agent:competitorEval",
+      "content": "Replay.io: investor signal=unknown; trajectory=No funding rounds or investors were provided, so funding trajectory cannot be assessed.; threat=low.",
+      "tags": [
+        "competition",
+        "funding",
+        "agent"
+      ],
+      "id": "ev_f1d244873c695ab6",
+      "founder_id": "cadence-labs",
+      "ts": "2026-07-19T12:33:52.154Z",
+      "hash": "d5967bb33f4aa8b4"
+    }
+  ],
+  "founderScoreHistory": [
+    {
+      "ts": "2026-07-19T12:34:14.721Z",
+      "score_0_100": 58,
+      "delta": 8,
+      "reason": "Relevant runtime and tracing experience plus a technically precise application justify an uplift from the persistent score of 50, moderated by the solo-founder gap, unverified prior output, absent customer evidence, unknown education signal, and lack of funding validation."
+    }
+  ]
+}

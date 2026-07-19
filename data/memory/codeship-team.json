@@ -1,0 +1,153 @@
+{
+  "founder_id": "codeship-team",
+  "name": "Codeship team",
+  "company": "Codeship",
+  "evidence": [
+    {
+      "source": "crunchbase",
+      "content": "Company record: {\"name\":\"Codeship\",\"permalink\":\"/organization/codeship\",\"category\":\"B2B|Cloud Computing|Developer Tools|IaaS|SaaS|Software|Testing|Web Development\",\"country\":\"USA\",\"city\":\"Boston\",\"funding_total_usd\":4400000,\"status\":\"operating\",\"founded_at\":\"2011-07-15\"}",
+      "tags": [
+        "crunchbase",
+        "external"
+      ],
+      "id": "ev_2e9b84eeda652f6a",
+      "founder_id": "codeship-team",
+      "ts": "2026-07-19T12:35:13.748Z",
+      "hash": "c2440eecd874fbc6"
+    },
+    {
+      "source": "crunchbase",
+      "content": "Funding rounds: [{\"company\":\"Codeship\",\"round_type\":\"seed\",\"raised_usd\":300000,\"announced_on\":\"2013-02-25\",\"investors\":[\"Rothenberg Ventures\",\"Seedcamp\",\"Techstars\",\"Jeff Seibert\",\"Mike Rothenberg\",\"Philipp Moehring\",\"Semyon Dukach\",\"Ty Danco\"]},{\"company\":\"Codeship\",\"round_type\":\"venture\",\"raised_usd\":2600000,\"announced_on\":\"2014-02-12\",\"investors\":[\"Boston Seed Capital\",\"F-Prime Capital Partners\",\"Sigma Prime Ventures\"]},{\"company\":\"Codeship\",\"round_type\":\"venture\",\"raised_usd\":1500000,\"announced_on\":\"2015-12-03\",\"investors\":[\"Boston Seed Capital\",\"F-Prime Capital Partners\",\"Sigma Prime Ventures\"]}]",
+      "tags": [
+        "crunchbase",
+        "funding",
+        "external"
+      ],
+      "id": "ev_89eea5733c431797",
+      "founder_id": "codeship-team",
+      "ts": "2026-07-19T12:35:13.748Z",
+      "hash": "00f523a81a054a06"
+    },
+    {
+      "source": "deck",
+      "content": "[SYNTHESIZED FROM CRUNCHBASE DUMP — NOT A COMPANY-SUPPLIED DECK] Codeship is a B2B|Cloud Computing|Developer Tools|IaaS|SaaS|Software|Testing|Web Development company based in Boston, USA. Crunchbase records total funding of 4400000 USD across 3 retrieved rounds; the latest retrieved round was 2015-12-03.",
+      "tags": [
+        "deck",
+        "outbound"
+      ],
+      "id": "ev_076cff5581359e19",
+      "founder_id": "codeship-team",
+      "ts": "2026-07-19T12:35:13.748Z",
+      "hash": "4246765b2a6c225b"
+    },
+    {
+      "source": "agent:contradiction",
+      "content": "No direct contradictions were established from available evidence.",
+      "tags": [
+        "contradiction",
+        "agent"
+      ],
+      "id": "ev_35a4d38f75146516",
+      "founder_id": "codeship-team",
+      "ts": "2026-07-19T12:35:17.223Z",
+      "hash": "a717cccd98e6748d"
+    },
+    {
+      "source": "agent:teamMember",
+      "content": "Codeship team: strengths=Associated with an operating B2B cloud computing and developer tools company founded in 2011.; The company raised $4.4 million across three recorded funding rounds through December 2015.; concerns=No individual team members, roles, education, or demonstrated achievements are provided.; Funding and investor participation are only indirect signals and do not establish team excellence.; No evidence is provided about product performance, customer traction, or operational outcomes.; school tier=unknown; prior outputs=none found.",
+      "tags": [
+        "team",
+        "agent"
+      ],
+      "id": "ev_af3850dda75d9fac",
+      "founder_id": "codeship-team",
+      "ts": "2026-07-19T12:35:17.383Z",
+      "hash": "fb8b836171b39f4f"
+    },
+    {
+      "source": "agent:competitorDiscovery",
+      "content": "Competitors: CircleCI (Cloud-based continuous integration and delivery platform competing directly with Codeship.); Travis CI (Hosted CI/CD service for software development teams and open-source projects.); Jenkins (Widely adopted automation server providing continuous integration and delivery capabilities.); GitLab CI/CD (Integrated source control and CI/CD platform competing for developer workflow automation.); Buildkite (Developer-focused CI/CD platform offering hosted orchestration with self-hosted build agents.)",
+      "tags": [
+        "competition",
+        "agent"
+      ],
+      "id": "ev_7b82a03e7d5712ae",
+      "founder_id": "codeship-team",
+      "ts": "2026-07-19T12:35:17.546Z",
+      "hash": "d0572396f24fa54b"
+    },
+    {
+      "source": "agent:competitorEval",
+      "content": "Buildkite: investor signal=unknown; trajectory=No funding rounds or investors provided, so funding trajectory cannot be assessed.; threat=low.",
+      "tags": [
+        "competition",
+        "funding",
+        "agent"
+      ],
+      "id": "ev_39e41adbfff0695f",
+      "founder_id": "codeship-team",
+      "ts": "2026-07-19T12:35:19.167Z",
+      "hash": "f8b01fc5ae2a15da"
+    },
+    {
+      "source": "agent:competitorEval",
+      "content": "Jenkins: investor signal=unknown; trajectory=One $500,000 seed round announced on 2015-04-01, with no investors listed and no subsequent rounds provided.; threat=low.",
+      "tags": [
+        "competition",
+        "funding",
+        "agent"
+      ],
+      "id": "ev_0d3e2bc8e7d981b1",
+      "founder_id": "codeship-team",
+      "ts": "2026-07-19T12:35:19.284Z",
+      "hash": "fa4707118732429c"
+    },
+    {
+      "source": "agent:competitorEval",
+      "content": "Travis CI: investor signal=unknown; trajectory=No funding rounds or investor data provided; trajectory cannot be assessed.; threat=low.",
+      "tags": [
+        "competition",
+        "funding",
+        "agent"
+      ],
+      "id": "ev_682534ff01954e18",
+      "founder_id": "codeship-team",
+      "ts": "2026-07-19T12:35:19.347Z",
+      "hash": "dfb1d7dc8690f4ed"
+    },
+    {
+      "source": "agent:competitorEval",
+      "content": "CircleCI: investor signal=medium; trajectory=Raised an undisclosed round in April 2012, followed by a $1.5M seed round in February 2013 and a $6M venture round in February 2014, showing accelerating disclosed funding. The rounds included SV Angel, a listed high-signal investor.; threat=medium.",
+      "tags": [
+        "competition",
+        "funding",
+        "agent"
+      ],
+      "id": "ev_30f282c98e281f86",
+      "founder_id": "codeship-team",
+      "ts": "2026-07-19T12:35:19.685Z",
+      "hash": "62414062d33b0807"
+    },
+    {
+      "source": "agent:competitorEval",
+      "content": "GitLab CI/CD: investor signal=unknown; trajectory=No funding rounds or investors were provided, so funding trajectory cannot be assessed.; threat=low.",
+      "tags": [
+        "competition",
+        "funding",
+        "agent"
+      ],
+      "id": "ev_cdc9d5b2e52b319e",
+      "founder_id": "codeship-team",
+      "ts": "2026-07-19T12:35:20.715Z",
+      "hash": "7595101174e38c16"
+    }
+  ],
+  "founderScoreHistory": [
+    {
+      "ts": "2026-07-19T12:35:38.087Z",
+      "score_0_100": 40,
+      "delta": -10,
+      "reason": "Reduce the persistent score because team-level evidence is absent, no disclosed Codeship investor is on the high-signal allowlist, CircleCI has a stronger revealed investor signal, and Codeship's last recorded round was in 2015 with no follow-on shown. The confirmed multi-round funding history prevents a more severe reduction."
+    }
+  ]
+}

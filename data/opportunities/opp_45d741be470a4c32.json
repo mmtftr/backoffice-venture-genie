@@ -1,0 +1,274 @@
+{
+  "id": "opp_45d741be470a4c32",
+  "founder_id": "codeship-team",
+  "company": "Codeship",
+  "track": "outbound",
+  "createdAt": "2026-07-19T12:35:13.748Z",
+  "status": "screened",
+  "deckText": "[SYNTHESIZED FROM CRUNCHBASE DUMP — NOT A COMPANY-SUPPLIED DECK] Codeship is a B2B|Cloud Computing|Developer Tools|IaaS|SaaS|Software|Testing|Web Development company based in Boston, USA. Crunchbase records total funding of 4400000 USD across 3 retrieved rounds; the latest retrieved round was 2015-12-03.",
+  "traceSummary": "- teamMember extracted no individual members for Codeship and evaluated the Codeship team using its operating status and $4.4 million funding history.\n- competitorDiscovery queried Crunchbase, identified and merged competitor candidates including CircleCI, Travis CI, Jenkins, GitLab CI/CD, and Buildkite.\n- contradiction checked Codeship’s three Crunchbase funding rounds and found no contradictions; communitySignal found no community evidence.\n- competitorEval assessed the listed competitors, identifying CircleCI as the strongest funding signal while rating the others low or unknown threat.\n- screening scored Codeship, memo wrote an investment memo, and decision recommended passing because Codeship appeared outside the pre-seed/seed mandate.\n- outreach drafted a message to the Codeship team about its CI/CD work and the investor’s developer-tools focus.",
+  "screening": {
+    "founder_id": "codeship-team",
+    "company": "Codeship",
+    "axes": [
+      {
+        "axis": "Founder",
+        "score_0_100": 36,
+        "trend": "declining",
+        "evidence_ids": [
+          "ev_af3850dda75d9fac",
+          "ev_89eea5733c431797",
+          "ev_30f282c98e281f86"
+        ],
+        "rationale": "Codeship has a real funding track record: a stage-reasonable $300,000 seed followed by $2.6 million and $1.5 million venture rounds. However, none of the disclosed investors is on the high-signal allowlist. The latest round was December 3, 2015—more than 18 months ago—with no follow-on shown, which is an explicit negative signal after recency decay. Individual founders, school tier, excellence within school, prior outputs, connection hints, prior collaboration, skill complementarity, and build-plus-sell coverage are all unverified. CircleCI's backing from allowlisted SV Angel provides a stronger revealed-quality benchmark than Codeship's disclosed investor set."
+      },
+      {
+        "axis": "Market",
+        "score_0_100": 61,
+        "trend": "stable",
+        "evidence_ids": [
+          "ev_2e9b84eeda652f6a",
+          "ev_7b82a03e7d5712ae",
+          "ev_30f282c98e281f86"
+        ],
+        "rationale": "Developer tools and cloud testing directly match the thesis, and the Boston location fits the US geography. The company record confirms an operating developer-tools business, but the CI/CD market contains numerous direct alternatives, including CircleCI, Travis CI, Jenkins, GitLab CI/CD, and Buildkite. CircleCI's accelerating historical funding and SV Angel participation validate investor interest while also indicating meaningful competitive pressure. No current market-growth or customer-adoption evidence is supplied."
+      },
+      {
+        "axis": "IdeaVsMarket",
+        "score_0_100": 43,
+        "trend": "declining",
+        "evidence_ids": [
+          "ev_076cff5581359e19",
+          "ev_35a4d38f75146516",
+          "ev_7b82a03e7d5712ae"
+        ],
+        "rationale": "The concept addresses an established developer need, but the supplied material is synthesized from Crunchbase rather than company-provided and gives no product differentiation, customer traction, retention, performance, or community corroboration. Traction claims therefore cannot be upgraded beyond low trust; only funding is externally confirmed, and there are no contradictions in the limited record. The crowded set of direct CI/CD competitors and absence of recent product evidence weaken present idea-market alignment. The opportunity also appears far beyond the thesis's pre-seed or seed timing despite fitting its sector and geography."
+      }
+    ],
+    "founderScoreDelta": -10,
+    "founderScoreReason": "Reduce the persistent score because team-level evidence is absent, no disclosed Codeship investor is on the high-signal allowlist, CircleCI has a stronger revealed investor signal, and Codeship's last recorded round was in 2015 with no follow-on shown. The confirmed multi-round funding history prevents a more severe reduction.",
+    "coldStart": false,
+    "substitutionRung": "funding_track_record",
+    "thesisFit_0_1": 0.48
+  },
+  "memo": {
+    "company": "Codeship",
+    "founder_id": "codeship-team",
+    "sections": [
+      {
+        "title": "Company snapshot",
+        "claims": [
+          {
+            "text": "Crunchbase records Codeship as an operating Boston, USA company founded on July 15, 2011 and categorized across B2B, cloud computing, developer tools, IaaS, SaaS, software, testing, and web development.",
+            "evidence_ids": [
+              "ev_2e9b84eeda652f6a"
+            ],
+            "confidence_0_1": 0.98,
+            "verification": "external",
+            "contradictions": []
+          },
+          {
+            "text": "Crunchbase records $4.4 million of total funding across a $300,000 seed round in 2013, a $2.6 million venture round in 2014, and a $1.5 million venture round announced on December 3, 2015.",
+            "evidence_ids": [
+              "ev_2e9b84eeda652f6a",
+              "ev_89eea5733c431797"
+            ],
+            "confidence_0_1": 0.98,
+            "verification": "external",
+            "contradictions": []
+          }
+        ],
+        "prose": "The historical company and financing record is clear, but it does not establish the present state of the business."
+      },
+      {
+        "title": "Investment hypotheses",
+        "claims": [
+          {
+            "text": "Codeship fits a developer-tools and cloud-testing investment theme based on its Crunchbase categories.",
+            "evidence_ids": [
+              "ev_2e9b84eeda652f6a"
+            ],
+            "confidence_0_1": 0.93,
+            "verification": "external",
+            "contradictions": []
+          },
+          {
+            "text": "The three recorded financing rounds indicate historical investor support, but the latest retrieved round dates to December 2015 and therefore provides limited evidence about current investability.",
+            "evidence_ids": [
+              "ev_89eea5733c431797"
+            ],
+            "confidence_0_1": 0.9,
+            "verification": "external",
+            "contradictions": []
+          },
+          {
+            "text": "Current founder quality cannot be underwritten from the supplied record because no individual team members, roles, education, demonstrated achievements, prior outputs, or skill coverage were identified.",
+            "evidence_ids": [
+              "ev_af3850dda75d9fac"
+            ],
+            "confidence_0_1": 0.94,
+            "verification": "external",
+            "contradictions": []
+          },
+          {
+            "text": "Competitive validation is accompanied by meaningful pressure: the identified alternatives include CircleCI, Travis CI, Jenkins, GitLab CI/CD, and Buildkite, while CircleCI had accelerating disclosed funding and participation from SV Angel.",
+            "evidence_ids": [
+              "ev_7b82a03e7d5712ae",
+              "ev_30f282c98e281f86"
+            ],
+            "confidence_0_1": 0.88,
+            "verification": "external",
+            "contradictions": []
+          }
+        ],
+        "prose": "The core hypothesis is sector-aligned but presently depends more on historical financing and category fit than on current operating evidence."
+      },
+      {
+        "title": "SWOT",
+        "claims": [
+          {
+            "text": "Strength: Codeship has an externally recorded operating history beginning in 2011 and raised capital in three separate rounds.",
+            "evidence_ids": [
+              "ev_2e9b84eeda652f6a",
+              "ev_89eea5733c431797"
+            ],
+            "confidence_0_1": 0.96,
+            "verification": "external",
+            "contradictions": []
+          },
+          {
+            "text": "Weakness: the supplied evidence provides no product-performance, customer-traction, or operational-outcome data.",
+            "evidence_ids": [
+              "ev_af3850dda75d9fac"
+            ],
+            "confidence_0_1": 0.95,
+            "verification": "external",
+            "contradictions": []
+          },
+          {
+            "text": "Opportunity: Codeship's recorded exposure to cloud computing, developer tools, software testing, and SaaS creates thematic relevance for developer-workflow infrastructure investing.",
+            "evidence_ids": [
+              "ev_2e9b84eeda652f6a"
+            ],
+            "confidence_0_1": 0.84,
+            "verification": "external",
+            "contradictions": []
+          },
+          {
+            "text": "Threat: multiple identified platforms compete in the same general CI/CD and developer-workflow market, including CircleCI, Travis CI, Jenkins, GitLab CI/CD, and Buildkite.",
+            "evidence_ids": [
+              "ev_7b82a03e7d5712ae"
+            ],
+            "confidence_0_1": 0.91,
+            "verification": "external",
+            "contradictions": []
+          }
+        ],
+        "prose": "The SWOT profile combines historical validation and thesis relevance with substantial diligence uncertainty and a crowded competitive environment."
+      },
+      {
+        "title": "Problem & product",
+        "claims": [
+          {
+            "text": "The externally recorded categories position Codeship around cloud computing, developer tools, software testing, and web development.",
+            "evidence_ids": [
+              "ev_2e9b84eeda652f6a"
+            ],
+            "confidence_0_1": 0.96,
+            "verification": "external",
+            "contradictions": []
+          },
+          {
+            "text": "The supplied evidence does not disclose the specific customer problem, target persona, product workflow, architecture, pricing, performance, or differentiation.",
+            "evidence_ids": [
+              "ev_af3850dda75d9fac"
+            ],
+            "confidence_0_1": 0.92,
+            "verification": "unverified",
+            "contradictions": []
+          },
+          {
+            "text": "Competitor discovery places Codeship against CI/CD alternatives, but this comparison does not establish a defensible product advantage.",
+            "evidence_ids": [
+              "ev_7b82a03e7d5712ae"
+            ],
+            "confidence_0_1": 0.82,
+            "verification": "external",
+            "contradictions": []
+          }
+        ],
+        "prose": "Problem severity, solution quality, and defensibility remain unproven in the available materials."
+      },
+      {
+        "title": "Traction & KPIs",
+        "claims": [
+          {
+            "text": "The only quantified company-level signal supplied is $4.4 million in recorded financing; financing is not evidence of revenue, usage, retention, or product performance.",
+            "evidence_ids": [
+              "ev_2e9b84eeda652f6a",
+              "ev_89eea5733c431797",
+              "ev_af3850dda75d9fac"
+            ],
+            "confidence_0_1": 0.96,
+            "verification": "external",
+            "contradictions": []
+          },
+          {
+            "text": "No customer count, revenue, ARR, growth rate, retention, churn, usage, pipeline, gross margin, burn, runway, or unit-economics metrics are provided.",
+            "evidence_ids": [
+              "ev_af3850dda75d9fac"
+            ],
+            "confidence_0_1": 0.95,
+            "verification": "external",
+            "contradictions": []
+          },
+          {
+            "text": "The latest retrieved Codeship financing event was announced on December 3, 2015, so the record is too stale to establish current momentum without updated diligence.",
+            "evidence_ids": [
+              "ev_89eea5733c431797"
+            ],
+            "confidence_0_1": 0.94,
+            "verification": "external",
+            "contradictions": []
+          }
+        ],
+        "prose": "Commercial traction and current momentum cannot be assessed from the evidence supplied."
+      }
+    ],
+    "redFlags": [
+      "The latest retrieved Codeship financing event dates to December 2015, leaving current company status and momentum insufficiently evidenced.",
+      "No individual founders, executive roles, backgrounds, prior achievements, or team-complementarity evidence is supplied.",
+      "No revenue, customer, retention, usage, growth, margin, burn, runway, or unit-economics KPIs are disclosed.",
+      "Product differentiation and defensibility against established CI/CD alternatives are not demonstrated.",
+      "The opportunity appears competitively crowded based on the identified alternatives."
+    ],
+    "gaps": [
+      "Cap table: not disclosed",
+      "Current ownership and corporate status: not disclosed",
+      "Individual founders and leadership team: not disclosed",
+      "Founder backgrounds and prior outputs: not disclosed",
+      "Product specification and architecture: not disclosed",
+      "Target customer and buyer persona: not disclosed",
+      "Pricing and business model details: not disclosed",
+      "Customer count and named customers: not disclosed",
+      "Revenue and ARR: not disclosed",
+      "Growth rate: not disclosed",
+      "Retention and churn: not disclosed",
+      "Usage and engagement: not disclosed",
+      "Gross margin and unit economics: not disclosed",
+      "Burn and runway: not disclosed",
+      "Current fundraising terms and valuation: not disclosed",
+      "Product differentiation and competitive win rates: not disclosed",
+      "Post-2015 financing or operating updates: not disclosed"
+    ],
+    "trustScore_0_1": 0.9379217273954117
+  },
+  "decision": {
+    "founder_id": "codeship-team",
+    "company": "Codeship",
+    "recommendation": "pass",
+    "thesisRationale": "Codeship fits the Developer Tools sector and US geography, but it appears materially outside the thesis’s pre-seed/seed mandate: it was founded in 2011 and had already raised $4.4 million across three rounds by 2015. The available record is too stale to establish current operations, traction, financing terms, or whether a $100,000 check could achieve the 7% ownership target. Founder quality, team composition, product differentiation, and present commercial momentum also remain unverified.",
+    "whyThisCouldFail": "Codeship could fail because CI/CD is a crowded, increasingly consolidated market in which CircleCI, GitLab, Jenkins, Travis CI, and Buildkite can compete through stronger ecosystems, distribution, integrations, or open-source adoption. With no current evidence of revenue growth, retention, usage, competitive win rates, technical advantage, or efficient economics—and no disclosed financing since 2015—the company may be stagnant, impaired, or no longer independently investable. Even if it remains operational, weak differentiation and platform bundling could compress pricing, raise acquisition costs, and leave insufficient upside or ownership for this fund."
+  },
+  "outreachDraft": "Hi Codeship team — I came across Codeship’s work in CI/CD and appreciate its focus on helping engineering teams ship software more reliably. We invest in early-stage developer tools across the US and Europe, typically writing $100K checks. While our current information suggests Codeship may be beyond our usual pre-seed/seed scope, I’d welcome a brief update on the business, product direction, and current financing plans to see whether there could be a fit. Best, [Name]"
+}

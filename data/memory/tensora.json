@@ -1,0 +1,57 @@
+{
+  "founder_id": "tensora",
+  "name": "Lena Hoffmann",
+  "company": "Tensora",
+  "evidence": [
+    {
+      "source": "deck",
+      "content": "# Tensora — The Real-Time Feature Store for Production ML\n\n## Problem\nML teams have a training/serving skew problem that quietly destroys model quality. Features computed in batch for training drift from the features computed online at inference, and there is no single system that guarantees they match. Data scientists reimplement the same transformation twice — once in a warehouse, once in a low-latency service — and the two silently diverge. Debugging a production model regression can take weeks because nobody can tell which feature values the model actually saw.\n\n## Product\nTensora is a real-time feature platform. You define a feature once in our declarative DSL; we materialize it consistently for both training (backfilled from history) and serving (sub-10ms online reads), with point-in-time correctness guaranteed by construction. We sit on top of the customer's existing streaming and warehouse infrastructure rather than replacing it, and expose a Python SDK plus a monitoring layer that flags feature drift before it hits model accuracy.\n\n## Team\n- **Lena Hoffmann (CEO)** — ex-Spotify ML platform engineer, TU Berlin (top of cohort). Built the internal feature-serving system used by Spotify's recommendation teams.\n- **Idris Okonkwo (CTO)** — ex-Cloudera distributed-systems engineer, Imperial College London. Deep background in stream processing and consistency.\n- **Marta Silva (Head of DevRel)** — early developer advocate at a well-known API company; University of Porto. Ran the community that took that product from 0 to 40k developers.\n\n## Market\nThe MLOps tooling market is ~$4B and expanding as every product team ships models. Databricks, Confluent, and MongoDB all touch adjacent problems — the lakehouse, the stream, the document store — but none delivers a serving-first, point-in-time-correct feature layer as a focused product. Our beachhead is the ~5,000 mid-market ML teams in the EU and US already running Kafka or Flink who feel the skew pain acutely. ACV ~$45K.\n\n## Traction\nLive for 7 months. 9 paying customers, $310K ARR, growing ~18% MoM. Two customers expanded contracts within the first quarter. Strong developer pull: our open-source SDK has real adoption, and inbound now exceeds our capacity to run pilots. Seed round of $3M closed, led by Accel with participation from several operator angels from the data-infra world.\n\n## Ask\nRaising a $3M seed (closing) to grow engineering and formalize enterprise security. Use of funds: 7 hires across platform and DevRel, SOC 2 Type II, and a managed-cloud GA.\n",
+      "tags": [
+        "deck",
+        "seed",
+        "normal"
+      ],
+      "id": "ev_1229790872a87a7c",
+      "founder_id": "tensora",
+      "ts": "2026-07-19T12:27:09.526Z",
+      "hash": "5da55edcf556fa5d"
+    },
+    {
+      "source": "ph",
+      "content": "Product Hunt launch for 'Tensora — feature store for real-time ML' finished #3 Product of the Day with ~640 upvotes. Comments include two named ML leads at mid-market companies saying they had already adopted the open-source SDK and were evaluating the managed tier. Maker responses are substantive and technical.",
+      "tags": [
+        "community",
+        "ph"
+      ],
+      "id": "ev_9f3339b8249b7925",
+      "founder_id": "tensora",
+      "ts": "2026-07-19T12:27:09.526Z",
+      "hash": "ebf073a4a6f05dc8"
+    },
+    {
+      "source": "github",
+      "content": "github.com/tensora/tensora-sdk (Python): 1,240 stars, 33 contributors, active weekly commits over the last 7 months, releases roughly monthly. Issue tracker shows real production users reporting Flink/Kafka integration edge cases and getting fixes shipped.",
+      "tags": [
+        "community",
+        "github"
+      ],
+      "id": "ev_d622ae29dc9f4ddf",
+      "founder_id": "tensora",
+      "ts": "2026-07-19T12:27:09.526Z",
+      "hash": "e36157ff4a896a6c"
+    },
+    {
+      "source": "hn",
+      "content": "A Hacker News comment thread on feature stores name-checks Tensora positively alongside established players; one commenter (self-identified staff engineer) says a pilot 'actually held up under point-in-time backfill tests, which most feature stores fail.' Corroborates the correctness claim, though not the specific ARR figure.",
+      "tags": [
+        "community",
+        "hn"
+      ],
+      "id": "ev_416fa577826c8bcb",
+      "founder_id": "tensora",
+      "ts": "2026-07-19T12:27:09.526Z",
+      "hash": "d19b49ec74f0dee5"
+    }
+  ],
+  "founderScoreHistory": []
+}

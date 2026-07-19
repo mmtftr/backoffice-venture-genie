@@ -1,0 +1,328 @@
+[
+  {
+    "agent": "teamMember",
+    "action": "extract_team",
+    "target": "Codeship",
+    "evidence_ids": [],
+    "id": "tr_2ba4eb6cc6fc925b",
+    "opportunity_id": "opp_45d741be470a4c32",
+    "ts": "2026-07-19T12:35:13.749Z"
+  },
+  {
+    "agent": "teamMember",
+    "action": "extract_team:done",
+    "target": "Codeship",
+    "detail": "{\"members\":[]}",
+    "evidence_ids": [],
+    "id": "tr_2e86399adfad4604",
+    "opportunity_id": "opp_45d741be470a4c32",
+    "ts": "2026-07-19T12:35:15.270Z"
+  },
+  {
+    "agent": "teamMember",
+    "action": "evaluate",
+    "target": "Codeship team",
+    "evidence_ids": [],
+    "id": "tr_c8e1ecd0fdb58fe4",
+    "opportunity_id": "opp_45d741be470a4c32",
+    "ts": "2026-07-19T12:35:15.279Z"
+  },
+  {
+    "agent": "competitorDiscovery",
+    "action": "queried crunchbase",
+    "target": "B2B|Cloud Computing|Developer Tools|IaaS|SaaS|Software|Testing|Web Development",
+    "detail": "12 candidates",
+    "evidence_ids": [],
+    "id": "tr_40ee566c7d9e7b3f",
+    "opportunity_id": "opp_45d741be470a4c32",
+    "ts": "2026-07-19T12:35:15.280Z"
+  },
+  {
+    "agent": "communitySignal",
+    "action": "no community evidence available",
+    "target": "Codeship",
+    "evidence_ids": [],
+    "id": "tr_2684f68a1fe945c5",
+    "opportunity_id": "opp_45d741be470a4c32",
+    "ts": "2026-07-19T12:35:15.280Z"
+  },
+  {
+    "agent": "contradiction",
+    "action": "queried crunchbase",
+    "target": "Codeship",
+    "detail": "3 rounds found",
+    "evidence_ids": [],
+    "id": "tr_2f3dc058c6701e58",
+    "opportunity_id": "opp_45d741be470a4c32",
+    "ts": "2026-07-19T12:35:15.281Z"
+  },
+  {
+    "agent": "competitorDiscovery",
+    "action": "merge_candidates",
+    "target": "Codeship",
+    "evidence_ids": [],
+    "id": "tr_0c581b5c3eb8f1ea",
+    "opportunity_id": "opp_45d741be470a4c32",
+    "ts": "2026-07-19T12:35:15.281Z"
+  },
+  {
+    "agent": "contradiction",
+    "action": "cross_check",
+    "target": "Codeship",
+    "evidence_ids": [],
+    "id": "tr_c123979f563b2588",
+    "opportunity_id": "opp_45d741be470a4c32",
+    "ts": "2026-07-19T12:35:15.282Z"
+  },
+  {
+    "agent": "contradiction",
+    "action": "cross_check:done",
+    "target": "Codeship",
+    "detail": "{\"contradictions\":[]}",
+    "evidence_ids": [],
+    "id": "tr_71d7603be8ea8d3c",
+    "opportunity_id": "opp_45d741be470a4c32",
+    "ts": "2026-07-19T12:35:17.222Z"
+  },
+  {
+    "agent": "teamMember",
+    "action": "evaluate:done",
+    "target": "Codeship team",
+    "detail": "{\"member\":\"Codeship team\",\"strengths\":[\"Associated with an operating B2B cloud computing and developer tools company founded in 2011.\",\"The company raised $4.4 million across three recorded funding rounds through December 2015.\"],\"concerns\"",
+    "evidence_ids": [],
+    "id": "tr_a446d3cde01a2c31",
+    "opportunity_id": "opp_45d741be470a4c32",
+    "ts": "2026-07-19T12:35:17.382Z"
+  },
+  {
+    "agent": "competitorDiscovery",
+    "action": "merge_candidates:done",
+    "target": "Codeship",
+    "detail": "{\"competitors\":[{\"name\":\"CircleCI\",\"why\":\"Cloud-based continuous integration and delivery platform competing directly with Codeship.\",\"source\":\"llm\"},{\"name\":\"Travis CI\",\"why\":\"Hosted CI/CD service for software development teams and open-so",
+    "evidence_ids": [],
+    "id": "tr_dcfe9c4554550092",
+    "opportunity_id": "opp_45d741be470a4c32",
+    "ts": "2026-07-19T12:35:17.545Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "queried crunchbase",
+    "target": "CircleCI",
+    "detail": "3 funding rounds",
+    "evidence_ids": [],
+    "id": "tr_22f38f98cdbbc5a1",
+    "opportunity_id": "opp_45d741be470a4c32",
+    "ts": "2026-07-19T12:35:17.575Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "queried crunchbase",
+    "target": "Travis CI",
+    "detail": "0 funding rounds",
+    "evidence_ids": [],
+    "id": "tr_c0eaf657524ac18b",
+    "opportunity_id": "opp_45d741be470a4c32",
+    "ts": "2026-07-19T12:35:17.576Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "queried crunchbase",
+    "target": "Jenkins",
+    "detail": "1 funding rounds",
+    "evidence_ids": [],
+    "id": "tr_210135209c8945dd",
+    "opportunity_id": "opp_45d741be470a4c32",
+    "ts": "2026-07-19T12:35:17.576Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "queried crunchbase",
+    "target": "GitLab CI/CD",
+    "detail": "0 funding rounds",
+    "evidence_ids": [],
+    "id": "tr_ab8bf0030c6a7677",
+    "opportunity_id": "opp_45d741be470a4c32",
+    "ts": "2026-07-19T12:35:17.577Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "queried crunchbase",
+    "target": "Buildkite",
+    "detail": "0 funding rounds",
+    "evidence_ids": [],
+    "id": "tr_638d873f996c403b",
+    "opportunity_id": "opp_45d741be470a4c32",
+    "ts": "2026-07-19T12:35:17.577Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate",
+    "target": "CircleCI",
+    "evidence_ids": [],
+    "id": "tr_957cfc6b5e2b0b9c",
+    "opportunity_id": "opp_45d741be470a4c32",
+    "ts": "2026-07-19T12:35:17.577Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate",
+    "target": "Travis CI",
+    "evidence_ids": [],
+    "id": "tr_b62cc6bac0a02b4f",
+    "opportunity_id": "opp_45d741be470a4c32",
+    "ts": "2026-07-19T12:35:17.578Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate",
+    "target": "Jenkins",
+    "evidence_ids": [],
+    "id": "tr_8bc30ba16a3b8a61",
+    "opportunity_id": "opp_45d741be470a4c32",
+    "ts": "2026-07-19T12:35:17.579Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate",
+    "target": "GitLab CI/CD",
+    "evidence_ids": [],
+    "id": "tr_fa772624b043ac8a",
+    "opportunity_id": "opp_45d741be470a4c32",
+    "ts": "2026-07-19T12:35:17.580Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate",
+    "target": "Buildkite",
+    "evidence_ids": [],
+    "id": "tr_cc61686d646d6c46",
+    "opportunity_id": "opp_45d741be470a4c32",
+    "ts": "2026-07-19T12:35:17.581Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate:done",
+    "target": "Buildkite",
+    "detail": "{\"competitor\":\"Buildkite\",\"investorSignal\":\"unknown\",\"trajectory\":\"No funding rounds or investors provided, so funding trajectory cannot be assessed.\",\"threat\":\"low\"}",
+    "evidence_ids": [],
+    "id": "tr_6f1b0c2d81354c40",
+    "opportunity_id": "opp_45d741be470a4c32",
+    "ts": "2026-07-19T12:35:19.166Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate:done",
+    "target": "Jenkins",
+    "detail": "{\"competitor\":\"Jenkins\",\"investorSignal\":\"unknown\",\"trajectory\":\"One $500,000 seed round announced on 2015-04-01, with no investors listed and no subsequent rounds provided.\",\"threat\":\"low\"}",
+    "evidence_ids": [],
+    "id": "tr_871ff3a4fb0a089f",
+    "opportunity_id": "opp_45d741be470a4c32",
+    "ts": "2026-07-19T12:35:19.283Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate:done",
+    "target": "Travis CI",
+    "detail": "{\"competitor\":\"Travis CI\",\"investorSignal\":\"unknown\",\"trajectory\":\"No funding rounds or investor data provided; trajectory cannot be assessed.\",\"threat\":\"low\"}",
+    "evidence_ids": [],
+    "id": "tr_972e660347bfeabc",
+    "opportunity_id": "opp_45d741be470a4c32",
+    "ts": "2026-07-19T12:35:19.346Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate:done",
+    "target": "CircleCI",
+    "detail": "{\"competitor\":\"CircleCI\",\"investorSignal\":\"medium\",\"trajectory\":\"Raised an undisclosed round in April 2012, followed by a $1.5M seed round in February 2013 and a $6M venture round in February 2014, showing accelerating disclosed funding. Th",
+    "evidence_ids": [],
+    "id": "tr_1d1f701830e84318",
+    "opportunity_id": "opp_45d741be470a4c32",
+    "ts": "2026-07-19T12:35:19.683Z"
+  },
+  {
+    "agent": "competitorEval",
+    "action": "evaluate:done",
+    "target": "GitLab CI/CD",
+    "detail": "{\"competitor\":\"GitLab CI/CD\",\"investorSignal\":\"unknown\",\"trajectory\":\"No funding rounds or investors were provided, so funding trajectory cannot be assessed.\",\"threat\":\"low\"}",
+    "evidence_ids": [],
+    "id": "tr_538fff7a11b08e4a",
+    "opportunity_id": "opp_45d741be470a4c32",
+    "ts": "2026-07-19T12:35:20.713Z"
+  },
+  {
+    "agent": "screening",
+    "action": "score",
+    "target": "Codeship",
+    "evidence_ids": [],
+    "id": "tr_6b48615b7fd0d38a",
+    "opportunity_id": "opp_45d741be470a4c32",
+    "ts": "2026-07-19T12:35:22.438Z"
+  },
+  {
+    "agent": "screening",
+    "action": "score:done",
+    "target": "Codeship",
+    "detail": "{\"founder_id\":\"codeship-team\",\"company\":\"Codeship\",\"axes\":[{\"axis\":\"Founder\",\"score_0_100\":36,\"trend\":\"declining\",\"evidence_ids\":[\"ev_af3850dda75d9fac\",\"ev_89eea5733c431797\",\"ev_30f282c98e281f86\"],\"rationale\":\"Codeship has a real funding tr",
+    "evidence_ids": [],
+    "id": "tr_0ada6fa656efbc8d",
+    "opportunity_id": "opp_45d741be470a4c32",
+    "ts": "2026-07-19T12:35:38.086Z"
+  },
+  {
+    "agent": "memo",
+    "action": "write",
+    "target": "Codeship",
+    "evidence_ids": [],
+    "id": "tr_71ab7cd2a063914f",
+    "opportunity_id": "opp_45d741be470a4c32",
+    "ts": "2026-07-19T12:35:38.088Z"
+  },
+  {
+    "agent": "memo",
+    "action": "write:done",
+    "target": "Codeship",
+    "detail": "{\"company\":\"Codeship\",\"founder_id\":\"codeship-team\",\"sections\":[{\"title\":\"Company snapshot\",\"claims\":[{\"text\":\"Crunchbase records Codeship as an operating Boston, USA company founded on July 15, 2011 and categorized across B2B, cloud computi",
+    "evidence_ids": [],
+    "id": "tr_d0e48dadf728ea47",
+    "opportunity_id": "opp_45d741be470a4c32",
+    "ts": "2026-07-19T12:36:20.498Z"
+  },
+  {
+    "agent": "decision",
+    "action": "recommend",
+    "target": "Codeship",
+    "evidence_ids": [],
+    "id": "tr_2c5ad839c3996337",
+    "opportunity_id": "opp_45d741be470a4c32",
+    "ts": "2026-07-19T12:36:20.499Z"
+  },
+  {
+    "agent": "decision",
+    "action": "recommend:done",
+    "target": "Codeship",
+    "detail": "{\"founder_id\":\"codeship-team\",\"company\":\"Codeship\",\"recommendation\":\"pass\",\"thesisRationale\":\"Codeship fits the Developer Tools sector and US geography, but it appears materially outside the thesis’s pre-seed/seed mandate: it was founded in",
+    "evidence_ids": [],
+    "id": "tr_1895838c7e46d3af",
+    "opportunity_id": "opp_45d741be470a4c32",
+    "ts": "2026-07-19T12:36:26.608Z"
+  },
+  {
+    "agent": "outreach",
+    "action": "draft",
+    "target": "Codeship",
+    "evidence_ids": [],
+    "id": "tr_e1bb81e75d5c4261",
+    "opportunity_id": "opp_45d741be470a4c32",
+    "ts": "2026-07-19T12:36:28.879Z"
+  },
+  {
+    "agent": "outreach",
+    "action": "draft:done",
+    "target": "Codeship",
+    "detail": "{\"draft\":\"Hi Codeship team — I came across Codeship’s work in CI/CD and appreciate its focus on helping engineering teams ship software more reliably. We invest in early-stage developer tools across the US and Europe, typically writing $100",
+    "evidence_ids": [],
+    "id": "tr_a91c8043c57cd8e6",
+    "opportunity_id": "opp_45d741be470a4c32",
+    "ts": "2026-07-19T12:36:31.012Z"
+  }
+]
