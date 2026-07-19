@@ -1,0 +1,40 @@
+{
+  "sectors": [
+    "AI Infrastructure",
+    "Developer Tools",
+    "Fintech"
+  ],
+  "geographies": [
+    "EU",
+    "US"
+  ],
+  "stages": [
+    "pre-seed",
+    "seed"
+  ],
+  "checkSizeUsd": 100000,
+  "ownershipTargetPct": 7,
+  "riskAppetite": "high",
+  "highSignalInvestors": [
+    "Sequoia Capital",
+    "Andreessen Horowitz",
+    "a16z",
+    "Y Combinator",
+    "Benchmark",
+    "Accel",
+    "Founders Fund",
+    "Greylock",
+    "Index Ventures",
+    "Lightspeed Venture Partners",
+    "General Catalyst",
+    "Khosla Ventures",
+    "First Round Capital",
+    "Kleiner Perkins",
+    "Insight Partners",
+    "Tiger Global",
+    "Bessemer Venture Partners",
+    "New Enterprise Associates",
+    "Thrive Capital",
+    "SV Angel"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "founder_id": "helix-bio",
+  "name": "Dr. Wei-Lin Tan",
+  "company": "Helix Bio Diagnostics",
+  "profile": "normal",
+  "deckMarkdown": "# Helix Bio Diagnostics — Liquid Biopsy for Early Cancer Detection\n\n## Problem\nMost cancers are still caught late, when survival rates collapse. Tissue biopsies are invasive, painful, and often infeasible for screening asymptomatic populations. There is a large unmet need for a simple blood test that can detect multiple cancers early, at population scale, with a false-positive rate low enough for national screening programs. Existing multi-cancer early-detection assays are expensive and have struggled with specificity in low-prevalence settings.\n\n## Product\nHelix Bio has developed a blood-based liquid-biopsy assay that detects circulating tumor DNA methylation signatures across 12 cancer types from a single draw. Our proprietary methylation panel plus a machine-learning classifier achieves high specificity (>99%) at clinically meaningful sensitivity for stage I–II disease. The test runs on standard sequencing infrastructure in accredited labs, which keeps unit economics viable for screening. We are pursuing regulatory clearance in multiple jurisdictions.\n\n## Team\n- **Dr. Wei-Lin Tan (CEO)** — MD/PhD in molecular oncology, National University of Singapore; 12 years in cancer genomics, 40+ peer-reviewed publications.\n- **Dr. Rajesh Menon (CSO)** — PhD in computational biology, Stanford; formerly led assay development at a major diagnostics company.\n- **Dr. Hana Yamamoto (VP Clinical)** — MD, University of Tokyo; ran multi-site oncology trials across APAC.\n- **Priyanka Rao (CFO)** — ex-healthcare investment banking, INSEAD.\n\n## Market\nThe multi-cancer early-detection market is projected to exceed $25B by 2030 as screening moves from single-cancer to pan-cancer. Our beachhead is APAC national screening programs and private health systems, where cancer incidence is rising and screening infrastructure is being built now. We compete with players such as Guardant Health, 10x Genomics, and 23andMe's health arm on assay performance and cost per test. Reimbursement pathways in our target markets are actively opening.\n\n## Traction\nWe have completed a 4,200-patient prospective validation study with results submitted to a peer-reviewed journal, and hold two granted patents on our methylation panel. We are processing early commercial samples through partner labs in three APAC markets. We previously raised a $28M Series A led by a regional life-sciences fund and a sovereign healthcare investor.\n\n## Ask\nRaising a **$60M Series B** to fund pivotal regulatory trials, build a CLIA/CAP-accredited lab in Singapore, and scale commercial operations across APAC. Use of funds: clinical trials (55%), lab buildout (25%), commercial team (20%).\n",
+  "evidence": [
+    {
+      "source": "press",
+      "content": "A regional life-sciences trade publication covered Helix Bio Diagnostics' $28M Series A, noting the lead was a life-sciences fund and a sovereign healthcare investor, and that the company is headquartered in Singapore. Coverage frames it as one of APAC's larger liquid-biopsy raises for the year.",
+      "tags": []
+    },
+    {
+      "source": "press",
+      "content": "Conference abstract listing shows Helix Bio presenting interim results of its 4,200-patient validation study at an APAC oncology congress; reported specificity >99% with stage I–II sensitivity in the mid-range typical for methylation assays.",
+      "tags": []
+    }
+  ]
+}

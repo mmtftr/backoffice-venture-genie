@@ -1,0 +1,29 @@
+{
+  "founder_id": "ledgerly",
+  "name": "Priya Nandakumar",
+  "company": "Ledgerly",
+  "profile": "contradiction",
+  "deckMarkdown": "# Ledgerly — Autonomous Reconciliation for Modern Finance Teams\n\n## Problem\nMid-market finance teams still reconcile bank statements, payment processors, and their ERP by hand. A typical 40-person SaaS company burns 25+ analyst-hours every month close chasing pennies across Stripe, their bank, and NetSuite. Errors compound: 1 in 6 monthly closes ships with a mis-stated cash position. Existing tooling (spreadsheets, brittle Zapier flows) breaks the moment a new payment rail is added.\n\n## Product\nLedgerly is an autonomous reconciliation engine. We ingest transaction feeds from banks (via Plaid), payment processors (Stripe, Adyen), and the general ledger, then use a matching model to auto-clear 94% of line items and surface only true exceptions to a human. Close time drops from 5 days to under 1. We are, in effect, the reconciliation layer that Plaid never built and that Adyen's dashboards can't touch.\n\n## Team\n- **Priya Nandakumar (CEO)** — ex-Stripe (3 years, Treasury Infrastructure), MS Computer Science, Carnegie Mellon. Shipped the internal ledger-diffing tool used across Stripe's finance org.\n- **Tom Bergqvist (CTO)** — ex-Adyen platform engineer, KTH Royal Institute of Technology. Built high-throughput settlement pipelines processing €40B/yr.\n- **Dana Osei (Head of ML)** — PhD in probabilistic matching, ETH Zürich; two first-author NeurIPS papers on entity resolution.\n\n## Market\nThe reconciliation and financial-close software market is ~$4.6B and growing 12% YoY as mid-market companies adopt more payment rails. Our wedge is the 60,000 US + EU SaaS companies between $2M and $50M ARR — too big for spreadsheets, too small for a BlackLine deployment. Bottom-up, that's a $900M addressable slice at our $8K/yr ACV.\n\n## Traction\nWe are live and growing fast. **$50K MRR** as of this month, up from $12K MRR three months ago — a 60% month-over-month run-rate. 22 paying customers, including three Series B fintechs. Net revenue retention of 130%. We were selected for **Y Combinator (W24)** and closed a $1.5M pre-seed on the back of Demo Day, led by a top-tier fund.\n\n## Ask\nRaising a $4M seed to expand from reconciliation into full autonomous close (accruals, intercompany, flux analysis). Use of funds: 6 engineers, 2 GTM hires, SOC 2 Type II. Target: $2M ARR in 18 months.\n",
+  "evidence": [
+    {
+      "source": "website",
+      "content": "Ledgerly homepage (ledgerly.io), captured this week: hero reads 'Autonomous reconciliation is coming. Join our waitlist — we're launching soon.' The only CTA is an email capture form. Footer states 'Ledgerly is currently in private beta and pre-revenue. No pricing is published.' There is no login, no customer logos, and no dashboard demo.",
+      "tags": ["website"]
+    },
+    {
+      "source": "hn",
+      "content": "Hacker News 'Ask HN: anyone using Ledgerly for close automation?' thread from last month, 4 comments. No commenter reports being a paying customer; two say they joined the waitlist months ago and never got access. Top reply: 'Looks like vaporware for now — the site's been a waitlist page since at least last fall.'",
+      "tags": ["community", "hn"]
+    },
+    {
+      "source": "accelerator",
+      "content": "Search of the Y Combinator public company directory (ycombinator.com/companies) returns NO result for 'Ledgerly' in any batch, including W24. The W24 batch list does not contain the company or founder Priya Nandakumar.",
+      "tags": ["accelerator"]
+    },
+    {
+      "source": "press",
+      "content": "No press coverage, funding announcement, or Crunchbase round could be found for a $1.5M pre-seed into Ledgerly. No 'top-tier fund' has published a portfolio listing for the company.",
+      "tags": []
+    }
+  ]
+}

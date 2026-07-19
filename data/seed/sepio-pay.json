@@ -1,0 +1,24 @@
+{
+  "founder_id": "sepio-pay",
+  "name": "Mateusz Wróbel",
+  "company": "Sepio Pay",
+  "profile": "normal",
+  "deckMarkdown": "# Sepio Pay — Treasury Automation for European SMBs\n\n## Problem\nEuropean small and mid-size businesses juggle money across a mess of accounts, currencies, and payment providers with no unified view or control. A 30-person company might hold funds in three banks across two currencies, pay suppliers via SEPA and card, and reconcile it all in a spreadsheet. Cash sits idle, FX is bought at retail spreads, and finance teams have no real-time picture of runway. The incumbents that solve this well are built for enterprises with treasury departments; SMBs are left with online banking and hope.\n\n## Product\nSepio Pay is a treasury operating system for European SMBs. We connect to a company's banks and payment providers, give a single real-time view of balances across currencies, and automate the routine treasury work: sweeping idle cash into yield, routing payments over the cheapest rail, and buying FX at wholesale-adjacent spreads. We are licensed as a payment institution in the EU and hold client funds in safeguarded accounts.\n\n## Team\n- **Mateusz Wróbel (CEO)** — ex-Adyen commercial lead for CEE, Warsaw School of Economics. Sold payment infrastructure to hundreds of European merchants and knows the buyer intimately.\n- **Elodie Fontaine (CTO)** — ex-fintech engineer, École Polytechnique. Built ledgering and reconciliation systems under regulatory constraints.\n- **Nils Andersson (Head of Compliance)** — former regulator-facing compliance officer at a Nordic bank, Stockholm School of Economics.\n\n## Market\nEuropean SMB treasury and payments is a large, fragmented market — tens of millions of businesses, most under-served by both banks and by enterprise treasury vendors. We compete with, and route around, the rails of Stripe, Adyen, TransferWise (Wise), and Revolut Business, none of which offer automated multi-bank treasury for this segment. Our ACV starts at €6K and expands with payment volume. We target the ~2M EU SMBs above €2M revenue first.\n\n## Traction\nLive in Poland and the Netherlands for 9 months. The deck's headline metric: **€2.1M in monthly payment volume processed and 140 active business accounts.** Revenue is a blend of subscription and interchange/FX margin; we quote ~€180K annualized net revenue. Regulatory approval to passport into Germany is in progress. We have not raised institutional capital — this pre-seed is our first priced round; to date we've run on founder capital and a small angel note.\n\n## Ask\nRaising €1.2M pre-seed to passport across the EU, grow the engineering team, and invest in the yield-sweep and FX-routing engines. Use of funds: 5 hires, licensing expansion, and go-to-market in DACH.\n",
+  "evidence": [
+    {
+      "source": "hn",
+      "content": "A Hacker News 'Ask HN: best treasury tool for a small EU startup?' thread mentions Sepio Pay once, neutrally. The single commenter who used it says onboarding was smooth but that they 'moved maybe €40–50K/month through it, nothing huge.' Does NOT corroborate the deck's €2.1M/month volume claim; suggests real but modest usage among the users visible in public.",
+      "tags": ["community", "hn"]
+    },
+    {
+      "source": "ph",
+      "content": "Product Hunt launch for Sepio Pay was modest — around 120 upvotes, no top ranking. A handful of EU founders left supportive comments; no independent confirmation of payment-volume or account numbers.",
+      "tags": ["community", "ph"]
+    },
+    {
+      "source": "website",
+      "content": "sepiopay.com lists Poland and Netherlands availability, a published pricing page (€6K/yr entry tier), a compliance page naming its EU payment-institution license, and three named SMB customer logos. No aggregate volume or ARR figures are shown publicly.",
+      "tags": ["website"]
+    }
+  ]
+}

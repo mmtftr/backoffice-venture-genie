@@ -1,0 +1,34 @@
+{
+  "founder_id": "neuralforge",
+  "name": "Marcus Feld",
+  "company": "NeuralForge",
+  "profile": "contradiction",
+  "deckMarkdown": "# NeuralForge — The GPU Scheduler That Cuts Inference Costs 70%\n\n## Problem\nAI teams overspend catastrophically on inference. GPUs sit 60–80% idle between bursty request spikes, yet teams over-provision because cold starts on large models take 40+ seconds. The result: a mid-size AI company burns $180K/month on cloud GPUs to serve traffic that truly needs a third of that. Kubernetes autoscalers are blind to model-loading cost; they scale on CPU, not on GPU memory residency.\n\n## Product\nNeuralForge is a GPU-aware scheduler and model router. We keep a warm pool of quantized model shards resident across a fleet, route requests to the cheapest node that can serve them, and pack multiple models per GPU with sub-second swap times. Customers point their inference endpoint at us and cut GPU spend 70% with no latency regression. Think of us as the orchestration layer competitors like Databricks and HashiCorp Nomad never specialized for inference.\n\n## Team\n- **Marcus Feld (CEO)** — ex-NVIDIA CUDA runtime engineer, TU Munich. Owned kernel-scheduling internals for 4 years.\n- **Wei Zhang (CTO)** — ex-Cloudera distributed-systems lead, MS Stanford. Built multi-tenant YARN schedulers at petabyte scale.\n- **Sofia Marchetti (Head of Product)** — ex-Confluent PM, Bocconi; led the Kafka-Connect managed offering to $30M ARR.\n\n## Market\nAI inference infrastructure is the fastest-growing slice of cloud spend — projected $28B by 2028. Every company deploying open-weight models (Llama, Mistral, Qwen) faces the idle-GPU problem. Our beachhead: the ~4,000 Series A–B AI companies self-hosting models in the US and EU, at a $60K/yr ACV that pays for itself in week one.\n\n## Traction\nWe are in production with real load. **12 enterprise customers** on annual contracts, **$1.4M ARR**, and a waitlist of 30 more. We are **SOC 2 Type II certified**. NeuralForge is a **Y Combinator S23** company, and our seed round was **led by Andreessen Horowitz (a16z)** with participation from Lightspeed. Our largest customer processes 2 billion inferences per month through NeuralForge.\n\n## Ask\nRaising a $12M Series A to scale the control plane to multi-region and add training-job bin-packing. Use of funds: 14 engineers, enterprise GTM, and a research team for speculative-decoding-aware scheduling.\n",
+  "evidence": [
+    {
+      "source": "github",
+      "content": "NeuralForge's public GitHub org (github.com/neuralforge) contains one repository, 'neuralforge-demo', last commit 8 months ago. It is a 200-line proof-of-concept wrapper around vLLM with a README that says 'early prototype, not production-ready.' No sign of a multi-tenant scheduler, warm-pool code, or SOC 2 tooling. 6 stars, 1 contributor (the founder).",
+      "tags": ["community", "github"]
+    },
+    {
+      "source": "website",
+      "content": "NeuralForge site (neuralforge.ai) states 'Design partner program now open — we're onboarding our first 3 pilot teams.' A trust page reads: 'SOC 2 Type II audit in progress; report expected next quarter.' There is no customer logo wall and no ARR/traction figures anywhere on the site.",
+      "tags": ["website"]
+    },
+    {
+      "source": "accelerator",
+      "content": "The Y Combinator company directory has no entry for NeuralForge or founder Marcus Feld in the S23 batch (or any batch). The S23 batch page does not list the company.",
+      "tags": ["accelerator"]
+    },
+    {
+      "source": "press",
+      "content": "No a16z or Lightspeed portfolio page lists NeuralForge, and no funding announcement for a seed round could be located. a16z's public infra portfolio index does not include the company as of this month.",
+      "tags": []
+    },
+    {
+      "source": "hn",
+      "content": "A Hacker News 'Show HN: NeuralForge cuts GPU inference cost' post from ~7 months ago received 11 points and 3 comments; the founder replies that they are 'pre-launch, looking for design partners.' No commenter claims to be a paying customer.",
+      "tags": ["community", "hn"]
+    }
+  ]
+}

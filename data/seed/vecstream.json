@@ -1,0 +1,29 @@
+{
+  "founder_id": "vecstream",
+  "name": "Aleksandra Kowalczyk",
+  "company": "Vecstream",
+  "profile": "cold_start_code",
+  "deckMarkdown": "# Vecstream — Streaming Vector Search for Real-Time AI\n\n## Problem\nVector databases assume your embeddings are static. But real applications — fraud detection, recommendation, agent memory — need to index and query embeddings that change by the second. Rebuilding an HNSW index on every write is prohibitively expensive, so teams batch updates and serve stale results. There is no open, embeddable engine that treats vectors as a live stream rather than a static corpus.\n\n## Product\nVecstream is an open-source, embeddable vector engine built for high-write workloads. Our core is an incremental graph index that supports sub-millisecond upserts without full rebuilds, plus a log-structured storage layer so deletes and updates are cheap. It runs as a Rust library, a sidecar, or a server — one binary, no external dependencies. Developers get Pinecone-class recall with the write throughput of a message queue.\n\n## Team\n- **Aleksandra Kowalczyk (Founder/CEO)** — self-taught systems engineer; maintainer of two widely-used Rust crates before Vecstream. Previously a backend engineer at a logistics startup where she owned the search stack.\n- **Rafael Mendes (Founding Engineer)** — contributor to the Apache Arrow ecosystem; University of Lisbon dropout, now full-time on the index internals.\n\nWe are a two-person team that has shipped consistently in public for 18 months.\n\n## Market\nThe vector database market is early and crowded at the top — MongoDB, Confluent, and Databricks have all bolted vector search onto existing products — but nobody owns the embeddable, write-heavy niche. Our go-to-market is developer-led: land as the open-source default in AI side-projects, then monetize a managed streaming tier. Comparable OSS-first infra companies have reached nine-figure valuations on this motion.\n\n## Traction\nWe have raised no money and have no revenue. Our traction is entirely in the code and the community: a growing contributor base, steady GitHub star growth, and production users who found us organically. We are choosing to raise a pre-seed now, before monetizing, to hire two more systems engineers and keep the core permissively licensed.\n\n## Ask\nRaising $600K pre-seed to grow the core team to four and stand up a hosted beta. We want investors who understand open-source-led infrastructure and are patient about the commercialization curve.\n",
+  "evidence": [
+    {
+      "source": "github",
+      "content": "github.com/vecstream/vecstream (Rust): 4,180 stars, 61 forks, 24 contributors. Commit history shows sustained activity for 18 straight months — a median of ~14 commits/week with no multi-week gaps, including through weekends. 340+ closed issues, 190 merged PRs, semantic-versioned releases every 3–5 weeks (currently v0.9.2). CI is green; the repo has a benchmark suite and fuzz tests.",
+      "tags": ["community", "github"]
+    },
+    {
+      "source": "github",
+      "content": "Founder Aleksandra Kowalczyk's GitHub profile shows a dense multi-year contribution graph (2,900+ contributions last year) and maintainership of two other Rust crates ('slab-arena' and 'hnsw-rs-lite') with a combined 1.1M downloads on crates.io. She responds to issues within hours and authored the project's architecture RFCs in-repo.",
+      "tags": ["community", "github"]
+    },
+    {
+      "source": "hn",
+      "content": "Show HN: 'Vecstream – streaming vector search in Rust' reached #2 on Hacker News with 410 points and 160 comments. Multiple commenters report replacing a batch-rebuild pipeline with Vecstream in production; several offer to contribute. The tone is unusually positive for an infra Show HN.",
+      "tags": ["community", "hn"]
+    },
+    {
+      "source": "github",
+      "content": "Vecstream is listed as a dependency in 70+ public downstream repositories and appears in the 'awesome-vector-search' curated list. Weekly crates.io downloads have grown from ~200 to ~9,000 over the past year, a clean compounding curve.",
+      "tags": ["community", "github"]
+    }
+  ]
+}

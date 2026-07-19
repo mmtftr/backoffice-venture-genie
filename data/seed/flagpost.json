@@ -1,0 +1,19 @@
+{
+  "founder_id": "flagpost",
+  "name": "Devon Reyes",
+  "company": "Flagpost",
+  "profile": "normal",
+  "deckMarkdown": "# Flagpost — Feature Flags That Understand Your Backend\n\n## Problem\nFeature flagging has become table stakes, but existing tools stop at the toggle. Engineers can turn a flag on, but they can't easily answer the questions that matter during a risky rollout: is this flag causing the latency regression? Which downstream service is degrading? Should we auto-roll-back? Today that means gluing a flag tool to three separate observability tools and eyeballing dashboards while a deploy burns. The flag and the telemetry live in different worlds.\n\n## Product\nFlagpost is a feature-management platform with observability built into the flag itself. Every flag is wired to the metrics of the code paths it guards, so a progressive rollout automatically watches error rate, p99 latency, and saturation for the guarded path and halts or reverts on a breach — a real, automated rollback, not an alert. We ship SDKs for Go, TypeScript, Python, and Rust, and integrate with the customer's existing metrics pipeline rather than forcing a new one.\n\n## Team\n- **Devon Reyes (CEO)** — ex-Datadog senior engineer, UC Berkeley. Built parts of Datadog's rollout-monitoring internals; knows the observability integration surface cold.\n- **Amara Nwosu (CTO)** — ex-PagerDuty staff engineer, Georgia Tech. Owned incident-automation systems and the reliability of the eventing core.\n- **Kenji Tanaka (Founding PM)** — ex-LaunchDarkly product lead, University of Washington. Shipped LaunchDarkly's experimentation features and understands exactly where that product leaves users wanting.\n\n## Market\nThe feature-management and progressive-delivery market is ~$1.5B and growing fast as continuous deployment becomes universal. LaunchDarkly defined the category; Datadog and PagerDuty own the telemetry and incident sides. Flagpost's wedge is the seam between them — the ~8,000 US and EU engineering orgs already doing continuous delivery who currently duct-tape flags to observability by hand. Land-and-expand from a team to an org, ACV ~$30K.\n\n## Traction\nLive for 5 months. 14 paying teams across 11 companies, $220K ARR, net revenue retention tracking above 120% on early cohorts. Our self-serve funnel converts unusually well because the automated-rollback demo lands in the first session. Raised a $2.5M seed led by a strong early-stage fund, with angels from the observability world.\n\n## Ask\nRaising to grow from $220K to $1.5M ARR over 18 months. Use of funds: 5 engineers, a design partner program for the enterprise tier, and SOC 2 Type II.\n",
+  "evidence": [
+    {
+      "source": "ph",
+      "content": "Product Hunt launch 'Flagpost — feature flags with automated rollback' hit #1 Product of the Day with ~910 upvotes. Several commenters are engineers describing the exact pain (flag tool + observability tool disconnect) and asking about self-hosting. Maker replies are credible and specific.",
+      "tags": ["community", "ph"]
+    },
+    {
+      "source": "hn",
+      "content": "Show HN for Flagpost reached the front page (~230 points, 90 comments). Sentiment is mixed-positive: praise for the auto-rollback concept, but multiple experienced commenters push back that 'metrics-gated rollback is only as good as your metrics' and question whether it generalizes beyond simple services. No commenter disputes that the product works as demoed.",
+      "tags": ["community", "hn"]
+    }
+  ]
+}
